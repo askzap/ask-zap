@@ -1,4 +1,4 @@
 #!/bin/bash
 
-git pull --rebase
+git pull origin $1
 php vendor/bin/phinx migrate
