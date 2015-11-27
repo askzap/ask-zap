@@ -1,0 +1,21 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Slovak\n"
+"Language: sk_SK\n"
+
+msgctxt "Addons::name::rus_alfabank"
+msgid "Russian localization — Alfa bank"
+msgstr "Russian localization — Alfa bank"
+
+msgctxt "Languages::addons.rus_alfabank.login"
+msgid "Login API"
+msgstr "Login API"
+
+msgctxt "Languages::addons.rus_alfabank.password"
+msgid "Password"
+msgstr "Password"
+
+msgctxt "Languages::addons.rus_alfabank.logging"
+msgid "Write log"
+msgstr "Write log"

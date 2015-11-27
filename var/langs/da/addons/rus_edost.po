@@ -1,0 +1,69 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+
+msgctxt "Addons::name::rus_edost"
+msgid "Russian localization — Payment on delivery ( eDost.ru )"
+msgstr "Russian localization — Payment on delivery ( eDost.ru )"
+
+msgctxt "Addons::description::rus_edost"
+msgid "Shipping services: Russian Post, EMS, DHL, UPS, SPSR Express, Pony Express, Garantpost, Megapolis, CDEK, Delovye linii, Avtotrejding, PEK, Zheldorekspeditsiya, boxberry, Energy"
+msgstr "Shipping services: Russian Post, EMS, DHL, UPS, SPSR Express, Pony Express, Garantpost, Megapolis, CDEK, Delovye linii, Avtotrejding, PEK, Zheldorekspeditsiya, boxberry, Energy"
+
+msgctxt "Languages::server_password"
+msgid "Access password to calculations server"
+msgstr "Access password to calculations server"
+
+msgctxt "Languages::edost.header.office_map"
+msgid "Office on the map"
+msgstr "Office on the map"
+
+msgctxt "Languages::edost.header.shipping_office"
+msgid "Office delivery service:"
+msgstr "Office delivery service:"
+
+msgctxt "Languages::carrier_edost"
+msgid "eDost"
+msgstr "eDost"
+
+msgctxt "Languages::edost_activation_error"
+msgid "To activate the eDost shipping processor, the Russian rouble currency (RUB) must be active and defined as base."
+msgstr "To activate the eDost shipping processor, the Russian rouble currency (RUB) must be active and defined as base."
+
+msgctxt "Languages::edost_warning"
+msgid "Warning"
+msgstr "Warning"
+
+msgctxt "Languages::edost_warning1"
+msgid "A post office with the zip code defined DOES NOT exist. Postal delivery is IMPOSSIBLE without correct zip code."
+msgstr "A post office with the zip code defined DOES NOT exist. Postal delivery is IMPOSSIBLE without correct zip code."
+
+msgctxt "Languages::edost_warning2"
+msgid "NO post office with the zip code defined has been found in your state. Postal delivery is IMPOSSIBLE without correct zip code."
+msgstr "NO post office with the zip code defined has been found in your state. Postal delivery is IMPOSSIBLE without correct zip code."
+
+msgctxt "Languages::edost_country_error"
+msgid "The eDost shipping method is available for the Russian Federation only. You can change settings of countries (Settings -> Company)."
+msgstr "The eDost shipping method is available for the Russian Federation only. You can change settings of countries (Settings -> Company)."
+
+msgctxt "Languages::edost_code_error"
+msgid "Product cannot be shipped to the defined address by the eDost shipping method."
+msgstr "Product cannot be shipped to the defined address by the eDost shipping method."
+
+msgctxt "Languages::edostcod_naloz_plus"
+msgid "Shipping cost will increase by"
+msgstr "Shipping cost will increase by"
+
+msgctxt "Languages::edostcod_naloz_transfer"
+msgid "+ pay surcharge on delivery for money transfer:"
+msgstr "+ pay surcharge on delivery for money transfer:"
+
+msgctxt "Languages::edostcod_naloz_total"
+msgid "Total surcharge paid for payment on delivery:"
+msgstr "Total surcharge paid for payment on delivery:"
+
+msgctxt "Languages::store_id"
+msgid "Store ID"
+msgstr "Store ID"

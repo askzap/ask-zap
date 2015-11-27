@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>rus_cities</id>
+	<version>4.2.2</version>
+    <default_language>en</default_language>
+    <update_server>https://updates.cs-cart.ru/api/update_addons</update_server>
+
+	<priority>4600</priority>
+    <status>active</status>
+
+	<queries>
+		<item for="install" type="file">database/cscart_rus_cities.sql</item>
+		<item for="install" type="file">database/cscart_rus_city_descriptions.sql</item>
+        <item>REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_cities', 'Y', 'cart')</item>
+        <item>REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('view_cities', 'Y', 'cart')</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'manage_cities'</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'view_cities'</item>
+	</queries>
+	<functions>
+		<item for="uninstall">fn_rus_cities_uninstall</item>
+    </functions>
+</addon>

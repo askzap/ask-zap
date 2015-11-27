@@ -1,0 +1,96 @@
+// ==========================================================================
+// Glyph icons
+// ==========================================================================
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('../media/fonts/icomoon.eot');
+    src:url('../media/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('../media/fonts/icomoon.woff') format('woff'),
+    url('../media/fonts/icomoon.ttf') format('truetype'),
+    url('../media/fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+    font-family: 'icomoon';
+    content: attr(data-icon);
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reset font-family for before */
+[class*="ty-icon-"]:before {
+  font-family: inherit;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below,
+but it's slower:
+[class*="ty-icon-"] {
+*/
+.ty-quick-menu-item__points:before,
+.ty-quick-menu-item__gift:before,
+.ty-icon-moon-facebook,
+.ty-icon-moon-twitter,
+.ty-icon-moon-mail,
+.ty-icon-moon-vk,
+.ty-icon-moon-heart,
+.ty-icon-moon-percent,
+.ty-icon-moon-user {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ty-icon-moon-facebook:before {
+    content: "\e169";
+}
+
+.ty-icon-moon-twitter:before {
+    content: "\e16d";
+}
+
+.ty-icon-moon-mail:before {
+    content: "\e601";
+}
+
+.ty-icon-moon-vk:before {
+    content: "\e602";
+}
+
+.ty-icon-moon-heart:before {
+    content: "\e603";
+}
+
+.ty-icon-moon-percent:before {
+    content: "\e604";
+}
+
+.ty-icon-moon-user:before {
+    content: "\e600";
+}
+
+// ====================================================== Extra classes
+
+.ty-quick-menu-item__points:before {
+    content: "\e604";
+}
+
+.ty-quick-menu-item__gift:before {
+    content: "\e603";
+}

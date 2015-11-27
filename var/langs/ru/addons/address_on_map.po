@@ -1,0 +1,26 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/address_on_map.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-02 10:07-0400\n"
+
+msgctxt "Addons::name::address_on_map"
+msgid "Address on map"
+msgstr "Адрес на карте"
+
+msgctxt "Addons::description::address_on_map"
+msgid "Shows address on map"
+msgstr "Отображение адресов на карте"
+
+msgctxt "Languages::addons.address_on_map.shipping_address_on_map"
+msgid "Shipping address on map"
+msgstr "Адрес доставки на карте"
+

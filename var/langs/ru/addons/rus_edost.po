@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/rus_edost.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-02 10:07-0400\n"
+
+msgctxt "Addons::name::rus_edost"
+msgid "Russian localization — Payment on delivery ( eDost.ru )"
+msgstr "Калькулятор стоимости доставки eDost.ru"
+
+msgctxt "Addons::description::rus_edost"
+msgid "Shipping services: Russian Post, EMS, DHL, UPS, SPSR Express, Pony Express, Garantpost, Megapolis, CDEK, Delovye linii, Avtotrejding, PEK, Zheldorekspeditsiya, boxberry, Energy"
+msgstr "Службы доставки: Почта России, EMS, DHL, UPS, СПСР-Экспресс, Пони экспресс, Гарантпост, Мегаполис, СДЭК, Деловые линии, Автотрейдинг, ПЭК, Желдорэкспедиция, boxberry, Энергия"
+
+msgctxt "Languages::server_password"
+msgid "Access password to calculations server"
+msgstr "Пароль для доступа к серверу расчетов"
+
+msgctxt "Languages::edost.header.office_map"
+msgid "Office on the map"
+msgstr "Офис на карте"
+
+msgctxt "Languages::edost.header.shipping_office"
+msgid "Office delivery service:"
+msgstr "Офис службы доставки:"
+
+msgctxt "Languages::carrier_edost"
+msgid "eDost"
+msgstr "eDost"
+
+msgctxt "Languages::edost_activation_error"
+msgid "To activate the eDost shipping processor, the Russian rouble currency (RUB) must be active and defined as base."
+msgstr "Для активации процессора доставки eDost валюта Российский Рубль (RUB) должна быть активна и назначена основной."
+
+msgctxt "Languages::edost_warning"
+msgid "Warning"
+msgstr "Предупреждение"
+
+msgctxt "Languages::edost_warning1"
+msgid "A post office with the zip code defined DOES NOT exist. Postal delivery is IMPOSSIBLE without correct zip code."
+msgstr "Почтового отделения с указанным индексом НЕ существует! Без правильного индекса доставка почтой НЕ возможна!"
+
+msgctxt "Languages::edost_warning2"
+msgid "NO post office with the zip code defined has been found in your state. Postal delivery is IMPOSSIBLE without correct zip code."
+msgstr "В вашем регионе НЕ найдено почтового отделения с указанным индексом! Без правильного индекса доставка почтой НЕ возможна!"
+
+msgctxt "Languages::edost_country_error"
+msgid "The eDost shipping method is available for the Russian Federation only. You can change settings of countries (Settings -> Company)."
+msgstr "Способ доставки eDost доступен только для Российской Федерации. Вы можете изменить настройки стран (Настройки -> Компания)."
+
+msgctxt "Languages::edost_code_error"
+msgid "Product cannot be shipped to the defined address by the eDost shipping method."
+msgstr "Доставка не может быть выполнена в указанный адрес методом eDost."
+
+msgctxt "Languages::edostcod_naloz_plus"
+msgid "Shipping cost will increase by"
+msgstr "Стоимость доставки увеличится на"
+
+msgctxt "Languages::edostcod_naloz_transfer"
+msgid "+ pay surcharge on delivery for money transfer:"
+msgstr "+ доплатить при получении за денежный перевод:"
+
+msgctxt "Languages::edostcod_naloz_total"
+msgid "Total surcharge paid for payment on delivery:"
+msgstr "Итого переплата за наложенный платеж:"
+
+msgctxt "Languages::store_id"
+msgid "Store ID"
+msgstr "ID магазина"
+

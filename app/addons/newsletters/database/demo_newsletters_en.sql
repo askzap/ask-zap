@@ -1,0 +1,2 @@
+INSERT INTO cscart_newsletter_descriptions (`newsletter_id`, `newsletter`, `newsletter_multiple`, `body_html`, `lang_code`) VALUES ('1', 'Xbox One is coming!', '', 'The groundbreaking nextgen gaming console is already coming to the stores. Be the first to order this extraordinary gadget!', 'en');
+INSERT INTO cscart_newsletter_descriptions (`newsletter_id`, `newsletter`, `newsletter_multiple`, `body_html`, `lang_code`) VALUES ('2', 'Sample layout', '', '<h2>Hello,</h2>', 'en');

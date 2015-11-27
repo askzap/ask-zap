@@ -1,0 +1,394 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /editions/mve.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-03 03:03-0400\n"
+
+msgctxt "Languages::add_companies"
+msgid "Add vendors"
+msgstr "Přidání dodavatelů"
+
+msgctxt "Languages::add_companies_and_close"
+msgid "Add vendors and close"
+msgstr "Přidání dodavatelů a zavřít"
+
+msgctxt "Languages::add_vendor"
+msgid "Add vendor"
+msgstr "Přidání prodejce"
+
+msgctxt "Languages::add_vendor_administrator"
+msgid "Add vendor's administrator"
+msgstr "Přidat administrátora prodejce"
+
+msgctxt "Languages::vendor_administrator"
+msgid "Vendor's administrator"
+msgstr "Administrátor prodejců"
+
+msgctxt "Languages::vendor_administrators"
+msgid "Vendor's administrators"
+msgstr "Administrátoři prodejců"
+
+msgctxt "Languages::vendor_administrators_menu_description"
+msgid "List of vendor's administrators, registered users with a vendor account."
+msgstr "Seznam administrátorů prodejců, registrovaných uživatelů s účtem prodejce."
+
+msgctxt "Languages::vendor_candidate_notification"
+msgid "Hello,<br/><br/>You have a new vendor candidate in your store. This vendor account is pending until you approve it. Follow <a>this URL to view the account details</a>."
+msgstr "Dobrý den, <br/><br/>máte nového kandidáta na prodejce ve vašem obchodě. Toto konto prodejce čeká na schválení. Použijte <a>tuto adresu URL pro zobrazení detailů účtu</a>."
+
+msgctxt "Languages::demo_panel.go_vendor_panel"
+msgid "Go to Vendor panel"
+msgstr "Přejděte na panel dodavatelů"
+
+msgctxt "Languages::vendor_account_balance_menu_description"
+msgid "Income and expenditure statistics (total, per vendor, per period)."
+msgstr "Statistiky příjmů a výdajů (celkem, za prodejce, za období)."
+
+msgctxt "Languages::merge_vendor"
+msgid "Merge vendor"
+msgstr "Sloučit prodejce"
+
+msgctxt "Languages::select_new_owner_company"
+msgid "Select a new owner of this company's profile data:"
+msgstr "Vyberte nového vlastníka z profilových údajů společnosti:"
+
+msgctxt "Languages::warning_merging_companies"
+msgid "Merging two company accounts will remove [company_name] from the database, and all the profile data (products, orders, shipping methods, users, promotions, etc.) will be transferred to this company's account"
+msgstr "Sloučení dvou účtů společnosti odstraní [company_name] z databáze a všechny údaje profilu (produkty, objednávky, přepravní metody, uživatelé, akce, atd) se převedou na účet této společnosti"
+
+msgctxt "Languages::all_vendors"
+msgid "All vendors"
+msgstr "Všichni dodavatelé"
+
+msgctxt "Languages::apply_for_vendor_account"
+msgid "Apply for a vendor account"
+msgstr "Použít pro účet prodejce"
+
+msgctxt "Languages::available_for_vendor"
+msgid "Available for vendor"
+msgstr "K dispozici pro prodejce"
+
+msgctxt "Languages::balance_carried_forward"
+msgid "Balance carried forward"
+msgstr "Přenesený zůstatek"
+
+msgctxt "Languages::block_vendors"
+msgid "Vendors"
+msgstr "Prodejci"
+
+msgctxt "Languages::charge_to_vendor_account"
+msgid "Charge to vendor account"
+msgstr "Účtovat na účet prodejce"
+
+msgctxt "Languages::companies"
+msgid "Vendors"
+msgstr "Prodejci"
+
+msgctxt "Languages::create_administrator_account"
+msgid "Create administrator account"
+msgstr "Vytvoření účtu administrátora"
+
+msgctxt "Languages::displayed_vendors"
+msgid "Displayed vendors"
+msgstr "Zobrazený prodejci"
+
+msgctxt "Languages::editing_vendor"
+msgid "Editing vendor"
+msgstr "Úprava prodejce"
+
+msgctxt "Languages::error_admin_not_created_email_already_used"
+msgid "Administrator account was not created. The email address belongs to another user. You can add the administrator for this vendor manually."
+msgstr "Účet administrátora nebyl vytvořen. E-mailová adresa patří jinému uživateli. Administrátora pro tohoto prodejce můžete přidat manuálně."
+
+msgctxt "Languages::error_admin_not_created_name_already_used"
+msgid "Administrator account was not created. The user name belongs to another user. You should change the administrator account's name."
+msgstr "Účet administrátora nebyl vytvořen. Uživatelské jméno patří jinému uživateli. Měli byste změnit jméno účtu administrátora."
+
+msgctxt "Languages::error_vendor_exists"
+msgid "The vendor with e-mail you have chosen already exists, please try another."
+msgstr "Prodejce s e-mailem, který jste vybrali již existuje, zkuste jiný."
+
+msgctxt "Languages::expenditure"
+msgid "Expenditure"
+msgstr "Výdaje"
+
+msgctxt "Languages::income"
+msgid "Income"
+msgstr "Příjem"
+
+msgctxt "Languages::manage_vendors"
+msgid "Manage vendors"
+msgstr "Správa prodejců"
+
+msgctxt "Languages::new_administrator_account_created"
+msgid "New administrator account has been successfully created."
+msgstr "Nový Administrátorský účet byl úspěšně vytvořen."
+
+msgctxt "Languages::new_vendor"
+msgid "New vendor"
+msgstr "Nový prodejce"
+
+msgctxt "Languages::notify_vendor"
+msgid "Notify vendor"
+msgstr "Informovat prodejce"
+
+msgctxt "Languages::notify_vendors_by_email"
+msgid "Notify vendors by e-mail"
+msgstr "Upozornit dodavatele prostřednictvím e-mailu"
+
+msgctxt "Languages::privileges.manage_payouts"
+msgid "Manage payouts"
+msgstr "Spravovat výplaty"
+
+msgctxt "Languages::privileges.manage_vendors"
+msgid "Manage vendors"
+msgstr "Správa prodejců"
+
+msgctxt "Languages::privileges.view_payouts"
+msgid "View payouts"
+msgstr "Zobrazit výplaty"
+
+msgctxt "Languages::privileges.view_vendors"
+msgid "View vendors"
+msgstr "Zobrazení prodejců"
+
+msgctxt "Languages::privilege_sections.vendors"
+msgid "Vendors"
+msgstr "Prodejci"
+
+msgctxt "Languages::sales_period"
+msgid "Sales period"
+msgstr "Prodejní doba"
+
+msgctxt "Languages::sales_period_total"
+msgid "Sales period total"
+msgstr "Období prodeje celkem"
+
+msgctxt "Languages::search_by_vendor"
+msgid "Search by vendor"
+msgstr "Vyhledávání podle prodejce"
+
+msgctxt "Languages::sort_by_company_asc"
+msgid "Sort by alphabetical: A to Z"
+msgstr "Seřadit abecedně: od A do Z"
+
+msgctxt "Languages::sort_by_company_desc"
+msgid "Sort by alphabetical: Z to A"
+msgstr "Seřadit abecedně: od Z po A"
+
+msgctxt "Languages::text_company_status_active_to_pending"
+msgid "Your profile has been changed and once the changes are approved, the information about your company will appear in the storefront."
+msgstr "Váš profil byl změněn a až budou změny schváleny, informace o vaší společnosti se zobrazí v části pro zákazníky."
+
+msgctxt "Languages::text_company_status_new_to_active"
+msgid "Your request for vendor [company] was approved."
+msgstr "Vaši žádost na prodejce [company] byla schválena."
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_created"
+msgid "New administrator was created. You can access to the administrator area: [link] by using the following credentials:<br />Login: [login]<br />Password: [password]"
+msgstr "Byl vytvořen nový administrátor. Pro přístup k administraci: [link] použijte následující pověření:<br />Jméno: [login]<br />Heslo: [password]"
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_updated"
+msgid "Type of your account [login] changed to administrator. You may login into the administrator area: [link]"
+msgstr "Typ vašeho účtu [login] byl změněn na administrátorský. Můžete se přihlásit do administrace: [link]"
+
+msgctxt "Languages::text_company_status_new_to_active_subj"
+msgid "Your request for vendor was approved."
+msgstr "Váš požadavek na prodejce byl schválen."
+
+msgctxt "Languages::text_company_status_new_to_disable"
+msgid "Your request for vendor [company] was rejected."
+msgstr "Vaše žádost na prodejce [company] byla zamítnuta."
+
+msgctxt "Languages::text_company_status_new_to_disable_subj"
+msgid "Your request for vendor was rejected."
+msgstr "Vaše žádost na prodejce byla zamítnuta."
+
+msgctxt "Languages::text_company_status_new_to_pending"
+msgid "Congratulations, your application for getting a vendor account has been approved. Once we review you accont information, we will publish it on our website."
+msgstr "Gratulujeme, vaše žádost o účet prodejce byla schválena. Poté, co jsme si zkontrolovali informace o vašem účte, budeme publikovat na našich webových stránkách."
+
+msgctxt "Languages::text_company_status_pending_subj"
+msgid "Your company is waiting for approval."
+msgstr "Vaše společnost čeká na schválení."
+
+msgctxt "Languages::text_company_status_pending_to_active"
+msgid "Your profile changes for vendor [company] were approved."
+msgstr "Byl schválen Váš profil změny prodejce [company]."
+
+msgctxt "Languages::text_error_adding_request"
+msgid "Error while adding the request."
+msgstr "Při přidání požadavku došlo k chybě."
+
+msgctxt "Languages::text_new_payment_was_created"
+msgid "New payment was created"
+msgstr "Byla vytvořena nová platba"
+
+msgctxt "Languages::text_not_approved_vendors"
+msgid "You have vendors that require your approval. Please <a href=\"[link]\">follow this link</a> to review these vendors."
+msgstr "Máte prodejce, které vyžadují schválení. Prosím, <a href=\"[link]\">tento odkaz</a> k přezkoumání těchto prodejců."
+
+msgctxt "Languages::text_store_mode_trial"
+msgid "Full access to all features during the 30-day trial period, starting from the time of activation.<br /><br />After the 30-day trial period is over, this mode will become unavailable.<br /><br />"
+msgstr "Všechny funkce jsou k dispozici do 30 dnů od data aktivace. Zadání čísla licence není nutné.<br /><br />Po 30 dnech budou odstraněny aktivace tohoto režimu.<br /><br />"
+
+msgctxt "Languages::text_successful_request"
+msgid "Your request was successfully added. You will receive the email with the answer later."
+msgstr "Váš požadavek byl úspěšně odeslán. Obdržíte e-mail s odpovědí později."
+
+msgctxt "Languages::total_amount_due"
+msgid "Total amount due"
+msgstr "Celková dlužná částka"
+
+msgctxt "Languages::total_period_payout"
+msgid "Total sales period payout"
+msgstr "Výše plateb na prodej za dané období"
+
+msgctxt "Languages::total_unpaid_balance"
+msgid "Total unpaid balance"
+msgstr "Celkem nesplacený zůstatek"
+
+msgctxt "Languages::tt_views_payments_update_taxes"
+msgid "If payment surcharge is taken from vendors, taxes are not calculated"
+msgstr "Pokud se jedná o příplatek na způsobu platby dodavatelům, daně se nezapočítávájí"
+
+msgctxt "Languages::unable_delete_vendor_orders_exists"
+msgid "Unable to delete this vendor account because there are orders containing the products of this vendor in the store database. To delete the account, please delete all such orders first."
+msgstr "Nepodařilo se smazat účet prodávajícího, protože databáze obsahuje pořadí, ve kterém je zakoupené zboží od tohoto prodejce. Chcete-li odstranit tohoto prodejce, prosím, nejprve odstrante všechny tyto příkazy."
+
+msgctxt "Languages::vendor"
+msgid "Vendor"
+msgstr "Prodavač"
+
+msgctxt "Languages::vendors"
+msgid "Vendors"
+msgstr "Prodejci"
+
+msgctxt "Languages::vendors_menu_description"
+msgid "Sorted list of vendor accounts registered in the store."
+msgstr "Seřadit seznam prodejců registrovaných v obchodě."
+
+msgctxt "Languages::vendor_account_balance"
+msgid "Account balance"
+msgstr "Zůstatek na účtě"
+
+msgctxt "Languages::vendor_approval_pending"
+msgid "New vendor account application"
+msgstr "Požádejte o nové vytvoření účtu prodávajícího"
+
+msgctxt "Languages::vendor_commission"
+msgid "Vendor commission"
+msgstr "Zplnomocnění prodejce"
+
+msgctxt "Languages::vendor_id"
+msgid "Vendor ID"
+msgstr "ID dodavatele"
+
+msgctxt "Languages::vendor_name"
+msgid "Vendor name"
+msgstr "Název dodavatele"
+
+msgctxt "Languages::vendor_pages"
+msgid "Vendor pages"
+msgstr "Stránky dodavatele"
+
+msgctxt "Languages::vendor_panel"
+msgid "Vendor panel"
+msgstr "Panel dodavatelů"
+
+msgctxt "Languages::view_vendor_orders"
+msgid "View vendor orders"
+msgstr "Zobrazit objednávky dodavatele"
+
+msgctxt "Languages::view_vendor_products"
+msgid "View vendor products"
+msgstr "Zobrazit produkty dodavatele"
+
+msgctxt "Languages::view_vendor_users"
+msgid "View vendor users"
+msgstr "Zobrazit informace dodavatele"
+
+msgctxt "Languages::you_can_edit_account_details"
+msgid "You can edit the account details now."
+msgstr "Nyní můžete upravit informace o vašem účtu."
+
+msgctxt "SettingsSections::Vendors"
+msgid "Vendors"
+msgstr "Prodejci"
+
+msgctxt "SettingsOptions::vendors_per_page"
+msgid "Vendors per page"
+msgstr "Prodejci na stránku"
+
+msgctxt "SettingsOptions::apply_for_vendor"
+msgid "Allow users to apply for vendor account"
+msgstr "Umožňuje uživateli vytvořit účet dodavatele"
+
+msgctxt "SettingsOptions::create_vendor_administrator_account"
+msgid "Automatically create the administrator account for the new approved vendor. (If the \"Allow users to apply for vendor account\" setting is enabled)"
+msgstr "Automaticky vytvořit účet administratora pro nové schválení prodávajícím. (Pokud je nastaveno na \"Povolit uživately vytvořit účet dodavatele\")"
+
+msgctxt "SettingsOptions::include_shipping"
+msgid "Include shipping cost in vendors commission"
+msgstr "Zahrnuta cena na dopravu prodejci provize"
+
+msgctxt "SettingsOptions::include_payment_surcharge"
+msgid "Take payment surcharge from vendors"
+msgstr "Vezměte platební příplatek od dodavatelů"
+
+msgctxt "SettingsOptions::commissions_header"
+msgid "Commissions"
+msgstr "Zplnomocnění"
+
+msgctxt "SettingsOptions::display_vendor"
+msgid "Display product vendor"
+msgstr "Zobrazit dodavatele produktu"
+
+msgctxt "SettingsTooltips::include_payment_surcharge"
+msgid "If enabled a customers will not be able see payment surcharge and it will not be applied to order total"
+msgstr "Pokud je povoleno, nemohou kupující vidět příplatek a nebude použita na celkové hodnoty objednávky"
+
+msgctxt "Languages::use_for_apply_for_vendor_account"
+msgid "Apply for a vendor account form"
+msgstr "Použít pro dodavatele formulářový účet"
+
+msgctxt "Languages::block_vendor_categories"
+msgid "Vendor categories"
+msgstr "Kategorie prodejce"
+
+msgctxt "Languages::block_vendor_categories_description"
+msgid "Product categories available to a particular vendor"
+msgstr "Kategorie jsou k dispozici pro konkrétní prodejce"
+
+msgctxt "Languages::block_vendor_information"
+msgid "Vendor information"
+msgstr "Údaje o prodejci"
+
+msgctxt "Languages::block_vendor_logo"
+msgid "Vendor logo"
+msgstr "Logo prodávajícího"
+
+msgctxt "Languages::block_vendor_search"
+msgid "Search by vendor products"
+msgstr "Vyhledávání produktů podle dodavatele"
+
+msgctxt "Languages::vendor_filters"
+msgid "Vendor Product filters"
+msgstr "Filtrovat zboží prodejcem"
+
+msgctxt "Languages::vendor_products"
+msgid "Vendor products"
+msgstr "Produkty prodejce"
+
+msgctxt "Languages::block_vendor_filters"
+msgid "Vendor filters"
+msgstr "Filtry prodejce"
+

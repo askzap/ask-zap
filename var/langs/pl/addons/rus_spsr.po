@@ -1,0 +1,697 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+
+msgctxt "Addons::name::rus_spsr"
+msgid "Russian localization - SPSR-Express"
+msgstr "Russian localization - SPSR-Express"
+
+msgctxt "Addons::description::rus_spsr"
+msgid "SPSR-Express"
+msgstr "SPSR-Express"
+
+msgctxt "SettingsOptions::rus_spsr::general"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "SettingsOptions::rus_spsr::shop_name"
+msgid "Store name"
+msgstr "Store name"
+
+msgctxt "SettingsOptions::rus_spsr::login"
+msgid "Login"
+msgstr "Login"
+
+msgctxt "SettingsOptions::rus_spsr::password"
+msgid "Password"
+msgstr "Password"
+
+msgctxt "SettingsOptions::rus_spsr::icn"
+msgid "ICN"
+msgstr "ICN"
+
+msgctxt "SettingsOptions::rus_spsr::barcode"
+msgid "Barcode"
+msgstr "Barcode"
+
+msgctxt "SettingsOptions::rus_spsr::height"
+msgid "Height,px"
+msgstr "Height,px"
+
+msgctxt "SettingsOptions::rus_spsr::width"
+msgid "Width,px"
+msgstr "Width,px"
+
+msgctxt "SettingsOptions::rus_spsr::secure_protocol"
+msgid "Used secure protocol"
+msgstr "Used secure protocol"
+
+msgctxt "SettingsOptions::rus_spsr::server"
+msgid "Server"
+msgstr "Server"
+
+msgctxt "SettingsVariants::rus_spsr::server::test"
+msgid "Test"
+msgstr "Test"
+
+msgctxt "SettingsVariants::rus_spsr::server::work"
+msgid "Work"
+msgstr "Work"
+
+msgctxt "Languages::carrier_spsr"
+msgid "Delivery SPSR"
+msgstr "Delivery SPSR"
+
+msgctxt "Languages::shippings.spsr.user_data"
+msgid "General settings SPSR"
+msgstr "General settings SPSR"
+
+msgctxt "Languages::shippings.spsr.piece_barcodes"
+msgid "Piece barcode"
+msgstr "Piece barcode"
+
+msgctxt "Languages::shippings.spsr.piece_barcodes.tooltip"
+msgid "The range of codes should be obtained from personal manager"
+msgstr "The range of codes should be obtained from personal manager"
+
+msgctxt "Languages::shipping.spsr.from_city_name"
+msgid "City of departure"
+msgstr "City of departure"
+
+msgctxt "Languages::shipping.spsr.from_city_name.tooltip"
+msgid "Used to calculate the cost calculator"
+msgstr "Used to calculate the cost calculator"
+
+msgctxt "Languages::shipping.spsr.get_city_data"
+msgid "Get the ID of the city"
+msgstr "Get the ID of the city"
+
+msgctxt "Languages::shipping.spsr.get_city_data.tooltip"
+msgid "Sending a request to the SPSR for the city ID"
+msgstr "Sending a request to the SPSR for the city ID"
+
+msgctxt "Languages::shipping.spsr.city_id"
+msgid "City ID"
+msgstr "City ID"
+
+msgctxt "Languages::shipping.spsr.city_id.tooltip"
+msgid "Technical information necessary for the shipping cost calculator. For ID, enter the city name in the /"Departure city/" and click on /"Get the ID of the city./" Save the settings received."
+msgstr "Technical information necessary for the shipping cost calculator. For ID, enter the city name in the /"Departure city/" and click on /"Get the ID of the city./" Save the settings received."
+
+msgctxt "Languages::shipping.spsr.city_owner_id"
+msgid "City Owner ID"
+msgstr "City Owner ID"
+
+msgctxt "Languages::shippings.spsr.product_type"
+msgid "Nature of cargo"
+msgstr "Nature of cargo"
+
+msgctxt "Languages::shippings.spsr.product_type_default.tooltip"
+msgid "For estimate value can be used only one nature of the cargo. If a basket of goods will be slightly different nature of the cargo, the value will be taken from this setting. If the basket will even be one with the nature of the goods /"Jewels/", then the character will be taken /"Precious./" In other situations it will be used the value of the product settings."
+msgstr "For estimate value can be used only one nature of the cargo. If a basket of goods will be slightly different nature of the cargo, the value will be taken from this setting. If the basket will even be one with the nature of the goods /"Jewels/", then the character will be taken /"Precious./" In other situations it will be used the value of the product settings."
+
+msgctxt "Languages::shippings.spsr.type15"
+msgid "Documents"
+msgstr "Documents"
+
+msgctxt "Languages::shippings.spsr.type16"
+msgid "Cargo (Goods consumption (without equipment ed.kol of))"
+msgstr "Cargo (Goods consumption (without equipment ed.kol of))"
+
+msgctxt "Languages::shippings.spsr.type17"
+msgid "Electronics technician or without fuel and without battery (ed.kol-in)"
+msgstr "Electronics technician or without fuel and without battery (ed.kol-in)"
+
+msgctxt "Languages::shippings.spsr.type18"
+msgid "Jewelry"
+msgstr "Jewelry"
+
+msgctxt "Languages::shippings.spsr.type19"
+msgid "Medication and supplements"
+msgstr "Medication and supplements"
+
+msgctxt "Languages::shippings.spsr.type20"
+msgid "Cosmetics and beauty"
+msgstr "Cosmetics and beauty"
+
+msgctxt "Languages::shippings.spsr.type21"
+msgid "Food (party)"
+msgstr "Food (party)"
+
+msgctxt "Languages::shippings.spsr.type22"
+msgid "Appliances and Electronics without lubricants (party) or with batteries"
+msgstr "Appliances and Electronics without lubricants (party) or with batteries"
+
+msgctxt "Languages::shippings.spsr.type23"
+msgid "Dangerous goods"
+msgstr "Dangerous goods"
+
+msgctxt "Languages::shippings.spsr.type24"
+msgid "Consumer Goods (without art party)"
+msgstr "Consumer Goods (without art party)"
+
+msgctxt "Languages::shippings.spsr.invoice_plat_type"
+msgid "Who pays"
+msgstr "Who pays"
+
+msgctxt "Languages::shippings.spsr.plat_type.1"
+msgid "The sender"
+msgstr "The sender"
+
+msgctxt "Languages::shippings.spsr.plat_type.2"
+msgid "Recipient"
+msgstr "Recipient"
+
+msgctxt "Languages::shippings.spsr.to_be_called_for"
+msgid "Poste restante"
+msgstr "Poste restante"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_subheader"
+msgid "Additional services"
+msgstr "Additional services"
+
+msgctxt "Languages::shippings.spsr.invoice_insurance_type"
+msgid "Insurance of shipments / cargo or delivery insured items"
+msgstr "Insurance of shipments / cargo or delivery insured items"
+
+msgctxt "Languages::shippings.spsr.invoice_insurance_type.tooltip"
+msgid "Additional services /"Insurance shipments / cargo/" and /"Delivery insured items./" Services are available only for certain services (see. Table "Use of additional services for services" on a piece of /"Extras. Embeddable services and services")"
+msgstr "Additional services /"Insurance shipments / cargo/" and /"Delivery insured items./" Services are available only for certain services (see. Table "Use of additional services for services" on a piece of /"Extras. Embeddable services and services/")"
+
+msgctxt "Languages::shippings.spsr.insurance_type.ins"
+msgid "Insurance of shipments / cargo"
+msgstr "Insurance of shipments / cargo"
+
+msgctxt "Languages::shippings.spsr.insurance_type.val"
+msgid "Delivery of insured items"
+msgstr "Delivery of insured items"
+
+msgctxt "Languages::shippings.spsr.invoice_dues_order"
+msgid "Collection by request"
+msgstr "Collection by request"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_cod"
+msgid "Pay at the time of delivery"
+msgstr "Pay at the time of delivery"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_cod.tooltip"
+msgid "Additional service /"pay at the time of delivery./" This service is available only for certain services (see. Table /"Use of additional services for services" on a piece of /"Extras. Embeddable services and services/")"
+msgstr "Additional service /"pay at the time of delivery./" This service is available only for certain services (see. Table /"Use of additional services for services" on a piece of /"Extras. Embeddable services and services/")"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_part_delivery"
+msgid "Partial delivery"
+msgstr "Partial delivery"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_part_delivery.tooltip"
+msgid "Additional service /"Partial delivery./" This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/")."
+msgstr "Additional service /"Partial delivery./" This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/")."
+
+msgctxt "Languages::shippings.spsr.invoice_additional_return_doc"
+msgid "Return of supporting documents"
+msgstr "Return of supporting documents"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_return_doc.tooltip"
+msgid "Extras /"Return of supporting documents/", as well as additional services: /"Checking fillable documents/" and /"Priority to receive the documents./" This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/"). /"0/" or the attribute is not specified - the service stated. /r/n /"1/" - declared service /"Return of supporting documents/" /r/n /"2/" - declared service /"Return of supporting documents/" and additional services /"Checking fillable documents/" and /"Priority to receive documents/" /r/n /"3/" - declared service /"Return of supporting documents/" and the additional service /"Priority to receive documents/""
+msgstr "Extras /"Return of supporting documents/", as well as additional services: /"Checking fillable documents/" and /"Priority to receive the documents./" This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/"). /"0/" or the attribute is not specified - the service stated. /r/n /"1/" - declared service /"Return of supporting documents/" /r/n /"2/" - declared service /"Return of supporting documents/" and additional services /"Checking fillable documents/" and /"Priority to receive documents/" /r/n /"3/" - declared service /"Return of supporting documents/" and the additional service /"Priority to receive documents/""
+
+msgctxt "Languages::shippings.spsr.invoice_additional_return_doc.1"
+msgid "1"
+msgstr "1"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_return_doc.2"
+msgid "2"
+msgstr "2"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_return_doc.3"
+msgid "3"
+msgstr "3"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_check_contents"
+msgid "Checking the package"
+msgstr "Checking the package"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_check_contents.tooltip"
+msgid "Extras /"Checking the package./" This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/")"
+msgstr "Extras /"Checking the package./" This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/")"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_verify"
+msgid "Operability test"
+msgstr "Operability test"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_verify.tooltip"
+msgid "Extras /"Verifying/". This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/")"
+msgstr "Extras /"Verifying/". This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/")"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_try_on"
+msgid "Fitting"
+msgstr "Fitting"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_try_on.tooltip"
+msgid "Extras /"Trying/". This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/")"
+msgstr "Extras /"Trying/". This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/")"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_by_hand"
+msgid "Delivery in person"
+msgstr "Delivery in person"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_by_hand.tooltip"
+msgid "Additional service /"delivery in person./" This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/")"
+msgstr "Additional service /"delivery in person./" This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/")"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_paid_by_receiver"
+msgid "Payment recipient"
+msgstr "Payment recipient"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_paid_by_receiver.tooltip"
+msgid "Extras /"freight collect/" (sender imposes all costs on the recipient SPSR). This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/"), and if signed an additional agreement to the basic contract or have a letter of guarantee."
+msgstr "Extras /"freight collect/" (sender imposes all costs on the recipient SPSR). This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/"), and if signed an additional agreement to the basic contract or have a letter of guarantee."
+
+msgctxt "Languages::shippings.spsr.invoice_additional_agreed_delivery"
+msgid "Harmonization of the date and time of delivery"
+msgstr "Harmonization of the date and time of delivery"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_agreed_delivery.tooltip"
+msgid "Extras /"Matching the date and time of delivery./" This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/")"
+msgstr "Extras /"Matching the date and time of delivery./" This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/")"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_idc"
+msgid "Individual control of delivery"
+msgstr "Individual control of delivery"
+
+msgctxt "Languages::shippings.spsr.invoice_additional_idc.tooltip"
+msgid "Additional service /"Individual control of delivery./" This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/")"
+msgstr "Additional service /"Individual control of delivery./" This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/")"
+
+msgctxt "Languages::shippings.spsr.invoice_sms_subheader"
+msgid "SMS-notification"
+msgstr "SMS-notification"
+
+msgctxt "Languages::shippings.spsr.invoice_sms_to_shipper"
+msgid "SMS-notification sender"
+msgstr "SMS-notification sender"
+
+msgctxt "Languages::shippings.spsr.invoice_sms_to_shipper.tooltip"
+msgid "Additional service /"SMS-notification Sender./" This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/")"
+msgstr "Additional service /"SMS-notification Sender./" This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/")"
+
+msgctxt "Languages::shippings.spsr.invoice_sms_to_receiver"
+msgid "SMS-notification of recipient"
+msgstr "SMS-notification of recipient"
+
+msgctxt "Languages::shippings.spsr.invoice_sms_to_receiver.tooltip"
+msgid "Additional service /"SMS-Alert Recipient./" This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/")."
+msgstr "Additional service /"SMS-Alert Recipient./" This service is available only for certain services (see. Table /"Use of additional services for services/" on a piece of /"Extras. Embeddable services and services/")."
+
+msgctxt "Languages::shippings.spsr.bag_size_s_header"
+msgid "Package Dimensions S"
+msgstr "Package Dimensions S"
+
+msgctxt "Languages::shippings.spsr.bag_size_m_header"
+msgid "Package Dimensions M"
+msgstr "Package Dimensions M"
+
+msgctxt "Languages::shippings.spsr.bag_size_l_header"
+msgid "Package Dimensions L"
+msgstr "Package Dimensions L"
+
+msgctxt "Languages::shippings.spsr.service_label"
+msgid "Tools SPSR"
+msgstr "Tools SPSR"
+
+msgctxt "Languages::shippings.spsr.error_city"
+msgid "Error in city"
+msgstr "Error in city"
+
+msgctxt "Languages::shippings.spsr.error_data"
+msgid "Error in data"
+msgstr "Error in data"
+
+msgctxt "Languages::shippings.spsr.error_order"
+msgid "Error in order"
+msgstr "Error in order"
+
+msgctxt "Languages::shippings.spsr.error_registry"
+msgid "Error sending registry"
+msgstr "Error sending registry"
+
+msgctxt "Languages::shipping.sdek.not_city"
+msgid "No city"
+msgstr "No city"
+
+msgctxt "Languages::shipping.spsr.not_setting_city"
+msgid "No city send"
+msgstr "No city send"
+
+msgctxt "Languages::shippings.spsr.tab_invoice"
+msgid "SPSR Register"
+msgstr "SPSR Register"
+
+msgctxt "Languages::shippings.spsr.size"
+msgid "SPSR size"
+msgstr "SPSR size"
+
+msgctxt "Languages::shippings.spsr.buttons.spsr_create_packages"
+msgid "SPSR create packages"
+msgstr "SPSR create packages"
+
+msgctxt "Languages::shippings.spsr.invoice_pieces_check"
+msgid "Distribution of goods in bags in the consignment"
+msgstr "Distribution of goods in bags in the consignment"
+
+msgctxt "Languages::shippings.spsr.invoice"
+msgid "Invoice"
+msgstr "Invoice"
+
+msgctxt "Languages::shippings.spsr.invoice_product_code"
+msgid "Type of service (delivery mode)"
+msgstr "Type of service (delivery mode)"
+
+msgctxt "Languages::shippings.spsr.piece"
+msgid "Package"
+msgstr "Package"
+
+msgctxt "Languages::shippings.spsr.s"
+msgid "S"
+msgstr "S"
+
+msgctxt "Languages::shippings.spsr.m"
+msgid "M"
+msgstr "M"
+
+msgctxt "Languages::shippings.spsr.l"
+msgid "L"
+msgstr "L"
+
+msgctxt "Languages::shippings.spsr.individual_size"
+msgid "By size"
+msgstr "By size"
+
+msgctxt "Languages::shippings.spsr.pieces"
+msgid "Packages"
+msgstr "Packages"
+
+msgctxt "Languages::shippings.spsr.pieces_bag"
+msgid "Package Size"
+msgstr "Package Size"
+
+msgctxt "Languages::shippings.spsr.buttons.spsr_clear_invoice"
+msgid "Clear invoice"
+msgstr "Clear invoice"
+
+msgctxt "Languages::shippings.spsr.buttons.spsr_create_invoice"
+msgid "Create invoice"
+msgstr "Create invoice"
+
+msgctxt "Languages::shippings.spsr.invoice_package_barcode_check"
+msgid "List package and barcode"
+msgstr "List package and barcode"
+
+msgctxt "Languages::shippings.spsr.barcode_error_len"
+msgid "Error lenght barcode"
+msgstr "Error lenght barcode"
+
+msgctxt "Languages::shippings.spsr.invoice_settings"
+msgid "Settings invoice"
+msgstr "Settings invoice"
+
+msgctxt "Languages::shippings.spsr.invoice_delivery_date"
+msgid "Delivery date"
+msgstr "Delivery date"
+
+msgctxt "Languages::shippings.spsr.invoice_delivery_date.tooltip"
+msgid "Delivery date. Final date to be agreed upon in the recipient"
+msgstr "Delivery date. Final date to be agreed upon in the recipient"
+
+msgctxt "Languages::shippings.spsr.invoice_delivery_time"
+msgid "Time of delivery."
+msgstr "Time of delivery."
+
+msgctxt "Languages::shippings.spsr.invoice_delivery_time.tooltip"
+msgid "The final time will be agreed in the recipient. Intervals /"AM1/", /"PM1/", "PM2/", /"WD1/" possible with COD = /"1/" with the delivery in Moscow and weighing less than 10kg on the invoice."
+msgstr "The final time will be agreed in the recipient. Intervals /"AM1/", /"PM1/", "PM2/", /"WD1/" possible with COD = /"1/" with the delivery in Moscow and weighing less than 10kg on the invoice."
+
+msgctxt "Languages::shippings.spsr.invoice_delivery_time.am"
+msgid "AM - from 9:00 to 14:00"
+msgstr "AM - from 9:00 to 14:00"
+
+msgctxt "Languages::shippings.spsr.invoice_delivery_time.pm"
+msgid "PM - from 14:00 to 18:00"
+msgstr "PM - from 14:00 to 18:00"
+
+msgctxt "Languages::shippings.spsr.invoice_delivery_time.wd"
+msgid "WD - from 9:00 to 18:00"
+msgstr "WD - from 9:00 to 18:00"
+
+msgctxt "Languages::shippings.spsr.invoice_delivery_time.am1"
+msgid "AM1 - from 9:00 to 13:00"
+msgstr "AM1 - from 9:00 to 13:00"
+
+msgctxt "Languages::shippings.spsr.invoice_delivery_time.pm1"
+msgid "PM1 - from 13:00 to 17:00"
+msgstr "PM1 - from 13:00 to 17:00"
+
+msgctxt "Languages::shippings.spsr.invoice_delivery_time.pm2"
+msgid "PM2 - from 17:00 to 21:00"
+msgstr "PM2 - from 17:00 to 21:00"
+
+msgctxt "Languages::shippings.spsr.invoice_delivery_time.wd1"
+msgid "WD1 - from 9:00 to 21:00"
+msgstr "WD1 - from 9:00 to 21:00"
+
+msgctxt "Languages::shippings.spsr.sbor_addr_label"
+msgid "Address collection"
+msgstr "Address collection"
+
+msgctxt "Languages::shippings.spsr.barcodes"
+msgid "Barcode SPSR"
+msgstr "Barcode SPSR"
+
+msgctxt "Languages::shippings.spsr.not_invoice_create_package_error"
+msgid "Error not invoice create package"
+msgstr "Error not invoice create package"
+
+msgctxt "Languages::shippings.spsr.login_error"
+msgid "Error connecting to the SPSR"
+msgstr "Error connecting to the SPSR"
+
+msgctxt "Languages::shippings.spsr.logout_error"
+msgid "Error exit session"
+msgstr "Error exit session"
+
+msgctxt "Languages::shippings.spsr.error_barcode"
+msgid "Barcode null"
+msgstr "Barcode null"
+
+msgctxt "Languages::shippings.spsr.register_save"
+msgid "Registry sent and saved"
+msgstr "Registry sent and saved"
+
+msgctxt "Languages::shippings.spsr.not_register_save"
+msgid "Registry not sent and saved"
+msgstr "Registry not sent and saved"
+
+msgctxt "Languages::shippings.spsr.pieces_amount"
+msgid "Number of packages"
+msgstr "Number of packages"
+
+msgctxt "Languages::shippings.spsr.invoice_session_subheader"
+msgid "Information on the registry"
+msgstr "Information on the registry"
+
+msgctxt "Languages::shippings.spsr.invoice_session_text"
+msgid "Registry sent to processing"
+msgstr "Registry sent to processing"
+
+msgctxt "Languages::shippings.spsr.register_id"
+msgid "ID registry"
+msgstr "ID registry"
+
+msgctxt "Languages::shippings.spsr.session_id"
+msgid "Session ID"
+msgstr "Session ID"
+
+msgctxt "Languages::shippings.spsr.session_owner_id"
+msgid "Session owner ID"
+msgstr "Session owner ID"
+
+msgctxt "Languages::shippings.spsr.timestamp"
+msgid "Date send"
+msgstr "Date send"
+
+msgctxt "Languages::shippings.spsr.buttons.check_register"
+msgid "Check invoice"
+msgstr "Check invoice"
+
+msgctxt "Languages::shipping.spsr.spsr_menu"
+msgid "SPSR"
+msgstr "SPSR"
+
+msgctxt "Languages::shipping.spsr.spsr_address"
+msgid "Addresses collection"
+msgstr "Addresses collection"
+
+msgctxt "Languages::shippings.spsr.couriers_title"
+msgid "Orders for pickup"
+msgstr "Orders for pickup"
+
+msgctxt "Languages::shippings.spsr.invoices_title"
+msgid "Invoices SPSR"
+msgstr "Invoices SPSR"
+
+msgctxt "Languages::shippings.spsr.address_add"
+msgid "Address added"
+msgstr "Address added"
+
+msgctxt "Languages::shippings.spsr.not_address_add"
+msgid "Address not added"
+msgstr "Address not added"
+
+msgctxt "Languages::shippings.spsr.address_delete"
+msgid "Address deleted"
+msgstr "Address deleted"
+
+msgctxt "Languages::shippings.spsr.not_address_delete"
+msgid "Address not deleted"
+msgstr "Address not deleted"
+
+msgctxt "Languages::shippings.spsr.fio"
+msgid "FIO"
+msgstr "FIO"
+
+msgctxt "Languages::shipping.spsr.postcode"
+msgid "Index"
+msgstr "Index"
+
+msgctxt "Languages::shippings.spsr.add_addr"
+msgid "The new address"
+msgstr "The new address"
+
+msgctxt "Languages::shippings.spsr.addrs_title"
+msgid "SPSR - Addresses collection"
+msgstr "SPSR - Addresses collection"
+
+msgctxt "Languages::shipping.spsr.active_couriers"
+msgid "Active orders"
+msgstr "Active orders"
+
+msgctxt "Languages::shippings.spsr.placescount"
+msgid "Count of seats"
+msgstr "Count of seats"
+
+msgctxt "Languages::shippings.spsr.necesserydate"
+msgid "Collection date"
+msgstr "Collection date"
+
+msgctxt "Languages::shippings.spsr.necesserytime"
+msgid "Time collection"
+msgstr "Time collection"
+
+msgctxt "Languages::shippings.spsr.add_courier"
+msgid "Call courier"
+msgstr "Call courier"
+
+msgctxt "Languages::shippings.spsr.couriers_title"
+msgid "Orders for pickup"
+msgstr "Orders for pickup"
+
+msgctxt "Languages::shippings.spsr.status.d"
+msgid "Delivered"
+msgstr "Delivered"
+
+msgctxt "Languages::shippings.spsr.status.p"
+msgid "Processed or Undelivered"
+msgstr "Processed or Undelivered"
+
+msgctxt "Languages::shippings.spsr.status.all"
+msgid "All created invoices"
+msgstr "All created invoices"
+
+msgctxt "Languages::shippings.spsr.invoice_number"
+msgid "Invoice number"
+msgstr "Invoice number"
+
+msgctxt "Languages::shippings.spsr.date_create"
+msgid "Date of creation"
+msgstr "Date of creation"
+
+msgctxt "Languages::shippings.spsr.agreed_send"
+msgid "The agreed delivery date"
+msgstr "The agreed delivery date"
+
+msgctxt "Languages::shippings.spsr.insurance_sum"
+msgid "Amount of insurance"
+msgstr "Amount of insurance"
+
+msgctxt "Languages::shippings.spsr.declared_sum"
+msgid "Declared value"
+msgstr "Declared value"
+
+msgctxt "Languages::shippings.spsr.order_number"
+msgid "Order number in SPSR"
+msgstr "Order number in SPSR"
+
+msgctxt "Languages::shippings.spsr.cod_goods_sum"
+msgid "Cash on delivery"
+msgstr "Cash on delivery"
+
+msgctxt "Languages::shippings.spsr.cod_delivery_sum"
+msgid "Cost of delivery"
+msgstr "Cost of delivery"
+
+msgctxt "Languages::shippings.spsr.invoice_result_text"
+msgid "Invoice send in SPSR"
+msgstr "Invoice send in SPSR"
+
+msgctxt "Languages::shippings.spsr.buttons.bind_order"
+msgid "Attach the invoice to call the courier"
+msgstr "Attach the invoice to call the courier"
+
+msgctxt "Languages::shippings.spsr.products_amount"
+msgid "Number of products in packages"
+msgstr "Number of products in packages"
+
+msgctxt "Languages::shippings.spsr.shipment_number"
+msgid "ID invoice SPSR"
+msgstr "ID invoice SPSR"
+
+msgctxt "Languages::shippings.spsr.status"
+msgid "Status SPSR"
+msgstr "Status SPSR"
+
+msgctxt "Languages::shippings.spsr.error_get_cost"
+msgid "Failed to get the shipping cost"
+msgstr "Failed to get the shipping cost"
+
+msgctxt "Languages::shippings.spsr.order_add"
+msgid "Call courier added for order"
+msgstr "Call courier added for order"
+
+msgctxt "Languages::shippings.spsr.not_order_add"
+msgid "Call courier not added"
+msgstr "Call courier not added"
+
+msgctxt "Languages::shipping.spsr.ticket"
+msgid "Invoices for goods"
+msgstr "Invoices for goods"
+
+msgctxt "Languages::shipping.spsr.ticket_spsr"
+msgid "Ticket SPSR"
+msgstr "Ticket SPSR"
+
+msgctxt "Languages::shippings.spsr.spsr_no_active_couriers"
+msgid "There are no active orders"
+msgstr "There are no active orders"
+
+msgctxt "Languages::shippings.spsr.shipping_information"
+msgid "Shipping information SPSR"
+msgstr "Shipping information SPSR"
+
+msgctxt "Languages::shippings.spsr.order_delete"
+msgid "Call courier deleted"
+msgstr "Call courier deleted"
+
+msgctxt "Languages::shippings.spsr.not_order_delete"
+msgid "Call courier not deleted"
+msgstr "Call courier not deleted"

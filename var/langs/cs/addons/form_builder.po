@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /addons/form_builder.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-03 03:03-0400\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Konstruktér formulářů"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us)"
+msgstr "Umožňuje vytvářet vlastní formuláře (například \"Kontaktujte nás\")"
+
+msgctxt "Languages::use_for_form_builder"
+msgid "Custom forms"
+msgstr "Vlastní formuláře"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Nový formulář"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Editace formuláře"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Konstruktér formulářů"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Odeslání textu formuláře"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "E-mailem na"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Formulář je zabezpečený (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Přidat formulář"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Základ"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Více zaškrtávacích políček"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Několik selectboxů"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Hlavička"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Oddělovač"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Speciální"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Seznam zemí"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Seznam států"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "Referující"
+

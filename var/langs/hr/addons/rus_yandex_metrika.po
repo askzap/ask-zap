@@ -1,0 +1,117 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Croatian\n"
+"Language: hr_HR\n"
+
+msgctxt "Addons::name::rus_yandex_metrika"
+msgid "Russian localization — Yandex.Metrika"
+msgstr "Russian localization — Yandex.Metrika"
+
+msgctxt "Addons::description::rus_yandex_metrika"
+msgid "Statistics from Yandex"
+msgstr "Statistics from Yandex"
+
+msgctxt "SettingsSections::rus_yandex_metrika::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::general_settings"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::counter_number"
+msgid "Counter ID"
+msgstr "Counter ID"
+
+msgctxt "SettingsTooltips::rus_yandex_metrika::counter_number"
+msgid "Get it from your account at <a href=\"http://metrika.yandex.ru\" target=\"_blank\">metrika.yandex.ru</a>"
+msgstr "Get it from your account at <a href=\"http://metrika.yandex.ru\" target=\"_blank\">metrika.yandex.ru</a>"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::base_settings"
+msgid "Settings"
+msgstr "Settings"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::visor"
+msgid "WebVisor"
+msgstr "WebVisor"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::clickmap"
+msgid "Click map"
+msgstr "Click map"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::external_links"
+msgid "External links, file downloads and \"Share\" button report"
+msgstr "External links, file downloads and \"Share\" button report"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::denial"
+msgid "Accurate bounce rate"
+msgstr "Accurate bounce rate"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::addition_settings"
+msgid "Addition settings"
+msgstr "Addition settings"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::track_hash"
+msgid "Tracking the hash in your browser"
+msgstr "Tracking the hash in your browser"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::yandex_api_access"
+msgid "Yandex API access"
+msgstr "Yandex API access"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::application_id"
+msgid "Application ID"
+msgstr "Application ID"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::application_password"
+msgid "Application password"
+msgstr "Application password"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::auth_token"
+msgid "Auth token"
+msgstr "Auth token"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::goals"
+msgid "Goals"
+msgstr "Goals"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::collect_stats_for_goals"
+msgid "Collect statistics for these goals"
+msgstr "Collect statistics for these goals"
+
+msgctxt "SettingsTooltips::rus_yandex_metrika::collect_stats_for_goals"
+msgid "Yandex API access is required (see settings above)"
+msgstr "Yandex API access is required (see settings above)"
+
+msgctxt "Languages::yandex_metrika_oauth_info_part1"
+msgid "Please <a href=\"https://oauth.yandex.ru/client/new\" target=\"_blank\">register an application</a> with full Yandex.Metrika permissions to continue. Use this value as the <b>Callback URL</b> param: <i>[callback_uri]</i>. After the registration, you will be able to fill out the \"Application ID\" and \"Application password\" fields on this page."
+msgstr "Please <a href=\"https://oauth.yandex.ru/client/new\" target=\"_blank\">register an application</a> with full Yandex.Metrika permissions to continue. Use this value as the <b>Callback URL</b> param: <i>[callback_uri]</i>. After the registration, you will be able to fill out the \"Application ID\" and \"Application password\" fields on this page."
+
+msgctxt "Languages::yandex_metrika_oauth_info_part2"
+msgid "After you've created the app and when you ever <a href=\"[edit_app_uri]\" target=\"_blank\">modify it</a>, <a href=\"[auth_uri]\" target=\"_blank\">click here to get a new auth token</a>"
+msgstr "After you've created the app and when you ever <a href=\"[edit_app_uri]\" target=\"_blank\">modify it</a>, <a href=\"[auth_uri]\" target=\"_blank\">click here to get a new auth token</a>"
+
+msgctxt "Languages::yandex_metrika_engaged_visitor_text"
+msgid "Engaged visitor (a customer viewed over five pages during the visit)"
+msgstr "Engaged visitor (a customer viewed over five pages during the visit)"
+
+msgctxt "Languages::yandex_metrika_basket_text"
+msgid "Add to cart (the \"Add to cart button\" button was clicked)"
+msgstr "Add to cart (the \"Add to cart button\" button was clicked)"
+
+msgctxt "Languages::yandex_metrika_order_text"
+msgid "Order (an order is successfully placed)"
+msgstr "Order (an order is successfully placed)"
+
+msgctxt "Languages::yandex_metrika_wishlist_text"
+msgid "Wishlist (a customer added an item to wishlist)"
+msgstr "Wishlist (a customer added an item to wishlist)"
+
+msgctxt "Languages::yandex_metrika_buy_with_one_click_form_opened_text"
+msgid "Buy with one click (the \"Buy with one click\" button was clicked)"
+msgstr "Buy with one click (the \"Buy with one click\" button was clicked)"
+
+msgctxt "Languages::yandex_metrika_call_request_text"
+msgid "Call request (a customer submitted a call request form)"
+msgstr "Call request (a customer submitted a call request form)"

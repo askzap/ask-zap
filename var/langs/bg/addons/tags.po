@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Bulgarian\n"
+"Language: bg_BG\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: bg\n"
+"X-Crowdin-File: /addons/tags.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-06-29 06:03-0400\n"
+
+msgctxt "Addons::name::tags"
+msgid "Tags"
+msgstr "Tags"
+
+msgctxt "Addons::description::tags"
+msgid "Enables product tags"
+msgstr "Enables product tags"
+
+msgctxt "Languages::tags_menu_description"
+msgid "Manage product and content page tags."
+msgstr "Manage product and content page tags."
+
+msgctxt "Languages::sign_in_to_enter_tags"
+msgid "Sign in to enter tags"
+msgstr "Влезте в профила си, за да добавяте тагове"
+
+msgctxt "Languages::tag_cloud"
+msgid "Tag cloud"
+msgstr "Таг облак"
+
+msgctxt "Languages::tags"
+msgid "Tags"
+msgstr "Тагове"
+
+msgctxt "Languages::block_tags"
+msgid "Tags"
+msgstr "Tags"
+
+msgctxt "Languages::block_tags_description"
+msgid "Product tags"
+msgstr "Product tags"
+
+msgctxt "Languages::addons.tags.add_a_tag"
+msgid "add a tag"
+msgstr "add a tag"
+
+msgctxt "Languages::items_marked_by_tag"
+msgid "Items marked by the \"[tag]\" tag:"
+msgstr "Items marked by the \"[tag]\" tag:"
+
+msgctxt "Languages::tag"
+msgid "Tag"
+msgstr "Таг"
+
+msgctxt "Languages::add_tag"
+msgid "Add tag"
+msgstr "Добави таг"
+
+msgctxt "SettingsSections::tags::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::tags::tags_for_products"
+msgid "Tags for products"
+msgstr "Tags for products"
+
+msgctxt "SettingsOptions::tags::tags_for_pages"
+msgid "Tags for pages"
+msgstr "Tags for pages"
+

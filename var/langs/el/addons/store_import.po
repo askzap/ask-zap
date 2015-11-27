@@ -1,0 +1,442 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /addons/store_import.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-04-29 07:00-0400\n"
+
+msgctxt "Addons::name::store_import"
+msgid "Store Import"
+msgstr "Εισαγωγή Καταστήματος"
+
+msgctxt "Addons::description::store_import"
+msgid "Lets you import data from any existing version of CS-Cart from 2.2.4 (except for Community edition) into the current version."
+msgstr "Σας επιτρέπει να εισαγάγετε δεδομένα από οποιαδήποτε υπάρχουσα έκδοση του CS-Cart από 2.2.4 (εκτός από την έκδοση Community) στην τρέχουσα έκδοση."
+
+msgctxt "Languages::store_import.full_path_installation_directory"
+msgid "Full path to the store installation directory"
+msgstr "Πλήρης διαδρομή προς τον κατάλογο εγκατάστασης του καταστήματος"
+
+msgctxt "Languages::store_import.start_new_store_import"
+msgid "Start new store import"
+msgstr "Έναρξη νέας εισαγωγής καταστήματος"
+
+msgctxt "Languages::store_import.first_step"
+msgid "Select store"
+msgstr "Επιλέξτε κατάστημα"
+
+msgctxt "Languages::store_import.second_step"
+msgid "Validate and import"
+msgstr "Επικύρωση και εισαγωγή"
+
+msgctxt "Languages::store_import.cannot_connect_to_database_server"
+msgid "Cannot connect to the database server"
+msgstr "Δεν μπορεί να συνδεθεί με το διακομιστή βάσης δεδομένων"
+
+msgctxt "Languages::store_import.check_company_count_failed"
+msgid "Cannot start actualizing data due to Storefront/Vendor changes"
+msgstr "Δεν μπορεί να ξεκινήσει ενημέρωση δεδομένων λόγω αλλαγών στη βιτρίνα/προμηθευτή"
+
+msgctxt "Languages::store_import.completed"
+msgid "<p>The store import is complete!</p>"
+msgstr "<p>Η  εισαγωγή καταστήματος ολοκληρώθηκε!</p>"
+
+msgctxt "Languages::store_import.completed_text_ult"
+msgid "<p>In order to go live, you should perform the following steps:</p><ul><li>Overwrite your existing store folder with the new one.</li><li>Set the correct values for the following variables: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><li>Set the correct Storefront URL in the Administration->Stores section.</li></ul><p>To start another store import, click <b>Start new store import.</b></p>"
+msgstr "<p>Προκειμένου να βγειτε στον αέρα, θα πρέπει να εκτελέσετε τα ακόλουθα βήματα:</p><ul><li>Αντικαταστήσετε τον υπάρχοντα φάκελο τους καταστηματος σας με το νέο.</li><li>Ορίστε τις σωστές τιμές για τις ακόλουθες μεταβλητές: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><li>Ορίστε τη σωστή διεύθυνση URL βιτρινας στη διαχείρηση-> τμήμα Καταστηματα.</li></ul><p>Για να ξεκινήσετε μια άλλη εισαγωγή καταστηματος, κάντε κλικ στην επιλογή <b>Έναρξη νέα εισαγωγή καταστηματος.</b></p>"
+
+msgctxt "Languages::store_import.completed_text_mve"
+msgid "<p>In order to go live, you should perform the following steps:</p><ul><li>Overwrite your existing store folder with the new one.</li><li>Set the correct values for the following variables: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><p>To start another store import, click <b>Start new store import.</b></p>"
+msgstr "<p>Προκειμένου να βγειτε στον αέρα, θα πρέπει να εκτελέσετε τα ακόλουθα βήματα:</p><ul><li>Αντικαταστήσετε τονυπάρχοντα φάκελο του καταστηματο σας με το νέο.</li><li>Ορίστε τις σωστές τιμές για τις ακόλουθες μεταβλητές: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><p>Για να ξεκινήσετε μια άλλα εισαγωγή καταστηματος, κάντε κλικ στην επιλογή <b>Έναρξη νέας εισαγωγής καταστηματος.</b></p>"
+
+msgctxt "Languages::store_import.actualize_data_text"
+msgid "<p>Last data import was made on <b>[date]</b> from <b>CS-Cart [version] [edition].</b></p><p>To actualize the data since the last import, click <b>Actualize data</b> (Only design and settings <span>will be kept</span>.) This process can be done repeatedly. When actualizing is over you will see this page again.</p><p>Whenever you're ready to go live or start the Store import again, click <b>Complete Store import</b></p>"
+msgstr "<p>Τελευταία εισαγωγή δεδομένων έγινε στις <b>[date]</b> από <b>CS-Cart [version] [edition].</b></p><p>Για να ενημέρωσετε τα δεδομένα από την τελευταία εισαγωγή, κάντε κλικ στην επιλογή <b>Ενημέρωση δεδομένων</b> (μόνο σχεδιασμός και ρυθμίσεις <span>θα κρατηθούν</span>.) Αυτή η διαδικασία μπορεί να γίνει επανειλημμένα. Όταν τελειώσει η ενημέρωση θα δείτε αυτή τη σελίδα πάλι.</p><p>Όποτε είστε έτοιμοι να βγειτε τον αέρα ή να επαναλάβετε την εισαγωγή από την αρχή, κάντε κλικ στην επιλογή <b>Ολοκλήρωση εισαγωγής Καταστήματος</b></p>"
+
+msgctxt "Languages::store_import.actualize_data"
+msgid "Actualize data"
+msgstr "Ενημέρωση δεδομένων"
+
+msgctxt "Languages::store_import.import_from"
+msgid "Import from"
+msgstr "Εισαγωγή από"
+
+msgctxt "Languages::store_import.complete_store_import"
+msgid "Complete Store import"
+msgstr "Ολοκήρωση εισαγωγής καταστήματος"
+
+msgctxt "Languages::store_import.import_data"
+msgid "Import data"
+msgstr "Εισαγωγή δεδομένων"
+
+msgctxt "Languages::store_import.complete_configuration"
+msgid "Proceed to actualizing data"
+msgstr "Προχωρήστε σε ενημέρωση δεδομένων"
+
+msgctxt "Languages::store_import.admin_url"
+msgid "Admin panel URL"
+msgstr "Admin panel URL"
+
+msgctxt "Languages::store_import.companies_count"
+msgid "Number of storefronts"
+msgstr "Αριθμός βιτρινών (καταστημάτων)"
+
+msgctxt "Languages::store_import.store_import"
+msgid "Store import"
+msgstr "Εισαγωγή Καταστήματος"
+
+msgctxt "Languages::store_import.local_store"
+msgid "Store path"
+msgstr "Διαδρομή καταστήματος"
+
+msgctxt "Languages::store_import.select_store"
+msgid "Validate"
+msgstr "Επικύρωση"
+
+msgctxt "Languages::store_import.local_store_tooltip"
+msgid "Enter the full path to the installation root directory of the store you want to import data from. For example '/var/www/examplestore' on UNIX-based systems or 'C:\\examplestore' on Windows"
+msgstr "Πληκτρολογήστε την πλήρη διαδρομή στον ριζικό κατάλογο εγκατάστασης του καταστήματος από το οποίο θέλετε να εισαγάγετε τα δεδομένα. Για παράδειγμα '/ var/www/examplestore' ή 'home/user/public_html' για συστήματα που βασίζονται σε UNIX ή «C:\\examplestore» σε Windows"
+
+msgctxt "Languages::store_import.configure_store"
+msgid "Configure your store"
+msgstr "Ρύθμιση παραμέτρων του καταστήματός σας"
+
+msgctxt "Languages::store_import.finish_store"
+msgid "Finish store import"
+msgstr "Ολοκληρώσετε την εισαγωγή καταστήματος"
+
+msgctxt "Languages::store_import.storefront_url"
+msgid "Storefront URL"
+msgstr "URL Βιτρίνας"
+
+msgctxt "Languages::store_import.secure_storefront_url"
+msgid "Secure storefront URL"
+msgstr "Ασφαλές URL Βιτρίνας"
+
+msgctxt "Languages::store_import.db_host"
+msgid "Database host"
+msgstr "Παροχός Βάσης δεδομένων"
+
+msgctxt "Languages::store_import.db_name"
+msgid "Database name"
+msgstr "Όνομα βάσης δεδομένων"
+
+msgctxt "Languages::store_import.db_user"
+msgid "Database user"
+msgstr "Χρήστης Βάση δεδομένων"
+
+msgctxt "Languages::store_import.table_prefix"
+msgid "Table prefix"
+msgstr "Πρόθεμα πίνακα"
+
+msgctxt "Languages::store_import.fill_form"
+msgid "<p>Check the data below before proceeding to the data import.</p><p><b>Warning!</b> The data import during this step <b>will overwrite everything (including your existing settings, products, design and layouts, etc.)</b><br />Also, all logs and statistics will be removed.</p><p><b>Pay attention</b> that the <b>Affiliate, Statistics, Recurring billing, Product configurator and Gift registry</b> add-ons are no longer supported, so, none of the related data will be imported from your old store to the new installation.</p>"
+msgstr "<p>Ελέγξτε τα δεδομένα πιο κάτω πριν να συνεχίσετε την εισαγωγή δεδομένων.</p><p><b>Προειδοποίηση!</b> Η εισαγωγή δεδομένων κατά τη διάρκεια αυτού του βήματος <b>θα αντικαταστήσει τα πάντα (συμπεριλαμβανομένων των υφιστάμενων ρυθμίσεων, προϊόντων, σχεδιασμου και διατάξεων, κ.λπ.)</b><br /> Επίσης, όλα τα αρχεία καταγραφής και τα στατιστικά στοιχεία θα καταργηθούν.</p><p><b>Δώσετε προσοχή</b> ότι τα πρόσθετα <b>Affiliate, Sτατιστικές, Επαναλαμβανόμενη χρέωση, Διαμορφωτής προϊόντος και Gift registry</b> δεν υποστηρίζονται πλέον, έτσι, κανένα από τα συναφή δεδομένα δε θα εισαχθούν από το παλιό κατάστημα στην νέα εγκατάσταση.</p>"
+
+msgctxt "Languages::store_import.second_step_22x_notice"
+msgid "<p>Note that your original core settings and design will not be transferred, except for add-ons' settings and all custom blocks under \"Products\" location on the Layouts page with <i>Content: Products</i> and <i>Filling: Manually</i>. During the next step you will be able to locate them on the \"Products\" location under the main content block.</p>"
+msgstr "<p>Σημειώστε ότι οι Αρχικές Ρυθμίσεις του πυρήνα και το σχέδιο δεν θα μεταφερθούν, εκτός από τις ρυθμίσεις των πρόσθετων και όλα τα προσαρμοσμένα μπλοκ κάτω από τη θέση \"Προϊόντα\" στη σελίδα διάταξη με <i>περιεχόμενο: προϊόντα</i> και <i>πλήρωση: χειροκίνητα</i>. Κατά το επόμενο βήμα, θα είστε σε θέση να τα εντοπίσετε στην τοποθεσία \"Προϊόντα\" κάτω από το μπλοκ  κυρίως περιεχομένο.</p>"
+
+msgctxt "Languages::store_import.second_step_30x_notice"
+msgid "<p></p>"
+msgstr "<p></p>"
+
+msgctxt "Languages::store_import.text_from"
+msgid "[product_name] [product_version] [product_edition]"
+msgstr "[product_name] [product_version] [product_edition]"
+
+msgctxt "Languages::store_import.from"
+msgid "From:"
+msgstr "Από:"
+
+msgctxt "Languages::store_import.text_to"
+msgid "To: [product_edition] [product_version]"
+msgstr "Προς: [product_edition] [product_version]"
+
+msgctxt "Languages::store_import.edition_mapping_failed"
+msgid "Import from this edition is not supported"
+msgstr "Η Εισαγωγή από αυτή την έκδοση δεν υποστηρίζεται"
+
+msgctxt "Languages::store_import.configuration_test_failed"
+msgid "Configuration test failed"
+msgstr "Η Δοκιμαστική Διαμόρφωση απέτυχε"
+
+msgctxt "Languages::store_import.wrong_table_prefix"
+msgid "Store tables with the specified prefix are missing in the specified database."
+msgstr "Οι πίνακες του καταστήματος με το καθορισμένο πρόθεμα λείπουν στη συγκεκριμένη βάση δεδομένων."
+
+msgctxt "Languages::store_import.path_does_not_exist"
+msgid "The specified directory does not exist. Please check if the path you entered is correct."
+msgstr "Δεν υπάρχει ο καθορισμένος κατάλογος. Ελέγξτε εάν η διαδρομή που δώσατε είναι σωστή."
+
+msgctxt "Languages::store_import.this_is_not_cart_path"
+msgid "The specified directory is not a valid store installation root folder."
+msgstr "Ο καθορισμένος κατάλογος, δεν είναι μια έγκυρη εγκατάσταση ριζικού φακέλου καταστήματος"
+
+msgctxt "Languages::store_import.text_configuration"
+msgid "<p><h4>The data from the old store was successfully imported.</h4><br/>You are now free to leave the Store import tool and customize the settings and design of your store. First of all, do the following:</p>"
+msgstr "<p><h4>Τα δεδομένα από το παλιό κατάστημα εισήχθησαν με επιτυχία .</h4><br/>Τώρα μπορείτε να κλείσετε το εργαλείο εισαγωγής καταστηματος και να προσαρμόσετε τις ρυθμίσεις και το σχεδιασμό του καταστήματος σας. Πρώτα απ ' όλα, κάντε τα εξής:</p>"
+
+msgctxt "Languages::store_import.text_configuration2"
+msgid "<p>When you are ready customizing, you will be able to actualize the data by going to the Store import tool again and proceeding directly to the next step. Unlike the initial store import, data actualization will keep all your settings, layouts, and design.</p><p><strong>Attention!</strong> Data actualization will be impossible if you modify, remove, or add new [storefronts_vendors]. In this case, you will have to re-start the store import from the first step.</p>"
+msgstr "<p>Όταν θα τελειωσετε την προσαρμογή, θα είστε σε θέση να πραγματοποιήσετε ενημέρωση των δεδομενων στην τελευταια τους κατάσταση και πάλι και να προχωρήσετε άμεσα στο επόμενο βήμα. Σε αντίθεση με την αρχική εισαγωγή, η ενημέρωση δεδομενων θα κρατήσει όλες σας ρυθμίσεις, διατάξεις και σχεδίασμο.</p><p><strong>Προσοχή!</strong> η ενημέρωση των δεδομενων θα είναι αδύνατηο, αν τροποποιήσετε, καταργήσετε ή προσθέσετε νέα [storefronts_vendors]. Στην περίπτωση αυτή, θα πρέπει να ξεκινήσει εκ νέου την εισαγωγή καταστηματος από το πρώτο βήμα.</p>"
+
+msgctxt "Languages::store_import.424_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.423_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομέα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.422_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.421_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.415_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.414_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.413_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.412_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.411_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.401_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.402_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.403_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.306_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.305_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.304_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.303_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.302_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.301_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.224_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for a Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τμήμα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίστε το σωστό <b>URL βιτρίνας</b> για καθε εταιρεία.</li><li>Μεταβείτε στο τμήμα γλώσσες <a href=\"[manage_languages_link]\"> γλώσσες</a> και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Οι ρυθμίσεις σας τέθηκαν στην προεπιλογή.</li><li>Οι ρυθμίσεις εταιρείας τέθηκαν στην προεπιλογη.</li><li>Το σχέδιό σας (θέμα, στυλ και διάταξη) τεθηκαν στην προεπιλεγμένη ρύθμιση.</li><li>Όλα τα προσαρμοσμένα μπλοκ κάτω από την τοποθεσία \"Προϊόντα\" του διαχειριστή των μπλοκ με <i>περιεχόμενο: προϊόντα</i> και <i>πλήρωση: χειροκίνητα</i> τοποθετήθηκαν στη θέση \"Προϊόντα\" κάτω από το μπλοκ κυριως περιεχόμενο.</li><li>Δεν μεταφέρθηκαν όλες οι προσαρμοσμένες καρτέλες προϊόντων (εκτός από τις καρτέλες προϊόντος που προστέθηκε από πρόσθετα).</li><li>Οι Καρτέλες \"Περιγραφή\", \"Λειτουργίες\" και \"Αρχεία\" προστέθηκαν στην ενότητα «Καρτέλες προϊόντος».</li><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.225_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for a Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τμήμα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίστε το σωστό <b>URL βιτρίνας</b> για καθε εταιρεία.</li><li>Μεταβείτε στο τμήμα γλώσσες <a href=\"[manage_languages_link]\"> γλώσσες</a> και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Οι ρυθμίσεις σας τέθηκαν στην προεπιλογή.</li><li>Οι ρυθμίσεις εταιρείας τέθηκαν στην προεπιλογη.</li><li>Το σχέδιό σας (θέμα, στυλ και διάταξη) τεθηκαν στην προεπιλεγμένη ρύθμιση.</li><li>Όλα τα προσαρμοσμένα μπλοκ κάτω από την τοποθεσία \"Προϊόντα\" του διαχειριστή των μπλοκ με <i>περιεχόμενο: προϊόντα</i> και <i>πλήρωση: χειροκίνητα</i> τοποθετήθηκαν στη θέση \"Προϊόντα\" κάτω από το μπλοκ κυριως περιεχόμενο.</li><li>Δεν μεταφέρθηκαν όλες οι προσαρμοσμένες καρτέλες προϊόντων (εκτός από τις καρτέλες προϊόντος που προστέθηκε από πρόσθετα).</li><li>Οι Καρτέλες \"Περιγραφή\", \"Λειτουργίες\" και \"Αρχεία\" προστέθηκαν στην ενότητα «Καρτέλες προϊόντος».</li><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.301_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.302_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.303_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.304_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.305_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.306_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τομεα <a href=\"[stores_section_link]\"> καταστήματα</a> και ορίσετε το σωστό <b>URL βιτρίνας</b> για κάθε εταιρεία.</li><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.401_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.402_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.403_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.411_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.412_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.413_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.414_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.415_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.421_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.422_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.423_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.424_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.306_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.305_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.304_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.303_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.302_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή <b>χώρα</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στο προεπιλεγμενο.</li></ul>"
+
+msgctxt "Languages::store_import.301_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Πηγαίνετε στις <a href=\"[manage_languages_link]\"> γλώσσες</a> γλώσσες και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.225_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τμήμα γλώσσες <a href=\"[manage_languages_link]\"> γλώσσες</a> και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Οι ρυθμίσεις σας τέθηκαν στην προεπιλογή.</li><li>Οι ρυθμίσεις εταιρείας τέθηκαν στην προεπιλογη.</li><li>Το σχέδιό σας (θέμα, στυλ και διάταξη) τεθηκαν στην προεπιλεγμένη ρύθμιση.</li><li>Όλα τα προσαρμοσμένα μπλοκ κάτω από την τοποθεσία \"Προϊόντα\" του διαχειριστή των μπλοκ με <i>περιεχόμενο: προϊόντα</i> και <i>πλήρωση: χειροκίνητα</i> τοποθετήθηκαν στη θέση \"Προϊόντα\" κάτω από το μπλοκ κυριως περιεχόμενο.</li><li>Δεν μεταφέρθηκαν όλες οι προσαρμοσμένες καρτέλες προϊόντων (εκτός από τις καρτέλες προϊόντος που προστέθηκε από πρόσθετα).</li><li>Οι Καρτέλες \"Περιγραφή\", \"Λειτουργίες\" και \"Αρχεία\" προστέθηκαν στην ενότητα «Καρτέλες προϊόντος».</li><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.224_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Μεταβείτε στο τμήμα γλώσσες <a href=\"[manage_languages_link]\"> γλώσσες</a> και ορίστε τη σωστή τιμή της <b>χώρας</b> για κάθε γλώσσα.</li></ul><p>Παρακαλούμε να δώσετε προσοχή στο εξής:</p><ul><li>Οι ρυθμίσεις σας τέθηκαν στην προεπιλογή.</li><li>Οι ρυθμίσεις εταιρείας τέθηκαν στην προεπιλογη.</li><li>Το σχέδιό σας (θέμα, στυλ και διάταξη) τεθηκαν στην προεπιλεγμένη ρύθμιση.</li><li>Όλα τα προσαρμοσμένα μπλοκ κάτω από την τοποθεσία \"Προϊόντα\" του διαχειριστή των μπλοκ με <i>περιεχόμενο: προϊόντα</i> και <i>πλήρωση: χειροκίνητα</i> τοποθετήθηκαν στη θέση \"Προϊόντα\" κάτω από το μπλοκ κυριως περιεχόμενο.</li><li>Δεν μεταφέρθηκαν όλες οι προσαρμοσμένες καρτέλες προϊόντων (εκτός από τις καρτέλες προϊόντος που προστέθηκε από πρόσθετα).</li><li>Οι Καρτέλες \"Περιγραφή\", \"Λειτουργίες\" και \"Αρχεία\" προστέθηκαν στην ενότητα «Καρτέλες προϊόντος».</li><li>Το <b>γρήγορο μενού</b> ορίστηκε στην προεπιλογή.</li></ul>"
+
+msgctxt "Languages::store_import.progress_title"
+msgid "Upgrading to [to]"
+msgstr "Αναβάθμιση σε [to]"
+
+msgctxt "Languages::store_import.updating_data"
+msgid "Updating data"
+msgstr "Ενημέρωση δεδομένων"
+
+msgctxt "Languages::store_import.converting_orders"
+msgid "Converting orders"
+msgstr "Μετατροπή παραγγελιων"
+
+msgctxt "Languages::store_import.import_failed"
+msgid "Store import failed"
+msgstr "Η Εισαγωγή Καταστηματος  απέτυχε"
+
+msgctxt "Languages::store_import.cloning_database"
+msgid "Cloning database"
+msgstr "Κλωνοποίηση βάσης δεδομένων"
+
+msgctxt "Languages::store_import.updating_languages"
+msgid "Updating languages"
+msgstr "Ενημέρωση γλώσσων"
+
+msgctxt "Languages::store_import.done"
+msgid "Done"
+msgstr "Έγινε"
+
+msgctxt "Languages::store_import.class_not_found"
+msgid "Import from this version is not supported"
+msgstr "Εισαγωγή από αυτή την έκδοση δεν υποστηρίζεται"
+
+msgctxt "Languages::store_import.processing_addons"
+msgid "Updating add-ons"
+msgstr "Ενημέρωση πρόσθετων"
+
+msgctxt "Languages::store_import.actualization_completed"
+msgid "Actualization completed"
+msgstr "Η Ενημέρωση ολοκληρώθηκε"
+
+msgctxt "Languages::store_import.actualization_failed"
+msgid "Actualization failed"
+msgstr "Η Ενημέρωση απέτυχε"
+
+msgctxt "Languages::store_import.invalid_license"
+msgid "Sorry, the data import is impossible: no valid upgrade subscription found (read more about the <a title=\"Store Import: License Requirements\" target=\"_blank\" href=\"http://kb.cs-cart.com/store-import#license-requirements\">license requirements</a> for a store import).<br /><br />Contact us at <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a> if you have any questions."
+msgstr "Συγνώμη, Η  εισαγωγή δεδομένων είναι αδύνατη: δε βρέθηκε καμία έγκυρη συνδρομή αναβάθμισης (Διαβάστε περισσότερα σχετικά με τις <a title=\"Store Import: License Requirements\" target=\"_blank\" href=\"http://kb.cs-cart.com/store-import#license-requirements\"> απαιτήσεις των αδειών</a> για την εισαγωγή καταστηματος). <br /> <br /> επικοινωνήστε μαζί μας στο <a href=\"mailto:sales@cs-cart.com\"> sales@cs-cart.com</a>, αν έχετε οποιεσδήποτε απορίες.<br />"
+
+msgctxt "Languages::store_import.cant_connect_to_imported"
+msgid "Store import has been canceled to prevent the loss of data. Could not connect to the imported database. Please contact tech support."
+msgstr "Η Εισαγωγή Καταστήματος ακυρώθηκε για να αποτρέψει την απώλεια δεδομένων. Δεν είναι δυνατή η σύνδεση με τη βάση δεδομένων για εισαγωγή. Επικοινωνήστε με το τμήμα υποστήριξης."
+
+msgctxt "Languages::store_import.cant_connect_to_original"
+msgid "Store import has been canceled to prevent the loss of data. Could not connect to the original database. Please contact tech support."
+msgstr "Η Εισαγωγή Καταστήματος ακυρώθηκε για να αποτρέψει την απώλεια δεδομένων. Δεν είναι δυνατή η σύνδεση με τη αρχική  βάση δεδομένων. Επικοινωνήστε με το τμήμα υποστήριξης."
+
+msgctxt "SettingsSections::store_import::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::store_import::si_data"
+msgid "Store import data"
+msgstr "Εισαγωγή δεδομένων Καταστήματος"
+
+msgctxt "Languages::store_import.design_changes_not_allowed"
+msgid "Store import is impossible after LESS-to-CSS conversion in the Visual Editor. Please enable LESS in the editor to proceed."
+msgstr "Η  εισαγωγή Κατάστηματος είναι αδύνατη μετά από τη μετατροπή  LESS σε CSS  στο πρόγραμμα επεξεργασίας του οπτικού Επεξεργαστή. Παρακαλώ ενεργοποιήστε το LESS στον επεξεργαστή για να προχωρήσετε."
+

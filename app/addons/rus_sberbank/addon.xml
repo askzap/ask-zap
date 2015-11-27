@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="VENDOR">
+    <id>rus_sberbank</id>
+    
+    <version>1.0</version>
+    <priority>7100</priority>
+    <position>710</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <status>active</status>
+
+    <compatibility>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+    </compatibility>
+
+    <functions>
+        <item for="install">fn_rus_sberbank_install</item>
+        <item for="uninstall">fn_rus_sberbank_uninstall</item>
+    </functions>
+</addon>

@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Bulgarian\n"
+"Language: bg_BG\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: bg\n"
+"X-Crowdin-File: /addons/suppliers.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-06-29 06:03-0400\n"
+
+msgctxt "Addons::name::suppliers"
+msgid "Suppliers"
+msgstr "Suppliers"
+
+msgctxt "Addons::description::suppliers"
+msgid "Adds supplier assignment support to products"
+msgstr "Adds supplier assignment support to products"
+
+msgctxt "Languages::search_by_supplier"
+msgid "Search by supplier"
+msgstr "Търсене по страна на доставчика"
+
+msgctxt "Languages::notify_supplier"
+msgid "Notify supplier"
+msgstr "Уведоми доставчик"
+
+msgctxt "Languages::view_supplier_products"
+msgid "View supplier products"
+msgstr "Преглед на доставчик на продукти"
+
+msgctxt "Languages::supplier"
+msgid "Supplier"
+msgstr "Supplier"
+
+msgctxt "Languages::supplier_email_header"
+msgid "The following products have been purchased in our store and need to be shipped."
+msgstr "Следните продукти са били закупени в магазина и трябва да бъдат транспортирани."
+
+msgctxt "Languages::suppliers_menu_description"
+msgid "List of supplier accounts registered in the store."
+msgstr "Сортиран списък доставчици регистрирани в магазина."
+
+msgctxt "Languages::dear_sirs"
+msgid "Dear Sirs"
+msgstr "Уважаеми господа"
+
+msgctxt "Languages::add_supplier"
+msgid "Add supplier"
+msgstr "Добави доставчик"
+
+msgctxt "Languages::available_for_supplier"
+msgid "Available for supplier"
+msgstr "Наличен за доставчик"
+
+msgctxt "Languages::editing_supplier"
+msgid "Editing supplier"
+msgstr "Редактиране на доставчик"
+
+msgctxt "Languages::supplier_deleted"
+msgid "Supplier has been deleted successfully."
+msgstr "Supplier has been deleted successfully."
+
+msgctxt "Languages::privileges.manage_suppliers"
+msgid "Manage suppliers"
+msgstr "Manage suppliers"
+
+msgctxt "SettingsSections::suppliers::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::suppliers::display_supplier"
+msgid "Display product supplier company"
+msgstr "Display product supplier company"
+
+msgctxt "SettingsOptions::suppliers::display_shipping_methods_separately"
+msgid "Display shipping methods to each supplier separately"
+msgstr "Display shipping methods to each supplier separately"
+

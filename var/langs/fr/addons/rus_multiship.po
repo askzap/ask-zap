@@ -1,0 +1,141 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+
+msgctxt "Addons::name::rus_multiship"
+msgid "Russian localization — Multiship"
+msgstr "Russian localization — Multiship"
+
+msgctxt "Languages::multiship"
+msgid "Multiship"
+msgstr "Multiship"
+
+msgctxt "Languages::shippings.multiship"
+msgid "Multiship"
+msgstr "Multiship"
+
+msgctxt "Languages::multiship_service_delivery"
+msgid "Delivery service"
+msgstr "Delivery service"
+
+msgctxt "Languages::multiship_pickup"
+msgid "Pickup"
+msgstr "Pickup"
+
+msgctxt "Languages::multiship_service_delivery_todoor"
+msgid "Delivery service to door"
+msgstr "Delivery service to door"
+
+msgctxt "Languages::ship_multiship_length"
+msgid "Length package"
+msgstr "Length package"
+
+msgctxt "Languages::ship_multiship_width"
+msgid "Width package"
+msgstr "Width package"
+
+msgctxt "Languages::ship_multiship_height"
+msgid "Height package"
+msgstr "Height package"
+
+msgctxt "Languages::multiship_pay_accepted"
+msgid "Available"
+msgstr "Available"
+
+msgctxt "Languages::multiship_cash"
+msgid "cash"
+msgstr "cash"
+
+msgctxt "Languages::multiship_credit_card"
+msgid "credit card"
+msgstr "credit card"
+
+msgctxt "Languages::multiship_todoor"
+msgid "To door"
+msgstr "To door"
+
+msgctxt "Languages::multiship_pickuppoint"
+msgid "Pickup point"
+msgstr "Pickup point"
+
+msgctxt "Languages::multiship_days"
+msgid "days"
+msgstr "days"
+
+msgctxt "Languages::multiship_deliver_orient_day"
+msgid "deliver orient day"
+msgstr "deliver orient day"
+
+msgctxt "Languages::multiship_instruction"
+msgid "Instruction"
+msgstr "Instruction"
+
+msgctxt "Languages::multiship_weekend"
+msgid "Weekend"
+msgstr "Weekend"
+
+msgctxt "Languages::multiship_all_day"
+msgid "Day and night"
+msgstr "Day and night"
+
+msgctxt "Languages::multiship_every_day"
+msgid "Daily"
+msgstr "Daily"
+
+msgctxt "Languages::multiship_metro"
+msgid "Metro"
+msgstr "Metro"
+
+msgctxt "Languages::weekday_abr_7"
+msgid "Sun"
+msgstr "Sun"
+
+msgctxt "Languages::rus_multiship.confirm"
+msgid "Confirm"
+msgstr "Confirm"
+
+msgctxt "Languages::carrier_multiship"
+msgid "Multiship"
+msgstr "Multiship"
+
+msgctxt "Languages::multiship_delivery_time"
+msgid "Delivery time"
+msgstr "Delivery time"
+
+msgctxt "Languages::multiship_work_time"
+msgid "Work time"
+msgstr "Work time"
+
+msgctxt "SettingsSections::rus_multiship::general"
+msgid "Settings"
+msgstr "Settings"
+
+msgctxt "SettingsOptions::rus_multiship::client_id"
+msgid "Multiship ID"
+msgstr "Multiship ID"
+
+msgctxt "SettingsOptions::rus_multiship::sid"
+msgid "SID of the cart widget"
+msgstr "SID of the cart widget"
+
+msgctxt "SettingsOptions::rus_multiship::widget_key"
+msgid "Cart widget key"
+msgstr "Cart widget key"
+
+msgctxt "SettingsOptions::rus_multiship::key_search_delivery_list"
+msgid "API key of searchDeliveryList"
+msgstr "API key of searchDeliveryList"
+
+msgctxt "SettingsOptions::rus_multiship::key_create_order"
+msgid "API key of createOrder"
+msgstr "API key of createOrder"
+
+msgctxt "SettingsOptions::rus_multiship::key_get_sender_order_status"
+msgid "API key of getSenderOrderStatus"
+msgstr "API key of getSenderOrderStatus"
+
+msgctxt "SettingsOptions::rus_multiship::write_logs"
+msgid "Write log requests"
+msgstr "Write log requests"

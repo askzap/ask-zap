@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /addons/vendor_data_premoderation.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-06 06:04-0400\n"
+
+msgctxt "Addons::name::vendor_data_premoderation"
+msgid "Vendor data premoderation"
+msgstr "Satıcı verisi ön moderasyonu"
+
+msgctxt "Addons::description::vendor_data_premoderation"
+msgid "Lets you pre-moderate vendors activity"
+msgstr "Satıcı etkinliğinin ön moderasyonunu yapmanıza izin verir"
+
+msgctxt "Languages::product_approval_menu_description"
+msgid "Manage individual products or group of products supplied by the store vendors."
+msgstr "Mağaza satıcıları tarafından tedarik edilen tek ürünleri veya ürün gruplarını yönetin."
+
+msgctxt "Languages::vendor_data_premoderation"
+msgid "Vendor data premoderation"
+msgstr "Satıcı verisi ön moderasyonu"
+
+msgctxt "Languages::product_approval"
+msgid "Product approval"
+msgstr "Ürün onayı"
+
+msgctxt "Languages::notify_vendor_by_email"
+msgid "Notify vendor by e-mail"
+msgstr "Satıcıya e-postayla bildirimde bulun"
+
+msgctxt "Languages::product_approval_status_approved"
+msgid "Your product [product] has been approved by the store administration and added to the product catalog. Now shoppers can order this product in the store."
+msgstr "Ürününüz [product] mağaza yönetimi tarafından onaylanmış ve ürün kataloğuna eklenmiştir. Müşteriler artık bu ürünü mağazadan sipariş edebileceklerdir."
+
+msgctxt "Languages::product_approval_status_disapproved"
+msgid "Your product [product] has been disapproved by the store administration"
+msgstr "Ürünününz [product] mağaza yönetimi tarafından kabul edilmemiştir"
+
+msgctxt "Languages::products_approval_status_approved"
+msgid "Thank you for submitting new products. The following products have been approved by the store administration and added to the product catalog"
+msgstr "Yeni ürünler sunduğunuz için teşekkür ederiz. Aşağıdaki ürünler mağaza yönetimi tarafından onaylanmış ve ürün kataloğuna eklenmiştir"
+
+msgctxt "Languages::text_shoppers_can_order_products"
+msgid "Now shoppers can order these products in the store."
+msgstr "Müşteriler artık bu ürünleri mağazadan sipariş edebilirler."
+
+msgctxt "Languages::products_approval_status_disapproved"
+msgid "Thank you for submitting new products. The following products have been disapproved by the store administration"
+msgstr "Yeni ürünler sunduğunuz için teşekkür ederiz. Aşağıdaki ürünler mağaza yönetimi tarafından kabul edilmemiştir"
+
+msgctxt "Languages::approve_selected"
+msgid "Approve selected"
+msgstr "Seçileni onayla"
+
+msgctxt "Languages::disapprove_selected"
+msgid "Disapprove selected"
+msgstr "Seçileni kabul etme"
+
+msgctxt "Languages::pre_moderation"
+msgid "Products require prior approval"
+msgstr "Önceden onay gerektiren ürünler"
+
+msgctxt "Languages::pre_moderation_edit"
+msgid "Approve product info updates"
+msgstr "Ürün bilgisi güncelleştirmelerini onayla"
+
+msgctxt "Languages::pre_moderation_edit_vendors"
+msgid "Approve vendor profile updates"
+msgstr "Satıcı profili güncelleştirmelerini onayla"
+
+msgctxt "Languages::text_not_approved_products"
+msgid "You have products that require your approval. Please <a href=\"[link]\">follow this link</a> to review these products."
+msgstr "Sizin onayınızı gerektiren ürünleriniz bulunuyor. Lütfen <a href=\"[link]\">bu linki takip edin</a> ve bu ürünleri inceleyin."
+
+msgctxt "Languages::products_approval_status_changed"
+msgid "Your product(s) have been [status]"
+msgstr "Ürünlerinizin durumu [status]"
+
+msgctxt "Languages::approval"
+msgid "Approval"
+msgstr "Onay"
+
+msgctxt "Languages::text_vendor_profile_changes_notice"
+msgid "Are you sure that you want to update the profile? Information about your company will not be available in the customer area until the administrator approves it."
+msgstr "Profili güncelleştirmek istediğinizden emin misiniz? Yönetici onayı alana kadar firmanızla ilgili bilgiler müşteri alanında yer almayacaktır."
+
+msgctxt "Languages::privileges.manage_product_premoderation"
+msgid "Approve vendor products"
+msgstr "Satıcı ürünlerini onayla"
+
+msgctxt "SettingsSections::vendor_data_premoderation::general"
+msgid "General"
+msgstr "Genel"
+
+msgctxt "SettingsOptions::vendor_data_premoderation::products_prior_approval"
+msgid "Approval is required for newly created products"
+msgstr "Yeni oluşturulan ürünler için onay gereklidir"
+
+msgctxt "SettingsOptions::vendor_data_premoderation::products_updates_approval"
+msgid "Approve product info updates"
+msgstr "Ürün bilgisi güncelleştirmelerini onayla"
+
+msgctxt "SettingsOptions::vendor_data_premoderation::vendor_profile_updates_approval"
+msgid "Approve vendor profile updates"
+msgstr "Satıcı profili güncelleştirmelerini onayla"
+
+msgctxt "SettingsTooltips::vendor_data_premoderation::products_prior_approval"
+msgid "\"None\" - this option is disabled for all vendors; \"Custom\" - the option is enabled on a vendor details page (the Add-ons tab); \"All vendors\" - the option is enabled for all vendors."
+msgstr "\"Hiçbiri\" - bu seçenek tüm satıcılar için iptal edilmiştir; \"Özel\" - bu seçenek bir satıcı ayrıntıları sayfasında etkinleştirilmiştir. (Eklentiler sekmesi); \"Tüm Satıcılar\" - seçenek tüm satıcılar için etkinleştirilmiştir."
+
+msgctxt "SettingsTooltips::vendor_data_premoderation::products_updates_approval"
+msgid "\"None\" - this option is disabled for all vendors; \"Custom\" - the option is enabled on a vendor details page (the Add-ons tab); \"All vendors\" - the option is enabled for all vendors."
+msgstr "\"Hiçbiri\" - bu seçenek tüm satıcılar için iptal edilmiştir; \"Özel\" - bu seçenek bir satıcı ayrıntıları sayfasında etkinleştirilmiştir. (Eklentiler sekmesi); \"Tüm Satıcılar\" - seçenek tüm satıcılar için etkinleştirilmiştir."
+
+msgctxt "SettingsTooltips::vendor_data_premoderation::vendor_profile_updates_approval"
+msgid "\"None\" - this option is disabled for all vendors; \"Custom\" - the option is enabled on a vendor details page (the Add-ons tab); \"All vendors\" - the option is enabled for all vendors."
+msgstr "\"Hiçbiri\" - bu seçenek tüm satıcılar için iptal edilmiştir; \"Özel\" - bu seçenek bir satıcı ayrıntıları sayfasında etkinleştirilmiştir. (Eklentiler sekmesi); \"Tüm Satıcılar\" - seçenek tüm satıcılar için etkinleştirilmiştir."
+
+msgctxt "SettingsVariants::vendor_data_premoderation::vendor_profile_updates_approval::none"
+msgid "None"
+msgstr "Hiçbiri"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::vendor_profile_updates_approval::custom"
+msgid "Custom"
+msgstr "Özel"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::vendor_profile_updates_approval::all"
+msgid "All vendors"
+msgstr "Tüm satıcılar"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_prior_approval::none"
+msgid "None"
+msgstr "Hiçbiri"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_prior_approval::custom"
+msgid "Custom"
+msgstr "Özel"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_prior_approval::all"
+msgid "All vendors"
+msgstr "Tüm satıcılar"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_updates_approval::none"
+msgid "None"
+msgstr "Hiçbiri"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_updates_approval::custom"
+msgid "Custom"
+msgstr "Özel"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_updates_approval::all"
+msgid "All vendors"
+msgstr "Tüm satıcılar"
+

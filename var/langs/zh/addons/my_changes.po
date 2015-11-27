@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /addons/my_changes.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-06-12 16:04-0400\n"
+
+msgctxt "Addons::name::my_changes"
+msgid "My changes"
+msgstr "我的修改"
+
+msgctxt "Addons::description::my_changes"
+msgid "A dummy add-on for easier hook design editing"
+msgstr "以方便设计编辑的钩子插件"
+

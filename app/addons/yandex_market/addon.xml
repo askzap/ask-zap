@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>yandex_market</id>
+    <version>1.0</version>
+    <priority>2300</priority>
+    <position>120</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="price_list" edition_type="ROOT,ULT:VENDOR">
+                <items>
+                    <item id="information">
+                        <type>header</type>
+                    </item>
+                    <item id="clear_url">
+                        <type>info</type>
+                        <handler>fn_yandex_market_clear_url_info</handler>
+                    </item>
+                    <item id="general">
+                        <type>header</type>
+                    </item>
+                    <item id="enable_authorization">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="export_type">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="simple" />
+                            <item id="vendor_model" />
+                        </variants>
+                        <default_value>simple</default_value>
+                    </item>
+                    <item id="shop_name">
+                        <type>input</type>
+                    </item>
+                    <item id="export_stock">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="export_null_price">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="export_vendor_code">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="disable_cat_d">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="feature_for_brand">
+                        <type>multiple checkboxes</type>
+                    </item>
+                    <item id="feature_for_vendor_code">
+                        <type>selectbox</type>
+                    </item>
+                    <item id="type_prefix">
+                        <type>checkbox</type>                        
+                    </item> 
+                    <item id="market_category">
+                        <type>checkbox</type>
+                    </item>
+                    <item id="market_category_object">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="product" />
+                            <item id="category" />
+                        </variants>
+                        <default_value>product</default_value>
+                    </item>
+                    <item id="local_delivery_cost">
+                        <type>checkbox</type>                        
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="global_local_delivery_cost">
+                        <type>input</type>
+                        <default_value>0</default_value>
+                    </item>
+                    <item id="export_encoding">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="utf-8" />
+                            <item id="windows-1251" />
+                        </variants>
+                        <default_value>utf-8</default_value>
+                    </item>
+                    <item id="includes_required_fields">
+                        <type>checkbox</type>                        
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="images">
+                        <type>header</type>
+                    </item>
+                    <item id="image_type">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="thumbnail" />
+                            <item id="detailed" />
+                        </variants>
+                        <default_value>thumbnail</default_value>
+                    </item>
+                    <item id="thumbnail_width">
+                        <type>input</type>
+                        <default_value>280</default_value>
+                    </item>
+                    <item id="thumbnail_height">
+                        <type>input</type>
+                        <default_value>280</default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="purchase" edition_type="ROOT,ULT:VENDOR">
+                <items>
+                    <item id="purchase_information">
+                        <type>header</type>
+                    </item>
+                    <item id="purchase_info">
+                        <type>info</type>
+                        <handler>fn_yandex_market_purchase_get_info</handler>
+                    </item>
+                    <item id="purchase_api_access_to_store">
+                        <type>header</type>
+                    </item>
+                    <item id="auth_token">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+
+                    <item id="purchase_api_access_to_yandex">
+                        <type>header</type>
+                    </item>
+                    <item id="ym_api_url">
+                        <type>input</type>
+                        <default_value>https://api.partner.market.yandex.ru/v2/</default_value>
+                    </item>
+                    <item id="campaign_id">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="user_login">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="ym_application_id">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="ym_application_password">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="ym_auth_token">
+                        <type>hidden</type>
+                        <default_value/>
+                    </item>
+                    <item id="ym_oauth_info">
+                        <type>info</type>
+                        <handler>fn_yandex_market_oauth_info</handler>
+                    </item>
+
+                    <item id="purchase_payments_header">
+                        <type>header</type>
+                    </item>
+                    <item id="purchase_prepayments">
+                        <type>multiple checkboxes</type>
+                        <variants>
+                            <item id="yandex" />
+                            <item id="shop_prepaid" />
+                        </variants>
+                    </item>
+                    <item id="purchase_postpayments">
+                        <type>multiple checkboxes</type>
+                        <variants>
+                            <item id="cash_on_delivery" />
+                            <item id="card_on_delivery" />
+                        </variants>
+                    </item>
+
+                    <item id="purchase_order_statuses">
+                        <type>header</type>
+                    </item>
+                    <item id="order_status_unpaid">
+                        <type>selectbox</type>
+                        <default_value>O</default_value>
+                    </item>
+                    <item id="order_status_processing">
+                        <type>selectbox</type>
+                        <default_value>P</default_value>
+                    </item>
+                    <item id="order_status_canceled">
+                        <type>selectbox</type>
+                        <default_value>I</default_value>
+                    </item>
+                    <item id="order_status_delivery">
+                        <type>selectbox</type>
+                        <default_value>C</default_value>
+                    </item>
+                    <item id="order_status_pickup">
+                        <type>selectbox</type>
+                        <default_value>X</default_value>
+                    </item>
+                    <item id="order_status_delivered">
+                        <type>selectbox</type>
+                        <default_value>W</default_value>
+                    </item>
+
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <queries>
+        <item for="install">
+            ALTER TABLE `?:products`
+                ADD `yml_brand` VARCHAR(96) NOT NULL,
+                ADD `yml_origin_country` VARCHAR(64) NOT NULL,
+                ADD `yml_store` CHAR(1) NOT NULL DEFAULT 'N',
+                ADD `yml_pickup` CHAR(1) NOT NULL DEFAULT 'N',
+                ADD `yml_delivery` CHAR(1) NOT NULL DEFAULT 'Y',
+                ADD `yml_adult` CHAR(1) NOT NULL DEFAULT 'N',
+                ADD `yml_cost` decimal(12,2) NOT NULL DEFAULT '0.00',
+                ADD `yml_export_yes` CHAR(1) NOT NULL DEFAULT 'Y',
+                ADD `yml_bid` int(11) NOT NULL DEFAULT '0',
+                ADD `yml_cbid` int(11) NOT NULL DEFAULT '0',
+                ADD `yml_model` VARCHAR(96) NOT NULL ,
+                ADD `yml_sales_notes` VARCHAR(50) NOT NULL,
+                ADD `yml_type_prefix` VARCHAR(55) NOT NULL,
+                ADD `yml_market_category` VARCHAR(255) NOT NULL,
+                ADD `yml_manufacturer_warranty` VARCHAR(20) NOT NULL,
+                ADD `yml_seller_warranty` VARCHAR(20) NOT NULL;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:products`
+                DROP `yml_brand`,
+                DROP `yml_origin_country`,
+                DROP `yml_store`,
+                DROP `yml_pickup`,
+                DROP `yml_delivery`,
+                DROP `yml_adult`,
+                DROP `yml_cost`,
+                DROP `yml_export_yes`,
+                DROP `yml_bid`,
+                DROP `yml_cbid`,
+                DROP `yml_model`,
+                DROP `yml_sales_notes`,
+                DROP `yml_type_prefix`,
+                DROP `yml_market_category`,
+                DROP `yml_manufacturer_warranty`,
+                DROP `yml_seller_warranty`;
+        </item>
+        
+        <item for="install">
+            ALTER TABLE `?:categories`
+                ADD `yml_market_category` VARCHAR(255) NOT NULL,
+                ADD `yml_disable_cat` CHAR(1) NOT NULL DEFAULT 'N';
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:categories`
+                DROP `yml_market_category`,
+                DROP `yml_disable_cat`;
+        </item>
+
+        <item for="install">
+            ALTER TABLE `?:shippings`
+                ADD `yml_shipping_type` varchar(16) NOT NULL DEFAULT '',
+                ADD `yml_outlet_ids` text NOT NULL;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:shippings`
+                DROP `yml_shipping_type`,
+                DROP `yml_outlet_ids`;
+        </item>
+
+        <item for="install">
+            ALTER TABLE `?:orders`
+                ADD `yml_order_id` int(11) unsigned NOT NULL DEFAULT 0;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:orders`
+                DROP `yml_order_id`;
+        </item>
+
+    </queries>
+
+    <functions>
+        <item for="install">fn_yandex_market_addon_install</item>
+    </functions>
+
+</addon>

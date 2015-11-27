@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_sdek</id>
+    <version>4.2.2</version>
+    <update_server>https://updates.cs-cart.ru/api/update_addons</update_server>
+    <priority>4700</priority>
+    <status>active</status>
+    <default_language>en</default_language>
+
+    <queries>
+        <item for="install" type="file">database/sdek_cities.sql</item>
+        <item for="install" type="file">database/sdek_register.sql</item>
+        <item for="install" type="file">database/sdek_products.sql</item>
+        <item for="install" type="file">database/sdek_status.sql</item>
+    </queries>
+    <functions>
+        <item for="install">fn_rus_sdek_install</item>
+        <item for="uninstall">fn_rus_sdek_uninstall</item>
+    </functions>
+</addon>

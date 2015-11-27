@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Bulgarian\n"
+"Language: bg_BG\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: bg\n"
+"X-Crowdin-File: /addons/bestsellers.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-06-29 06:03-0400\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & On-Sale Products"
+msgstr "Бестселъри и продукти на продажба"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "Събира данни за най-продаваните и продуктите на разпродажба и добавя блоково запълване за да покаже такива продукти"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "Сортирай по бестселъра: ниска към висока"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "Сортиране по най-продаваните"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "Сортирай по отстъпка: ниска към висока"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "Сортирай по отстъпка: висока към ниска"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "Брой продажби"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "Най-продаван"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "На разпродажба"
+
+msgctxt "Languages::similar"
+msgid "Similar"
+msgstr "Подобни"
+
+msgctxt "Languages::percent_range"
+msgid "Price range (in % of the main product's price)"
+msgstr "Ценови диапазон (% от основната цена на продукт)"
+
+msgctxt "Languages::similar_category"
+msgid "Of the same category"
+msgstr "От същата категория"
+
+msgctxt "Languages::similar_subcats"
+msgid "Consider subcategories"
+msgstr "Помислете за подкатегории"
+
+msgctxt "Languages::similar_in_stock"
+msgid "Only \"in stock\" products"
+msgstr "Само \"на склад\" продукти"
+
+msgctxt "Languages::final_sale"
+msgid "Final sale"
+msgstr "Финална разпродажба"
+
+msgctxt "SettingsSections::bestsellers::general"
+msgid "General"
+msgstr "Общи"
+
+msgctxt "SettingsSections::bestsellers::newest"
+msgid "Newest"
+msgstr "Най-новите"
+
+msgctxt "SettingsOptions::bestsellers::final_sale_from"
+msgid "Minimum final sale discount (%)"
+msgstr "Минимална последна отстъпка (%)"
+
+msgctxt "SettingsOptions::bestsellers::sales_amount_from"
+msgid "Minimum sales amount to define bestsellers"
+msgstr "Минимална сума на продажбите за дефинираните бестселъри"
+
+msgctxt "SettingsOptions::bestsellers::period"
+msgid "Period"
+msgstr "Период"
+
+msgctxt "SettingsOptions::bestsellers::last_days"
+msgid "Last days"
+msgstr "Последните дни"
+
+msgctxt "SettingsVariants::bestsellers::period::all"
+msgid "All days"
+msgstr "Всички дни"
+
+msgctxt "SettingsVariants::bestsellers::period::today"
+msgid "Today"
+msgstr "Днес"
+
+msgctxt "SettingsVariants::bestsellers::period::last_days"
+msgid "Last days"
+msgstr "Последните дни"
+

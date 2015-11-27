@@ -1,0 +1,24 @@
+.checkout-select-office {
+	padding-left: 30px;
+}
+
+.office-radio {
+	float: left;
+}
+
+.one-office {
+	padding: 10px 0 15px 0;
+}
+
+.office__label{
+	margin: -13px 0 0 30px;
+}
+
+.one-office__name {
+	font-weight: bold;
+}
+
+.office-label__h5{
+	font-size: 110%;
+	padding-bottom: 3px;
+}

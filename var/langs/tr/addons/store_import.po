@@ -1,0 +1,442 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /addons/store_import.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-06 06:04-0400\n"
+
+msgctxt "Addons::name::store_import"
+msgid "Store Import"
+msgstr "Mağaza İçe Aktarım"
+
+msgctxt "Addons::description::store_import"
+msgid "Lets you import data from any existing version of CS-Cart from 2.2.4 (except for Community edition) into the current version."
+msgstr "CS_Cart'ın var olan herhangi bir sürümünden 2.2.4'ten (Topluluk sürümü hariç) var olan sürüme veri aktarmanıza izin verir."
+
+msgctxt "Languages::store_import.full_path_installation_directory"
+msgid "Full path to the store installation directory"
+msgstr "Mağaza yükleme dizininin tam yolu"
+
+msgctxt "Languages::store_import.start_new_store_import"
+msgid "Start new store import"
+msgstr "Yeni mağaza içe aktarımı başlat"
+
+msgctxt "Languages::store_import.first_step"
+msgid "Select store"
+msgstr "Mağaza seç"
+
+msgctxt "Languages::store_import.second_step"
+msgid "Validate and import"
+msgstr "Doğrula ve içe aktar"
+
+msgctxt "Languages::store_import.cannot_connect_to_database_server"
+msgid "Cannot connect to the database server"
+msgstr "Veri tabanı sunucusuna bağlanamıyor"
+
+msgctxt "Languages::store_import.check_company_count_failed"
+msgid "Cannot start actualizing data due to Storefront/Vendor changes"
+msgstr "Vitrin/Satıcı değişiklikleri nedeniyle veri gerçekleştirilmesine başlanamıyor"
+
+msgctxt "Languages::store_import.completed"
+msgid "<p>The store import is complete!</p>"
+msgstr "<p>Mağaza içe aktarımı tamamlandı!</p>"
+
+msgctxt "Languages::store_import.completed_text_ult"
+msgid "<p>In order to go live, you should perform the following steps:</p><ul><li>Overwrite your existing store folder with the new one.</li><li>Set the correct values for the following variables: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><li>Set the correct Storefront URL in the Administration->Stores section.</li></ul><p>To start another store import, click <b>Start new store import.</b></p>"
+msgstr "<p>Yayına geçebilmek için, şu adımları takip etmelisiniz:</p><ul><li>Var olan mağaza dizininizin üzerine bir yenisini yazın.</li><li>Şu değişkenler için yeni değerler ayarlayın: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><li>Yönetimde doğru Vitrin URL'si ayarlayın->Mağazalar bölümü.</li></ul><p>Başka bir mağaza içe atarımı başlatmak için, <b>Yeni mağaza içe aktarımı başlat.</b></p> tıklayın."
+
+msgctxt "Languages::store_import.completed_text_mve"
+msgid "<p>In order to go live, you should perform the following steps:</p><ul><li>Overwrite your existing store folder with the new one.</li><li>Set the correct values for the following variables: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><p>To start another store import, click <b>Start new store import.</b></p>"
+msgstr "<p>Yayına geçebilmek için, şu adımları takip etmelisiniz:</p><ul><li>Var olan mağaza dizininizin üzerine bir yenisini yazın.</li><li>Şu değişkenler için yeni değerler ayarlayın: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><li>Yönetimde doğru Vitrin URL'si ayarlayın->Mağazalar bölümü.</li><p>Başka bir mağaza içe atarımı başlatmak için, <b>Yeni mağaza içe aktarımı başlat.</b></p> tıklayın."
+
+msgctxt "Languages::store_import.actualize_data_text"
+msgid "<p>Last data import was made on <b>[date]</b> from <b>CS-Cart [version] [edition].</b></p><p>To actualize the data since the last import, click <b>Actualize data</b> (Only design and settings <span>will be kept</span>.) This process can be done repeatedly. When actualizing is over you will see this page again.</p><p>Whenever you're ready to go live or start the Store import again, click <b>Complete Store import</b></p>"
+msgstr "<p>En son veri içe aktarımı <b>[date]</b> tarihinde  <b>CS-Cart [version] [edition] dan gerçekleştirildi.</b></p><p>En son içe aktarımdan beri veri gerçekleştirmek için,  <b>Veri gerçekleştir</b> tıklayın (Yalnız tasarım ve ayarlar <span>saklanacaktır</span>.) Bu işlem tekrarlanabilir. Gerçekleştirme bittiğinde bu sayfayı tekrar göreceksiniz.</p><p>Yayınlanmaya veya tekrar mağaza içe aktarımına ne zaman hazır olursanız, <b>Mağazanın Tamamıyla İçe Aktarımı</b></p> tıklayın."
+
+msgctxt "Languages::store_import.actualize_data"
+msgid "Actualize data"
+msgstr "Veri gerçekleştir"
+
+msgctxt "Languages::store_import.import_from"
+msgid "Import from"
+msgstr "Şuradan içe aktar"
+
+msgctxt "Languages::store_import.complete_store_import"
+msgid "Complete Store import"
+msgstr "Mağazayı tamamen içe aktar"
+
+msgctxt "Languages::store_import.import_data"
+msgid "Import data"
+msgstr "Verileri içe aktar"
+
+msgctxt "Languages::store_import.complete_configuration"
+msgid "Proceed to actualizing data"
+msgstr "Veri gerçekleştirmesi için ilerle"
+
+msgctxt "Languages::store_import.admin_url"
+msgid "Admin panel URL"
+msgstr "Yönetici paneli URL'si"
+
+msgctxt "Languages::store_import.companies_count"
+msgid "Number of storefronts"
+msgstr "Vitrin sayısı"
+
+msgctxt "Languages::store_import.store_import"
+msgid "Store import"
+msgstr "Mağaza İçe Aktarım"
+
+msgctxt "Languages::store_import.local_store"
+msgid "Store path"
+msgstr "Mağaza yolu"
+
+msgctxt "Languages::store_import.select_store"
+msgid "Validate"
+msgstr "Doğrula"
+
+msgctxt "Languages::store_import.local_store_tooltip"
+msgid "Enter the full path to the installation root directory of the store you want to import data from. For example '/var/www/examplestore' on UNIX-based systems or 'C:\\examplestore' on Windows"
+msgstr "İçinden veri aktarmak istediğiniz mağazanın kurulum kök dizininin tam yolunu girin. Örneğin UNIX tabanlı sistemlerde '/var/www/examplestore' veya Windows'ta 'C:\\examplestore'"
+
+msgctxt "Languages::store_import.configure_store"
+msgid "Configure your store"
+msgstr "Mağazanızı yapılandırın"
+
+msgctxt "Languages::store_import.finish_store"
+msgid "Finish store import"
+msgstr "Mağaza içe aktarımını bitir"
+
+msgctxt "Languages::store_import.storefront_url"
+msgid "Storefront URL"
+msgstr "Vitrin URL'si"
+
+msgctxt "Languages::store_import.secure_storefront_url"
+msgid "Secure storefront URL"
+msgstr "Güvenli vitrin URL'si"
+
+msgctxt "Languages::store_import.db_host"
+msgid "Database host"
+msgstr "Veri tabanı ana makinesi"
+
+msgctxt "Languages::store_import.db_name"
+msgid "Database name"
+msgstr "Veri tabanı adı"
+
+msgctxt "Languages::store_import.db_user"
+msgid "Database user"
+msgstr "Veri Tabanı kullanıcısı"
+
+msgctxt "Languages::store_import.table_prefix"
+msgid "Table prefix"
+msgstr "Tablo öneki"
+
+msgctxt "Languages::store_import.fill_form"
+msgid "<p>Check the data below before proceeding to the data import.</p><p><b>Warning!</b> The data import during this step <b>will overwrite everything (including your existing settings, products, design and layouts, etc.)</b><br />Also, all logs and statistics will be removed.</p><p><b>Pay attention</b> that the <b>Affiliate, Statistics, Recurring billing, Product configurator and Gift registry</b> add-ons are no longer supported, so, none of the related data will be imported from your old store to the new installation.</p>"
+msgstr "<p>VEri içe aktarımı öncesinde aşağıdaki verileri kontrol edin.</p><p><b>Uyarı!</b> Bu adımdaki veri içe aktarımı <b>her şeyin üzerine yazılacaktır (var olan ayarlarınız, ürünleriniz, tasarımlarınız ve düzenleriniz dahil olmak üzere.)</b><br />Ayrıca, tüm günlükler ve istatistikler silinecektir.</p><p><b>Dikkat</b> that the <b>Ortaklık, İstatistik, Tekrarlanan Fatura, Ürün yapılandırıcı ve Hediye Kaydı</b> eklentileri artık desteklenmemektedir, bu nedenle, ilgili olan verilerin hiçbiri eski mağazanızdan yeni yüklemenize aktarılmayacaktır.</p>"
+
+msgctxt "Languages::store_import.second_step_22x_notice"
+msgid "<p>Note that your original core settings and design will not be transferred, except for add-ons' settings and all custom blocks under \"Products\" location on the Layouts page with <i>Content: Products</i> and <i>Filling: Manually</i>. During the next step you will be able to locate them on the \"Products\" location under the main content block.</p>"
+msgstr "<p>Eklentiler ayarları ve <i>Content: Products</i> ve <i>Filling: Manually</i> yer aldığı Düzen sayfasındaki \"Ürünler\" konumu altındaki tüm özelleştirilmiş bloklar dışında orijinal çekirdek ayarlarınızın ve tasarımınızın aktarılmayacağını göz önünde bulundurun. Bir sonraki adım boyunca bunları ana içerik bloku altındaki \"Ürünler\" konumu üzerinde konumlandırabileceksiniz.</p>"
+
+msgctxt "Languages::store_import.second_step_30x_notice"
+msgid "<p></p>"
+msgstr "<p></p>"
+
+msgctxt "Languages::store_import.text_from"
+msgid "[product_name] [product_version] [product_edition]"
+msgstr "[product_name] [product_version] [product_edition]"
+
+msgctxt "Languages::store_import.from"
+msgid "From:"
+msgstr "Nereden:"
+
+msgctxt "Languages::store_import.text_to"
+msgid "To: [product_edition] [product_version]"
+msgstr "Nereye: [product_edition] [product_version]"
+
+msgctxt "Languages::store_import.edition_mapping_failed"
+msgid "Import from this edition is not supported"
+msgstr "Bu sürümden gerçekleştirilecek olan içe aktarımlar desteklenmiyor"
+
+msgctxt "Languages::store_import.configuration_test_failed"
+msgid "Configuration test failed"
+msgstr "Yapılandırma testi başarısız"
+
+msgctxt "Languages::store_import.wrong_table_prefix"
+msgid "Store tables with the specified prefix are missing in the specified database."
+msgstr "Belirlenen öneklere sahip olan mağaza tabloları belirlenen veri tabanında bulunmuyor."
+
+msgctxt "Languages::store_import.path_does_not_exist"
+msgid "The specified directory does not exist. Please check if the path you entered is correct."
+msgstr "Belirtilen dizin yok. Lütfen girdiğiniz yolun doğru olup olmadığını kontrol edin."
+
+msgctxt "Languages::store_import.this_is_not_cart_path"
+msgid "The specified directory is not a valid store installation root folder."
+msgstr "Belirtilen dizin geçerli bir mağaza kurulum kök klasörü değil."
+
+msgctxt "Languages::store_import.text_configuration"
+msgid "<p><h4>The data from the old store was successfully imported.</h4><br/>You are now free to leave the Store import tool and customize the settings and design of your store. First of all, do the following:</p>"
+msgstr "<p><h4>Eski mağazadaki veriler başarıyla içe aktarıldı.</h4><br/>Artık mağaza içe aktarım aracından çıkabilir ve mağazanızın ayarlarını ve tasarımını özelleştirebilirsiniz. Öncelikle, şunları yapın:</p>"
+
+msgctxt "Languages::store_import.text_configuration2"
+msgid "<p>When you are ready customizing, you will be able to actualize the data by going to the Store import tool again and proceeding directly to the next step. Unlike the initial store import, data actualization will keep all your settings, layouts, and design.</p><p><strong>Attention!</strong> Data actualization will be impossible if you modify, remove, or add new [storefronts_vendors]. In this case, you will have to re-start the store import from the first step.</p>"
+msgstr "<p>Özelleştirmeye hazır olduğunuzda, tekrar mağaza içe aktarım aletine giderek ve doğrudan bir sonraki adıma geçerek verileri gerçekleştirebileceksiniz. Başlangıçtaki mağaza içe aktarımından farklı olarak, veri gerçekleştirmesi tüm ayarlarınızı, düzenlerinizi ve tasarımlarınızı koruyacak.</p><p><strong>Dikkat!</strong> [storefronts_vendors] değiştirdiğinizde, çıkardığınızda veya yeni eklediğinizde veri gerçekleştirmesi mümkün olmayacaktır. Bu durumda, mağaza içe aktarımını birinci adımdan itibaren tekrar başlatmanız gerekecektir.</p>"
+
+msgctxt "Languages::store_import.424_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.423_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.422_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.421_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.415_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.414_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.413_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.412_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.411_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.401_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.402_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.403_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.306_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.305_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.304_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.303_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.302_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.301_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.224_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for a Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li>Ayarlarınız varsayılan olarak ayarlanmıştır.</li><li>Şirket Ayarları varsayılan olarak ayarlanmıştır.</li><li>Tasarımınız (tema, stiller ve düzen) varsayılan olarak ayarlanmıştır.</li><li><i>İçerik: Ürünler</i> ve <i>Doldurma: Elle</i> olan Blok Yöneticisinin \"Ürünler\" konumu altındaki tüm özelleştirilmiş blokları ana içerik bloku altındaki \"Ürünler\" konumuna yerleştirilmiştir.</li><li>Tüm özelleştirilmiş ürün sekmeleriniz (eklentiler tarafından eklenen ürün sekmeleri hariç) transfer edilmemiştir.</li><li>\"Açıklama\", \"Özellikler\" ve \"Dosyalar\" sekmeleri \"Ürün sekmeleri\" bölümüne eklenmiştir.</li><li> <b>Hızlı Menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.225_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for a Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li>Ayarlarınız varsayılan olarak ayarlanmıştır.</li><li>Şirket Ayarları varsayılan olarak ayarlanmıştır.</li><li>Tasarımınız (tema, stiller ve düzen) varsayılan olarak ayarlanmıştır.</li><li><i>İçerik: Ürünler</i> ve <i>Doldurma: Elle</i> olan Blok Yöneticisinin \"Ürünler\" konumu altındaki tüm özelleştirilmiş blokları ana içerik bloku altındaki \"Ürünler\" konumuna yerleştirilmiştir.</li><li>Tüm özelleştirilmiş ürün sekmeleriniz (eklentiler tarafından eklenen ürün sekmeleri hariç) transfer edilmemiştir.</li><li>\"Açıklama\", \"Özellikler\" ve \"Dosyalar\" sekmeleri \"Ürün sekmeleri\" bölümüne eklenmiştir.</li><li> <b>Hızlı Menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.301_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.302_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.303_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.304_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.305_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.306_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Mağazalar</a> bölümüne gidin <a href=\"[stores_section_link]\"> ve her Şirket için doğru <b>Vitrin URL'sini</b> ayarlayın.</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru<b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.401_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.402_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.403_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.411_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.412_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.413_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.414_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.415_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.421_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.422_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.423_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.424_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.306_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.305_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.304_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.303_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.302_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.301_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "</li><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li> <b>Hızlı menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.225_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li>Ayarlarınız varsayılan olarak ayarlanmıştır.</li><li>Şirket Ayarları varsayılan olarak ayarlanmıştır.</li><li>Tasarımınız (tema, stiller ve düzen) varsayılan olarak ayarlanmıştır.</li><li><i>İçerik: Ürünler</i> ve <i>Doldurma: Elle</i> olan Blok Yöneticisinin \"Ürünler\" konumu altındaki tüm özelleştirilmiş blokları ana içerik bloku altındaki \"Ürünler\" konumuna yerleştirilmiştir.</li><li>Tüm özelleştirilmiş ürün sekmeleriniz (eklentiler tarafından eklenen ürün sekmeleri hariç) transfer edilmemiştir.</li><li>\"Açıklama\", \"Özellikler\" ve \"Dosyalar\" sekmeleri \"Ürün sekmeleri\" bölümüne eklenmiştir.</li><li> <b>Hızlı Menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.224_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Diller</a> bölümüne gidin <a href=\"[manage_languages_link]\"> ve her dil için doğru <b>Ülke</b> değerini ayarlayın.</li></ul><p>Lütfen şunları göz önünde bulundurun:</p><ul><li>Ayarlarınız varsayılan olarak ayarlanmıştır.</li><li>Şirket Ayarları varsayılan olarak ayarlanmıştır.</li><li>Tasarımınız (tema, stiller ve düzen) varsayılan olarak ayarlanmıştır.</li><li><i>İçerik: Ürünler</i> ve <i>Doldurma: Elle</i> olan Blok Yöneticisinin \"Ürünler\" konumu altındaki tüm özelleştirilmiş blokları ana içerik bloku altındaki \"Ürünler\" konumuna yerleştirilmiştir.</li><li>Tüm özelleştirilmiş ürün sekmeleriniz (eklentiler tarafından eklenen ürün sekmeleri hariç) transfer edilmemiştir.</li><li>\"Açıklama\", \"Özellikler\" ve \"Dosyalar\" sekmeleri \"Ürün sekmeleri\" bölümüne eklenmiştir.</li><li> <b>Hızlı Menü</b> varsayılan olarak ayarlanmıştır.</li></ul>"
+
+msgctxt "Languages::store_import.progress_title"
+msgid "Upgrading to [to]"
+msgstr "Şuna yükseltiliyor [to]"
+
+msgctxt "Languages::store_import.updating_data"
+msgid "Updating data"
+msgstr "Veri güncelleştirme"
+
+msgctxt "Languages::store_import.converting_orders"
+msgid "Converting orders"
+msgstr "Sipariş dönüştürme"
+
+msgctxt "Languages::store_import.import_failed"
+msgid "Store import failed"
+msgstr "Mağaza içe aktarım başarısız"
+
+msgctxt "Languages::store_import.cloning_database"
+msgid "Cloning database"
+msgstr "Veritabanı kopyalama"
+
+msgctxt "Languages::store_import.updating_languages"
+msgid "Updating languages"
+msgstr "Dil güncelleştirmesi"
+
+msgctxt "Languages::store_import.done"
+msgid "Done"
+msgstr "Bitti"
+
+msgctxt "Languages::store_import.class_not_found"
+msgid "Import from this version is not supported"
+msgstr "Bu sürümden içe aktarım desteklenmiyor"
+
+msgctxt "Languages::store_import.processing_addons"
+msgid "Updating add-ons"
+msgstr "Eklenti güncelleştirmesi"
+
+msgctxt "Languages::store_import.actualization_completed"
+msgid "Actualization completed"
+msgstr "Gerçekleştirme tamamlandı"
+
+msgctxt "Languages::store_import.actualization_failed"
+msgid "Actualization failed"
+msgstr "Gerçekleştirme başarısız"
+
+msgctxt "Languages::store_import.invalid_license"
+msgid "Sorry, the data import is impossible: no valid upgrade subscription found (read more about the <a title=\"Store Import: License Requirements\" target=\"_blank\" href=\"http://kb.cs-cart.com/store-import#license-requirements\">license requirements</a> for a store import).<br /><br />Contact us at <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a> if you have any questions."
+msgstr "Üzgünüz, verilerin içe aktarılması mümkün değil: geçerli bir yükseltme aboneliği bulunamadı (Bir mağaza içe aktarım eyleminin lisans gereksinimleri hakkında daha fazla bilgi almak için <a title=\"Store Import: License Requirements\" target=\"_blank\" href=\"http://kb.cs-cart.com/store-import#license-requirements\">).<br /><br />Sorularınızın olması durumunda bizimle irtibata geçebilmeniz için iletişim bilgileri <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+
+msgctxt "Languages::store_import.cant_connect_to_imported"
+msgid "Store import has been canceled to prevent the loss of data. Could not connect to the imported database. Please contact tech support."
+msgstr "Veri kaybını engellemek için mağaza içe aktarımı iptal edildi. İçe aktarılan veri tabanıyla bağlantı kurulamadı. Lütfen teknik desteğe başvurun."
+
+msgctxt "Languages::store_import.cant_connect_to_original"
+msgid "Store import has been canceled to prevent the loss of data. Could not connect to the original database. Please contact tech support."
+msgstr "Veri kaybını engellemek için mağaza içe aktarımı iptal edildi. İçe aktarılan veri tabanıyla bağlantı kurulamadı. Lütfen teknik desteğe başvurun."
+
+msgctxt "SettingsSections::store_import::general"
+msgid "General"
+msgstr "Genel"
+
+msgctxt "SettingsOptions::store_import::si_data"
+msgid "Store import data"
+msgstr "Mağaza içe aktarım verileri"
+
+msgctxt "Languages::store_import.design_changes_not_allowed"
+msgid "Store import is impossible after LESS-to-CSS conversion in the Visual Editor. Please enable LESS in the editor to proceed."
+msgstr "Visual Editor'da LESS'ten CSS'ye dönüştürme yapılması sonrasında mağaza içe aktarımı gerçekleştirilemez. Devam edebilmek için lütfen düzenleyicideki LESS'i etkinleştirin."
+

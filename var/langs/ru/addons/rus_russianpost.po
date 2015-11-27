@@ -1,0 +1,518 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/rus_russianpost.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-02 10:07-0400\n"
+
+msgctxt "Addons::name::rus_russianpost"
+msgid "Russian localization — Russian post"
+msgstr "Почта России"
+
+msgctxt "Addons::description::rus_russianpost"
+msgid "Calculation of shipping cost: Russian Post and EMS Russian Post. Printing of Russian post forms."
+msgstr "Расчёт стоимости доставки: Почта РФ и EMS Почта РФ. Печать бланков Почты РФ"
+
+msgctxt "Languages::express"
+msgid "Express-shipping"
+msgstr "Экспресс-доставка"
+
+msgctxt "Languages::carrier_russian_post"
+msgid "Russian post"
+msgstr "Почта России"
+
+msgctxt "Languages::carrier_russian_post_calc"
+msgid "Russian post calc"
+msgstr "Почта России"
+
+msgctxt "Languages::carrier_ems"
+msgid "EMS"
+msgstr "EMS"
+
+msgctxt "Languages::ems_delivery_time_plus"
+msgid "Add a number of days to shipping time"
+msgstr "Прибавить количество дней к сроку доставки"
+
+msgctxt "Languages::russian_post_activation_error"
+msgid "To activate Russian post shipping processor Russian ruble (RUB) should be the main currency."
+msgstr "Для активации процессора доставки Почта России вы должны иметь в качестве основной валюты Российский Рубль (RUB)."
+
+msgctxt "Languages::russian_post_consuming_error"
+msgid "Calculation of shipping cost for Russian post may take a long time."
+msgstr "Расчет стоимости доставки для Почты России может занимать длительное время."
+
+msgctxt "Languages::russian_post_empty_zipcode"
+msgid "Shipping cost for Russian post cannot be calculated because the zipcode field is empty."
+msgstr "Расчёт не может быть выполнен, так как пустое поле \"Индекс\"."
+
+msgctxt "Languages::russian_post_shipping_type"
+msgid "Shipping type"
+msgstr "Способ пересылки"
+
+msgctxt "Languages::russian_post_package_type"
+msgid "Package type"
+msgstr "Вид отправления"
+
+msgctxt "Languages::zak_band"
+msgid "Registered parcel"
+msgstr "Заказная бандероль"
+
+msgctxt "Languages::zak_pis"
+msgid "Registered letter"
+msgstr "Заказное Письмо"
+
+msgctxt "Languages::cen_band"
+msgid "Insured box"
+msgstr "Ценная Бандероль"
+
+msgctxt "Languages::cen_pos"
+msgid "Insured parcel"
+msgstr "Ценная Посылка"
+
+msgctxt "Languages::cen_pis"
+msgid "Insured letter"
+msgstr "Ценное Письмо"
+
+msgctxt "Languages::ground"
+msgid "Carriage by land"
+msgstr "Наземная Перевозка"
+
+msgctxt "Languages::air"
+msgid "Carriage by air"
+msgstr "Авиаперевозка"
+
+msgctxt "Languages::combin"
+msgid "Combined shipping"
+msgstr "Комбинированная Перевозка"
+
+msgctxt "Languages::ems_mode"
+msgid "Shipping fees are calculated based on"
+msgstr "Расчет цены доставки на основе"
+
+msgctxt "Languages::russian_post_country_error"
+msgid "Russian post shipping method is available only for Russian Federation. You can change country settings (Settings -> Company)."
+msgstr "Способ доставки Почта России доступен только для Российской Федерации. Вы можете изменить настройки стран (Настройки -> Компания)."
+
+msgctxt "Languages::russian_post_city_error"
+msgid "Russian post shipping method is available only for Moscow. You can change the settings on the \"Settings -> Company\" page."
+msgstr "Способ доставки Почта России доступен только для Москвы. Вы можете изменить настройки на странице \"Настройки -> Компания\"."
+
+msgctxt "Languages::ems_activation_error"
+msgid "To activate the EMS shipping processor you must have the Russian Rouble (RUB) currency enabled and set primary."
+msgstr "Для активации процессора доставки EMS валюта Российский Рубль (RUB) должна быть активна и назначена основной."
+
+msgctxt "Languages::ems_country_error"
+msgid "The EMS shopping method is available only for deliveries from Russia. You can change company country under Settings -> Company."
+msgstr "Способ доставки EMS доступен только для Российской Федерации. Вы можете изменить настройки стран (Настройки -> Компания)."
+
+msgctxt "Languages::ship_russianpost_shipping_type_rp_main"
+msgid "Value parcel, regular mail sent by Russian Post"
+msgstr "Ценная Посылка, обычное отправление Почтой России"
+
+msgctxt "Languages::ship_russianpost_shipping_type_rp_1class"
+msgid "Russian Post, first class"
+msgstr "Почта России 1 Класс"
+
+msgctxt "Languages::russianpost_shipping_type"
+msgid "Mail type"
+msgstr "Тип отправления"
+
+msgctxt "Languages::ship_russianpost_register_text"
+msgid "You can get the authorization key and password on the website <a href=\"http://russianpostcalc.ru\" target=\"_blank\">russianpostcalc.ru</a>"
+msgstr "Ключ авторизации и пароль Вы можете получить на сайте <a href=\"http://russianpostcalc.ru\" target=\"_blank\">russianpostcalc.ru</a>"
+
+msgctxt "Languages::rus_post_blank.112"
+msgid "Form 112"
+msgstr "Форма 112эп"
+
+msgctxt "Languages::rus_post_blank.sms_for_recepient"
+msgid "SMS for recepient"
+msgstr "SMS адресату"
+
+msgctxt "Languages::rus_post_blank.sms_for_sender"
+msgid "SMS for sender"
+msgstr "SMS отправителю"
+
+msgctxt "Languages::rus_post_blank.113"
+msgid "Form 113"
+msgstr "Форма 113эн"
+
+msgctxt "Languages::rus_post_blank.116"
+msgid "Form 116"
+msgstr "Форма 116"
+
+msgctxt "Languages::rus_post_blank.7p"
+msgid "Form 7-parcel"
+msgstr "Форма 7-п"
+
+msgctxt "Languages::rus_post_blank.7b"
+msgid "Form 7-wrapper"
+msgstr "Форма 7-б"
+
+msgctxt "Languages::rus_post_blank.li.print"
+msgid "Print Russian Post forms"
+msgstr "Печать бланков Почты РФ"
+
+msgctxt "Languages::rus_post_blank.tab.cod"
+msgid "Collection on delivery"
+msgstr "Наложенный платёж"
+
+msgctxt "Languages::rus_post_blank.tab.116"
+msgid "Shipping address of parcel"
+msgstr "Сопроводительный адрес к посылке"
+
+msgctxt "Languages::rus_post_blank.bik"
+msgid "BIC"
+msgstr "БИК"
+
+msgctxt "Languages::rus_post_blank.fiz"
+msgid "Private individual"
+msgstr "Физическое лицо"
+
+msgctxt "Languages::rus_post_blank.print_bg"
+msgid "Print background image"
+msgstr "Печатать фоновое изображение"
+
+msgctxt "Languages::rus_post_blank.sender.tooltip"
+msgid "Select sender in mailing label 7-p and 7-w"
+msgstr "Выбор отправителя в адресном ярлыке 7-п и 7-б"
+
+msgctxt "Languages::rus_post_blank.print_bg.tooltip"
+msgid "Background image can be disabled for printing information on ready forms"
+msgstr "Фоновое изображение можно отключить для печати информации на готовых бланках"
+
+msgctxt "Languages::rus_post_blank.subheader.cod_to"
+msgid "Transfer recipient (parcel sender)"
+msgstr "Получатель перевода (отправитель посылки)"
+
+msgctxt "Languages::rus_post_blank.subheader.cod_from"
+msgid "Transfer sender (parcel recipient)"
+msgstr "Отправитель перевода (получатель посылки)"
+
+msgctxt "Languages::rus_post_blank.subheader.sender"
+msgid "Parcel sender"
+msgstr "Отправитель посылки"
+
+msgctxt "Languages::rus_post_blank.subheader.customer"
+msgid "Parcel recipient"
+msgstr "Получатель посылки"
+
+msgctxt "Languages::rus_post_blank.whom"
+msgid "To whom"
+msgstr "Кому"
+
+msgctxt "Languages::rus_post_blank.where"
+msgid "Where"
+msgstr "Куда"
+
+msgctxt "Languages::rus_post_blank.from_whom"
+msgid "From whom"
+msgstr "От кого"
+
+msgctxt "Languages::rus_post_blank.line_1"
+msgid "Line 1"
+msgstr "Строка 1"
+
+msgctxt "Languages::rus_post_blank.line_2"
+msgid "Line 2"
+msgstr "Строка 2"
+
+msgctxt "Languages::rus_post_blank.company_info"
+msgid "To legal entity"
+msgstr "В адрес юридического лица"
+
+msgctxt "Languages::rus_post_blank.index"
+msgid "ZIP code"
+msgstr "Индекс"
+
+msgctxt "Languages::rus_post_blank.inn"
+msgid "TIN"
+msgstr "ИНН"
+
+msgctxt "Languages::rus_post_blank.kor"
+msgid "Correspondent account"
+msgstr "Кор/счёт"
+
+msgctxt "Languages::rus_post_blank.bank"
+msgid "Bank name"
+msgstr "Наименование банка"
+
+msgctxt "Languages::rus_post_blank.ras"
+msgid "Transaction account"
+msgstr "Рас/счёт"
+
+msgctxt "Languages::rus_post_blank.fiz_doc_creator"
+msgid "Authority that issued the document"
+msgstr "Учреждение выдавшее документ"
+
+msgctxt "Languages::rus_post_blank.fiz_doc"
+msgid "Document"
+msgstr "Докумен"
+
+msgctxt "Languages::rus_post_blank.fiz_doc_date"
+msgid "Issue date (Day, month. For example: 18.11)"
+msgstr "Дата выдачи (День, месяц. Например: 18.11)"
+
+msgctxt "Languages::rus_post_blank.fiz_doc_date2"
+msgid "Issue date (Year. For example: 14)"
+msgstr "Дата выдачи (Год. Например: 14)"
+
+msgctxt "Languages::rus_post_blank.fiz_doc_serial"
+msgid "Series"
+msgstr "Серия"
+
+msgctxt "Languages::rus_post_blank.fiz_doc_number"
+msgid "Number"
+msgstr "Номер"
+
+msgctxt "Languages::rus_post_blank.total_cod"
+msgid "COD amount"
+msgstr "Сумма наложенного платежа"
+
+msgctxt "Languages::rus_post_blank.total_cen"
+msgid "Declared value amount"
+msgstr "Сумма объявленной ценности"
+
+msgctxt "SettingsSections::rus_russianpost::general"
+msgid "Settings"
+msgstr "Настройки"
+
+msgctxt "SettingsOptions::rus_russianpost::header"
+msgid "Company info"
+msgstr "Информация о компании"
+
+msgctxt "SettingsOptions::rus_russianpost::company"
+msgid "Company"
+msgstr "Компания"
+
+msgctxt "SettingsOptions::rus_russianpost::company2"
+msgid "Company (line 2)"
+msgstr "Компания (строка 2)"
+
+msgctxt "SettingsOptions::rus_russianpost::addres"
+msgid "Addres"
+msgstr "Адрес"
+
+msgctxt "SettingsOptions::rus_russianpost::addres2"
+msgid "Addres (line 2)"
+msgstr "Адрес (cтрока 2)"
+
+msgctxt "SettingsOptions::rus_russianpost::inn"
+msgid "INN"
+msgstr "ИНН"
+
+msgctxt "SettingsOptions::rus_russianpost::bank"
+msgid "BANK"
+msgstr "Наименование банка"
+
+msgctxt "SettingsOptions::rus_russianpost::ras"
+msgid "Ras/invoice"
+msgstr "Рас/счёт"
+
+msgctxt "SettingsOptions::rus_russianpost::kor"
+msgid "Kor/invoice"
+msgstr "Кор/счёт"
+
+msgctxt "SettingsOptions::rus_russianpost::bik"
+msgid "BIK"
+msgstr "БИК"
+
+msgctxt "SettingsOptions::rus_russianpost::index"
+msgid "ZIP code"
+msgstr "Индекс"
+
+msgctxt "SettingsOptions::rus_russianpost::header_fiz"
+msgid "Sender"
+msgstr "Данные отправителя"
+
+msgctxt "SettingsOptions::rus_russianpost::fio"
+msgid "FIO"
+msgstr "ФИО"
+
+msgctxt "SettingsOptions::rus_russianpost::fiz_addres"
+msgid "Addres"
+msgstr "Адрес"
+
+msgctxt "SettingsOptions::rus_russianpost::fiz_addres2"
+msgid "Addres (line 2)"
+msgstr "Адрес (Строка 2)"
+
+msgctxt "SettingsOptions::rus_russianpost::fiz_index"
+msgid "ZIP code"
+msgstr "Индекс"
+
+msgctxt "SettingsOptions::rus_russianpost::fiz_doc"
+msgid "document"
+msgstr "Документ"
+
+msgctxt "SettingsOptions::rus_russianpost::fiz_doc_serial"
+msgid "Document serial"
+msgstr "Серия"
+
+msgctxt "SettingsOptions::rus_russianpost::fiz_doc_number"
+msgid "Document number"
+msgstr "Номер"
+
+msgctxt "SettingsOptions::rus_russianpost::fiz_doc_date"
+msgid "Document date"
+msgstr "Дата выдачи (День, месяц. Например: 18.11)"
+
+msgctxt "SettingsOptions::rus_russianpost::fiz_doc_date2"
+msgid "Document date"
+msgstr "Дата выдачи (Год. Например: 14)"
+
+msgctxt "SettingsOptions::rus_russianpost::fiz_doc_creator"
+msgid "Document creator"
+msgstr "Место выдачи"
+
+msgctxt "SettingsSections::rus_russianpost::size"
+msgid "Size and spacing of forms"
+msgstr "Размеры и отступы печати бланков"
+
+msgctxt "SettingsOptions::rus_russianpost::header_103"
+msgid "f. 103en (form size 195mm x 185mm)"
+msgstr "ф. 103эн (размер бланка 195мм х 185мм)"
+
+msgctxt "SettingsOptions::rus_russianpost::113_list_width"
+msgid "Sheet width (mm)"
+msgstr "Ширина листа (мм)"
+
+msgctxt "SettingsOptions::rus_russianpost::113_list_height"
+msgid "Sheet height (mm)"
+msgstr "Высота листа (мм)"
+
+msgctxt "SettingsOptions::rus_russianpost::113_top"
+msgid "Top spacing (mm)"
+msgstr "Отступ бланка сверху (мм)"
+
+msgctxt "SettingsOptions::rus_russianpost::113_left"
+msgid "Left spacing (mm)"
+msgstr "Отступ бланка слева (мм)"
+
+msgctxt "SettingsOptions::rus_russianpost::header_116"
+msgid "f. 116 (form size 148mm x 210mm)"
+msgstr "ф. 116 (размер формы 148 мм x 210 мм)"
+
+msgctxt "SettingsOptions::rus_russianpost::116_list_width"
+msgid "Sheet width (mm)"
+msgstr "Ширина листа (мм)"
+
+msgctxt "SettingsOptions::rus_russianpost::116_list_height"
+msgid "Sheet height (mm)"
+msgstr "Высота листа (мм)"
+
+msgctxt "SettingsOptions::rus_russianpost::116_top"
+msgid "Top spacing (mm)"
+msgstr "Отступ бланка сверху (мм)"
+
+msgctxt "SettingsOptions::rus_russianpost::116_left"
+msgid "Left spacing (mm)"
+msgstr "Отступ бланка слева (мм)"
+
+msgctxt "SettingsOptions::rus_russianpost::header_7p"
+msgid "f. 7-p"
+msgstr "ф.7-р"
+
+msgctxt "SettingsOptions::rus_russianpost::7p_top"
+msgid "Top spacing (mm)"
+msgstr "Отступ бланка сверху (мм)"
+
+msgctxt "SettingsOptions::rus_russianpost::7p_left"
+msgid "Left spacing (mm)"
+msgstr "Отступ бланка слева (мм)"
+
+msgctxt "SettingsOptions::rus_russianpost::header_7b"
+msgid "f. 7-p"
+msgstr "ф.7-п"
+
+msgctxt "SettingsOptions::rus_russianpost::7b_top"
+msgid "Top spacing (mm)"
+msgstr "Отступ бланка сверху (мм)"
+
+msgctxt "SettingsOptions::rus_russianpost::7b_left"
+msgid "Left spacing (mm)"
+msgstr "Отступ бланка слева (мм)"
+
+msgctxt "Languages::rus_post_blank.text"
+msgid "Text"
+msgstr "Сообщение"
+
+msgctxt "Languages::rus_post_blank.recipient_phone"
+msgid "Recipient phone"
+msgstr "Телефон адресата"
+
+msgctxt "Languages::rus_post_blank.company_phone"
+msgid "Company phone"
+msgstr "Телефон отправителя"
+
+msgctxt "SettingsOptions::rus_russianpost::company_phone"
+msgid "Company phone"
+msgstr "Телефон компании"
+
+msgctxt "SettingsOptions::rus_russianpost::header_112"
+msgid "f. 112ep (form size 200mm x 283mm)"
+msgstr "ф. 112эп (размер бланка 200мм х 283мм)"
+
+msgctxt "SettingsOptions::rus_russianpost::112_list_width"
+msgid "Sheet width (mm)"
+msgstr "Ширина листа (мм)"
+
+msgctxt "SettingsOptions::rus_russianpost::112_list_height"
+msgid "Sheet height (mm)"
+msgstr "Длина листа (мм)"
+
+msgctxt "SettingsOptions::rus_russianpost::112_top"
+msgid "Top spacing (mm)"
+msgstr "Отступ бланка сверху (мм)"
+
+msgctxt "SettingsOptions::rus_russianpost::112_left"
+msgid "Left spacing (mm)"
+msgstr "Отступ бланка слева (мм)"
+
+msgctxt "Languages::ems_region"
+msgid "Region"
+msgstr "Регион"
+
+msgctxt "Languages::ems_city"
+msgid "City"
+msgstr "Город"
+
+msgctxt "Languages::addons.rus_russianpost.not_total"
+msgid "The declared value without prices"
+msgstr "Объявленная ценность без цены"
+
+msgctxt "Languages::shipping.russianpost.zak_kart"
+msgid "Custom postcard"
+msgstr "Заказная почтовая карточка"
+
+msgctxt "Languages::shipping.russianpost.ob_pos"
+msgid "Ordinary parcel"
+msgstr "Обыкновенная посылка"
+
+msgctxt "Languages::shipping.russianpost.rub_rank"
+msgid "[n] ruble|[n] rubles"
+msgstr "[n] рубль|[n] рубля|[n] рублей"
+
+msgctxt "Languages::shipping.russianpost.thousand_rank"
+msgid "[n] thousand|[n] thousands"
+msgstr "[n] тысяча|[n] тысячи|[n] тысяч"
+
+msgctxt "Languages::shipping.russianpost.million_rank"
+msgid "[n] million"
+msgstr "[n] миллион|[n] миллиона|[n] миллионов"
+
+msgctxt "Languages::shipping.russianpost.billion_rank"
+msgid "[n] billion"
+msgstr "[n] миллиард|[n] миллиарда|[n] миллиардов"
+
+msgctxt "Languages::shipping.russianpost.kopeck_rank"
+msgid "[n] kopeck"
+msgstr "[n] копейка|[n] копейки|[n] копеек"
+

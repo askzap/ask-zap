@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_tovary_mailru</id>
+    <version>4.2.2</version>
+    <update_server>https://updates.cs-cart.ru/api/update_addons</update_server>
+    <priority>3200</priority>
+    <position>6</position>
+    <status>active</status>
+    <default_language>en</default_language>
+
+    <compatibility>
+        <core_version>
+            <min>4.1.1</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+    </compatibility>
+
+    <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="shop_name">
+                        <type>input</type>
+                    </item>
+					<item id="export_stock">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="notify_disable_products">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="disable_cat_d">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+					<item id="mail_settings">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="type_name">
+                            </item>
+                            <item id="type_detailed">
+                            </item>
+                        </variants>
+                        <default_value>type_name</default_value>
+                    </item>
+					<item id="feature_for_brand">
+                        <type>multiple checkboxes</type>
+						<default_value>N</default_value>
+                    </item>
+					<item id="type_prefix">
+                        <type>checkbox</type>
+						<default_value>N</default_value>
+                    </item>
+					<item id="local_delivery_cost">
+                        <type>checkbox</type>
+						<default_value>N</default_value>
+                    </item>
+					<item id="delivery_type">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="value">
+                            </item>
+                            <item id="free">
+                            </item>
+							<item id="no_delivery">
+                            </item>
+                        </variants>
+                        <default_value>value</default_value>
+                    </item>
+					<item id="export_encoding">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="utf-8">
+                            </item>
+                            <item id="windows-1251">
+                            </item>
+                        </variants>
+                        <default_value>utf8</default_value>
+                    </item>
+                </items>
+            </section>
+			<section id="auto_settings" edition_type="ULT:VENDOR">
+                <items>                 
+                    <item id="cron_key">
+                        <type>input</type>
+                        <default_value>testKey</default_value>
+                    </item>
+                    <item id="cron_filename">
+                        <type>input</type>
+                        <default_value>export_mailru.xml</default_value>
+                    </item>
+                    <item id="auto_url">
+                        <type>info</type>
+                        <handler>fn_rus_tovary_mailru_url_auto</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    
+    <queries>
+        <item for="install">ALTER TABLE `?:products` ADD `mailru_brand` VARCHAR(96) NOT NULL;</item>
+		<item for="install">ALTER TABLE `?:products` ADD `mailru_model` VARCHAR(96) NOT NULL;</item>
+		<item for="install">ALTER TABLE `?:products` ADD `mailru_type_prefix` VARCHAR(55) NOT NULL;</item>
+		<item for="install">ALTER TABLE `?:products` ADD `mailru_cost` decimal(12,2) NOT NULL DEFAULT '0.00';</item>
+		<item for="install">ALTER TABLE `?:products` ADD `mailru_delivery` CHAR(1) NOT NULL DEFAULT 'Y';</item>
+		<item for="install">ALTER TABLE `?:products` ADD `mailru_pickup` CHAR(1) NOT NULL DEFAULT 'Y';</item>
+        <item for="install">ALTER TABLE `?:products` ADD `mailru_mcp` int(11) NOT NULL DEFAULT '0';</item>
+        <item for="install">ALTER TABLE `?:products` ADD `mailru_export` CHAR(1) NOT NULL DEFAULT 'Y';</item>
+<!--    <item for="uninstall">
+            ALTER TABLE `?:products`
+                DROP `mailru_brand`,
+                DROP `mailru_mcp`,
+                DROP `mailru_export`;
+        </item> -->
+    </queries>
+</addon>

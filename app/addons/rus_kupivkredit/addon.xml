@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_kupivkredit</id>
+    <update_server>https://updates.cs-cart.ru/api/update_addons</update_server>
+
+    <version>4.2.2</version>
+    <priority>4400</priority>
+    <position>0</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    
+    <functions>
+        <item for="uninstall">fn_rus_kupivkredit_delete_payment</item>
+        <item for="install">fn_rus_kupivkredit_install_payment</item>
+    </functions>
+</addon>

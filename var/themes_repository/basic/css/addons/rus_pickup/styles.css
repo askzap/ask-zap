@@ -1,0 +1,64 @@
+/* ==========================================================================
+Pickup
+========================================================================== */
+.checkout-select-store {
+	padding-left: 25px;
+}
+
+.checkout-select-store__estimation {
+    padding-left: 25px;
+}
+
+.one-store {
+	padding: 10px 0 15px 0;
+}
+
+.one-store__radio {
+	float: left;
+}
+
+.one-store__label{
+	margin: -12px 58% 0 25px;
+}
+
+.one-store__name {
+	font-weight: bold;
+}
+
+.one-store__description p{
+	color: rgb(115, 115, 115);
+}
+
+.checkout-select-store__map 
+{
+    float: right;
+    width: 56%;
+    height: 400px;
+    border: 1px solid rgb(151, 151, 151);
+    margin: 0 0 20px 0;
+}
+
+.checkout-select-store__map-details
+{
+    float: left;
+    width: 100%;
+    height: 300px;
+    border: 1px solid rgb(151, 151, 151);
+    margin: 0 0 20px 0;
+}
+
+@media (max-width: 767px) {
+
+    .checkout-select-store__map 
+    {
+        float: none;
+        width: 100%;
+    }
+
+    .checkout-select-store {
+        float: none;
+        width: 100%;
+    }
+
+}
+/* /Pickup */

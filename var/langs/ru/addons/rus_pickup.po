@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/rus_pickup.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-02 10:07-0400\n"
+
+msgctxt "Addons::name::rus_pickup"
+msgid "Russian localization — Pickup"
+msgstr "Самовывоз"
+
+msgctxt "Addons::description::rus_pickup"
+msgid "The \"Store pickup\" shipping method allows the customer to choose the store to pick up from."
+msgstr "Способ доставки «Самовывоз» позволяет покупателю при оформлении заказа выбрать пункт самовывоза, в котором он сможет самостоятельно забрать купленный товар."
+
+msgctxt "Languages::rus_pickup.text_pickup_instruction"
+msgid "The \"Customer pick-up\" shipping method offers a customer to choose a store to pick up a product from. The stores can be created in the \"Store location\" add-on<br /><b>Store creation:</b> <a href=\"[store_locator]\">Store location</a>"
+msgstr "Способ доставки \"Самовывоз\" предлагает покупателю выбрать магазин для самовывоза. Создание и редактирование магазинов выполняется в модуле \"Расположение магазина\"<br /><b>Создание магазинов:</b> <a href=\"[store_locator]\">Расположение магазина</a>"
+
+msgctxt "Languages::rus_pickup.select_stores"
+msgid "Select stores"
+msgstr "Выберите магазины"
+
+msgctxt "Languages::rus_pickup.pick_up_points"
+msgid "Pick-up points"
+msgstr "Пункты самовывоза"
+
+msgctxt "Languages::rus_pickup.stores_position"
+msgid "The \"Position\" field in the store settings"
+msgstr "Поле \"Позиция\" в настройках магазина"
+
+msgctxt "Languages::rus_pickup.shipping_position"
+msgid "Order selected in the shipping method settings"
+msgstr "Порядок выбранный в настройках способа доставки"
+
+msgctxt "Languages::rus_pickup.selected_fields"
+msgid "Selected stores"
+msgstr "Выбранные магазины"
+
+msgctxt "Languages::rus_pickup.available_fields"
+msgid "Available stores"
+msgstr "Доступные магазины"
+
+msgctxt "Languages::rus_pickup.display_ml"
+msgid "Map and list"
+msgstr "Карта и список"
+
+msgctxt "Languages::rus_pickup.display_l"
+msgid "List"
+msgstr "Список"
+
+msgctxt "Languages::rus_pickup.display_m"
+msgid "Map"
+msgstr "Карта"
+
+msgctxt "Languages::rus_pickup.display"
+msgid "Locations list view on the checkout page"
+msgstr "Отображение пунктов самовывоза на странице оформления заказа"
+
+msgctxt "Languages::rus_pickup.pickup"
+msgid "Pickup"
+msgstr "Самовывоз"
+
+msgctxt "Languages::rus_pickup.pickup_avail"
+msgid "Available for pick-up"
+msgstr "Доступен для самовывоза"
+
+msgctxt "Languages::rus_pickup.work_time"
+msgid "Working hours"
+msgstr "Режим работы"
+
+msgctxt "Languages::carrier_pickup"
+msgid "Pickup"
+msgstr "Самовывоз"
+
+msgctxt "Languages::destination_nothing_found"
+msgid "No suitable destination has been found"
+msgstr "Нет подходящего пункта назначения"
+
+msgctxt "Languages::stores_nothing_found"
+msgid "No stores have been found"
+msgstr "Точки самовывоза не найдены"
+

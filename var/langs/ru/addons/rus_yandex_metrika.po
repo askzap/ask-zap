@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/rus_yandex_metrika.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-02 10:07-0400\n"
+
+msgctxt "Addons::name::rus_yandex_metrika"
+msgid "Russian localization — Yandex.Metrika"
+msgstr "Яндекс.Метрика"
+
+msgctxt "Addons::description::rus_yandex_metrika"
+msgid "Statistics from Yandex"
+msgstr "Интеграция сервиса Яндекс.Метрика в магазин"
+
+msgctxt "SettingsSections::rus_yandex_metrika::general"
+msgid "General"
+msgstr "Общие настройки"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::general_settings"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::counter_number"
+msgid "Counter ID"
+msgstr "Номер счётчика"
+
+msgctxt "SettingsTooltips::rus_yandex_metrika::counter_number"
+msgid "Get it from your account at <a href=\"http://metrika.yandex.ru\" target=\"_blank\">metrika.yandex.ru</a>"
+msgstr "Узнайте в личном кабинете на сайте <a href=\"http://metrika.yandex.ru\" target=\"_blank\">metrika.yandex.ru</a>"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::base_settings"
+msgid "Settings"
+msgstr "Настройки"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::visor"
+msgid "WebVisor"
+msgstr "Вебвизор"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::clickmap"
+msgid "Click map"
+msgstr "Карта кликов"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::external_links"
+msgid "External links, file downloads and \"Share\" button report"
+msgstr "Внешние ссылки, загрузки файлов и отчёт по кнопке «Поделиться»"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::denial"
+msgid "Accurate bounce rate"
+msgstr "Точный показатель отказов"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::addition_settings"
+msgid "Addition settings"
+msgstr "Дополнительные настройки"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::track_hash"
+msgid "Tracking the hash in your browser"
+msgstr "Отслеживание хеша в адресной строке браузера"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::yandex_api_access"
+msgid "Yandex API access"
+msgstr "Доступ к API Яндекса"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::application_id"
+msgid "Application ID"
+msgstr "ID приложения"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::application_password"
+msgid "Application password"
+msgstr "Пароль приложения"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::auth_token"
+msgid "Auth token"
+msgstr "Авторизационный токен"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::goals"
+msgid "Goals"
+msgstr "Цели"
+
+msgctxt "SettingsOptions::rus_yandex_metrika::collect_stats_for_goals"
+msgid "Collect statistics for these goals"
+msgstr "Собирать статистику по следующим целям"
+
+msgctxt "SettingsTooltips::rus_yandex_metrika::collect_stats_for_goals"
+msgid "Yandex API access is required (see settings above)"
+msgstr "Должен быть настроен доступ к API Яндекса (см. выше)"
+
+msgctxt "Languages::yandex_metrika_oauth_info_part1"
+msgid "Please <a href=\"https://oauth.yandex.ru/client/new\" target=\"_blank\">register an application</a> with full Yandex.Metrika permissions to continue. Use this value as the <b>Callback URL</b> param: <i>[callback_uri]</i>. After the registration, you will be able to fill out the \"Application ID\" and \"Application password\" fields on this page."
+msgstr "Пожалуйста, <a href=\"https://oauth.yandex.ru/client/new\" target=\"_blank\">создайте приложение</a> с полным набором прав для Яндекс.Метрики. Используйте следующее значение в поле <b>Callback URL</b>: <i>[callback_uri]</i>. После этого заполните поля «ID приложения» и «Пароль приложения» на этой странице."
+
+msgctxt "Languages::yandex_metrika_oauth_info_part2"
+msgid "After you've created the app and when you ever <a href=\"[edit_app_uri]\" target=\"_blank\">modify it</a>, <a href=\"[auth_uri]\" target=\"_blank\">click here to get a new auth token</a>"
+msgstr "После создания приложения, а также после любой его <a href=\"[edit_app_uri]\" target=\"_blank\">модификации</a> необходимо <a href=\"[auth_uri]\" target=\"_blank\">обновить токен</a>"
+
+msgctxt "Languages::yandex_metrika_engaged_visitor_text"
+msgid "Engaged visitor (a customer viewed over five pages during the visit)"
+msgstr "Вовлеченный пользователь (посетитель просмотрел более пяти страниц за визит)"
+
+msgctxt "Languages::yandex_metrika_basket_text"
+msgid "Add to cart (the \"Add to cart button\" button was clicked)"
+msgstr "Добавление в корзину (нажатие на кнопку «В корзину»)"
+
+msgctxt "Languages::yandex_metrika_order_text"
+msgid "Order (an order is successfully placed)"
+msgstr "Заказ (успешное размещение заказа)"
+
+msgctxt "Languages::yandex_metrika_wishlist_text"
+msgid "Wishlist (a customer added an item to wishlist)"
+msgstr "Добавление в список желаний (товар добавлен в список желаний)"
+
+msgctxt "Languages::yandex_metrika_buy_with_one_click_form_opened_text"
+msgid "Buy with one click (the \"Buy with one click\" button was clicked)"
+msgstr "Покупка в один клик (нажатие на кнопку «Купить в один клик»)"
+
+msgctxt "Languages::yandex_metrika_call_request_text"
+msgid "Call request (a customer submitted a call request form)"
+msgstr "Заявка на обратный звонок (посетитель заполнил форму на обратный звонок)"
+

@@ -1,0 +1,2 @@
+REPLACE INTO cscart_newsletter_descriptions (`newsletter_id`, `newsletter`, `newsletter_multiple`, `body_html`, `lang_code`) VALUES ('1', 'Xbox One уже на горизинте!', '', 'Игровая консоль нового поколения скоро в продаже. Будьте первым!', 'ru');
+REPLACE INTO cscart_newsletter_descriptions (`newsletter_id`, `newsletter`, `newsletter_multiple`, `body_html`, `lang_code`) VALUES ('2', 'Пример', '', '<h2>Hello,</h2>', 'ru');

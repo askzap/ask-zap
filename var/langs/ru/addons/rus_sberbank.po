@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/rus_sberbank.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-02 10:07-0400\n"
+
+msgctxt "Addons::name::rus_sberbank"
+msgid "Russian localization — Sberbank"
+msgstr "Сбербанк - онлайн"
+
+msgctxt "Languages::addons.rus_sberbank.login"
+msgid "Login API"
+msgstr "API логин"
+
+msgctxt "Languages::addons.rus_sberbank.password"
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "Languages::addons.rus_sberbank.logging"
+msgid "Write log"
+msgstr "Писать логи"
+

@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/rus_theme_style.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-02 10:07-0400\n"
+
+msgctxt "Addons::name::rus_theme_style"
+msgid "Russian localization — Theme style"
+msgstr "Стили и дополнения для русской темы"
+
+msgctxt "Addons::description::rus_theme_style"
+msgid "Files for Russian demo"
+msgstr " Шаблоны в стиле demo.cs-cart.ru"
+
+msgctxt "Languages::my_cart"
+msgid "My cart"
+msgstr "Моя корзина"
+
+msgctxt "Languages::exclusive_promotions"
+msgid "Exclusive discounts"
+msgstr "Эксклюзивные скидки"
+
+msgctxt "Languages::exclusive_promotions_content"
+msgid "Subscribe to our news and get a 10% discount coupon!"
+msgstr "Подпишитесь на наши новости и получите купон на скидку 10%!"
+
+msgctxt "Languages::tmpl_scroller_advanced"
+msgid "Scroller (advanced)"
+msgstr "Скроллер (дополнительно)"
+

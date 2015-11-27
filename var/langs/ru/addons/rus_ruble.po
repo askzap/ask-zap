@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/rus_ruble.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-02 10:07-0400\n"
+
+msgctxt "Addons::name::rus_ruble"
+msgid "Russian localization — Russian ruble and currencies sync"
+msgstr "Символ рубля и синхронизация курса валют"
+
+msgctxt "Languages::rus_ruble.currency_install"
+msgid "Set \"Russian ruble\" as currency"
+msgstr "Установить валюту \"Российский рубль\""
+
+msgctxt "Languages::rus_ruble.currency_install_button"
+msgid "Install currency"
+msgstr "Установить валюту"
+
+msgctxt "Languages::rus_ruble.currency_install_info"
+msgid "New currency Russian ruble (\"RUB\") will be set. Russian ruble will be the main currency of the store. It is necessary for correct operation of payment and shipping methods and integration with Yandex"
+msgstr "Будет создана новая валюта Российский рубль (\"RUB\"). Российский рубль будет установлен как основная валюта магазина. Это необходимо для корректной работы способов оплаты, доставки и интеграции с Яндекс"
+
+msgctxt "Languages::rus_ruble.symbol_rub_created"
+msgid "Currency Russian ruble created"
+msgstr "Создана новая валюта Российский рубль"
+
+msgctxt "Languages::rus_ruble.symbol_rub_updated"
+msgid "Symbol Russian ruble updated"
+msgstr "Символ рубля обновлен"
+
+msgctxt "Languages::rus_ruble.magic_keygen"
+msgid "Generate magic_key"
+msgstr "Сгенерировать magic_key"
+
+msgctxt "Languages::rus_ruble.magic_keygen_button"
+msgid "Generate"
+msgstr "Сгенерировать"
+
+msgctxt "Languages::rus_ruble.currencies_sync"
+msgid "Synchronize currency rate with Bank of Russia"
+msgstr "Синхронизировать курс валюты с ЦБРФ"
+
+msgctxt "Languages::rus_ruble.auto_info"
+msgid "Use this link to update currency exchange rates automatically via cron:"
+msgstr "Используйте эту ссылку для автоматического обновления курсов валют через CRON:"
+
+msgctxt "Languages::rus_ruble.auto_instruction_data"
+msgid "Notes: 1) The data on the site of the Central bank of Russia is updated every day at 3:00 PM Moscow time (UTC+4);"
+msgstr "Примечания: 1) данные на сайте Центрального банка России обновляется каждый день в 3:00 вечера по московскому времени (UTC + 4);"
+
+msgctxt "Languages::rus_ruble.auto_instruction_data_end"
+msgid "2) As a currency designation, please use only three-character designation RCC (Russian Classification of Currencies)"
+msgstr "2) В качестве обозначения валюты используйте только трехбуквенное обозначение OKB"
+
+msgctxt "Languages::rus_ruble.sbrf_currencies_successfully_sync"
+msgid "Currencies were successfully synchronized."
+msgstr "Синхронизация валют прошла успешно."
+
+msgctxt "Languages::rus_ruble.sbrf_currencies_unsuccessfully_sync"
+msgid "An error occurred during currency synchronization."
+msgstr "При синхронизации валют произошла ошибка."
+
+msgctxt "Languages::rus_ruble.symbol_no_currency_rub"
+msgid "No currency with the \"RUB\" code."
+msgstr "Валюта с кодом \"RUB\" не существует."
+
+msgctxt "Languages::rus_ruble.symbol_update"
+msgid "Click this button to update ruble sign now"
+msgstr "Нажмите на эту кнопку, чтобы обновить символ рубля сейчас"
+
+msgctxt "Languages::rus_ruble.symbol_update_button"
+msgid "Update ruble sign"
+msgstr "Обновить символ рубля"
+
+msgctxt "Languages::rus_ruble.currency_sync"
+msgid "Click this button to synchronize currency exchange rates now."
+msgstr "Нажмите на эту кнопку, чтобы синхронизировать курсы валют сейчас"
+
+msgctxt "Languages::rus_ruble.currency_sync_auto"
+msgid "Automatic currency rate update via CRON"
+msgstr "Автоматическое обновление курсов валют через CRON"
+
+msgctxt "Languages::rus_ruble.currencies_sync_info"
+msgid "Currency rate will be synchronized with Central bank of Russia ( <a target=\"_blank\" href=\"http://www.cbr.ru/\">www.cbr.ru</a> )"
+msgstr "Курс валюты будет синхронизирован с Центральным банком Российской Федерации ( <a target=\"_blank\" href=\"http://www.cbr.ru/\">www.cbr.ru</a> )"
+
+msgctxt "Languages::rus_ruble.currency_sync_button"
+msgid "Update currency rates"
+msgstr "Обновить курс валюты"
+
+msgctxt "Languages::rus_ruble.magic_key_empty"
+msgid "Unknown magic key"
+msgstr "Не указан мagic key"
+
+msgctxt "Languages::rus_ruble.magic_key_incorrect"
+msgid "Incorrect magic key"
+msgstr "Не правильный мagic key"
+
+msgctxt "Languages::rus_ruble.not_set_ruble"
+msgid "Not set \"Russian ruble\" as currency"
+msgstr "Не установлена валюта \"Российский рубль\""
+
+msgctxt "SettingsSections::rus_ruble::settings"
+msgid "Settings"
+msgstr "Настройки"
+
+msgctxt "SettingsOptions::rus_ruble::settings"
+msgid " "
+msgstr " "
+
+msgctxt "SettingsOptions::rus_ruble::cron_key"
+msgid " "
+msgstr " "
+

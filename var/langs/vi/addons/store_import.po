@@ -1,0 +1,442 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/store_import.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-06-30 08:04-0400\n"
+
+msgctxt "Addons::name::store_import"
+msgid "Store Import"
+msgstr "Nhập dữ liệu cửa hàng"
+
+msgctxt "Addons::description::store_import"
+msgid "Lets you import data from any existing version of CS-Cart from 2.2.4 (except for Community edition) into the current version."
+msgstr "Cho phép bạn nhập dữ liệu từ bất kỳ phiên bản hiện tại nào của CS-Cart từ 2.2.4 (ngoại trừ phiên bản Community) vào các phiên bản hiện tại."
+
+msgctxt "Languages::store_import.full_path_installation_directory"
+msgid "Full path to the store installation directory"
+msgstr "Các đường dẫn đầy đủ đến thư mục cài đặt cửa hàng"
+
+msgctxt "Languages::store_import.start_new_store_import"
+msgid "Start new store import"
+msgstr "Bắt đầu nhập mới dữ liệu cửa hàng"
+
+msgctxt "Languages::store_import.first_step"
+msgid "Select store"
+msgstr "Chọn cửa hàng"
+
+msgctxt "Languages::store_import.second_step"
+msgid "Validate and import"
+msgstr "Xác nhận và nhập"
+
+msgctxt "Languages::store_import.cannot_connect_to_database_server"
+msgid "Cannot connect to the database server"
+msgstr "Không thể kết nối đến máy chủ cơ sở dữ liệu"
+
+msgctxt "Languages::store_import.check_company_count_failed"
+msgid "Cannot start actualizing data due to Storefront/Vendor changes"
+msgstr "Không thể bắt đầu thực hóa dữ liệu để thay đổi Trang chính/Nhà cung cấp"
+
+msgctxt "Languages::store_import.completed"
+msgid "<p>The store import is complete!</p>"
+msgstr "<p>Cửa hàng nhập xong!</p>"
+
+msgctxt "Languages::store_import.completed_text_ult"
+msgid "<p>In order to go live, you should perform the following steps:</p><ul><li>Overwrite your existing store folder with the new one.</li><li>Set the correct values for the following variables: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><li>Set the correct Storefront URL in the Administration->Stores section.</li></ul><p>To start another store import, click <b>Start new store import.</b></p>"
+msgstr "<p>Để đặt hàng trực tiếp, bạn nên thực hiện theo các bước sau:</p> <ul><li>Ghi đè lên thư mục cửa hàng hiện có của bạn với một bản mới.</li> <li>Thiết lập các giá trị chính xác cho các yếu tố sau: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li> <li>Đặt URL trang chủ chính xác trong Trang quản trị-> Phần Cửa Hàng.</li></ul> <p>Để bắt đầu nhập dữ liệu một cửa hàng, nhấp vào <b>Bắt đầu nhập dữ liệu cửa hàng mới.</b></p>"
+
+msgctxt "Languages::store_import.completed_text_mve"
+msgid "<p>In order to go live, you should perform the following steps:</p><ul><li>Overwrite your existing store folder with the new one.</li><li>Set the correct values for the following variables: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><p>To start another store import, click <b>Start new store import.</b></p>"
+msgstr "<p>Để đặt hàng trực tuyến, bạn nên thực hiện theo các bước sau:</p> <ul><li>Ghi đè lên thư mục Cửa hàng hiện có của bạn với một mới.</li> <li>Thiết lập các giá trị chính xác cho các yếu tố sau: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li> <p>Để bắt đầu nhập dữ liệu cửa hàng, nhấp vào <b>Bắt đầu nhập dữ liệu cửa hàng mới.</b></p>"
+
+msgctxt "Languages::store_import.actualize_data_text"
+msgid "<p>Last data import was made on <b>[date]</b> from <b>CS-Cart [version] [edition].</b></p><p>To actualize the data since the last import, click <b>Actualize data</b> (Only design and settings <span>will be kept</span>.) This process can be done repeatedly. When actualizing is over you will see this page again.</p><p>Whenever you're ready to go live or start the Store import again, click <b>Complete Store import</b></p>"
+msgstr "<p>Dữ liệu  vừa nhập đã được thực hiện trên <b>[date]</b> từ <b>CS-Cart [version] [edition].</b></p> <p>Để thực hiện các dữ liệu từ việc nhập cuối cùng, nhấp vào <b>Thực hiện dữ liệu</b> (chỉ thiết kế và cài đặt <span>sẽ được giữ</span>.) Quá trình này có thể được thực hiện liên tục. Khi thực hiện nhiều hơn bạn sẽ thấy trang này một lần nữa.</p> <p>Bất cứ khi nào bạn đã sẵn sàng để trực tuyến hoặc bắt đầu nhập dữ liệu cửa hàng một lần nữa, nhấp vào <b>Hoàn thành nhập dữ liệu cửa hàng</b></p>"
+
+msgctxt "Languages::store_import.actualize_data"
+msgid "Actualize data"
+msgstr "Thực hiện dữ liệu"
+
+msgctxt "Languages::store_import.import_from"
+msgid "Import from"
+msgstr "Nhập từ"
+
+msgctxt "Languages::store_import.complete_store_import"
+msgid "Complete Store import"
+msgstr "Hoàn thành nhập dữ liệu cửa hàng"
+
+msgctxt "Languages::store_import.import_data"
+msgid "Import data"
+msgstr "Nhập dữ liệu"
+
+msgctxt "Languages::store_import.complete_configuration"
+msgid "Proceed to actualizing data"
+msgstr "Xử lý thực hiện dữ liệu"
+
+msgctxt "Languages::store_import.admin_url"
+msgid "Admin panel URL"
+msgstr "URL bảng quản trị"
+
+msgctxt "Languages::store_import.companies_count"
+msgid "Number of storefronts"
+msgstr "Số của trang chính"
+
+msgctxt "Languages::store_import.store_import"
+msgid "Store import"
+msgstr "Nhập dữ liệu cửa hàng"
+
+msgctxt "Languages::store_import.local_store"
+msgid "Store path"
+msgstr "Đường dẫn cửa hàng"
+
+msgctxt "Languages::store_import.select_store"
+msgid "Validate"
+msgstr "Xác nhận"
+
+msgctxt "Languages::store_import.local_store_tooltip"
+msgid "Enter the full path to the installation root directory of the store you want to import data from. For example '/var/www/examplestore' on UNIX-based systems or 'C:\\examplestore' on Windows"
+msgstr "Nhập đường dẫn đầy đủ đến thư mục gốc cài đặt cửa hàng bạn muốn nhập dữ liệu từ. Ví dụ: '/ var/www/examplestore' trên hệ thống dựa trên UNIX hoặc 'C:\\examplestore' trên Windows"
+
+msgctxt "Languages::store_import.configure_store"
+msgid "Configure your store"
+msgstr "Cấu hình cửa hàng của bạn"
+
+msgctxt "Languages::store_import.finish_store"
+msgid "Finish store import"
+msgstr "Kết thúc nhập dữ liệu cửa hàng"
+
+msgctxt "Languages::store_import.storefront_url"
+msgid "Storefront URL"
+msgstr "URL trang chủ"
+
+msgctxt "Languages::store_import.secure_storefront_url"
+msgid "Secure storefront URL"
+msgstr "URL bảo mật trang chính"
+
+msgctxt "Languages::store_import.db_host"
+msgid "Database host"
+msgstr "Máy chủ cơ sở dữ liệu"
+
+msgctxt "Languages::store_import.db_name"
+msgid "Database name"
+msgstr "Tên cơ sở dữ liệu"
+
+msgctxt "Languages::store_import.db_user"
+msgid "Database user"
+msgstr "Tên đăng nhập cơ sở dữ liệu"
+
+msgctxt "Languages::store_import.table_prefix"
+msgid "Table prefix"
+msgstr "Bảng tiền tố"
+
+msgctxt "Languages::store_import.fill_form"
+msgid "<p>Check the data below before proceeding to the data import.</p><p><b>Warning!</b> The data import during this step <b>will overwrite everything (including your existing settings, products, design and layouts, etc.)</b><br />Also, all logs and statistics will be removed.</p><p><b>Pay attention</b> that the <b>Affiliate, Statistics, Recurring billing, Product configurator and Gift registry</b> add-ons are no longer supported, so, none of the related data will be imported from your old store to the new installation.</p>"
+msgstr "<p>Kiểm tra dữ liệu dưới đây trước khi tiếp tục để nhập dữ liệu.</p> <p><b>Cảnh báo!</b> Nhập dữ liệu trong bước này <b>sẽ ghi đè lên tất cả mọi thứ (bao gồm cả cài đặt hiện có của bạn, sản phẩm, thiết kế và bố trí, v.v..)</b> < br / > Ngoài ra, tất cả các bản ghi và số liệu thống kê sẽ được gỡ bỏ.</p> <p><b>Chú ý</b> rằng tiện ích <b>Liên kết bán hàng, Thống kê, Thanh toán định kỳ, Cấu hình sản phẩm và Đăng ký quà tặng</b> không còn được hỗ trợ, do đó, không có gì trong số các dữ liệu có liên quan sẽ được nhập khẩu từ cửa hàng cũ của bạn đến cài đặt mới.</p>"
+
+msgctxt "Languages::store_import.second_step_22x_notice"
+msgid "<p>Note that your original core settings and design will not be transferred, except for add-ons' settings and all custom blocks under \"Products\" location on the Layouts page with <i>Content: Products</i> and <i>Filling: Manually</i>. During the next step you will be able to locate them on the \"Products\" location under the main content block.</p>"
+msgstr "<p>Lưu ý rằng cài đặt cốt lõi và thiết kế ban đầu của bạn sẽ không được chuyển giao, ngoại trừ add-ons cài đặt và tùy chỉnh tất cả khối dưới \"Sản phẩm\" vị trí trên trang bố trí với <i>Nội dung: Sản phẩm</i> và <i>Làm: thủ công</i>. Trong bước tiếp theo, bạn sẽ có thể xác định vị trí chúng vào vị trí \"Sản phẩm\" theo khối nội dung chính.</p>"
+
+msgctxt "Languages::store_import.second_step_30x_notice"
+msgid "<p></p>"
+msgstr "<p></p>"
+
+msgctxt "Languages::store_import.text_from"
+msgid "[product_name] [product_version] [product_edition]"
+msgstr "[product_name] [product_version] [product_edition]"
+
+msgctxt "Languages::store_import.from"
+msgid "From:"
+msgstr "Từ:"
+
+msgctxt "Languages::store_import.text_to"
+msgid "To: [product_edition] [product_version]"
+msgstr "Tới: [product_edition] [product_version]"
+
+msgctxt "Languages::store_import.edition_mapping_failed"
+msgid "Import from this edition is not supported"
+msgstr "Nhập dữ liệu từ phiên bản này không được hỗ trợ"
+
+msgctxt "Languages::store_import.configuration_test_failed"
+msgid "Configuration test failed"
+msgstr "Cấu hình thử nghiệm không thành công"
+
+msgctxt "Languages::store_import.wrong_table_prefix"
+msgid "Store tables with the specified prefix are missing in the specified database."
+msgstr "Cửa hàng bảng với tiền tố được chỉ định không tìm thấy trong cơ sở dữ liệu được chỉ định."
+
+msgctxt "Languages::store_import.path_does_not_exist"
+msgid "The specified directory does not exist. Please check if the path you entered is correct."
+msgstr "Thư mục đã chỉ định không tồn tại. Xin vui lòng kiểm tra xem đường dẫn bạn nhập đã đúng chưa."
+
+msgctxt "Languages::store_import.this_is_not_cart_path"
+msgid "The specified directory is not a valid store installation root folder."
+msgstr "Thư mục đã chỉ định không phải là thư mục gốc cài đặt cửa hàng hợp lệ."
+
+msgctxt "Languages::store_import.text_configuration"
+msgid "<p><h4>The data from the old store was successfully imported.</h4><br/>You are now free to leave the Store import tool and customize the settings and design of your store. First of all, do the following:</p>"
+msgstr "<p><h4>Dữ liệu từ các cửa hàng cũ đã được chuyển nhập thành công.</h4><br/> Bạn đang rảnh để rời khỏi công cụ nhập dữ liệu cửa hàng và tuỳ chỉnh các cài đặt và thiết kế cửa hàng của bạn. Trước hết, thực hiện như sau:</p>"
+
+msgctxt "Languages::store_import.text_configuration2"
+msgid "<p>When you are ready customizing, you will be able to actualize the data by going to the Store import tool again and proceeding directly to the next step. Unlike the initial store import, data actualization will keep all your settings, layouts, and design.</p><p><strong>Attention!</strong> Data actualization will be impossible if you modify, remove, or add new [storefronts_vendors]. In this case, you will have to re-start the store import from the first step.</p>"
+msgstr "<p>Khi bạn đã sẵn sàng tuỳ chỉnh, bạn sẽ có thể để thực hiện dữ liệu bằng cách đi đến công cụ nhập dữ liệu cửa hàng một lần nữa và xử lý đến bước tiếp theo. Không giống như ban đầu cửa hàng nhập, dữ liệu sẽ chỉ giữ tất cả các cài đặt của bạn, bố trí, và thiết kế.</p> <p><strong>Chú ý!</strong> Dữ liệu thực hiện sẽ không thể nếu bạn sửa đổi, xoá, hoặc thêm mới [storefronts_vendors]. Trong trường hợp này, bạn sẽ phải bắt đầu nhập lại dữ liệu cửa hàng từ bước đầu tiên.</p>"
+
+msgctxt "Languages::store_import.424_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.423_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.422_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.421_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.415_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.414_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.413_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.412_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.411_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.401_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.402_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.403_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.306_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.305_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.304_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.303_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.302_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.301_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.224_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for a Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for a Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.225_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for a Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for a Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.301_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.302_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.303_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.304_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.305_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.306_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi đến <a href=\"[stores_section_link]\"> Cửa hàng</a> phần và đặt đúng <b>URL trang chính</b> cho mỗi công ty.</li> <li>Đi đến <a href=\"[manage_languages_link]\">Ngôn ngữ </a> thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.401_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi tới <a href=\"[manage_languages_link]\"> Ngôn ngữ</a> ngôn ngữ và thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.402_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Đi tới <a href=\"[manage_languages_link]\"> Ngôn ngữ</a> ngôn ngữ và thiết lập giá trị <b>Quốc gia</b> chính xác cho mỗi ngôn ngữ.</li></ul> <p>Xin vui lòng chú ý đến những điều sau đây:</p> <ul><li>Trình <b>Menu nhanh</b> đã được thiết lập mặc định.</li></ul>"
+
+msgctxt "Languages::store_import.403_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.411_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.412_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.413_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.414_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.415_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.421_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.422_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.423_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.424_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.306_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.305_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.304_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.303_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.302_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.301_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.225_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.224_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.progress_title"
+msgid "Upgrading to [to]"
+msgstr "Nâng cấp lên [to]"
+
+msgctxt "Languages::store_import.updating_data"
+msgid "Updating data"
+msgstr "Cập nhật dữ liệu"
+
+msgctxt "Languages::store_import.converting_orders"
+msgid "Converting orders"
+msgstr "Chuyển đổi đơn đặt hàng"
+
+msgctxt "Languages::store_import.import_failed"
+msgid "Store import failed"
+msgstr "Nhập dữ liệu cửa hàng thất bại"
+
+msgctxt "Languages::store_import.cloning_database"
+msgid "Cloning database"
+msgstr "Tạo bản sao cơ sở dữ liệu"
+
+msgctxt "Languages::store_import.updating_languages"
+msgid "Updating languages"
+msgstr "Cập Nhật ngôn ngữ"
+
+msgctxt "Languages::store_import.done"
+msgid "Done"
+msgstr "Xong"
+
+msgctxt "Languages::store_import.class_not_found"
+msgid "Import from this version is not supported"
+msgstr "Nhập dữ liệu từ phiên bản này không được hỗ trợ"
+
+msgctxt "Languages::store_import.processing_addons"
+msgid "Updating add-ons"
+msgstr "Cập nhật add-ons"
+
+msgctxt "Languages::store_import.actualization_completed"
+msgid "Actualization completed"
+msgstr "Thực hiện hoàn thành"
+
+msgctxt "Languages::store_import.actualization_failed"
+msgid "Actualization failed"
+msgstr "Thực hiện bị thất bại"
+
+msgctxt "Languages::store_import.invalid_license"
+msgid "Sorry, the data import is impossible: no valid upgrade subscription found (read more about the <a title=\"Store Import: License Requirements\" target=\"_blank\" href=\"http://kb.cs-cart.com/store-import#license-requirements\">license requirements</a> for a store import).<br /><br />Contact us at <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a> if you have any questions."
+msgstr "Xin lỗi, nhập dữ liệu là không thể: không tìm thấy đăng ký nâng cấp hợp lệ (đọc thêm về <a title=\"Store Import: License Requirements\" target=\"_blank\" href=\"http://kb.cs-cart.com/store-import#license-requirements\"> giấy phép yêu cầu</a> cho một cửa hàng nhập khẩu). < br / > < br / > Liên hệ với chúng tôi tại <a href=\"mailto:sales@cs-cart.com\"> sales@cs-cart.com</a> nếu bạn có bất kỳ câu hỏi."
+
+msgctxt "Languages::store_import.cant_connect_to_imported"
+msgid "Store import has been canceled to prevent the loss of data. Could not connect to the imported database. Please contact tech support."
+msgstr "Nhập dữ liệu cửa hàng đã bị hủy bỏ để ngăn ngừa mất dữ liệu. Không thể kết nối đến cơ sở dữ liệu nhập. Xin vui lòng liên hệ với hỗ trợ kỹ thuật."
+
+msgctxt "Languages::store_import.cant_connect_to_original"
+msgid "Store import has been canceled to prevent the loss of data. Could not connect to the original database. Please contact tech support."
+msgstr "Nhập dữ liệu cửa hàng đã bị hủy bỏ để ngăn ngừa mất dữ liệu. Không thể kết nối đến cơ sở dữ liệu nhập. Xin vui lòng liên hệ với hỗ trợ kỹ thuật."
+
+msgctxt "SettingsSections::store_import::general"
+msgid "General"
+msgstr "Tổng quát"
+
+msgctxt "SettingsOptions::store_import::si_data"
+msgid "Store import data"
+msgstr "Nhập dữ liệu cửa hàng"
+
+msgctxt "Languages::store_import.design_changes_not_allowed"
+msgid "Store import is impossible after LESS-to-CSS conversion in the Visual Editor. Please enable LESS in the editor to proceed."
+msgstr "Nhập dữ liệu cửa hàng là không thể LESS-to-CSS chuyển đổi trong trình soạn thảo trực quan. Xin vui lòng cho phép LESS trong trình soạn thảo để tiến hành."
+

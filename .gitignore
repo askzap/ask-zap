@@ -1,0 +1,10 @@
+
+/var/cache/*
+
+config.local.php
+
+local_conf.php
+.htaccess
+.htaccess*
+
+phinx.yml

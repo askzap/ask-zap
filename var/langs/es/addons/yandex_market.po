@@ -1,0 +1,690 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+
+msgctxt "Addons::name::yandex_market"
+msgid "Yandex.Market"
+msgstr "Yandex.Market"
+
+msgctxt "Addons::description::yandex_market"
+msgid "Export products to the Yandex.Market catalog"
+msgstr "Export products to the Yandex.Market catalog"
+
+msgctxt "Languages::yml"
+msgid "Yandex.Market"
+msgstr "Yandex.Market"
+
+msgctxt "Languages::yandex_market"
+msgid "Yandex.Market"
+msgstr "Yandex.Market"
+
+msgctxt "Languages::yml_market_category_list_title"
+msgid "Categories list of Yandex.Market"
+msgstr "Categories list of Yandex.Market"
+
+msgctxt "Languages::yml_market_category_list_text"
+msgid "<p>For a product offer, it is recommended to specify the category in which it should be placed on Yandex.Market. The category is conveyed using the <market_category> element in the product offer description. In this element, it is allowed to specify names of categories only from the product categories tree of Yandex.Market.</p><p>More information and the categories list in xls format you can find on the Yandex website <a href=\"http://help.yandex.ru/partnermarket/guides/clothes.xml#h6\">Porduct offer category</a></p><br/><p>Select a category from the list</p><br/>"
+msgstr "<p>For a product offer, it is recommended to specify the category in which it should be placed on Yandex.Market. The category is conveyed using the <market_category> element in the product offer description. In this element, it is allowed to specify names of categories only from the product categories tree of Yandex.Market.</p><p>More information and the categories list in xls format you can find on the Yandex website <a href=\"http://help.yandex.ru/partnermarket/guides/clothes.xml#h6\">Porduct offer category</a></p><br/><p>Select a category from the list</p><br/>"
+
+msgctxt "Languages::yml_market_category_link"
+msgid "Categories list and tooltip"
+msgstr "Categories list and tooltip"
+
+msgctxt "Languages::yml_export_export_true"
+msgid "<br/><b>Exported in Yandex.Market: [count] products</b><br/>"
+msgstr "<br/><b>Exported in Yandex.Market: [count] products</b><br/>"
+
+msgctxt "Languages::yml_export_error_cron"
+msgid "Export in Yandex.Market resulted in an error"
+msgstr "Export in Yandex.Market resulted in an error"
+
+msgctxt "Languages::yml_clear_cache_info"
+msgid "If products, categories and etc... were added or changed, please <a href=\"[clear_cache_url]\">clear the cache</a> to regenerate the xml yml.<br /><br /> [yml_available_in_customer]"
+msgstr "If products, categories and etc... were added or changed, please <a href=\"[clear_cache_url]\">clear the cache</a> to regenerate the xml yml.<br /><br /> [yml_available_in_customer]"
+
+msgctxt "Languages::yml_available_in_customer"
+msgid "Price list is available by this link: <a href=\"[yml_url]\">[yml_url]</a><br /><br />Price list can be reached by the URL <a href=\"[http_location]/yandex_market.yml\">[http_location]/yandex_market.yml</a> if SEO addon is enabled.<br /><br />"
+msgstr "Price list is available by this link: <a href=\"[yml_url]\">[yml_url]</a><br /><br />Price list can be reached by the URL <a href=\"[http_location]/yandex_market.yml\">[http_location]/yandex_market.yml</a> if SEO addon is enabled.<br /><br />"
+
+msgctxt "Languages::yml_export_unsuccessfull_products_zero_price"
+msgid "The following products were not exported because of zero price:"
+msgstr "The following products were not exported because of zero price:"
+
+msgctxt "Languages::yml_export_unsuccessfull_disabled_products"
+msgid "The following products were not exported because they are disabled:"
+msgstr "The following products were not exported because they are disabled:"
+
+msgctxt "Languages::yml_export_unsuccessfull_out_of_stock"
+msgid "The following products were not exported because the products are out of stock:"
+msgstr "The following products were not exported because the products are out of stock:"
+
+msgctxt "Languages::yml_export_unsuccessfull_empty_brand"
+msgid "The following products were not exported because the \"Brand\" field is empty:"
+msgstr "The following products were not exported because the \"Brand\" field is empty:"
+
+msgctxt "Languages::yml_export_unsuccessfull_empty_model"
+msgid "The following products were not exported because the \"Model\" field is empty:"
+msgstr "The following products were not exported because the \"Model\" field is empty:"
+
+msgctxt "Languages::yml_export_unsuccessfull_disable_cat_list"
+msgid "The following products were not exported because of the excluded category:"
+msgstr "The following products were not exported because of the excluded category:"
+
+msgctxt "Languages::yml_export_unsuccessfull_disable_cat_list_d"
+msgid "The following products were not exported because of the disabled category:"
+msgstr "The following products were not exported because of the disabled category:"
+
+msgctxt "Languages::yml_vendor_not_specified"
+msgid "Vendor not specified"
+msgstr "Vendor not specified"
+
+msgctxt "Languages::yml_rur_absent"
+msgid "To install the add-on, it is required to add a currency with the code RUR."
+msgstr "To install the add-on, it is required to add a currency with the code RUR."
+
+msgctxt "Languages::yml_market_category"
+msgid "YM Value of \"market_category\" field"
+msgstr "YM Value of \"market_category\" field"
+
+msgctxt "Languages::yml_market_category_option"
+msgid "Select a category from the list"
+msgstr "Select a category from the list"
+
+msgctxt "Languages::yml_type_prefix"
+msgid "YM Product group/category (typePrefix)"
+msgstr "YM Product group/category (typePrefix)"
+
+msgctxt "Languages::yml_brand"
+msgid "YM Brand"
+msgstr "YM Brand"
+
+msgctxt "Languages::yml_model"
+msgid "YM Model"
+msgstr "YM Model"
+
+msgctxt "Languages::yml_country"
+msgid "YM Country of origin"
+msgstr "YM Country of origin"
+
+msgctxt "Languages::yml_export_fields"
+msgid "Export fields"
+msgstr "Export fields"
+
+msgctxt "Languages::yml_cost"
+msgid "YM Allow local delivery cost"
+msgstr "YM Allow local delivery cost"
+
+msgctxt "Languages::yml_adult"
+msgid "YM Adult offer"
+msgstr "YM Adult offer"
+
+msgctxt "Languages::yml_delivery"
+msgid "YM Allow delivery"
+msgstr "YM Allow delivery"
+
+msgctxt "Languages::yml_store"
+msgid "YM Allow retail store purchase"
+msgstr "YM Allow retail store purchase"
+
+msgctxt "Languages::yml_pickup"
+msgid "YM Allow booking and self delivery"
+msgstr "YM Allow booking and self delivery"
+
+msgctxt "Languages::yml_true"
+msgid "Yes"
+msgstr "Yes"
+
+msgctxt "Languages::yml_false"
+msgid "No"
+msgstr "No"
+
+msgctxt "Languages::yml_sales_notes"
+msgid "YM Sales notes"
+msgstr "YM Sales notes"
+
+msgctxt "Languages::yml_export_in_stock"
+msgid "In stock products only"
+msgstr "In stock products only"
+
+msgctxt "Languages::yml_export_in_stock_description"
+msgid "Product quantity must be greater than 0"
+msgstr "Product quantity must be greater than 0"
+
+msgctxt "Languages::yml_origin_not_specified"
+msgid "Not specified"
+msgstr "Not specified"
+
+msgctxt "Languages::yml_products_filename"
+msgid "ym_products"
+msgstr "ym_products"
+
+msgctxt "Languages::yml_select_shop"
+msgid "Select store"
+msgstr "Select store"
+
+msgctxt "Languages::yml_bid"
+msgid "YM Basic bid"
+msgstr "YM Basic bid"
+
+msgctxt "Languages::yml_cbid"
+msgid "YM Card bid"
+msgstr "YM Card bid"
+
+msgctxt "Languages::yml_market"
+msgid "Yandex.Market"
+msgstr "Yandex.Market"
+
+msgctxt "Languages::yml_disable_cat"
+msgid "YM Exclude the category products from export in Yandex.Market"
+msgstr "YM Exclude the category products from export in Yandex.Market"
+
+msgctxt "Languages::yml_export_yes"
+msgid "YM Export the product in Yandex.Market"
+msgstr "YM Export the product in Yandex.Market"
+
+msgctxt "Languages::tt_addons_yandex_market_hooks_products_detailed_content_post_yml_model"
+msgid "Leave empty to use product code"
+msgstr "Leave empty to use product code"
+
+msgctxt "Languages::yml_purchase_info"
+msgid "Need to setup yandex market.<br />Auth type: URL, Data type: JSON.<br />Also need to turn on \"Keep https\" setting."
+msgstr "Need to setup yandex market.<br />Auth type: URL, Data type: JSON.<br />Also need to turn on \"Keep https\" setting."
+
+msgctxt "Languages::yml_shipping_type"
+msgid "Yandex.Market Shipping type"
+msgstr "Yandex.Market Shipping type"
+
+msgctxt "Languages::yml_shipping_type_delivery"
+msgid "Courier delivery"
+msgstr "Courier delivery"
+
+msgctxt "Languages::yml_shipping_type_pickup"
+msgid "Pickup"
+msgstr "Pickup"
+
+msgctxt "Languages::yml_shipping_type_post"
+msgid "Post"
+msgstr "Post"
+
+msgctxt "Languages::yml_shipping_outlets"
+msgid "Yandex.Market Outlets"
+msgstr "Yandex.Market Outlets"
+
+msgctxt "Languages::yml_payment_type_prepaid"
+msgid "Prepaid"
+msgstr "Prepaid"
+
+msgctxt "Languages::yml_payment_type_postpaid"
+msgid "Postpaid"
+msgstr "Postpaid"
+
+msgctxt "Languages::yml_payment_method_yandex"
+msgid "Payment when placing (Russia only)"
+msgstr "Payment when placing (Russia only)"
+
+msgctxt "Languages::yml_payment_method_shop_prepaid"
+msgid "Directly to store (Ukraine only)"
+msgstr "Directly to store (Ukraine only)"
+
+msgctxt "Languages::yml_payment_method_cash_on_delivery"
+msgid "Cash on delivery order"
+msgstr "Cash on delivery order"
+
+msgctxt "Languages::yml_payment_method_card_on_delivery"
+msgid "Credit card on delivery order"
+msgstr "Credit card on delivery order"
+
+msgctxt "Languages::yml_aouth_info_part1"
+msgid "Please <a href=\"https://oauth.yandex.ru/client/new\" target=\"_blank\">register an application</a> with full Yandex.Market permissions to continue. Use this value as the <b>Callback URL</b> param: <i>[callback_uri]</i>. After the registration, you will be able to fill out the \"Application ID\" and \"Application password\" fields on this page."
+msgstr "Please <a href=\"https://oauth.yandex.ru/client/new\" target=\"_blank\">register an application</a> with full Yandex.Market permissions to continue. Use this value as the <b>Callback URL</b> param: <i>[callback_uri]</i>. After the registration, you will be able to fill out the \"Application ID\" and \"Application password\" fields on this page."
+
+msgctxt "Languages::yml_aouth_info_part2"
+msgid "After you've created the app and when you ever <a href=\"[edit_app_uri]\" target=\"_blank\">modify it</a>, <a href=\"[auth_uri]\" target=\"_blank\">click here to get a new auth token</a>"
+msgstr "After you've created the app and when you ever <a href=\"[edit_app_uri]\" target=\"_blank\">modify it</a>, <a href=\"[auth_uri]\" target=\"_blank\">click here to get a new auth token</a>"
+
+msgctxt "Languages::yml_address"
+msgid "Address fron Yandex.Market"
+msgstr "Address fron Yandex.Market"
+
+msgctxt "Languages::yml_address_region"
+msgid "Region"
+msgstr "Region"
+
+msgctxt "Languages::yml_address_country"
+msgid "Country"
+msgstr "Country"
+
+msgctxt "Languages::yml_address_country_district"
+msgid "Country District"
+msgstr "Country District"
+
+msgctxt "Languages::yml_address_subject_federation"
+msgid "Subject Federation"
+msgstr "Subject Federation"
+
+msgctxt "Languages::yml_address_subject_federation_district"
+msgid "Subject Federation District"
+msgstr "Subject Federation District"
+
+msgctxt "Languages::yml_address_city"
+msgid "City"
+msgstr "City"
+
+msgctxt "Languages::yml_address_village"
+msgid "Village"
+msgstr "Village"
+
+msgctxt "Languages::yml_address_city_district"
+msgid "City District"
+msgstr "City District"
+
+msgctxt "Languages::yml_address_subway_station"
+msgid "Subway Station"
+msgstr "Subway Station"
+
+msgctxt "Languages::yml_address_other"
+msgid "Other"
+msgstr "Other"
+
+msgctxt "Languages::yml_address_house"
+msgid "House"
+msgstr "House"
+
+msgctxt "Languages::yml_address_postcode"
+msgid "Postcode"
+msgstr "Postcode"
+
+msgctxt "Languages::yml_address_street"
+msgid "Street"
+msgstr "Street"
+
+msgctxt "Languages::yml_address_subway"
+msgid "Subway"
+msgstr "Subway"
+
+msgctxt "Languages::yml_address_block"
+msgid "Block"
+msgstr "Block"
+
+msgctxt "Languages::yml_address_floor"
+msgid "Floor"
+msgstr "Floor"
+
+msgctxt "Languages::yml_address_entrance"
+msgid "Entrance"
+msgstr "Entrance"
+
+msgctxt "Languages::yml_address_entryphone"
+msgid "Entryphone"
+msgstr "Entryphone"
+
+msgctxt "Languages::yml_address_apartment"
+msgid "Apartment"
+msgstr "Apartment"
+
+msgctxt "Languages::yml_address_recipient"
+msgid "Recipient"
+msgstr "Recipient"
+
+msgctxt "Languages::yml_address_phone"
+msgid "Phone"
+msgstr "Phone"
+
+msgctxt "Languages::yml_substatus_reservation_expired"
+msgid "Reservation expired"
+msgstr "Reservation expired"
+
+msgctxt "Languages::yml_substatus_user_not_paid"
+msgid "User not paid"
+msgstr "User not paid"
+
+msgctxt "Languages::yml_substatus_user_unreachable"
+msgid "User unreachable"
+msgstr "User unreachable"
+
+msgctxt "Languages::yml_substatus_user_changed_mind"
+msgid "User changed mind"
+msgstr "User changed mind"
+
+msgctxt "Languages::yml_substatus_user_refused_delivery"
+msgid "User refused delivery"
+msgstr "User refused delivery"
+
+msgctxt "Languages::yml_substatus_user_refused_product"
+msgid "User refused product"
+msgstr "User refused product"
+
+msgctxt "Languages::yml_substatus_shop_failed"
+msgid "Shop failed"
+msgstr "Shop failed"
+
+msgctxt "Languages::yml_substatus_user_refused_quality"
+msgid "User refused quality"
+msgstr "User refused quality"
+
+msgctxt "Languages::yml_substatus_replacing_order"
+msgid "Replacing order"
+msgstr "Replacing order"
+
+msgctxt "Languages::yml_substatus_processing_expired"
+msgid "Processing expired"
+msgstr "Processing expired"
+
+msgctxt "Languages::yml_status_delivered"
+msgid "Delivered"
+msgstr "Delivered"
+
+msgctxt "Languages::yml_status_pickup"
+msgid "Pickup"
+msgstr "Pickup"
+
+msgctxt "SettingsSections::yandex_market::price_list"
+msgid "Price list"
+msgstr "Price list"
+
+msgctxt "SettingsOptions::yandex_market::information"
+msgid "Information"
+msgstr "Information"
+
+msgctxt "SettingsOptions::yandex_market::clear_url"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::yandex_market::general"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "SettingsOptions::yandex_market::export_type"
+msgid "Product offer description type"
+msgstr "Product offer description type"
+
+msgctxt "SettingsTooltips::yandex_market::export_type"
+msgid "More information about export types you can find on the Yandex.Market website <a href=\"http://help.yandex.ru/partnermarket/offers.xml\">Examples and descriprions of elements</a>"
+msgstr "More information about export types you can find on the Yandex.Market website <a href=\"http://help.yandex.ru/partnermarket/offers.xml\">Examples and descriprions of elements</a>"
+
+msgctxt "SettingsVariants::yandex_market::export_type::simple"
+msgid "Simplified"
+msgstr "Simplified"
+
+msgctxt "SettingsVariants::yandex_market::export_type::vendor_model"
+msgid "vendor.model"
+msgstr "vendor.model"
+
+msgctxt "SettingsOptions::yandex_market::shop_name"
+msgid "Store name"
+msgstr "Store name"
+
+msgctxt "SettingsOptions::yandex_market::export_stock"
+msgid "Export in-stock products only"
+msgstr "Export in-stock products only"
+
+msgctxt "SettingsTooltips::yandex_market::export_stock"
+msgid "Products with the quantity equal to 0 or less will be excluded from export."
+msgstr "Products with the quantity equal to 0 or less will be excluded from export."
+
+msgctxt "SettingsOptions::yandex_market::export_null_price"
+msgid "Export products with null price"
+msgstr "Export products with null price"
+
+msgctxt "SettingsTooltips::yandex_market::export_null_price"
+msgid "Products with the price equal to 0 will be exported."
+msgstr "Products with the price equal to 0 will be exported."
+
+msgctxt "SettingsOptions::yandex_market::export_vendor_code"
+msgid "Export vendor code"
+msgstr "Export vendor code"
+
+msgctxt "SettingsOptions::yandex_market::disable_cat_d"
+msgid "Exclude disabled categories"
+msgstr "Exclude disabled categories"
+
+msgctxt "SettingsTooltips::yandex_market::disable_cat_d"
+msgid "Products from active and hidden categories only will be exported."
+msgstr "Products from active and hidden categories only will be exported."
+
+msgctxt "SettingsOptions::yandex_market::feature_for_brand"
+msgid "Feature names for using in the \"brand\" field"
+msgstr "Feature names for using in the \"brand\" field"
+
+msgctxt "SettingsTooltips::yandex_market::feature_for_brand"
+msgid "Used for the \"vendor.model\" format type. Choose the name of the feature which value will be used for the \"brand\" field. Only features of the \"Brand/Manufacturer\"type can be used."
+msgstr "Used for the \"vendor.model\" format type. Choose the name of the feature which value will be used for the \"brand\" field. Only features of the \"Brand/Manufacturer\"type can be used."
+
+msgctxt "SettingsOptions::yandex_market::feature_for_vendor_code"
+msgid "Vendor code feature"
+msgstr "Vendor code feature"
+
+msgctxt "SettingsTooltips::yandex_market::feature_for_vendor_code"
+msgid "It is used for the \"vendorCode\" parameter. Select the name of the feature which value will be used for the \"vendorCode\" field."
+msgstr "It is used for the \"vendorCode\" parameter. Select the name of the feature which value will be used for the \"vendorCode\" field."
+
+msgctxt "SettingsOptions::yandex_market::type_prefix"
+msgid "Use in the \"typePrefix\" field"
+msgstr "Use in the \"typePrefix\" field"
+
+msgctxt "SettingsTooltips::yandex_market::type_prefix"
+msgid "Used for the \"vendor.model\" format type. Product name is formed by the formula: \"typePrefix\" + \"brand\" + \"model\". If the value of the \"typePrefix\" field is not set for a product, the category name will be used."
+msgstr "Used for the \"vendor.model\" format type. Product name is formed by the formula: \"typePrefix\" + \"brand\" + \"model\". If the value of the \"typePrefix\" field is not set for a product, the category name will be used."
+
+msgctxt "SettingsOptions::yandex_market::market_category"
+msgid "Use the \"market_category\" field."
+msgstr "Use the \"market_category\" field."
+
+msgctxt "SettingsTooltips::yandex_market::market_category"
+msgid "For a product offer, it is recommended to specify the category/section in which it should be placed on Yandex.Market. In this element, it is allowed to specify names of categories only from <a href=\"http://cards2.yandex.net/hlp-get/6213/xls/category_tree-.xls\"> the product categories tree of Yandex.Market</a>.<br/>The <market_category> element is not required"
+msgstr "For a product offer, it is recommended to specify the category/section in which it should be placed on Yandex.Market. In this element, it is allowed to specify names of categories only from <a href=\"http://cards2.yandex.net/hlp-get/6213/xls/category_tree-.xls\"> the product categories tree of Yandex.Market</a>.<br/>The <market_category> element is not required"
+
+msgctxt "SettingsOptions::yandex_market::market_category_object"
+msgid "Use the value for the \"market_category\" field from"
+msgstr "Use the value for the \"market_category\" field from"
+
+msgctxt "SettingsTooltips::yandex_market::market_category_object"
+msgid "At product export, the \"market_category\" setting of each product individually or of the whole category will be used."
+msgstr "At product export, the \"market_category\" setting of each product individually or of the whole category will be used."
+
+msgctxt "SettingsVariants::yandex_market::market_category_object::product"
+msgid "product"
+msgstr "product"
+
+msgctxt "SettingsVariants::yandex_market::market_category_object::category"
+msgid "category"
+msgstr "category"
+
+msgctxt "SettingsOptions::yandex_market::local_delivery_cost"
+msgid "Use local delivery cost field"
+msgstr "Use local delivery cost field"
+
+msgctxt "SettingsTooltips::yandex_market::local_delivery_cost"
+msgid "Used for show value local delivery cost."
+msgstr "Used for show value local delivery cost."
+
+msgctxt "SettingsOptions::yandex_market::global_local_delivery_cost"
+msgid "Price global local delivery cost"
+msgstr "Price global local delivery cost"
+
+msgctxt "SettingsTooltips::yandex_market::global_local_delivery_cost"
+msgid "Default shipping cost for the products with unspecified shipping cost"
+msgstr "Default shipping cost for the products with unspecified shipping cost"
+
+msgctxt "SettingsOptions::yandex_market::export_encoding"
+msgid "Encoding of the exported file"
+msgstr "Encoding of the exported file"
+
+msgctxt "SettingsVariants::yandex_market::export_encoding::utf-8"
+msgid "utf8"
+msgstr "utf8"
+
+msgctxt "SettingsVariants::yandex_market::export_encoding::windows-1251"
+msgid "windows-1251"
+msgstr "windows-1251"
+
+msgctxt "SettingsOptions::yandex_market::images"
+msgid "Images"
+msgstr "Images"
+
+msgctxt "SettingsOptions::yandex_market::image_type"
+msgid "Image type"
+msgstr "Image type"
+
+msgctxt "SettingsVariants::yandex_market::image_type::thumbnail"
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+msgctxt "SettingsVariants::yandex_market::image_type::detailed"
+msgid "Detailed"
+msgstr "Detailed"
+
+msgctxt "SettingsOptions::yandex_market::thumbnail_width"
+msgid "Thumbnail width"
+msgstr "Thumbnail width"
+
+msgctxt "SettingsOptions::yandex_market::thumbnail_height"
+msgid "Thumbnail height"
+msgstr "Thumbnail height"
+
+msgctxt "SettingsSections::yandex_market::purchase"
+msgid "Purchase"
+msgstr "Purchase"
+
+msgctxt "SettingsOptions::yandex_market::purchase_information"
+msgid "Information"
+msgstr "Information"
+
+msgctxt "SettingsOptions::yandex_market::purchase_info"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::yandex_market::purchase_api_access_to_store"
+msgid "API access for requests from Yandex to Store"
+msgstr "API access for requests from Yandex to Store"
+
+msgctxt "SettingsOptions::yandex_market::auth_token"
+msgid "Auth token"
+msgstr "Auth token"
+
+msgctxt "SettingsOptions::yandex_market::purchase_api_access_to_yandex"
+msgid "API access for requests from Store to Yandex"
+msgstr "API access for requests from Store to Yandex"
+
+msgctxt "SettingsOptions::yandex_market::ym_api_url"
+msgid "Yandex Market Partner API URL"
+msgstr "Yandex Market Partner API URL"
+
+msgctxt "SettingsTooltips::yandex_market::ym_api_url"
+msgid "Leave unchanged"
+msgstr "Leave unchanged"
+
+msgctxt "SettingsOptions::yandex_market::campaign_id"
+msgid "Campaign ID"
+msgstr "Campaign ID"
+
+msgctxt "SettingsOptions::yandex_market::user_login"
+msgid "User Login"
+msgstr "User Login"
+
+msgctxt "SettingsOptions::yandex_market::ym_application_id"
+msgid "Application ID"
+msgstr "Application ID"
+
+msgctxt "SettingsOptions::yandex_market::ym_application_password"
+msgid "Application password"
+msgstr "Application password"
+
+msgctxt "SettingsOptions::yandex_market::ym_auth_token"
+msgid "Auth token"
+msgstr "Auth token"
+
+msgctxt "SettingsOptions::yandex_market::ym_oauth_info"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::yandex_market::purchase_payments_header"
+msgid "Payments"
+msgstr "Payments"
+
+msgctxt "SettingsOptions::yandex_market::purchase_prepayments"
+msgid "Prepayment"
+msgstr "Prepayment"
+
+msgctxt "SettingsVariants::yandex_market::purchase_prepayments::yandex"
+msgid "Payment when placing (Russia only)"
+msgstr "Payment when placing (Russia only)"
+
+msgctxt "SettingsVariants::yandex_market::purchase_prepayments::shop_prepaid"
+msgid "Directly to store (Ukraine only)"
+msgstr "Directly to store (Ukraine only)"
+
+msgctxt "SettingsOptions::yandex_market::purchase_postpayments"
+msgid "Postpay"
+msgstr "Postpay"
+
+msgctxt "SettingsVariants::yandex_market::purchase_postpayments::cash_on_delivery"
+msgid "Cash on delivery order"
+msgstr "Cash on delivery order"
+
+msgctxt "SettingsVariants::yandex_market::purchase_postpayments::card_on_delivery"
+msgid "Credit card on delivery order"
+msgstr "Credit card on delivery order"
+
+msgctxt "SettingsOptions::yandex_market::purchase_order_statuses"
+msgid "Order statuses"
+msgstr "Order statuses"
+
+msgctxt "SettingsOptions::yandex_market::order_status_unpaid"
+msgid "Order has not been paid yet"
+msgstr "Order has not been paid yet"
+
+msgctxt "SettingsOptions::yandex_market::order_status_processing"
+msgid "Processing"
+msgstr "Processing"
+
+msgctxt "SettingsOptions::yandex_market::order_status_canceled"
+msgid "Order canceled"
+msgstr "Order canceled"
+
+msgctxt "SettingsOptions::yandex_market::order_status_delivery"
+msgid "The order is ready to be transferred to a pickup point"
+msgstr "The order is ready to be transferred to a pickup point"
+
+msgctxt "SettingsOptions::yandex_market::order_status_pickup"
+msgid "The order has been delivered to a pickup point"
+msgstr "The order has been delivered to a pickup point"
+
+msgctxt "SettingsOptions::yandex_market::order_status_delivered"
+msgid "The order has been delivered"
+msgstr "The order has been delivered"
+
+msgctxt "SettingsOptions::yandex_market::includes_required_fields"
+msgid "Check if mandatory fields are filled"
+msgstr "Check if mandatory fields are filled"
+
+msgctxt "SettingsTooltips::yandex_market::includes_required_fields"
+msgid "Enables checking if Yandex.Market mandatory fields are filled."
+msgstr "Enables checking if Yandex.Market mandatory fields are filled."
+
+msgctxt "Languages::yml_manufacturer_warranty"
+msgid "YM Manufacturer warranty"
+msgstr "YM Manufacturer warranty"
+
+msgctxt "Languages::tt_addons_yandex_market_hooks_products_detailed_content_post_yml_manufacturer_warranty"
+msgid "The format of the \"manufacturer warranty\" parameter must comply with ISO 8601, for example, P1Y2M10DT2H30M. Explanation — 1 year, 2 months, 10 days, 2 hours and 30 minutes."
+msgstr "The format of the \"manufacturer warranty\" parameter must comply with ISO 8601, for example, P1Y2M10DT2H30M. Explanation — 1 year, 2 months, 10 days, 2 hours and 30 minutes."
+
+msgctxt "Languages::yml_seller_warranty"
+msgid "YM Seller warranty"
+msgstr "YM Seller warranty"
+
+msgctxt "Languages::tt_addons_yandex_market_hooks_products_detailed_content_post_yml_seller_warranty"
+msgid "The format of the \"seller warranty\" parameter must comply with ISO 8601, for example, P1Y2M10DT2H30M. Explanation — 1 year, 2 months, 10 days, 2 hours and 30 minutes."
+msgstr "The format of the \"seller warranty\" parameter must comply with ISO 8601, for example, P1Y2M10DT2H30M. Explanation — 1 year, 2 months, 10 days, 2 hours and 30 minutes."
+
+msgctxt "SettingsOptions::yandex_market::enable_authorization"
+msgid "Enable authorization"
+msgstr "Enable authorization"
+
+msgctxt "SettingsTooltips::yandex_market::turn_on_authorization"
+msgid "Enable authentication for the formation of the price list."
+msgstr "Enable authentication for the formation of the price list."
+

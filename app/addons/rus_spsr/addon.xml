@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_spsr</id>
+    <version>1.0</version>
+    <priority>4600</priority>
+    <status>active</status>
+    <default_language>ru</default_language>
+    <compatibility>
+        <dependencies>barcode</dependencies>
+        <core_version>
+            <min>4.2.1</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+    </compatibility>
+    <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="general">
+                        <type>header</type>
+                    </item>
+                    <item id="shop_name">
+                        <type>input</type>
+                    </item>
+                    <item id="login">
+                        <type>input</type>
+                    </item>
+                    <item id="password">
+                        <type>input</type>
+                    </item>
+                    <item id="icn">
+                        <type>input</type>
+                    </item>
+                    <item id="secure_protocol">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="server">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="test">
+                            </item>
+                            <item id="work">
+                            </item>
+                        </variants>
+                        <default_value>work</default_value>
+                    </item>
+                    <item id="barcode">
+                        <type>header</type>
+                    </item>
+                    <item id="height">
+                        <type>input</type>
+                        <default_value>60</default_value>
+                    </item>
+                    <item id="width">
+                        <type>input</type>
+                        <default_value>250</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>ALTER TABLE `?:products` ADD `spsr_product_type` varchar(2) NOT NULL default '24'</item>
+        <item for="install" type="file">database/spsr_invoices.sql</item>
+        <item for="install" type="file">database/spsr_register.sql</item>
+        <item for="install" type="file">database/spsr_invoices_items.sql</item>
+    </queries>
+    <functions>
+        <item for="install">fn_rus_spsr_install</item>
+        <item for="uninstall">fn_rus_spsr_uninstall</item>
+    </functions>
+</addon>

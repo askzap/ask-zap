@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>rus_ruble</id>
+    <version>4.2.2</version>
+    <update_server>https://updates.cs-cart.ru/api/update_addons</update_server>
+    <default_language>en</default_language>
+    <priority>4500</priority>
+	<position>0</position>
+    <auto_install>ULTIMATE,MULTIVENDOR</auto_install>
+	<status>active</status>
+
+    <compatibility>
+        <core_version>
+            <min>4.2.1</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+    </compatibility>
+
+    <settings layout="separate">
+        <sections>
+            <section id="settings" edition_type="ROOT">
+                <items>
+                    <item id="settings">
+                        <type>template</type>
+                        <default_value>settings.tpl</default_value>
+                    </item>
+                    <item id="cron_key">
+                        <type>hidden</type>
+                        <default_value>0</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <functions>
+        <item for="install">fn_rus_ruble_install</item>
+    </functions>
+
+</addon>

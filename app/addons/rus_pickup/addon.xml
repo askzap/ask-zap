@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_pickup</id>
+    <version>4.2.2</version>
+    <update_server>https://updates.cs-cart.ru/api/update_addons</update_server>
+    <priority>2000</priority>
+    <position>710</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <status>active</status>
+
+    <compatibility>
+        <dependencies>store_locator</dependencies>
+        <core_version>
+            <min>4.2.1</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+    </compatibility>
+
+    <functions>
+        <item for="install">fn_rus_pickup_install</item>
+        <item for="uninstall">fn_rus_pickup_uninstall</item>
+    </functions>
+
+    <queries>
+        <item>ALTER TABLE `?:store_locations` ADD `pickup_avail` CHAR(1) CHARACTER SET utf8 NOT NULL DEFAULT 'Y'</item>
+        <item>ALTER TABLE `?:store_locations` ADD `pickup_surcharge` DECIMAL(12,2) NOT NULL DEFAULT '0.00'</item>
+        <item>ALTER TABLE `?:store_locations` ADD `pickup_destinations_ids` varchar(255) NOT NULL default '0'</item>
+        <item>ALTER TABLE `?:store_location_descriptions` ADD `pickup_address` VARCHAR(128) CHARACTER SET utf8 NOT NULL</item>
+        <item>ALTER TABLE `?:store_location_descriptions` ADD `pickup_phone` VARCHAR(128) CHARACTER SET utf8 NOT NULL</item>
+        <item>ALTER TABLE `?:store_location_descriptions` ADD `pickup_time` VARCHAR(128) CHARACTER SET utf8 NOT NULL</item>
+        <item for="uninstall">ALTER TABLE  `?:store_locations` DROP  `pickup_avail`</item>
+        <item for="uninstall">ALTER TABLE  `?:store_locations` DROP  `pickup_surcharge`</item>
+        <item for="uninstall">ALTER TABLE  `?:store_locations` DROP  `pickup_destinations_ids`</item>
+        <item for="uninstall">ALTER TABLE  `?:store_location_descriptions` DROP  `pickup_time`</item>
+        <item for="uninstall">ALTER TABLE  `?:store_location_descriptions` DROP  `pickup_address`</item>
+        <item for="uninstall">ALTER TABLE  `?:store_location_descriptions` DROP  `pickup_phone`</item>
+
+        <item type="file">database/data.sql</item>
+        <item type="file" table="store_location_descriptions">database/lang.sql</item>
+    </queries>
+</addon>

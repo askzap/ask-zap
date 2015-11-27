@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_yandex_metrika</id>
+    <version>4.2.2</version>
+    <update_server>https://updates.cs-cart.ru/api/update_addons</update_server>
+    <priority>2014</priority>
+    <position>9</position>
+    <status>active</status>
+    <default_language>ru</default_language>
+        
+    <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                
+                <items>
+
+                    <item id="general_settings">
+                        <type>header</type>
+                    </item>
+
+                    <item id="counter_number">
+                        <type>input</type>
+                    </item>
+
+                    <item id="base_settings">
+                        <type>header</type>
+                    </item>
+
+                    <item id="visor">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+
+                    <item id="clickmap">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+
+                    <item id="external_links">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+
+                    <item id="denial">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+
+                    <item id="addition_settings">
+                        <type>header</type>
+                    </item>
+
+                    <item id="track_hash">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+
+                    <item id="yandex_api_access">
+                        <type>header</type>
+                    </item>
+
+                    <item id="application_id">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+
+                    <item id="application_password">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+
+                    <item id="auth_token">
+                        <type>hidden</type>
+                        <default_value/>
+                    </item>
+
+                    <item id="oauth_info">
+                        <type>info</type>
+                        <handler>fn_yandex_metrika_oauth_info</handler>
+                    </item>
+
+                    <item id="goals">
+                        <type>header</type>
+                    </item>
+
+                    <item id="collect_stats_for_goals">
+                        <type>multiple checkboxes</type>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    
+</addon>

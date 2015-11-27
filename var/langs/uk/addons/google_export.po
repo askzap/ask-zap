@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /addons/google_export.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-06-14 20:04-0400\n"
+
+msgctxt "Addons::name::google_export"
+msgid "Google export"
+msgstr "Прайс-лист для Google Base"
+
+msgctxt "Addons::description::google_export"
+msgid "Expands the Data Feeds add-on to work with Google Base and creates an example of such data feed"
+msgstr "Розширення модуля «Конструктор прайс-листів» для роботи з сервісом Google Base"
+
+msgctxt "Languages::google_export_general_info"
+msgid "<p>Note: toggle this setting if you need multi-language Google categories installed. Supports French, German, Italian, Spanish, and British English. Pay attention that this operation can take a significant amount of time.</p>"
+msgstr "<p>Зауваження: включіть цю настройку, якщо вам необхідно, щоб були встановлені мультимовні категорії Google. Підтримуються французька, німецька, італійська, іспанська і британська англійська мови. Зверніть увагу, що дана операція може зайняти значний час.</p>"
+
+msgctxt "Languages::google_export_start_import"
+msgid "Start importing"
+msgstr "Почати імпорт"
+
+msgctxt "SettingsSections::google_export::general"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "SettingsOptions::google_export::general_info"
+msgid "General info"
+msgstr "Загальна інформація"
+
+msgctxt "SettingsOptions::google_export::additional_langs"
+msgid "Install additional languages for Google categories"
+msgstr "Інсталювати додаткові мови для категорій Google"
+

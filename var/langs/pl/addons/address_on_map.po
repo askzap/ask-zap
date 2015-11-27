@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+
+msgctxt "Addons::name::address_on_map"
+msgid "Address on map"
+msgstr "Address on map"
+
+msgctxt "Addons::description::address_on_map"
+msgid "Shows address on map"
+msgstr "Shows address on map"
+
+msgctxt "Languages::addons.address_on_map.shipping_address_on_map"
+msgid "Shipping address on map"
+msgstr "Shipping address on map"

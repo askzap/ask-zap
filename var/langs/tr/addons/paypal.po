@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /addons/paypal.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-06 06:04-0400\n"
+
+msgctxt "Addons::name::paypal"
+msgid "PayPal payments"
+msgstr "PayPal ödemeleri"
+
+msgctxt "Addons::description::paypal"
+msgid "Lets you accept payments via PayPal Express Checkout, PayPal Pro, PayPal Standard, PayPal Advanced, and PayPal Payflow Pro."
+msgstr "PayPal Express Checkout, PayPal Pro, Paypal Standart, PayPal Advanced ve PayPal Payflow Pro. ile ödeme kabul edebilmenizi sağlar."
+
+msgctxt "SettingsOptions::paypal::override_customer_info"
+msgid "Override customer info"
+msgstr "Geçersiz müşteri bilgisi"
+
+msgctxt "SettingsOptions::paypal::test_mode"
+msgid "Test mode"
+msgstr "Test Modu"
+
+msgctxt "SettingsSections::paypal::general"
+msgid "General"
+msgstr "Genel"
+
+msgctxt "Languages::protection_eligibility"
+msgid "Protection eligibility"
+msgstr "Koruma uygunluğu"
+
+msgctxt "SettingsOptions::paypal::paypal_ipn_settings"
+msgid "Instant payment notification settings"
+msgstr "Anında ödeme bildirimi ayarları"
+
+msgctxt "SettingsOptions::paypal::paypal_status_map"
+msgid "PayPal order status conversion map"
+msgstr "PayPal order status conversion map"
+
+msgctxt "SettingsOptions::paypal::paypal_logo_uploader"
+msgid "PayPal logo settings"
+msgstr "PayPal Logo Ayarları"
+
+msgctxt "Languages::text_paypal_surcharge"
+msgid "<b>Note:</b> According to the PayPal <a href='https://www.paypal.com/webapps/mpp/ua/useragreement-full#4' target='_blank'>policy</a> (4.6), surcharges are not supported."
+msgstr "<b>Not:</b> PayPal <a href='https://www.paypal.com/webapps/mpp/ua/useragreement-full#4' target='_blank'> politikası</a> uyarınca (4.6), ek ücretler desteklenmez."
+
+msgctxt "Languages::txn_id"
+msgid "Transaction ID"
+msgstr "İşlem kimliği"
+
+msgctxt "Languages::paypal_logo"
+msgid "PayPal logo"
+msgstr "PayPal logosu"
+
+msgctxt "Languages::ttc_paypal_logo"
+msgid "Use a valid graphics format, such as .gif, .jpg, or .png. Limit the image to 190 pixels wide by 60 pixels high. PayPal crops images that are larger. PayPal places your logo image at the top of the cart review area."
+msgstr ".gif, .jpg veya .png gibi geçerli grafik biçimi  kullanın. 190 piksel genişliğinde ve 60 piksel yüksekliğinde görüntü ile sınırlayın. PayPal daha büyük görüntüler kırpar. PayPal sepeti inceleme alanının üstündeki logo görüntü yerleştirir."
+
+msgctxt "Languages::ipn_errors"
+msgid "IPN errors"
+msgstr "IPN hataları"
+
+msgctxt "Languages::pp_product_count_is_incorrect"
+msgid "Number of paid items is different than the number of items in the order"
+msgstr "Ödeme yaptığınız ürün sayısı siparişinizdeki ürün sayısından farklıdır."
+
+msgctxt "Languages::pp_currency_is_incorrect"
+msgid "Currency used for the payment is different than the order currency."
+msgstr "Ödeme için kullanılan para birimi siparişinizdekinden farklıdır."
+
+msgctxt "Languages::pp_total_is_incorrect"
+msgid "Payment total is different than the order total."
+msgstr "Toplam ödeme, sipariş toplamının farklıdır."
+
+msgctxt "Languages::pp_mode"
+msgid "Paypal mode"
+msgstr "PayPal modu"
+

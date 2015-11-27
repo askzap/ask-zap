@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_theme_style</id>
+    <version>1.0.0</version>
+    <priority>5000</priority>
+    <position>9</position>
+    <status>active</status>
+    <auto_install>ULTIMATE,MULTIVENDOR</auto_install>
+    <default_language>ru</default_language>
+        
+    <settings>
+    </settings>
+    
+</addon>

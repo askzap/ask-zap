@@ -1,0 +1,1 @@
+Upgrade center: Store has been backupped and closed.

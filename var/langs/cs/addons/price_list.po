@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /addons/price_list.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-03 03:03-0400\n"
+
+msgctxt "Addons::name::price_list"
+msgid "Price list"
+msgstr "Ceník"
+
+msgctxt "Addons::description::price_list"
+msgid "Generates configurable price list in PDF or XLS"
+msgstr "Generuje konfigurovatelný ceník ve formátu PDF nebo XLS"
+
+msgctxt "Languages::price_list"
+msgid "Price list"
+msgstr "Ceník"
+
+msgctxt "Languages::selected_fields"
+msgid "Selected fields"
+msgstr "Vybrané pole"
+
+msgctxt "Languages::xml_info"
+msgid "Use this link to download the price list in XLS (MS Excel) format"
+msgstr "Použijte tento odkaz pro stažení ceníku ve formátu XLS (MS Excel)"
+
+msgctxt "Languages::ult_xml_info"
+msgid "Use this links to download the price list in XLS (MS Excel) format"
+msgstr "Použijte tyto odkazy pro stažení ceníku ve formátu XLS (MS Excel)"
+
+msgctxt "Languages::pdf_info"
+msgid "Use this link to download the price list in PDF format"
+msgstr "Použijte tento odkaz pro stažení ceníku ve formátu PDF"
+
+msgctxt "Languages::ult_pdf_info"
+msgid "Use this links to download the price list in PDF format"
+msgstr "Použijte tyto odkazy pro stažení ceníku ve formátu PDF"
+
+msgctxt "Languages::clear_cache_info"
+msgid "If columns were added or changed, please <a href=\"[clear_cache_url]\">clear the cache</a> to regenerate the price list."
+msgstr "Pokud jste doplnili nebo změnili sloupce, prosím, <a href=\"[clear_cache_url]\">vyčistěte vyrovávaciu paměť</a> pro regeneraci ceníku."
+
+msgctxt "Languages::generating_pdf"
+msgid "Generating PDF. Please, be patient..."
+msgstr "Generuje se PDF. Počkejte, prosím..."
+
+msgctxt "Languages::generating_xls"
+msgid "Generating XLS. Please, be patient..."
+msgstr "Generuje se XLS. Počkejte, prosím..."
+
+msgctxt "Languages::xls_currencies_note"
+msgid "Please, note: the prices in XLS will be indicated in base currency."
+msgstr "Poznámka: ceny v XLS dokumentu budou zobrazeny v základní měně."
+
+msgctxt "Languages::price_list_ziparchive_not_installed"
+msgid "Impossible to create XML price list. Please add zip support in PHP on your server. Follow <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+msgstr "Nedokážu vytvořit ceník XML. Prosím, přidejte podporu zip do PHP vašeho serveru. Následujte instrukce <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+
+msgctxt "SettingsSections::price_list::general"
+msgid "General"
+msgstr "Obecné"
+
+msgctxt "SettingsOptions::price_list::table_layout_header"
+msgid "Table layout"
+msgstr "Rozložení tabulky"
+
+msgctxt "SettingsOptions::price_list::price_list_fields"
+msgid "Fields"
+msgstr "Pole"
+
+msgctxt "SettingsOptions::price_list::price_list_sorting"
+msgid "Sort by"
+msgstr "Seřadit podle"
+
+msgctxt "SettingsOptions::price_list::group_by_category"
+msgid "Group by category"
+msgstr "Seskupit podle kategorie"
+
+msgctxt "SettingsOptions::price_list::include_options"
+msgid "Include product options"
+msgstr "Zahrnout možnosti produktů"
+
+msgctxt "SettingsOptions::price_list::xls_header"
+msgid "XLS layout"
+msgstr "Rozložení XLS"
+
+msgctxt "SettingsOptions::price_list::xls_url"
+msgid "XLS url"
+msgstr "URL adresa XLS"
+
+msgctxt "SettingsOptions::price_list::pdf_header"
+msgid "PDF layouts"
+msgstr "Rozložení PDF"
+
+msgctxt "SettingsOptions::price_list::pdf_url"
+msgid "PDF url"
+msgstr "URL adresa PDF"
+
+msgctxt "SettingsOptions::price_list::clear_header"
+msgid "Clear cache"
+msgstr "Vymazat mezipaměť"
+
+msgctxt "SettingsOptions::price_list::clear_url"
+msgid "Clear cache"
+msgstr "Vymazat mezipaměť"
+
+msgctxt "SettingsOptions::price_list::disable_images_in_xml"
+msgid "Exclude images from XLS price lists"
+msgstr "Vyloučit obrázky z ceníku XLS"
+
+msgctxt "SettingsTooltips::price_list::disable_images_in_xml"
+msgid "Generating an XLS price list with images can freeze your server. Disable at your own risk."
+msgstr "Generování XLS ceníku s obrázky může zamrznout server. Zakázat na vlastní nebezpečí."
+

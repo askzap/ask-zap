@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/maps_provider.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-02 10:07-0400\n"
+
+msgctxt "Addons::name::maps_provider"
+msgid "Maps provider"
+msgstr "Карты"
+
+msgctxt "Addons::description::maps_provider"
+msgid "Provides polymorphic API for mapping"
+msgstr "Подключает функции для работы с Яндекс.Картами"
+
+msgctxt "SettingsSections::maps_provider::general"
+msgid "General"
+msgstr "Общие настройки"
+
+msgctxt "SettingsOptions::maps_provider::provider"
+msgid "Map provider"
+msgstr "Провайдер карт"
+
+msgctxt "SettingsOptions::maps_provider::map_provider"
+msgid "Map"
+msgstr "Сервис"
+
+msgctxt "SettingsVariants::maps_provider::map_provider::yandex"
+msgid "Yandex"
+msgstr "Яндекс.Карты"
+
+msgctxt "SettingsOptions::maps_provider::settings"
+msgid "Settings"
+msgstr "Настройки"
+
+msgctxt "SettingsOptions::maps_provider::map_provider_settings"
+msgid ""
+msgstr ""
+""
+
+msgctxt "Languages::maps_provider_api_key"
+msgid "API key"
+msgstr "API-ключ"
+

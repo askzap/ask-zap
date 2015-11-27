@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+
+msgctxt "Addons::name::rus_order_logs"
+msgid "Russian Localization — Order changes log"
+msgstr "Russian Localization — Order changes log"
+
+msgctxt "Addons::description::rus_order_logs"
+msgid "Tracking changes in order"
+msgstr "Tracking changes in order"
+
+msgctxt "Languages::rus_order_logs_order_created"
+msgid "The order has been created"
+msgstr "The order has been created"
+
+msgctxt "Languages::rus_order_logs_status_changed"
+msgid "The status has been changed"
+msgstr "The status has been changed"
+
+msgctxt "Languages::rus_order_logs_order_changed"
+msgid "The order has been changed"
+msgstr "The order has been changed"
+
+msgctxt "Languages::rus_order_logs_order_deleted"
+msgid "The order has been removed"
+msgstr "The order has been removed"

@@ -1,0 +1,1560 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/rus_payments.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-02 10:07-0400\n"
+
+msgctxt "Addons::name::rus_payments"
+msgid "Russian localization — Russian payments"
+msgstr " Российские способы оплаты"
+
+msgctxt "Addons::description::rus_payments"
+msgid "Payments: Assist, Yandex.Money, Webmoney, Sberbank, Qiwi, PayAnyWay, PayMaster, Platidoma, RBK, Robokassa, Vsevcredit, Avangard, Payler"
+msgstr "Способы оплаты: Assist, Яндекс.Деньги, Webmoney, Сбербанк, Qiwi, PayAnyWay, PayMaster, ПлатиДома, РБК, Robokassa, ВсеВкредит, Авангард, Payler"
+
+msgctxt "Languages::russian_payments"
+msgid "Russian payments"
+msgstr "Русские платёжные системы"
+
+msgctxt "Languages::addons.rus_payments.logging"
+msgid "Logging"
+msgstr "Ведение журнала логов"
+
+msgctxt "Languages::rus_payments.day"
+msgid "day"
+msgstr "день"
+
+msgctxt "Languages::rus_payments.how_days"
+msgid "days"
+msgstr "дней"
+
+msgctxt "Languages::rus_payments.hour"
+msgid "hour"
+msgstr "час"
+
+msgctxt "Languages::rus_payments.how_hours"
+msgid "hours"
+msgstr "часов"
+
+msgctxt "Languages::pay_all"
+msgid "The choice on the service side"
+msgstr "Выбор на стороне сервиса"
+
+msgctxt "Languages::pay_payanyway"
+msgid "PayAnyWay"
+msgstr "PayAnyWay"
+
+msgctxt "Languages::pay_banktransfer"
+msgid "Bank transfer"
+msgstr "Банковский перевод"
+
+msgctxt "Languages::pay_ciberpay"
+msgid "CiberPay"
+msgstr "CiberPay"
+
+msgctxt "Languages::pay_comepay"
+msgid "Comepay"
+msgstr "Comepay"
+
+msgctxt "Languages::pay_bankcard"
+msgid "Bank cards"
+msgstr "Банковская карта"
+
+msgctxt "Languages::pay_rbkmoney"
+msgid "RBK Money account"
+msgstr "Оплата с кошелька RBK Money"
+
+msgctxt "Languages::pay_exchangers"
+msgid "Electronic payment systems"
+msgstr "Электронные платежные системы"
+
+msgctxt "Languages::pay_terminals"
+msgid "Payment terminals"
+msgstr "Платежные терминалы"
+
+msgctxt "Languages::pay_prepaidcard"
+msgid "RBK Money prepaid card"
+msgstr "Предоплаченная карта RBK Money"
+
+msgctxt "Languages::pay_postrus"
+msgid "Russian Post"
+msgstr "Почта России"
+
+msgctxt "Languages::pay_mobilestores"
+msgid "Mobile stores"
+msgstr "Салоны связи"
+
+msgctxt "Languages::pay_transfers"
+msgid "Money transfer services"
+msgstr "Системы денежных переводов"
+
+msgctxt "Languages::pay_ibank"
+msgid "Internet banking"
+msgstr "Интернет банкинг"
+
+msgctxt "Languages::pay_sberbank"
+msgid "Bank account (Sberbank)"
+msgstr "Банковский платеж (Сбербанк)"
+
+msgctxt "Languages::pay_svyaznoy"
+msgid "Svyaznoi"
+msgstr "Связной"
+
+msgctxt "Languages::pay_euroset"
+msgid "Evroset"
+msgstr "Евросеть"
+
+msgctxt "Languages::pay_contact"
+msgid "Contact"
+msgstr "Contact"
+
+msgctxt "Languages::pay_mts"
+msgid "MTS"
+msgstr "МТС"
+
+msgctxt "Languages::pay_uralsib"
+msgid "Uralsib payment terminals"
+msgstr "Кассы Уралсиб"
+
+msgctxt "Languages::pay_handybank"
+msgid "HandyBank"
+msgstr "HandyBank"
+
+msgctxt "Languages::pay_ocean"
+msgid "Okean bank"
+msgstr "Океан банк"
+
+msgctxt "Languages::pay_ibankuralsib"
+msgid "Uralsib Internet Bank"
+msgstr "Интернет-банк Уралсиб"
+
+msgctxt "Languages::pay_elecsnet"
+msgid "Elecsnet"
+msgstr "Элекснет"
+
+msgctxt "Languages::pay_forward"
+msgid "ForwardMobil"
+msgstr "ForwardMobil"
+
+msgctxt "Languages::pay_gorod"
+msgid "The Federal system CITY"
+msgstr "Федеральная система ГОРОД"
+
+msgctxt "Languages::pay_mcb"
+msgid "MosCreditBank"
+msgstr "МосКредитБанк"
+
+msgctxt "Languages::pay_moneta"
+msgid "Moneta.Ru"
+msgstr "Монета.Ру"
+
+msgctxt "Languages::pay_moneymail"
+msgid "MoneyMail"
+msgstr "MoneyMail"
+
+msgctxt "Languages::pay_novoplat"
+msgid "Novoplat"
+msgstr "Novoplat"
+
+msgctxt "Languages::pay_plastic"
+msgid "VISA, Master Card"
+msgstr "VISA, Master Card"
+
+msgctxt "Languages::pay_platika"
+msgid "PLATiKA"
+msgstr "PLATiKA"
+
+msgctxt "Languages::pay_wallet"
+msgid "Wallet"
+msgstr "Единый кошелек"
+
+msgctxt "Languages::pay_webmoney"
+msgid "WebMoney"
+msgstr "WebMoney"
+
+msgctxt "Languages::pay_yandex"
+msgid "Yandex.Money"
+msgstr "Яндекс.Деньги"
+
+msgctxt "Languages::pay_vtb24"
+msgid "VTB24"
+msgstr "ВТБ24"
+
+msgctxt "Languages::pay_alfabank"
+msgid "Alfa-Bank"
+msgstr "Альфа-Банк"
+
+msgctxt "Languages::pay_rsb"
+msgid "Bank Russian Standard"
+msgstr "Банк Русский Стандар"
+
+msgctxt "Languages::pay_beeline"
+msgid "Beeline"
+msgstr "Билайн"
+
+msgctxt "Languages::pay_megafon"
+msgid "Megafon"
+msgstr "Мегафон"
+
+msgctxt "Languages::pay_rostelecom"
+msgid "Rostelecom"
+msgstr "Ростелеком"
+
+msgctxt "Languages::pay_qiwi"
+msgid "QIWI wallet"
+msgstr "QIWI кошелек"
+
+msgctxt "Languages::pay_psb"
+msgid "PromSvyazBank"
+msgstr "ПромСвязьБанк"
+
+msgctxt "Languages::pay_sberbank_spasibo"
+msgid "Sberbank Thanks"
+msgstr "Сбербанк Спасибо"
+
+msgctxt "Languages::text_assist_notice"
+msgid "<p>For successful work of the \\'\\'Assist\\'\\' payment method, you should activate the \"Return to store by returning URL\" option at https://secure.assist.ru/members/ in the \"Design pages\" section on the payment side.</p>"
+msgstr "<p>Для корректной работы платежного модуля  \\'Assist\\' Вам нужно активировать опцию \"Return to store by returning URL\"  на сайте платежной системы  https://secure.assist.ru/members/  в секции \"Design pages\" .</p>"
+
+msgctxt "Languages::text_pd_notice"
+msgid "Use the following URLs in the Plati Doma account settings<br />-&nbsp;<u>successful payment</u>: <b>[return_url]</b><br />-&nbsp;<u>cancel payment</u>: <b>[return_url]</b><br />-&nbsp;<u>decline payment</u>: <b>[cancel_url]</b>"
+msgstr "Используйте следующие URL в настройках аккаунта Плати Дома<br />-&nbsp;<u>успешный платеж</u>: <b>[return_url]</b><br />-&nbsp;<u>отмена платежа</u>: <b>[return_url]</b><br />-&nbsp;<u>отказ от платежа</u>: <b>[cancel_url]</b>"
+
+msgctxt "Languages::pay_at_home"
+msgid "Plati Doma"
+msgstr "Плати Дома"
+
+msgctxt "Languages::pd_shop_id"
+msgid "Store code"
+msgstr "Код магазина в системе"
+
+msgctxt "Languages::pd_login"
+msgid "Store login"
+msgstr "Логин магазина в системе"
+
+msgctxt "Languages::pd_gate_password"
+msgid "Payment password"
+msgstr "Платежный пароль"
+
+msgctxt "Languages::pd_shop_id_notice"
+msgid "<b>Store code:&nbsp;</b>Attached to the store on registration. Used for request and response signing"
+msgstr "<b>Код магазина в системе:&nbsp;</b>Присваивается Магазину при регистрации в Системе. Используется для формирования подписи запросов и ответов"
+
+msgctxt "Languages::pd_gate_password_notice"
+msgid "<b>Payment password:&nbsp;</b>Used for request and response signing"
+msgstr "<b>Платежный пароль:&nbsp;</b>Используется для формирования подписи запросов и ответов"
+
+msgctxt "Languages::pd_nonpaid"
+msgid "Payment failed."
+msgstr "Платеж не оплачен."
+
+msgctxt "Languages::pd_paid"
+msgid "Successful payment."
+msgstr "Платеж оплачен."
+
+msgctxt "Languages::pd_reverse"
+msgid "Payment canceled."
+msgstr "Платеж отменен."
+
+msgctxt "Languages::pd_refund"
+msgid "Payment returned."
+msgstr "Возврат платежа."
+
+msgctxt "Languages::pd_declined"
+msgid "Payment declined during processing."
+msgstr "Во время оплаты произошел отказ от оплаты."
+
+msgctxt "Languages::rus_payments.qiwi_api_id"
+msgid "API ID"
+msgstr "API ID"
+
+msgctxt "Languages::qiwi"
+msgid "QIWI"
+msgstr "Qiwi"
+
+msgctxt "Languages::qiwi_mobile_example"
+msgid "Mobile phone (e.g. 555-123-45-67)"
+msgstr "Мобильный телефон (пример: 9057772233)"
+
+msgctxt "Languages::qiwi_alarm_notify"
+msgid "<b>Warning!</b> Sending notifications is available only for the stores registered by the \"Named wallet\" scheme"
+msgstr "<b>Внимание!</b> Рассылка уведомлений платна и доступна только магазинам, зарегистрированным по схеме \"Именной кошелёк\""
+
+msgctxt "Languages::qiwi_select_alarm"
+msgid "Select customer notification type"
+msgstr "Выберите тип уведомления покупателя"
+
+msgctxt "Languages::qiwi_no_alarm"
+msgid "Do not notify"
+msgstr "Не уведомлять"
+
+msgctxt "Languages::qiwi_sms_alarm"
+msgid "Send an SMS"
+msgstr "Послать СМС"
+
+msgctxt "Languages::qiwi_call_alarm"
+msgid "Make a call"
+msgstr "Сделать звонок"
+
+msgctxt "Languages::qiwi_lifetime"
+msgid "Account lifetime"
+msgstr "Время жизни счета"
+
+msgctxt "Languages::qiwi_select_lifetime"
+msgid "Set account lifetime"
+msgstr "Выберите время жизни счета"
+
+msgctxt "Languages::qiwi_soap_attention"
+msgid "<b>Warning!</b> The module PHP-SOAP must be installed on the server for QIWI Wallet to work correctly. Please consult with the server system administrator."
+msgstr "<b>Внимание!</b> Для корректной работы QIWI-кошелька требуется установленный модуль PHP-SOAP. Вы можете уточнить наличие данного модуля у администратора сервера."
+
+msgctxt "Languages::qiwi_login_notice"
+msgid "Use the data from the \"Authentication details for all protocols\" section of your ishop.qiwi.com account as the \"API ID\" and \"Password\" values."
+msgstr "В полях «API ID» и «Пароль» используйте данные из раздела «Аутентификационные данные для всех протоколов» в личном кабинете ishop.qiwi.com."
+
+msgctxt "Languages::qiwi_url_notice"
+msgid "Use this value in the \"Notify URL\" field in the SOAP protocol settings of your QIWI account: <br /><b>[qiwi_url]</b>"
+msgstr "В настройках личного кабинете QIWI для SOAP-протокола в поле \"URL для оповещения\" укажите:<br /><b>[qiwi_url]</b>"
+
+msgctxt "Languages::qiwi_order_status_50"
+msgid "Open"
+msgstr "Выставлен"
+
+msgctxt "Languages::qiwi_order_status_52"
+msgid "Processed"
+msgstr "Проводится"
+
+msgctxt "Languages::qiwi_order_status_60"
+msgid "Paid"
+msgstr "Оплачен"
+
+msgctxt "Languages::qiwi_order_status_150"
+msgid "Canceled (error on terminal)"
+msgstr "Отменен (ошибка на терминале)"
+
+msgctxt "Languages::qiwi_order_status_151"
+msgid "Canceled (authorization error: account balance not sufficient, declined by subscriber on mobile phone payment etc.)"
+msgstr "Отменен (ошибка авторизации: недостаточно средств на балансе, отклонен абонентом при оплате с лицевого счета оператора сотовой связи и т.п.)"
+
+msgctxt "Languages::qiwi_order_status_160"
+msgid "Canceled"
+msgstr "Отменен"
+
+msgctxt "Languages::qiwi_order_status_161"
+msgid "Canceled (timed out)"
+msgstr "Отменен (истекло время)"
+
+msgctxt "Languages::qiwi_result_status_0"
+msgid "Success"
+msgstr "Успех"
+
+msgctxt "Languages::qiwi_result_status_13"
+msgid "Server is busy, please try later"
+msgstr "Сервер занят, повторите запрос позже"
+
+msgctxt "Languages::qiwi_result_status_150"
+msgid "Authorization error (wrong login or/and password)"
+msgstr "Ошибка авторизации (неверный логин/пароль)"
+
+msgctxt "Languages::qiwi_result_status_210"
+msgid "Account not found"
+msgstr "Счет не найден"
+
+msgctxt "Languages::qiwi_result_status_215"
+msgid "An account with this number already exists"
+msgstr "Счет с таким номером уже существует"
+
+msgctxt "Languages::qiwi_result_status_241"
+msgid "The amount is too low"
+msgstr "Сумма слишком мала"
+
+msgctxt "Languages::qiwi_result_status_242"
+msgid "Maximal payment amount limit (15 000 RUB) exceeded."
+msgstr "Превышена максимальная сумма платежа - 15 000р."
+
+msgctxt "Languages::qiwi_result_status_278"
+msgid "Account list fetching timed out"
+msgstr "Превышение максимального интервала получения списка счетов"
+
+msgctxt "Languages::qiwi_result_status_298"
+msgid "The agent is not registered in the system"
+msgstr "Кошелёк Qiwi не существует для вашего номера телефона. Создайте новый кошелёк на сайте qiwi.ru."
+
+msgctxt "Languages::qiwi_result_status_300"
+msgid "Unknown error"
+msgstr "Неизвестная ошибка"
+
+msgctxt "Languages::qiwi_result_status_330"
+msgid "Encryption error"
+msgstr "Ошибка шифрования"
+
+msgctxt "Languages::qiwi_result_status_370"
+msgid "Maximal number of simultaneously processed requests exceeded"
+msgstr "Превышено максимальное количество одновременно выполняемых запросов"
+
+msgctxt "Languages::qiwi_select_location"
+msgid "Qiwi server"
+msgstr "Сервер Qiwi"
+
+msgctxt "Languages::rbk_select_pay_method"
+msgid "Select payment method"
+msgstr "Выберите способ оплаты"
+
+msgctxt "Languages::rbk"
+msgid "RBK Money"
+msgstr "RBK Money"
+
+msgctxt "Languages::rbk_login"
+msgid "Login"
+msgstr "Логин"
+
+msgctxt "Languages::rbk_secret_key"
+msgid "Secret key"
+msgstr "Секретный ключ"
+
+msgctxt "Languages::rbk_secret_key_notice"
+msgid "You can choose a checksum calculation algorithm on your Personal account page in the Edit store section. Please use the MD5 algorithm"
+msgstr "Выбор алгоритма вычисления контрольной подписи производится в личном кабинете, в разделе редактирования магазина. Используйте алгоритм MD5"
+
+msgctxt "Languages::rbk_login_notice"
+msgid "Use your Store ID as login. You can find the ID on your Personal account page"
+msgstr "В качестве логина используйте идентификатор (ID) вашего магазина. Идентификатор находится в личном кабинете, в разделе [Магазины]"
+
+msgctxt "Languages::rbk_serviceName"
+msgid "Order payment"
+msgstr "Оплата заказа"
+
+msgctxt "Languages::rbk_language"
+msgid "RBK Money website payment interface language"
+msgstr "Язык интерфейса оплаты на сайте RBK Money"
+
+msgctxt "Languages::text_rbk_notice"
+msgid "Use the following URLs in the RBK Money account settings<br />-&nbsp;<u>payment notification</u>: <b>[result_url]</b>"
+msgstr "Используйте следующие URL в настройках аккаунта RBK Money<br />-&nbsp;<u>оповещение о платеже</u>: <b>[result_url]</b>"
+
+msgctxt "Languages::rbk_status3"
+msgid "Transaction accepted for processing"
+msgstr "Операция принята на обработку"
+
+msgctxt "Languages::rbk_status5"
+msgid "Transaction complete"
+msgstr "Операция исполнена"
+
+msgctxt "Languages::payments.robokassa.get_currencies"
+msgid "Get currencies"
+msgstr "Получить валюты"
+
+msgctxt "Languages::text_robokassa_notice"
+msgid "Please add these URL fields in your Robokassa configuration:<br/><br/><b>Result URL:</b><br/>[r_url]<br/><br/><b>Success URL:</b><br/>[p_url]<br/><br/><b>Fail URL:</b><br/>[f_url]"
+msgstr "Пожалуйста, добавьте следующие URL на странице конфигурации Robokassa:<br/><br/><b>Result URL:</b><br/>[r_url]<br/><br/><b>Success URL:</b><br/>[p_url]<br/><br/><b>Fail URL:</b><br/>[f_url]"
+
+msgctxt "Languages::password1"
+msgid "Password1"
+msgstr "Пароль1"
+
+msgctxt "Languages::password2"
+msgid "Password2"
+msgstr "Пароль2"
+
+msgctxt "Languages::control_summ_wrong"
+msgid "Wrong control summ"
+msgstr "Неверная контрольная сумма"
+
+msgctxt "Languages::sbrf_qr_info"
+msgid "<p>Pay the invoice by scanning the code through a payment terminal</p>"
+msgstr "<p>Оплатите счет, отсканировав код через платежный терминал или через кассу в отделении Сбербанка. Двумерный штрих-код (он же QR-код) содержит перечень всех реквизитов, необходимых для приема платежа.</p><p>Стандарт поддерживают Сбербанк, ВТБ, Альфа-банк, КиберПлат, Почта России, 1С, Парус и другие.</p>"
+
+msgctxt "Languages::sbrf_qr_title"
+msgid "Quick payment QR code"
+msgstr "QR-код для быстрой оплаты"
+
+msgctxt "Languages::sbrf_qr_resolution"
+msgid "Resolution of QR code (in px)"
+msgstr "Разрешение QR кода (в px)"
+
+msgctxt "Languages::sbrf_qr_print_size"
+msgid "Size of displayed QR code (in px)"
+msgstr "Размер отображаемого QR кода (в px)"
+
+msgctxt "Languages::sbrf_account_id"
+msgid "beneficiary account"
+msgstr "л/сч. получателя"
+
+msgctxt "Languages::sbrf_bank"
+msgid "Bank"
+msgstr "Банк"
+
+msgctxt "Languages::sbrf_bik"
+msgid "BIK"
+msgstr "БИК"
+
+msgctxt "Languages::sbrf_cor_account"
+msgid "Account"
+msgstr "Кор. счет"
+
+msgctxt "Languages::sbrf_g"
+msgid "city"
+msgstr "г."
+
+msgctxt "Languages::sbrf_inn"
+msgid "INN"
+msgstr "ИНН"
+
+msgctxt "Languages::sbrf_kbk"
+msgid "KBK"
+msgstr "КБК"
+
+msgctxt "Languages::sbrf_kop"
+msgid "kop."
+msgstr "коп."
+
+msgctxt "Languages::sbrf_kpp"
+msgid "KPP code"
+msgstr "КПП"
+
+msgctxt "Languages::sbrf_notification"
+msgid "Aviso"
+msgstr "Извещение"
+
+msgctxt "Languages::sbrf_okato_code"
+msgid "OKTMO code"
+msgstr "ОКТМО код"
+
+msgctxt "Languages::sbrf_payer"
+msgid "Payer"
+msgstr "Плательщик"
+
+msgctxt "Languages::sbrf_payer_account_id"
+msgid "Payer\\'s account number"
+msgstr "№ л/сч. плательщика"
+
+msgctxt "Languages::sbrf_payer_address"
+msgid "Payer\\'s address"
+msgstr "Адрес плательщика"
+
+msgctxt "Languages::sbrf_payer_inn"
+msgid "Payer\\'s INN"
+msgstr "ИНН Плательщика"
+
+msgctxt "Languages::sbrf_payment"
+msgid "Payment"
+msgstr "Платёж"
+
+msgctxt "Languages::sbrf_print_receipt"
+msgid "Print Sberbank receipt"
+msgstr "Распечатать квитанцию Сбербанка РФ"
+
+msgctxt "Languages::sbrf_receipt"
+msgid "Sberbank receipt"
+msgstr "Квитанция Сбербанка РФ"
+
+msgctxt "Languages::sbrf_receipt_"
+msgid "Receipt"
+msgstr "Квитанция"
+
+msgctxt "Languages::sbrf_recepient"
+msgid "Beneficiary"
+msgstr "Получатель"
+
+msgctxt "Languages::sbrf_recepient_name"
+msgid "Beneficiary name"
+msgstr "Наименование получателя"
+
+msgctxt "Languages::sbrf_rub"
+msgid "RUB"
+msgstr "руб."
+
+msgctxt "Languages::sbrf_settlement_account"
+msgid "Settlement account"
+msgstr "Расчетный счет"
+
+msgctxt "Languages::sbrf_summ"
+msgid "Total"
+msgstr "Сумма"
+
+msgctxt "Languages::company_payment_details"
+msgid "Payment details for issuing an invoice"
+msgstr "Реквизиты для выставления счета на оплату"
+
+msgctxt "Languages::customer_phone"
+msgid "Phone"
+msgstr "Телефон"
+
+msgctxt "Languages::sbrf_payment_data"
+msgid "Payment data"
+msgstr "Платёжные данные"
+
+msgctxt "Languages::sbrf_bank_summ"
+msgid "Bank charges"
+msgstr "Сумма оплаты услуг банка"
+
+msgctxt "Languages::sbrf_order_payment"
+msgid "Order payment"
+msgstr "Оплата заказа"
+
+msgctxt "Languages::sbrf_print"
+msgid "Print"
+msgstr "Печать"
+
+msgctxt "Languages::sbrf_information_not_found"
+msgid "Information is not found"
+msgstr "Информация не найдена"
+
+msgctxt "Languages::sbrf_receipt_for_payment"
+msgid "Invoice #[order_id]"
+msgstr "Счет на оплату заказа #[order_id]"
+
+msgctxt "Languages::vsevcredit_shop_id"
+msgid "Shop ID"
+msgstr "Идентификатор магазина"
+
+msgctxt "Languages::vsevcredit_secret"
+msgid "Secret word"
+msgstr "Секретное слово"
+
+msgctxt "Languages::vsevkredit_url_notice"
+msgid "Please set the following URLs in the Vsevkredit admin area:<br /><b>URL for API:</b> [api_url]<br /><b>Return URL:</b> [return_url]"
+msgstr "Пожалуйста выставьте настройки в администраторской зоне Всевкредит следующим образом:<br /><b>URL для API взаимодействия:</b> [api_url]<br /><b>URL перенаправления в случае успешного завершения заказа:</b> [return_url]"
+
+msgctxt "Languages::text_webmoney_notice"
+msgid "In order to set up WebMoney payment method, you should set up Web Merchant Interface for processing payments in the following way:<br /><br />1. Check the \"Send parameters in the pre-request\" checkbox;<br />2. Check the \"Allow overriding URL from Payment Request Form\" checkbox;<br />3. Choose the required value in the \"Signature algorithm\" field and in payment settings.<br />"
+msgstr "Чтобы начать прием платежей через WebMoney, вам нужно настроить Web Merchant Interface следующим образом:\n"
+"<br /><br />1. Включите настройку «Передавать параметры в предварительном запросе»;<br />2. Включите настройку «Позволять использовать URL, передаваемые в форме»;<br />3. Выберите нужное значение в поле «Алгоритм подписи» и в настройках платежного метода.<br />\n"
+""
+
+msgctxt "Languages::addons.rus_payments.sign_algo"
+msgid "Signature algorithm"
+msgstr "Алгоритм подписи"
+
+msgctxt "Languages::lmi_payee_purse"
+msgid "Payee purse"
+msgstr "Кошелек"
+
+msgctxt "Languages::lmi_sim_mode"
+msgid "Sim mode"
+msgstr "Вариант тестового режима"
+
+msgctxt "Languages::wm_success_mode"
+msgid "Success mode"
+msgstr "Всегда успешная оплата"
+
+msgctxt "Languages::wm_error_mode"
+msgid "Error mode"
+msgstr "Всегда неудачная оплата"
+
+msgctxt "Languages::wm_combine_mode"
+msgid "Combine mode"
+msgstr "Комбинированный режим"
+
+msgctxt "Languages::lmi_payer_wm"
+msgid "Payer\\'\\'s WM"
+msgstr "WM плательщика"
+
+msgctxt "Languages::lmi_payer_purse"
+msgid "Payer\\'\\'s purse"
+msgstr "Кошелек плательщика"
+
+msgctxt "Languages::lmi_sys_invs_no"
+msgid "WebMoney Invoice number"
+msgstr "Номер WebMoney Invoice"
+
+msgctxt "Languages::lmi_sys_trans_no"
+msgid "Transaction number"
+msgstr "Номер транзакции"
+
+msgctxt "Languages::lmi_sys_trans_date"
+msgid "Transaction date"
+msgstr "Дата транзацкии"
+
+msgctxt "Languages::text_lmi_payment_desc"
+msgid "Test Site. Order #:"
+msgstr "Тестовый сайт. Заказ #:"
+
+msgctxt "Languages::wm_rt_differ_payment_amount_in_prerequest"
+msgid "The payment amount value received in the prerequest differs from CS-Cart order total amount"
+msgstr "Полученная сумма платежа в предварительном запросе отличается от общей суммы заказа CS-Cart;"
+
+msgctxt "Languages::wm_rt_differ_payee_purse_in_prerequest"
+msgid "The payee purse value received in the prerequest differs from the one defined for your payment details in the admin panel"
+msgstr "Полученное в предварительном запросе значение кошелька продавца не совпадает со значением, заданным в администраторской панели;"
+
+msgctxt "Languages::wm_rt_differ_mode_in_prerequest"
+msgid "The mode value received in the prerequest differs from the one defined for your payment details in the admin panel"
+msgstr "Полученное значение режима в предварительном запросе отличается от заданного в администраторской панели;"
+
+msgctxt "Languages::wm_rt_differ_hash_in_notification_request"
+msgid "The hash value received in the notification of payment request differs from the one received in CS-Cart system"
+msgstr "Хеш-значение, полученное в уведомлении запроса платежа, отличается от хеш-значения, полученного в CS-Cart;"
+
+msgctxt "Languages::wm_rt_differ_payment_amount_in_notification_request"
+msgid "The payment amount value received in the notification of payment request differs from CS-Cart order total amount"
+msgstr "Полученная сумма платежа в уведомлении запроса платежа отличается от общей суммы заказа;"
+
+msgctxt "Languages::wm_rt_differ_payee_purse_in_notification_request"
+msgid "The payee purse value received in the notification of payment request differs from CS-Cart order total amount"
+msgstr "Полученное в уведомлении запроса платежа значение кошелька продавца не совпадает с суммой заказа в CS-Cart;"
+
+msgctxt "Languages::wm_rt_differ_mode_in_notification_request"
+msgid "The mode value received in the notification of payment request differs from CS-Cart order total amount"
+msgstr "Полученное значение режима в уведомлении запроса платежа отличается от общей суммы заказа CS-Cart;"
+
+msgctxt "Languages::text_wm_error_many_requests"
+msgid "Too mach SMS without payments found for specified phone"
+msgstr "Обнаружено слишком много отправленных СМС без совершения платежей для данного телефона"
+
+msgctxt "Languages::text_paymaster_notice"
+msgid "On the site Paymaster it is necessary to set in the site details in the `Callbacks`section: Payment notification - POST request, Success redirect - GET request, Failure redirect - GET request, Invoice confirmation - GET request and select the `Allow custom URLs` check box. Also it is necessary to enter the secret key in the `Technical parameters` section with selecting the MD5 signature type. This key should also be entered into the `Secret key` field in the store."
+msgstr "На сайте `Paymaster` необходимо установить в деталях сайта в разделе `Обратные вызовы`: Payment notification - POST запрос, Success redirect - GET запрос, Failure redirect - GET запрос, Invoice confirmation - GET запрос и установить чекбокс `Разрешена замена URL`. Также необходимо ввести секретный ключ в разделе `Технические параметры`, выбрав тип шифрования MD5. Этот ключ необходимо ввести также в магазине в поле `Секретный ключ`."
+
+msgctxt "Languages::paymaster_key"
+msgid "Secret key"
+msgstr "Секретный ключ"
+
+msgctxt "Languages::text_paymaster_sms_code"
+msgid "Please enter sms code"
+msgstr "Пожалуйста, введите sms код"
+
+msgctxt "Languages::text_paymaster_error_valid_phone"
+msgid "Please enter a valid phone number"
+msgstr "Введите, пожалуйста, правильный номер телефона"
+
+msgctxt "Languages::paymaster_unknown_error"
+msgid "Unknown error"
+msgstr "Неизвестая ошибка"
+
+msgctxt "Languages::paymaster_invalid_sign"
+msgid "Invalid request signature"
+msgstr "неверная подпись запроса"
+
+msgctxt "Languages::paymaster_unsupported_currency"
+msgid "Unsupported currency"
+msgstr "Неподдерживаемая валюта"
+
+msgctxt "Languages::paymaster_sms"
+msgid "SMS"
+msgstr "SMS"
+
+msgctxt "Languages::paymaster_ussd"
+msgid "USSD"
+msgstr "USSD"
+
+msgctxt "Languages::paymaster_smstype"
+msgid "SMS type"
+msgstr "Тип SMS"
+
+msgctxt "Languages::paymaster_smscode"
+msgid "SMS code"
+msgstr "SMS код"
+
+msgctxt "Languages::pay_select_paymaster"
+msgid "The choice on PayMaster"
+msgstr "Выбор на PayMaster"
+
+msgctxt "Languages::carrier_ems"
+msgid "EMS"
+msgstr "EMS"
+
+msgctxt "Languages::ems_activation_error"
+msgid "To activate the EMS shipping processor you must have the Russian Rouble (RUB) currency enabled and set primary."
+msgstr "Для активации процессора доставки EMS валюта Российский Рубль (RUB) должна быть активна и назначена основной."
+
+msgctxt "Languages::ems_mode"
+msgid "Shipping fees are calculated based on"
+msgstr "Цена доставки рассчитана согласно"
+
+msgctxt "Languages::ems_country_error"
+msgid "The EMS shopping method is available only for deliveries from Russia. You can change company country under Settings -> Company."
+msgstr "Способ доставки EMS доступен только для Российской Федерации. Вы можете изменить настройки стран (Настройки -> Компания)."
+
+msgctxt "Languages::shop_id"
+msgid "ShopID"
+msgstr "ShopID"
+
+msgctxt "Languages::scid"
+msgid "SCID"
+msgstr "SCID"
+
+msgctxt "Languages::md5_shoppassword"
+msgid "MD5 shopPassword"
+msgstr "MD5 shopPassword"
+
+msgctxt "Languages::yandex_merchant_web_services"
+msgid "Merchant Web Services (MWS)"
+msgstr "Merchant Web Services (MWS)"
+
+msgctxt "Languages::yandex_certificate_filename"
+msgid "Certificate filename"
+msgstr "Файл сертификата"
+
+msgctxt "Languages::yandex_p12_password"
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "Languages::yandex_postponed_payments_enabled"
+msgid "Postponed payments enabled"
+msgstr "Отложенные платежи включены"
+
+msgctxt "Languages::yandex_unconfirmed_order_status"
+msgid "Status for postponed orders (Orders waiting for confirmation)"
+msgstr "Статус отложенных заказов (заказы, ожидающие подтверждения)"
+
+msgctxt "Languages::yandex_confirmed_order_status"
+msgid "Status for confirmed orders"
+msgstr "Статус подтвержденных заказов"
+
+msgctxt "Languages::yandex_canceled_order_status"
+msgid "Status for canceled postponed orders"
+msgstr "Статус отмененных отложенных заказов"
+
+msgctxt "Languages::yandex_returns_enabled"
+msgid "Returns enabled"
+msgstr "Включить возврат"
+
+msgctxt "Languages::yandex_returned_order_status"
+msgid "Status for returned orders"
+msgstr "Статус возвращенных заказов"
+
+msgctxt "Languages::yandex_money_currency_error"
+msgid "It is possible to make payment in rubles only using this payment method."
+msgstr "Оплата с использованием данного способа оплаты возможна только в рублях."
+
+msgctxt "Languages::select_yandex_payment"
+msgid "Select pay method"
+msgstr "Выберите способ оплаты"
+
+msgctxt "Languages::yandex_money_payment_yandex"
+msgid "Yandex.Money"
+msgstr "Яндекс.Деньги"
+
+msgctxt "Languages::yandex_money_payment_card"
+msgid "Credit card"
+msgstr "Кредитная карта"
+
+msgctxt "Languages::yandex_money_payment_terminal"
+msgid "Terminal"
+msgstr "Терминал"
+
+msgctxt "Languages::yandex_money_payment_phone"
+msgid "Mobile phone"
+msgstr "Мобильный телефон"
+
+msgctxt "Languages::yandex_payment_types"
+msgid "Payment methods"
+msgstr "Способы оплаты"
+
+msgctxt "Languages::yandex_payment_type"
+msgid "Payment method"
+msgstr "Способ оплаты"
+
+msgctxt "Languages::yandex_payment_card"
+msgid "Bank cards"
+msgstr "Банковская карта"
+
+msgctxt "Languages::yandex_payment_terminal"
+msgid "Payment kiosk"
+msgstr "Терминал"
+
+msgctxt "Languages::yandex_payment_phone"
+msgid "Mobile phone"
+msgstr "Мобильный телефон"
+
+msgctxt "Languages::yandex_payment_webmoney"
+msgid "WebMoney"
+msgstr "WebMoney"
+
+msgctxt "Languages::yandex_payment_alfabank"
+msgid "Alfa-Click"
+msgstr "Альфа-Клик"
+
+msgctxt "Languages::yandex_payment_sberbank"
+msgid "Sberbank online"
+msgstr "Сбербанк онлайн"
+
+msgctxt "Languages::yandex_payment_masterpass"
+msgid "MasterPass"
+msgstr "MasterPass"
+
+msgctxt "Languages::yandex_payment_psbank"
+msgid "Promsvyazbank"
+msgstr "ПромСвязьБанк"
+
+msgctxt "Languages::text_yandex_money_urls"
+msgid "Use the following URLs in Yandex Money settings:<br /><table class=\"table table-middle\"><thead><tr>    <th width=\"10%\" class=\"left\">    <th width=\"90%\" class=\"left\"></tr></thead><tr>    <td class=\"left\">        <b>paymentAvisoURL:</b>    </td>    <td class=\"left\">        [avisio_url]    </td></tr><tr>    <td class=\"left\">        <b>checkURL:</b>    </td>    <td class=\"left\">        [check_url]    </td></tr><tr>    <td class=\"left\">        <b>failURL:</b>    </td>    <td class=\"left\">        [fail_url]    </td></tr><tr>    <td class=\"left\">        <b>successURL:</b>    </td>    <td class=\"left\">        [success_url]    </td></tr></table><a href=\"https://money.yandex.ru/joinups/\" target=\"_blank\">Merchant Account Request</a><p>If you want to use Yandex Merchant Web Services, please read <a href=\"https://money.yandex.ru/doc.xml?id=526506\" target=\"_blank\">Certificate exchange procedure</a>, then get the required certificate and set up Merchant Web Services in the corresponding section below.</p>"
+msgstr "Используйте следующие URL в настройках Яндекс.Денег:<br /><table class=\"table table-middle\"><thead><tr><th width=\"10%\" class=\"left\"><th width=\"90%\" class=\"left\"></tr></thead><tr><td class=\"left\"><b>paymentAvisoURL:</b>    </td><td class=\"left\">[avisio_url]</td></tr><tr><td class=\"left\"><b>checkURL:</b></td><td class=\"left\">[check_url]    </td></tr><tr><td class=\"left\"><b>failURL:</b></td><td class=\"left\">[fail_url]</td></tr><tr><td class=\"left\"><b>successURL:</b></td><td class=\"left\">[success_url]</td></tr></table><a href=\"https://money.yandex.ru/joinups/\" target=\"_blank\">Создание контрагента</a><p>Если вы собираетесь использовать Веб-сервисы Яндекс.Денег для Контрагентов, пожалуйста причитайте статью <a href=\"https://money.yandex.ru/doc.xml?id=526506\" target=\"_blank\">Процедура обмена сертификатами</a>, после этого получите сертификат и настройте Веб-сервисы Яндекс.Денег для Контрагентов в секции ниже.</p>"
+
+msgctxt "Languages::text_yandex_money_https"
+msgid "<b>SSL certificate is necessary to receive payments.Self-signed SSL certificate is allowed (<a target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Self-signed_certificate\">Self-signed certificate</a>)</b>"
+msgstr "<b>Важно! Для успешной работы на вашем сервере должен быть установлен SSL сертификат. Допускается использование самоподписанного сертификата.</b>"
+
+msgctxt "Languages::yandex_payment_yandex"
+msgid "Yandex.Money"
+msgstr "Яндекс.Деньги"
+
+msgctxt "Languages::avangard_shop_id"
+msgid "Shop ID"
+msgstr "ID магазина"
+
+msgctxt "Languages::avangard_shop_name"
+msgid "Shop Name"
+msgstr "Имя магазина"
+
+msgctxt "Languages::avangard_site"
+msgid "Site"
+msgstr "Сайт"
+
+msgctxt "Languages::avangard_password"
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "Languages::addons.rus_payments.avangard_av_sign"
+msgid "The acquiring service \"Signature\""
+msgstr "\"Подпись\" системы эквайринга"
+
+msgctxt "Languages::addons.rus_payments.avangard_fail_payment"
+msgid "Payment was not effected:<br />The card issuing bank refusal.<br />An error in the payment process: incorrect card data were defined."
+msgstr "Оплата не проведена:<br />Отказ банка – эмитента карты.<br />Ошибка в процессе оплаты, указаны неверные данные карты."
+
+msgctxt "Languages::rus_payments.avangard_payment_successfully"
+msgid "Payment is successful."
+msgstr "Оплата прошла успешно."
+
+msgctxt "Languages::mnt_payment_server"
+msgid "Payment server URL"
+msgstr "URL сервера оплаты"
+
+msgctxt "Languages::mnt_id"
+msgid "Account number"
+msgstr "Номер счета"
+
+msgctxt "Languages::mnt_dataintegrity_code"
+msgid "Code of data integrity verification"
+msgstr "Код проверки целостности данных"
+
+msgctxt "Languages::payanyway_login"
+msgid "Login in PayAnyWay"
+msgstr "Логин в PayAnyWay"
+
+msgctxt "Languages::payanyway_password"
+msgid "Password in PayAnyWay"
+msgstr "Пароль в PayAnyWay"
+
+msgctxt "Languages::payment_system"
+msgid "Payment system"
+msgstr "Платежная система"
+
+msgctxt "Languages::ps_payanyway"
+msgid "PayAnyWay"
+msgstr "PayAnyWay"
+
+msgctxt "Languages::ps_banktransfer"
+msgid "Bank transfer"
+msgstr "Банковский перевод"
+
+msgctxt "Languages::ps_ciberpay"
+msgid "CiberPay"
+msgstr "CiberPay"
+
+msgctxt "Languages::ps_comepay"
+msgid "Comepay"
+msgstr "Comepay"
+
+msgctxt "Languages::ps_contact"
+msgid "Contact"
+msgstr "Contact"
+
+msgctxt "Languages::ps_elecsnet"
+msgid "Elecsnet"
+msgstr "Элекснет"
+
+msgctxt "Languages::ps_euroset"
+msgid "Evroset, Svyaznoy"
+msgstr "Евросеть, Связной"
+
+msgctxt "Languages::ps_forward"
+msgid "ForwardMobile"
+msgstr "ForwardMobile"
+
+msgctxt "Languages::ps_gorod"
+msgid "Federal System GOROD"
+msgstr "Федеральная система ГОРОД"
+
+msgctxt "Languages::ps_mcb"
+msgid "MosCreditBank"
+msgstr "МосКредитБанк"
+
+msgctxt "Languages::ps_moneta"
+msgid "Moneta.Ru"
+msgstr "Монета.Ру"
+
+msgctxt "Languages::ps_moneymail"
+msgid "MoneyMail"
+msgstr "MoneyMail"
+
+msgctxt "Languages::ps_novoplat"
+msgid "Novoplat"
+msgstr "Novoplat"
+
+msgctxt "Languages::ps_plastic"
+msgid "VISA, Master Card"
+msgstr "VISA, Master Card"
+
+msgctxt "Languages::ps_platika"
+msgid "PLATiKA"
+msgstr "PLATiKA"
+
+msgctxt "Languages::ps_post"
+msgid "Russian Post Transfer"
+msgstr "ФГУП \"Почта России\""
+
+msgctxt "Languages::ps_wallet"
+msgid "Wallet One"
+msgstr "Единый кошелек"
+
+msgctxt "Languages::ps_webmoney"
+msgid "WebMoney"
+msgstr "WebMoney"
+
+msgctxt "Languages::ps_yandex"
+msgid "Yandex.Money"
+msgstr "Яндекс.Деньги"
+
+msgctxt "Languages::text_payanyway_ids_notice"
+msgid "Don\\'\\'t change these settings if you are not sure that it\\'\\'s necessary."
+msgstr "Не меняйте эти настройки, если не уверены что это необходимо."
+
+msgctxt "Languages::text_payanyway_additional_parameters"
+msgid "Enter additional parameters"
+msgstr "Введите дополнительные параметры"
+
+msgctxt "Languages::mailofrussiasenderindex"
+msgid "Sender ZIP"
+msgstr "Индекс отправителя"
+
+msgctxt "Languages::mailofrussiasenderaddress"
+msgid "Sender address"
+msgstr "Адрес отправителя"
+
+msgctxt "Languages::mailofrussiasendername"
+msgid "Sender name"
+msgstr "Имя отправителя"
+
+msgctxt "Languages::text_payanyway_submit_button"
+msgid "Pay now"
+msgstr "Оплатить"
+
+msgctxt "Languages::buyeremail"
+msgid "E-mail in MoneyMail"
+msgstr "E-mail в MoneyMail"
+
+msgctxt "Languages::rapidaphone"
+msgid "Phone number"
+msgstr "Номер телефона"
+
+msgctxt "Languages::webmoneyaccountid"
+msgid "Payment system"
+msgstr "Источник оплаты"
+
+msgctxt "Languages::text_payanyway_invoice_failed"
+msgid "Error occured during creating invoice"
+msgstr "Ошибка создания платежного поручения"
+
+msgctxt "Languages::text_payanyway_invoice_created"
+msgid "Invoice was created"
+msgstr "Создано платежное поручение"
+
+msgctxt "Languages::text_payanyway_post_invoice_created"
+msgid "Transaction is registered for processing. To complete your payment please <a target=\"_blank\" href=\"https://www.payanyway.ru/mailofrussiablank.htm?operationId=%transaction%\">print post ticket</a> and proceed with payment in any <a target=\"_blank\" href=\"http://www.russianpost.ru\">Russian Post</a> post office.To view post ticket in PDF format you should have a program <a target=\"_blank\" href=\"http://get.adobe.com/reader/\">Adobe Acrobat Reader</a> installed."
+msgstr "Операция оплаты почтовым переводом создана и находится в обработке. Для завершения операции <a target=\"_blank\" href=\"https://www.payanyway.ru/mailofrussiablank.htm?operationId=%transaction%\">распечатайте</a> бланк почтового перевода и проведите электронный платеж в любом отделении связи <a target=\"_blank\" href=\"http://www.russianpost.ru\">Почты России</a>. Для просмотра бланка в формате PDF необходимо иметь установленную на Вашем компьютере программу <a target=\"_blank\" href=\"http://get.adobe.com/reader/\">Adobe Acrobat Reader.</a>"
+
+msgctxt "Languages::text_payanyway_banktransfer_invoice_created"
+msgid "Transaction is registered for processing. To complete your payment please <a onclick=\"window.open(\\'/wiretransferreceipt.htm?transactionId=%transaction%\\',\\'newwindow\\',\\'1,0,0,0,0,resizable=1,scrollbars=1,width=730,height=670\\');return false;\" href=\"#\">print receipt</a> and make payment in bank office."
+msgstr "Операция оплаты банковским переводом создана и находится в обработке. Для завершения операции <a onclick=\"window.open(\\'https://www.payanyway.ru/wiretransferreceipt.htm?transactionId=%transaction%\\',\\'newwindow\\',\\'1,0,0,0,0,resizable=1,scrollbars=1,width=730,height=670\\');return false;\" href=\"#\">распечатайте</a> бланк платежного поручения и оплатите квитанцию в любом российском банке."
+
+msgctxt "Languages::text_payanyway_total_amount"
+msgid "Total amount:"
+msgstr "Сумма к оплате:"
+
+msgctxt "Languages::text_payanyway_fee"
+msgid "External commission:"
+msgstr "Внешняя комиссия:"
+
+msgctxt "Languages::text_payanyway_euroset_created_2"
+msgid "Transaction is registered. Please proceed payment with Euroset using following PayAnyWay account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему PayAnyWay через Евросеть, используя данный код:"
+
+msgctxt "Languages::text_payanyway_euroset_created_1"
+msgid "Contract number for Euroset is:"
+msgstr "Для оплаты через Евросеть номер счета для пополнения:"
+
+msgctxt "Languages::text_payanyway_gorod_created_1"
+msgid "Contract number for Federal system GOROD is:"
+msgstr "Для оплаты через \"Федеральную Систему ГОРОД\" номер счета для пополнения:"
+
+msgctxt "Languages::text_payanyway_gorod_created_2"
+msgid "Transaction is registered. Please proceed payment with Federal system GOROD using following PayAnyWay account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему PayAnyWay через \"Федеральную Систему ГОРОД\", используя данный код:"
+
+msgctxt "Languages::text_payanyway_comepay_created_1"
+msgid "Contract number for ComePay is:"
+msgstr "Для оплаты в ComePay номер счета для пополнения:"
+
+msgctxt "Languages::text_payanyway_comepay_created_2"
+msgid "Transaction is registered. Please proceed payment with ComePay cash payment terminals using following PayAnyWay account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему PayAnyWay через терминалы ComePay, используя данный код:"
+
+msgctxt "Languages::text_payanyway_contact_created_1"
+msgid "Contract number for Contact is:"
+msgstr "Для оплаты в системе \"Contact\" номер счета для пополнения:"
+
+msgctxt "Languages::text_payanyway_contact_created_2"
+msgid "Transaction is registered. Please proceed payment with Contact payment system using following MONETA.RU account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему МОНЕТА.РУ через систему \"Contact\", используя вместо номера счета для пополнения данный код:"
+
+msgctxt "Languages::text_payanyway_ciberpay_created_1"
+msgid "Contract number for CiberPay is:"
+msgstr "Для оплаты через CiberPay номер счета для пополнения:"
+
+msgctxt "Languages::text_payanyway_ciberpay_created_2"
+msgid "Transaction is registered. Please proceed payment with CiberPay system using following MONETA.RU account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему МОНЕТА.РУ через CiberPay, используя вместо номера счета для пополнения данный код:"
+
+msgctxt "Languages::text_payanyway_elecsnet_created_1"
+msgid "Contract number for Elecsnet is:"
+msgstr "Transaction is registered. Please proceed payment with Elecsnet cash payment terminals using following PayAnyWay account number:"
+
+msgctxt "Languages::text_payanyway_elecsnet_created_2"
+msgid "Invoice number to pay via Eleksnet:"
+msgstr "Для оплаты в Элекснет номер счета для пополнения:"
+
+msgctxt "Languages::text_payanyway_forward_created_1"
+msgid "Contract number for Forward Mobile is:"
+msgstr "Для оплаты через Форвард Мобайл номер счета для пополнения:"
+
+msgctxt "Languages::text_payanyway_forward_created_2"
+msgid "Transaction is registered. Please proceed payment with Forward Mobile system using following MONETA.RU account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему МОНЕТА.РУ через Форвард Мобайл, используя вместо номера счета для пополнения данный код:"
+
+msgctxt "Languages::text_payanyway_mcb_created_1"
+msgid "Contract number for MosCreditBank is:"
+msgstr "Для оплаты через терминалы МосКредитБанка номер счета для пополнения:"
+
+msgctxt "Languages::text_payanyway_mcb_created_2"
+msgid "Transaction is registered. Please proceed payment with MosCreditBank cash payment terminals using following MONETA.RU account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему МОНЕТА.РУ через терминалы Московского Кредитного Банка, используя вместо номера счета для пополнения данный код:"
+
+msgctxt "Languages::text_payanyway_novoplat_created_1"
+msgid "Contract number for NovoPlat is:"
+msgstr "Для оплаты через NovoPlat номер счета для пополнения:"
+
+msgctxt "Languages::text_payanyway_novoplat_created_2"
+msgid "Transaction is registered. Please proceed payment with NovoPlat system using following PayAnyWay account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему PayAnyWay через NovoPlat, используя данный код:"
+
+msgctxt "Languages::text_payanyway_platika_created_1"
+msgid "Contract number for PLATiKA is:"
+msgstr "Для оплаты через PLATiKA номер счета для пополнения:"
+
+msgctxt "Languages::text_payanyway_platika_created_2"
+msgid "Transaction is registered. Please proceed payment with PLATiKA system using following MONETA.RU account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему МОНЕТА.РУ через систему PLATiKA, используя вместо номера счета для пополнения данный код:"
+
+msgctxt "Languages::error_rapida_phone"
+msgid "Phone number in international format. For example +71234567890"
+msgstr "Номер телефона в международном формате. Например, +71234567890"
+
+msgctxt "Languages::rus_payments.yandex_money_illegal_params"
+msgid "Required payment parameters are either missing or have invalid values."
+msgstr "Обязательные параметры платежа отсутствуют или имеют недопустимые значения."
+
+msgctxt "Languages::rus_payments.yandex_money_illegal_param_label"
+msgid "Invalid value for the label parameter."
+msgstr "Недопустимое значение параметра label."
+
+msgctxt "Languages::rus_payments.yandex_money_illegal_param_to"
+msgid "Invalid value for the to parameter."
+msgstr "Недопустимое значение параметра to."
+
+msgctxt "Languages::rus_payments.yandex_money_illegal_param_amount"
+msgid "Invalid value for the amount parameter."
+msgstr "Недопустимое значение параметра amount."
+
+msgctxt "Languages::rus_payments.yandex_money_illegal_param_amount_due"
+msgid "Invalid value for the amount_due parameter."
+msgstr "Недопустимое значение параметра amount_due."
+
+msgctxt "Languages::rus_payments.yandex_money_illegal_param_comment"
+msgid "Invalid value for the comment parameter."
+msgstr "Недопустимое значение параметра comment."
+
+msgctxt "Languages::rus_payments.yandex_money_illegal_param_message"
+msgid "Invalid value for the message parameter."
+msgstr "Недопустимое значение параметра message."
+
+msgctxt "Languages::rus_payments.yandex_money_illegal_param_expire_period"
+msgid "Invalid value for the expire_period parameter."
+msgstr "Недопустимое значение параметра expire_period."
+
+msgctxt "Languages::rus_payments.yandex_money_not_enough_funds"
+msgid "The payer\\'s account does not have sufficient funds to make the payment. Additional funds should be credited to the account, and a new payment will need to be processed."
+msgstr "На счете плательщика недостаточно средств. Необходимо пополнить счет и провести новый платеж."
+
+msgctxt "Languages::rus_payments.yandex_money_payment_refused"
+msgid "The merchant refused to accept the payment (for example, the user tried to purchase an item that is not in stock)."
+msgstr "Магазин отказал в приеме платежа (например пользователь попробовал заплатить за товар, которого нет в магазине)."
+
+msgctxt "Languages::rus_payments.yandex_money_payee_not_found"
+msgid "The transfer recipient was not found. The specified account does not exist, or a phone number or email address was specified that is not associated with a user account or payee."
+msgstr "Получатель перевода не найден. Указанный счет не существует, или указан номер телефона или email не связанный со счетом пользователя или получателя платежа."
+
+msgctxt "Languages::rus_payments.yandex_money_authorization_reject"
+msgid "Authorization of the payment was refused. Possible reasons: A transaction with the current parameters is forbidden for this user. The user did not accept the Usage Agreement for the “Yandex.Money” service."
+msgstr "В авторизации платежа отказано. Возможные причины: транзакция с текущими параметрами запрещена для данного пользователя; пользователь не принял Соглашение об использовании сервиса «Яндекс.Деньги»."
+
+msgctxt "Languages::rus_payments.yandex_money_limit_exceeded"
+msgid "One of the operation limits was exceeded: For the total amount of operations for the access token granted. For the total amount of operations over a period of time for the access token granted. Yandex.Money restrictions for various types of operations."
+msgstr "Превышен один из лимитов на операции: на сумму операции для выданного токена авторизации; сумму операции за период времени для выданного токена авторизации; ограничений Яндекс.Денег для различных видов операций."
+
+msgctxt "Languages::rus_payments.yandex_money_account_blocked"
+msgid "The user\\'s account has been blocked. In order to unblock the account, the user must be redirected to the address specified in the account_unblock_uri field."
+msgstr "Счет пользователя заблокирован. Для разблокировки счета необходимо отправить пользователя по адресу, указанному в поле account_unblock_uri."
+
+msgctxt "Languages::rus_payments.yandex_money_ext_action_required"
+msgid "This type of payment cannot be made at this time. To be able to make these types of payments, the user must go to the following <a href=\"[ext_action_uri]\" target=\"_blank\">page</a> and follow the instructions on it."
+msgstr "В настоящее время данный тип платежа не может быть проведен. Для получения возможности проведения таких платежей необходимо перейти на <a href=\"[ext_action_uri]\" target=\"_blank\">страницу</a> и следовать инструкции."
+
+msgctxt "Languages::text_yandex_money_redirect_url"
+msgid "Please use the following Redirect URL while adjusting the API Yandex.Money application: <br/> [redirect_url]"
+msgstr "Пожалуйста, используйте следующий Redirect URL при настройке приложения API Яндекс.Денег: <br/><br/> <em>[redirect_url]</em>"
+
+msgctxt "Languages::text_avangard_redirect_url"
+msgid "Please use the following Redirect URL while adjusting the API Avangard application: <br/> [redirect_url]"
+msgstr "Пожалуйста, используйте следующий Redirect URL при настройке приложения API Avangard: <br/> [redirect_url]"
+
+msgctxt "Languages::rus_payments.yandex_money_contract_not_found"
+msgid "Invalid or non-existent request_id specified."
+msgstr "Отсутствует выставленный контракт с заданным request_id."
+
+msgctxt "Languages::rus_payments.yandex_money_money_source_not_available"
+msgid "The requested payment method (money_source) is not available for this payment."
+msgstr "Запрошенный метод платежа (money_source) недоступен для данного платежа."
+
+msgctxt "Languages::rus_payments.yandex_money_illegal_param_csc"
+msgid "The csc parameter has a missing or invalid value."
+msgstr "Отсутствует или указано недопустимое значение параметра csc."
+
+msgctxt "Languages::rus_payments.yandex_money_illegal_param_ext_auth_success_uri"
+msgid "The ext_auth_success_uri parameter has a missing or invalid value."
+msgstr "Отсутствует или указано недопустимое значение параметра ext_auth_success_uri."
+
+msgctxt "Languages::rus_payments.yandex_money_illegal_param_ext_auth_fail_uri"
+msgid "The ext_auth_fail_uri parameter has a missing or invalid value."
+msgstr "Отсутствует или указано недопустимое значение параметра ext_auth_fail_uri."
+
+msgctxt "Languages::rus_payments.yandex_money_payer"
+msgid "Payer"
+msgstr "Плательщик"
+
+msgctxt "Languages::rus_payments.yandex_money_payee"
+msgid "Payee"
+msgstr "Получатель платежа"
+
+msgctxt "Languages::rus_payments.yandex_money_payee_id"
+msgid "Wallet number"
+msgstr "Номер кошелька"
+
+msgctxt "Languages::rus_payments.yandex_money_payment_order"
+msgid "Orde #[order_id] payment"
+msgstr "Оплата заказа #[order_id]"
+
+msgctxt "Languages::rus_payments.yandex_money_test_code"
+msgid "Test code"
+msgstr "Тестовый код"
+
+msgctxt "Languages::addons.rus_payments.app_id"
+msgid "Application ID"
+msgstr "Идентификатор приложения"
+
+msgctxt "Languages::addons.rus_payments.oauth2_client_secret"
+msgid "OAuth2 client secret"
+msgstr "Секретный ключ OAuth2"
+
+msgctxt "Languages::addons.rus_payments.on_hold_status"
+msgid "On hold"
+msgstr "На удержании"
+
+msgctxt "Languages::addons.rus_payments.on_hold_status_email_subject"
+msgid "has been recieved successfully"
+msgstr "успешно получен"
+
+msgctxt "Languages::addons.rus_payments.on_hold_status_email_header"
+msgid "Thank you for the order."
+msgstr "Спасибо за заказ."
+
+msgctxt "Languages::addons.rus_payments.refunded_status"
+msgid "Refunded"
+msgstr "Возвращено"
+
+msgctxt "Languages::addons.rus_payments.refunded_status_email_subject"
+msgid "has been refunded successfully"
+msgstr "успешно возвращен"
+
+msgctxt "Languages::addons.rus_payments.refunded_status_email_header"
+msgid "Order has been refunded"
+msgstr "Заказ был возвращен"
+
+msgctxt "Languages::addons.rus_payments.yandex_money_mws_operation_error"
+msgid "MWS Error confirming/canceling payment"
+msgstr "Ошибка MWS при подтверждении или отмене оплаты"
+
+msgctxt "Languages::addons.rus_payments.pkcs12_format"
+msgid "PKCS#12 format"
+msgstr "Формат PKCS #12"
+
+msgctxt "Languages::addons.rus_payments.p12_password_descr"
+msgid "To decrypt PKCS#12 pair"
+msgstr "Для расшифровки пары PKCS #12"
+
+msgctxt "Languages::yandex_postponed_payment"
+msgid "Postponed"
+msgstr "Отложено"
+
+msgctxt "Languages::yandex_invoice_id"
+msgid "Invoice ID"
+msgstr "ID счета-фактуры"
+
+msgctxt "Languages::yandex_merchant_order_id"
+msgid "Merchant ID"
+msgstr "ID пользователя"
+
+msgctxt "Languages::yandex_confirmed_time"
+msgid "Confirmed"
+msgstr "Подтверждено"
+
+msgctxt "Languages::yandex_canceled_time"
+msgid "Canceled"
+msgstr "Отменен"
+
+msgctxt "Languages::yandex_refunded_time"
+msgid "Refunded"
+msgstr "Возвращено"
+
+msgctxt "Languages::yandex_refund_amount"
+msgid "Amount refunded"
+msgstr "Возвращаемая сумма"
+
+msgctxt "Languages::addons.rus_payments.refund"
+msgid "Refund"
+msgstr "Возврат"
+
+msgctxt "Languages::addons.rus_payments.amount"
+msgid "Amount"
+msgstr "Сумма"
+
+msgctxt "Languages::addons.rus_payments.cause"
+msgid "Cause"
+msgstr "Причина"
+
+msgctxt "Languages::text_payler_notice"
+msgid "Use the following URL in the Payler account settings<br />-&nbsp;<u>payment notification</u>: <b>[result_url]</b>"
+msgstr "Используйте следующие URL в настройках аккаунта Payler<br />-&nbsp;<u>оповещение о платеже</u>: <b>[result_url]</b>"
+
+msgctxt "Languages::text_payler_payment_for_order"
+msgid "Payment for order #[order_id] at site [store]"
+msgstr "Оплата заказа #[order_id] на сайте [store]"
+
+msgctxt "Languages::addons.rus_payments.wm_secret_key"
+msgid "Secret Key"
+msgstr "Secret Key"
+
+msgctxt "Languages::addons.rus_payments.wm_test_live_mode"
+msgid "Test/Live modes"
+msgstr "Тестовый/Рабочий режимы"
+
+msgctxt "Languages::addons.rus_payments.wm_live"
+msgid "Live"
+msgstr "Рабочий"
+
+msgctxt "Languages::addons.rus_payments.wm_test"
+msgid "Test"
+msgstr "Тестовый"
+
+msgctxt "Languages::salt"
+msgid "Salt"
+msgstr "Секретное слово"
+
+msgctxt "Languages::addons.rus_payments.payments_was_disabled"
+msgid "The following payment methods were disabled: [payments]."
+msgstr "Следующие способы оплаты были отключены: [payments]."
+
+msgctxt "Languages::addons.rus_payments.sbrf_prefix"
+msgid "Prefix payment assignment"
+msgstr "Префикс назначения платежа"
+
+msgctxt "Languages::addons.rus_payments.sbrf_prefix_details"
+msgid "Prefix used in field payment assignment. In field will be display prefix + id order"
+msgstr "Префикс используемый в поле назначение платежа. Назначение платежа будет отображаться в виде Префикс + Код заказа"
+
+msgctxt "Languages::addons.rus_payments.account_kpp"
+msgid "KPP"
+msgstr "КПП"
+
+msgctxt "Languages::addons.rus_payments.account_current"
+msgid "Сurrent account"
+msgstr "Расчетный счет"
+
+msgctxt "Languages::addons.rus_payments.account_personal"
+msgid "Personal account"
+msgstr "л/сч. получателя"
+
+msgctxt "Languages::addons.rus_payments.account_bank"
+msgid "Bank"
+msgstr "Банк"
+
+msgctxt "Languages::addons.rus_payments.account_bik"
+msgid "BIK"
+msgstr "БИК"
+
+msgctxt "Languages::addons.rus_payments.account_cor"
+msgid "Сorrespondent account"
+msgstr "Кор. счет"
+
+msgctxt "Languages::addons.rus_payments.invoice_print"
+msgid "Icon stamp"
+msgstr "Изображение печати"
+
+msgctxt "Languages::addons.rus_payments.invoice_payment"
+msgid "Invoice for payment"
+msgstr "Счет на оплату"
+
+msgctxt "Languages::addons.rus_payments.text_invoice_payment"
+msgid "Invoice for payment № [number_account] of [invoice_data]"
+msgstr "Счет на оплату № [number_account] от [invoice_data]"
+
+msgctxt "Languages::addons.rus_payments.organization_customer"
+msgid "Organization"
+msgstr "Организация"
+
+msgctxt "Languages::addons.rus_payments.bank_details"
+msgid "Bank requisites"
+msgstr "Банковские реквизиты"
+
+msgctxt "Languages::addons.rus_payments.invoice_notification"
+msgid "Attention! Paying this order means your agreement with the product shipping conditions. Payment assurance is required. Otherwise, product in-stock availability cannot be ensured. A customer can pick up a product only after payment inflows to the Supplier’s current account (passport and letter of attorney are required)."
+msgstr "Внимание! Оплата данного счета означает согласие с условиями поставки товара. Уведомление об оплате обязательно, в противном случае не гарантируется наличие товара на складе. Товар отпускается по факту прихода денег на р/с Поставщика, самовывозом (при наличии доверенности и паспорта)."
+
+msgctxt "Languages::addons.rus_payments.bank_recipient"
+msgid "Bank recipient"
+msgstr "Банк получателя"
+
+msgctxt "Languages::addons.rus_payments.number_invoice"
+msgid "Personal account №"
+msgstr "Лиц. счет №"
+
+msgctxt "Languages::addons.rus_payments.total_items"
+msgid "Total items"
+msgstr "Всего наименований"
+
+msgctxt "Languages::addons.rus_payments.total_of"
+msgid "to the amount of"
+msgstr "на сумму"
+
+msgctxt "Languages::addons.rus_payments.supervisor"
+msgid "Supervisor"
+msgstr "Руководитель"
+
+msgctxt "Languages::addons.rus_payments.accountant"
+msgid "Accountant"
+msgstr "Бухгалтер"
+
+msgctxt "Languages::addons.rus_payments.without_tax"
+msgid "Without tax (VAT)"
+msgstr "Без налога (НДС)"
+
+msgctxt "Languages::addons.rus_payments.total_pay"
+msgid "Total pay"
+msgstr "Всего к оплате"
+
+msgctxt "Languages::addons.rus_payments.account_information_not_found"
+msgid "Information not found"
+msgstr "Информация не найдена"
+
+msgctxt "Languages::organization_customer"
+msgid "Organization"
+msgstr "Организация"
+
+msgctxt "Languages::bank_details"
+msgid "Bank requisites"
+msgstr "Банковские реквизиты"
+
+msgctxt "Languages::inn_customer"
+msgid "INN"
+msgstr "ИНН"
+
+msgctxt "Languages::addons.rus_payments.rub_rank"
+msgid "[n] ruble|[n] rubles"
+msgstr "[n] рубль|[n] рубля|[n] рублей"
+
+msgctxt "Languages::addons.rus_payments.thousand_rank"
+msgid "[n] thousand|[n] thousands"
+msgstr "[n] тысяча|[n] тысячи|[n] тысяч"
+
+msgctxt "Languages::addons.rus_payments.million_rank"
+msgid "[n] million"
+msgstr "[n] миллион|[n] миллиона|[n] миллионов"
+
+msgctxt "Languages::addons.rus_payments.billion_rank"
+msgid "[n] billion"
+msgstr "[n] миллиард|[n] миллиарда|[n] миллиардов"
+
+msgctxt "Languages::addons.rus_payments.kopeck_rank"
+msgid "[n] kopeck"
+msgstr "[n] копейка|[n] копейки|[n] копеек"
+
+msgctxt "Languages::addons.rus_payments.avangard_returns_enabled"
+msgid "Refund enabled"
+msgstr "Возврат включен"
+
+msgctxt "Languages::addons.rus_payments.avangard_returned_order_status"
+msgid "Order status after refund"
+msgstr "Статус заказа после возврата"
+
+msgctxt "Languages::addons.rus_payments.avangard_paid_order_status"
+msgid "The status of paid orders"
+msgstr "Статус оплаченных заказов"
+
+msgctxt "Languages::addons.rus_payments.avangard_failed_order_status"
+msgid "Order status unsuccessful payment"
+msgstr "Статус заказа неудачной оплаты"
+
+msgctxt "Languages::addons.rus_payments.company_info"
+msgid "Company information"
+msgstr "Информация о компании"
+
+msgctxt "Languages::addons.rus_payments.user_info"
+msgid "User information"
+msgstr "Поля пользователя"
+
+msgctxt "Languages::account_order_status"
+msgid "Order status for account"
+msgstr "Статус заказа"
+
+msgctxt "Languages::sbrf_invoice_order_status"
+msgid "Order status Sberbank payment"
+msgstr "Статус заказа оплаты Сбербанка"
+
+msgctxt "Languages::addons.rus_payments.account_print_width"
+msgid "Width print"
+msgstr "Ширина печати"
+
+msgctxt "Languages::addons.rus_payments.account_print_height"
+msgid "Height print"
+msgstr "Высота печати"
+

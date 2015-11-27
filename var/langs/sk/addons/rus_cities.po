@@ -1,0 +1,53 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Slovak\n"
+"Language: sk_SK\n"
+
+msgctxt "Addons::name::rus_cities"
+msgid "Russian localization — Cities"
+msgstr "Russian localization — Cities"
+
+msgctxt "Addons::description::rus_cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "The add-on provides new functionality – cities to be added automatically to the order placing page."
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "Add new city"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "New city"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "Select city"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "No states created"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "No state selected"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "another city"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "Create new state"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "View cities"
+msgstr "View cities"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Manage cities"
+msgstr "Manage cities"

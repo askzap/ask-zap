@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+
+msgctxt "Addons::name::rus_ruble"
+msgid "Russian localization — Russian ruble and currencies sync"
+msgstr "Russian localization — Russian ruble and currencies sync"
+
+msgctxt "Languages::rus_ruble.currency_install"
+msgid "Set \"Russian ruble\" as currency"
+msgstr "Set \"Russian ruble\" as currency"
+
+msgctxt "Languages::rus_ruble.currency_install_button"
+msgid "Install currency"
+msgstr "Install currency"
+
+msgctxt "Languages::rus_ruble.currency_install_info"
+msgid "New currency Russian ruble (\"RUB\") will be set. Russian ruble will be the main currency of the store. It is necessary for correct operation of payment and shipping methods and integration with Yandex"
+msgstr "New currency Russian ruble (\"RUB\") will be set. Russian ruble will be the main currency of the store. It is necessary for correct operation of payment and shipping methods and integration with Yandex"
+
+msgctxt "Languages::rus_ruble.symbol_rub_created"
+msgid "Currency Russian ruble created"
+msgstr "Currency Russian ruble created"
+
+msgctxt "Languages::rus_ruble.symbol_rub_updated"
+msgid "Symbol Russian ruble updated"
+msgstr "Symbol Russian ruble updated"
+
+msgctxt "Languages::rus_ruble.magic_keygen"
+msgid "Generate magic_key"
+msgstr "Generate magic_key"
+
+msgctxt "Languages::rus_ruble.magic_keygen_button"
+msgid "Generate"
+msgstr "Generate"
+
+msgctxt "Languages::rus_ruble.currencies_sync"
+msgid "Synchronize currency rate with Bank of Russia"
+msgstr "Synchronize currency rate with Bank of Russia"
+
+msgctxt "Languages::rus_ruble.auto_info"
+msgid "Use this link to update currency exchange rates automatically via cron:"
+msgstr "Use this link to update currency exchange rates automatically via cron:"
+
+msgctxt "Languages::rus_ruble.auto_instruction_data"
+msgid "Notes: 1) The data on the site of the Central bank of Russia is updated every day at 3:00 PM Moscow time (UTC+4);"
+msgstr "Notes: 1) The data on the site of the Central bank of Russia is updated every day at 3:00 PM Moscow time (UTC+4);"
+
+msgctxt "Languages::rus_ruble.auto_instruction_data_end"
+msgid "2) As a currency designation, please use only three-character designation RCC (Russian Classification of Currencies)"
+msgstr "2) As a currency designation, please use only three-character designation RCC (Russian Classification of Currencies)"
+
+msgctxt "Languages::rus_ruble.sbrf_currencies_successfully_sync"
+msgid "Currencies were successfully synchronized."
+msgstr "Currencies were successfully synchronized."
+
+msgctxt "Languages::rus_ruble.sbrf_currencies_unsuccessfully_sync"
+msgid "An error occurred during currency synchronization."
+msgstr "An error occurred during currency synchronization."
+
+msgctxt "Languages::rus_ruble.symbol_no_currency_rub"
+msgid "No currency with the \"RUB\" code."
+msgstr "No currency with the \"RUB\" code."
+
+msgctxt "Languages::rus_ruble.symbol_update"
+msgid "Click this button to update ruble sign now"
+msgstr "Click this button to update ruble sign now"
+
+msgctxt "Languages::rus_ruble.symbol_update_button"
+msgid "Update ruble sign"
+msgstr "Update ruble sign"
+
+msgctxt "Languages::rus_ruble.currency_sync"
+msgid "Click this button to synchronize currency exchange rates now."
+msgstr "Click this button to synchronize currency exchange rates now."
+
+msgctxt "Languages::rus_ruble.currency_sync_auto"
+msgid "Automatic currency rate update via CRON"
+msgstr "Automatic currency rate update via CRON"
+
+msgctxt "Languages::rus_ruble.currencies_sync_info"
+msgid "Currency rate will be synchronized with Central bank of Russia ( <a target=\"_blank\" href=\"http://www.cbr.ru/\">www.cbr.ru</a> )"
+msgstr "Currency rate will be synchronized with Central bank of Russia ( <a target=\"_blank\" href=\"http://www.cbr.ru/\">www.cbr.ru</a> )"
+
+msgctxt "Languages::rus_ruble.currency_sync_button"
+msgid "Update currency rates"
+msgstr "Update currency rates"
+
+msgctxt "Languages::rus_ruble.magic_key_empty"
+msgid "Unknown magic key"
+msgstr "Unknown magic key"
+
+msgctxt "Languages::rus_ruble.magic_key_incorrect"
+msgid "Incorrect magic key"
+msgstr "Incorrect magic key"
+
+msgctxt "Languages::rus_ruble.not_set_ruble"
+msgid "Not set \"Russian ruble\" as currency"
+msgstr "Not set \"Russian ruble\" as currency"
+
+msgctxt "SettingsSections::rus_ruble::settings"
+msgid "Settings"
+msgstr "Settings"
+
+msgctxt "SettingsOptions::rus_ruble::settings"
+msgid " "
+msgstr " "
+
+msgctxt "SettingsOptions::rus_ruble::cron_key"
+msgid " "
+msgstr " "

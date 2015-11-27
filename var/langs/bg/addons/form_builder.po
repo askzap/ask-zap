@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Bulgarian\n"
+"Language: bg_BG\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: bg\n"
+"X-Crowdin-File: /addons/form_builder.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-06-29 06:03-0400\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Форм билдър"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us)"
+msgstr "Позволява Ви да създавате персонализирани формуляри (например контакти)"
+
+msgctxt "Languages::use_for_form_builder"
+msgid "Custom forms"
+msgstr "Персонални форми"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Нова форма"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Редактиране на форма"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Форм билдър"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Текст"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "E-mail до"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Формата е подсигурена с (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Добави форма"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Основен"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "множество отметки"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Мулти секектбокс"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Хедър"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Сепаратор"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Специален"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Списък страни"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Списък Щати"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "Реферал"
+

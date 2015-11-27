@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Croatian\n"
+"Language: hr_HR\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: hr\n"
+"X-Crowdin-File: /addons/price_list.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-05-28 09:05-0400\n"
+
+msgctxt "Addons::name::price_list"
+msgid "Price list"
+msgstr "Cjenik"
+
+msgctxt "Addons::description::price_list"
+msgid "Generates configurable price list in PDF or XLS"
+msgstr "Generira konfigurabilan Cjenik u PDF ili XLS"
+
+msgctxt "Languages::price_list"
+msgid "Price list"
+msgstr "Cjenik"
+
+msgctxt "Languages::selected_fields"
+msgid "Selected fields"
+msgstr "Odabrana polja"
+
+msgctxt "Languages::xml_info"
+msgid "Use this link to download the price list in XLS (MS Excel) format"
+msgstr "Koristite ovaj link da biste preuzeli Cjenik u XLS (MS Excel) formatu"
+
+msgctxt "Languages::ult_xml_info"
+msgid "Use this links to download the price list in XLS (MS Excel) format"
+msgstr "Koristite ovaj link da biste preuzeli Cjenik u XLS (MS Excel) formatu"
+
+msgctxt "Languages::pdf_info"
+msgid "Use this link to download the price list in PDF format"
+msgstr "Koristite ovaj link da biste preuzeli Cjenik u PDF formatu"
+
+msgctxt "Languages::ult_pdf_info"
+msgid "Use this links to download the price list in PDF format"
+msgstr "Koristite ovaj link da biste preuzeli Cjenik u PDF formatu"
+
+msgctxt "Languages::clear_cache_info"
+msgid "If columns were added or changed, please <a href=\"[clear_cache_url]\">clear the cache</a> to regenerate the price list."
+msgstr "Ako su stupci dodani ili izmijenjeni, <a href=\"[clear_cache_url]\"> očistite predmemoriju </a> da se obnovi cjenik."
+
+msgctxt "Languages::generating_pdf"
+msgid "Generating PDF. Please, be patient..."
+msgstr "Generiranje PDF. Budite strpljivi..."
+
+msgctxt "Languages::generating_xls"
+msgid "Generating XLS. Please, be patient..."
+msgstr "Generiranje XLS. Budite strpljivi..."
+
+msgctxt "Languages::xls_currencies_note"
+msgid "Please, note: the prices in XLS will be indicated in base currency."
+msgstr "Molimo, imajte na umu: cijene u XLS će biti prikazane u osnovnoj valuti."
+
+msgctxt "Languages::price_list_ziparchive_not_installed"
+msgid "Impossible to create XML price list. Please add zip support in PHP on your server. Follow <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+msgstr "Nemoguće je stvoriti XML cjenik. Molimo dodajte podršku za arhiviranje  u PHP na vašem serveru. Slijedite <a href=\"http://www.php.net/manual/en/zip.installation.php\"> http://www.php.net/manual/en/zip.installation.php</a>."
+
+msgctxt "SettingsSections::price_list::general"
+msgid "General"
+msgstr "Općenito"
+
+msgctxt "SettingsOptions::price_list::table_layout_header"
+msgid "Table layout"
+msgstr "Izgled tablice"
+
+msgctxt "SettingsOptions::price_list::price_list_fields"
+msgid "Fields"
+msgstr "Polja"
+
+msgctxt "SettingsOptions::price_list::price_list_sorting"
+msgid "Sort by"
+msgstr "Složi po"
+
+msgctxt "SettingsOptions::price_list::group_by_category"
+msgid "Group by category"
+msgstr "Grupiranje prema kategoriji"
+
+msgctxt "SettingsOptions::price_list::include_options"
+msgid "Include product options"
+msgstr "Uključi opcije proizvoda"
+
+msgctxt "SettingsOptions::price_list::xls_header"
+msgid "XLS layout"
+msgstr "XLS izgled"
+
+msgctxt "SettingsOptions::price_list::xls_url"
+msgid "XLS url"
+msgstr "XLS url"
+
+msgctxt "SettingsOptions::price_list::pdf_header"
+msgid "PDF layouts"
+msgstr "PDF izgledi"
+
+msgctxt "SettingsOptions::price_list::pdf_url"
+msgid "PDF url"
+msgstr "PDF url"
+
+msgctxt "SettingsOptions::price_list::clear_header"
+msgid "Clear cache"
+msgstr "Isprazni predmemoriju"
+
+msgctxt "SettingsOptions::price_list::clear_url"
+msgid "Clear cache"
+msgstr "Isprazni predmemoriju"
+
+msgctxt "SettingsOptions::price_list::disable_images_in_xml"
+msgid "Exclude images from XLS price lists"
+msgstr "Exclude images from XLS price lists"
+
+msgctxt "SettingsTooltips::price_list::disable_images_in_xml"
+msgid "Generating an XLS price list with images can freeze your server. Disable at your own risk."
+msgstr "Generating an XLS price list with images can freeze your server. Disable at your own risk."
+

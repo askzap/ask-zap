@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_unisender</id>
+    <version>4.2.2</version>
+    <update_server>https://updates.cs-cart.ru/api/update_addons</update_server>
+    <priority>2014</priority>
+    <position>7</position>
+    <status>active</status>
+
+    <compatibility>
+        <core_version>
+            <min>4.1.1</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+    </compatibility>
+
+    <default_language>en</default_language>
+    
+    <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="main">
+                <items>
+                    <item id="api_key">
+                        <type>input</type>
+                    </item>
+                    <item id="list_name">
+                        <type>selectbox</type>
+                    </item>
+					<item id="unisender_show_at_checkout">
+                        <type>checkbox</type>
+                    </item>
+                    <item id="unisender_show_on_registration">
+                        <type>checkbox</type>
+                    </item>
+                </items>
+            </section>
+			<section id="sms">
+                <items>
+					<item id="user_settings">
+                        <type>header</type>
+                    </item>
+                    <item id="send_sms_user">
+                        <type>checkbox</type>
+                    </item>
+                    <item id="sender">
+                        <type>input</type>
+                    </item>
+					<item id="send_sms_user_text">
+                        <type>textarea</type>
+						<default_value>&#x421;&#x442;&#x430;&#x442;&#x443;&#x441; &#x412;&#x430;&#x448;&#x435;&#x433;&#x43E; &#x437;&#x430;&#x43A;&#x430;&#x437;&#x430; &#x2116;[order_id] - [status]</default_value>
+                    </item>
+					<item id="admin_settings">
+                        <type>header</type>
+                    </item>
+					<item id="send_sms_admin">
+                        <type>checkbox</type>
+                    </item>
+                    <item id="admin_sender">
+                        <type>input</type>
+                    </item>
+					<item id="admin_phone">
+                        <type>input</type>
+                    </item>
+					<item id="send_sms_admin_text">
+                        <type>textarea</type>
+						<default_value>&#x412; &#x43C;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43D;&#x435; [storefront] &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D; &#x437;&#x430;&#x43A;&#x430;&#x437; &#x2116;[order_id]</default_value>
+                    </item>
+					<item id="order">
+                        <type>header</type>
+                    </item>
+					<item id="order_status_sms">
+                        <type>multiple checkboxes</type>
+						<variants/>
+                        <default_value>select_box_2</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:unisender_subscribers;</item>
+        <item>DROP TABLE IF EXISTS ?:unisender_user_mailing_lists;</item>
+        <item>DROP TABLE IF EXISTS ?:unisender_fields;</item>
+        <item>
+            CREATE TABLE `?:unisender_subscribers` (
+            `subscriber_id` mediumint(8) unsigned NOT NULL auto_increment,
+            `email` varchar(128) NOT NULL default '',
+            UNIQUE KEY  (`email`) ,
+            PRIMARY KEY  (`subscriber_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:unisender_user_mailing_lists` (
+            `subscriber_id` mediumint(8) unsigned NOT NULL,
+            `list_id` mediumint(8) unsigned NOT NULL,
+            KEY `subscriber_id` (`subscriber_id`),
+            KEY `list_id` (`list_id`),
+            UNIQUE KEY `subscriber_list` (`list_id`, `subscriber_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:unisender_fields` (
+            `field_id` mediumint(8) unsigned NOT NULL auto_increment,
+            `company_id` int(11) NOT NULL DEFAULT '0',
+            `field` varchar(64) NOT NULL default '',
+            `unisender_field` varchar(64) NOT NULL default '',
+            `profile_field_id` mediumint(8),
+            `unisender_field_id` mediumint(8),
+            `status` char(1) NOT NULL default '',
+            PRIMARY KEY  (`field_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:unisender_subscribers;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:unisender_user_mailing_lists;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:unisender_fields;</item>
+
+        <item>REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_unisender', 'Y', 'addons')</item>
+        <item>REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('view_unisender', 'Y', 'addons')</item>
+        <item>REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('send_sms_unisender', 'N', 'addons')</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'manage_unisender'</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'view_unisender'</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'send_sms_unisender'</item>
+    </queries>
+</addon>

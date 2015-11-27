@@ -1,0 +1,697 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/yandex_market.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-02 10:07-0400\n"
+
+msgctxt "Addons::name::yandex_market"
+msgid "Yandex.Market"
+msgstr "Яндекс.Маркет"
+
+msgctxt "Addons::description::yandex_market"
+msgid "Export products to the Yandex.Market catalog"
+msgstr "Экспорт товаров в каталог Яндекс.Маркета"
+
+msgctxt "Languages::yml"
+msgid "Yandex.Market"
+msgstr "Яндекс.Маркет"
+
+msgctxt "Languages::yandex_market"
+msgid "Yandex.Market"
+msgstr "Яндекс.Маркет"
+
+msgctxt "Languages::yml_market_category_list_title"
+msgid "Categories list of Yandex.Market"
+msgstr "Список категорий Яндекс.Маркета"
+
+msgctxt "Languages::yml_market_category_list_text"
+msgid "<p>For a product offer, it is recommended to specify the category in which it should be placed on Yandex.Market. The category is conveyed using the <market_category> element in the product offer description. In this element, it is allowed to specify names of categories only from the product categories tree of Yandex.Market.</p><p>More information and the categories list in xls format you can find on the Yandex website <a href=\"http://help.yandex.ru/partnermarket/guides/clothes.xml#h6\">Porduct offer category</a></p><br/><p>Select a category from the list</p><br/>"
+msgstr "<p>Для товарного предложения рекомендуется указывать категорию, в которой оно должно быть размещено на Яндекс.Маркете. Категория передается с помощью элемента <market_category> в описании товарного предложения. В этом элементе допустимо указывать названия категорий только из дерева категорий Яндекс.Маркета.</p><p>Больше информации и список категорий в фомате xls вы найдете на сайте Яндекса <a href=\"http://help.yandex.ru/partnermarket/guides/clothes.xml#h6\">Категория товарного предложения</a></p><br/><p>Выберите категорию из списка</p><br/>"
+
+msgctxt "Languages::yml_market_category_link"
+msgid "Categories list and tooltip"
+msgstr "Список категорий и подсказка"
+
+msgctxt "Languages::yml_export_export_true"
+msgid "<br/><b>Exported in Yandex.Market: [count] products</b><br/>"
+msgstr "<br/><b>Экспортировано в Яндекс.Маркет: [count] товаров</b><br/>"
+
+msgctxt "Languages::yml_export_error_cron"
+msgid "Export in Yandex.Market resulted in an error"
+msgstr "Экспорт в Яндекс.Маркет завершился ошибкой"
+
+msgctxt "Languages::yml_clear_cache_info"
+msgid "If products, categories and etc... were added or changed, please <a href=\"[clear_cache_url]\">clear the cache</a> to regenerate the xml yml.<br /><br /> [yml_available_in_customer]"
+msgstr "Если были добавлены или изменены товары или категории, пожалуйста, <a href=\"[clear_cache_url]\">очистите кэш</a>, чтобы заново сгенерировать YML-прайс-лист для Яндекс.Маркета.<br /><br /> [yml_available_in_customer]"
+
+msgctxt "Languages::yml_available_in_customer"
+msgid "Price list is available by this link: <a href=\"[yml_url]\">[yml_url]</a><br /><br />Price list can be reached by the URL <a href=\"[http_location]/yandex_market.yml\">[http_location]/yandex_market.yml</a> if SEO addon is enabled.<br /><br />"
+msgstr "Прайс-лист доступен по следующей ссылке (для доступа используйте email и пароль от панели администратора): <a href=\"[yml_url]\">[yml_url]</a><br /><br />Если включен модуль SEO, прайс-лист также может быть доступен по ссылке <a target=\"_blank\" href=\"[http_location]/yandex_market.yml\">[http_location]/yandex_market.yml</a><br /><br />"
+
+msgctxt "Languages::yml_export_unsuccessfull_products_zero_price"
+msgid "The following products were not exported because of zero price:"
+msgstr "Экспорт следующих товаров не удался из-за нулевой цены:"
+
+msgctxt "Languages::yml_export_unsuccessfull_disabled_products"
+msgid "The following products were not exported because they are disabled:"
+msgstr "Экспорт следующих товаров не удался, потому что они неактивны:"
+
+msgctxt "Languages::yml_export_unsuccessfull_out_of_stock"
+msgid "The following products were not exported because the products are out of stock:"
+msgstr "Экспорт следующих товаров не удался из-за отсутствия товаров на складе:"
+
+msgctxt "Languages::yml_export_unsuccessfull_empty_brand"
+msgid "The following products were not exported because the \"Brand\" field is empty:"
+msgstr "Экспорт следующих товаров не удался из-за пустого поля «Бренд»:"
+
+msgctxt "Languages::yml_export_unsuccessfull_empty_model"
+msgid "The following products were not exported because the \"Model\" field is empty:"
+msgstr "Экспорт следующих товаров не удался из-за пустого поля «Модель»:"
+
+msgctxt "Languages::yml_export_unsuccessfull_disable_cat_list"
+msgid "The following products were not exported because of the excluded category:"
+msgstr "Экспорт следующих товаров не удался, потому что категория, к которой они принадлежат, исключена из экспорта:"
+
+msgctxt "Languages::yml_export_unsuccessfull_disable_cat_list_d"
+msgid "The following products were not exported because of the disabled category:"
+msgstr "Экспорт следующих товаров не удался, потому что категория, к которой они принадлежат, неактивна:"
+
+msgctxt "Languages::yml_vendor_not_specified"
+msgid "Vendor not specified"
+msgstr "Производитель не указан"
+
+msgctxt "Languages::yml_rur_absent"
+msgid "To install the add-on, it is required to add a currency with the code RUR."
+msgstr "Для установки модуля необходимо добавить валюту с кодом RUR."
+
+msgctxt "Languages::yml_market_category"
+msgid "YM Value of \"market_category\" field"
+msgstr "YM Значение поля «market_category»"
+
+msgctxt "Languages::yml_market_category_option"
+msgid "Select a category from the list"
+msgstr "Выберите категорию из списка"
+
+msgctxt "Languages::yml_type_prefix"
+msgid "YM Product group/category (typePrefix)"
+msgstr "YM Группа товаров/категория (typePrefix)"
+
+msgctxt "Languages::yml_brand"
+msgid "YM Brand"
+msgstr "YM Бренд"
+
+msgctxt "Languages::yml_model"
+msgid "YM Model"
+msgstr "YM Модель"
+
+msgctxt "Languages::yml_country"
+msgid "YM Country of origin"
+msgstr "YM Страна-производитель"
+
+msgctxt "Languages::yml_export_fields"
+msgid "Export fields"
+msgstr "Экспортируемые поля"
+
+msgctxt "Languages::yml_cost"
+msgid "YM Allow local delivery cost"
+msgstr "YM Стоимость доставки в домашнем регионе"
+
+msgctxt "Languages::yml_delivery"
+msgid "YM Allow delivery"
+msgstr "YM Возможность доставки товара"
+
+msgctxt "Languages::yml_store"
+msgid "YM Allow retail store purchase"
+msgstr "YM Возможность купить товар в розничном магазине"
+
+msgctxt "Languages::yml_pickup"
+msgid "YM Allow booking and self delivery"
+msgstr "YM Возможность зарезервировать товар и забрать его самостоятельно"
+
+msgctxt "Languages::yml_true"
+msgid "Yes"
+msgstr "Да"
+
+msgctxt "Languages::yml_false"
+msgid "No"
+msgstr "Нет"
+
+msgctxt "Languages::yml_sales_notes"
+msgid "YM Sales notes"
+msgstr "YM поле \"sales_notes\""
+
+msgctxt "Languages::yml_export_in_stock"
+msgid "In stock products only"
+msgstr "Только товары в наличии"
+
+msgctxt "Languages::yml_export_in_stock_description"
+msgid "Product quantity must be greater than 0"
+msgstr "Количество товара должно быть больше 0"
+
+msgctxt "Languages::yml_origin_not_specified"
+msgid "Not specified"
+msgstr "Не указано"
+
+msgctxt "Languages::yml_products_filename"
+msgid "ym_products"
+msgstr "ym_products"
+
+msgctxt "Languages::yml_select_shop"
+msgid "Select store"
+msgstr "Выберите магазин"
+
+msgctxt "Languages::yml_bid"
+msgid "YM Basic bid"
+msgstr "YM Основная ставка"
+
+msgctxt "Languages::yml_cbid"
+msgid "YM Card bid"
+msgstr "YM Ставка для карточек"
+
+msgctxt "Languages::yml_market"
+msgid "Yandex.Market"
+msgstr "Яндекс.Маркет"
+
+msgctxt "Languages::yml_disable_cat"
+msgid "YM Exclude the category products from export in Yandex.Market"
+msgstr "YM Исключить товары категории из экспорта в Яндекс.Маркет"
+
+msgctxt "Languages::yml_export_yes"
+msgid "YM Export the product in Yandex.Market"
+msgstr "YM Экспортировать товар в Яндекс.Маркет"
+
+msgctxt "Languages::tt_addons_yandex_market_hooks_products_detailed_content_post_yml_model"
+msgid "Leave empty to use product code"
+msgstr "Если оставить незаполненным, будет использован артикул"
+
+msgctxt "Languages::yml_purchase_info"
+msgid "Need to setup yandex market.<br />Auth type: URL, Data type: JSON.<br />Also need to turn on \"Keep https\" setting."
+msgstr "Укажите следующие параметры на странице «Настройки API покупки» в <a target=\"_blank\" href=\"https://partner.market.yandex.ru\">личном кабинете в Яндекс.Маркете</a>:<br />Тип авторизации: URL<br />Формат данных: JSON.<br /> <br /> Удостоверьтесь, что настройка «Сохранять безопасное соединение после первого посещения защищенной страницы» включена (Настройки → Настройки безопасности)."
+
+msgctxt "Languages::yml_shipping_type"
+msgid "Yandex.Market Shipping type"
+msgstr "Яндекс.Маркет Тип доставки"
+
+msgctxt "Languages::yml_shipping_type_delivery"
+msgid "Courier delivery"
+msgstr "Курьерская доставка"
+
+msgctxt "Languages::yml_shipping_type_pickup"
+msgid "Pickup"
+msgstr "Самовывоз"
+
+msgctxt "Languages::yml_shipping_type_post"
+msgid "Post"
+msgstr "Почта"
+
+msgctxt "Languages::yml_shipping_outlets"
+msgid "Yandex.Market Outlets"
+msgstr "Яндекс.Маркет Пункты самовывоза"
+
+msgctxt "Languages::yml_payment_type_prepaid"
+msgid "Prepaid"
+msgstr "Предоплата"
+
+msgctxt "Languages::yml_payment_type_postpaid"
+msgid "Postpaid"
+msgstr "Постоплата при получении заказа"
+
+msgctxt "Languages::yml_payment_method_yandex"
+msgid "Payment when placing (Russia only)"
+msgstr "Оплата при оформлении (только для России)"
+
+msgctxt "Languages::yml_payment_method_shop_prepaid"
+msgid "Directly to store (Ukraine only)"
+msgstr "Напрямую в магазин (только для Украины)"
+
+msgctxt "Languages::yml_payment_method_cash_on_delivery"
+msgid "Cash on delivery order"
+msgstr "Наличный расчет при получении заказа"
+
+msgctxt "Languages::yml_payment_method_card_on_delivery"
+msgid "Credit card on delivery order"
+msgstr "Оплата банковской картой при получении заказа"
+
+msgctxt "Languages::yml_aouth_info_part1"
+msgid "Please <a href=\"https://oauth.yandex.ru/client/new\" target=\"_blank\">register an application</a> with full Yandex.Market permissions to continue. Use this value as the <b>Callback URL</b> param: <i>[callback_uri]</i>. After the registration, you will be able to fill out the \"Application ID\" and \"Application password\" fields on this page."
+msgstr "Пожалуйста, <a href=\"https://oauth.yandex.ru/client/new\" target=\"_blank\">создайте приложение</a> с полным набором прав для Яндекс.Маркета. Используйте следующее значение в поле <b>Callback URL</b>: <i>[callback_uri]</i>. После этого заполните поля «ID приложения» и «Пароль приложения» на этой странице."
+
+msgctxt "Languages::yml_aouth_info_part2"
+msgid "After you've created the app and when you ever <a href=\"[edit_app_uri]\" target=\"_blank\">modify it</a>, <a href=\"[auth_uri]\" target=\"_blank\">click here to get a new auth token</a>"
+msgstr "После создания приложения, а также после любой его <a href=\"[edit_app_uri]\" target=\"_blank\">модификации</a> необходимо <a href=\"[auth_uri]\" target=\"_blank\">обновить токен</a>"
+
+msgctxt "Languages::yml_address"
+msgid "Address fron Yandex.Market"
+msgstr "Данные об адресе с Яндекс.Маркета"
+
+msgctxt "Languages::yml_address_region"
+msgid "Region"
+msgstr "Регион"
+
+msgctxt "Languages::yml_address_country"
+msgid "Country"
+msgstr "Страна"
+
+msgctxt "Languages::yml_address_country_district"
+msgid "Country District"
+msgstr "Федеральный округ"
+
+msgctxt "Languages::yml_address_subject_federation"
+msgid "Subject Federation"
+msgstr "Субъект федерации"
+
+msgctxt "Languages::yml_address_subject_federation_district"
+msgid "Subject Federation District"
+msgstr "Район субъекта федерации"
+
+msgctxt "Languages::yml_address_city"
+msgid "City"
+msgstr "Город"
+
+msgctxt "Languages::yml_address_village"
+msgid "Village"
+msgstr "Поселок или село"
+
+msgctxt "Languages::yml_address_city_district"
+msgid "City District"
+msgstr "Район города"
+
+msgctxt "Languages::yml_address_subway_station"
+msgid "Subway Station"
+msgstr "Станция метро"
+
+msgctxt "Languages::yml_address_other"
+msgid "Other"
+msgstr "Дополнительно"
+
+msgctxt "Languages::yml_address_house"
+msgid "House"
+msgstr "Дом"
+
+msgctxt "Languages::yml_address_postcode"
+msgid "Postcode"
+msgstr "Индекс"
+
+msgctxt "Languages::yml_address_street"
+msgid "Street"
+msgstr "Улица"
+
+msgctxt "Languages::yml_address_subway"
+msgid "Subway"
+msgstr "Станция метро"
+
+msgctxt "Languages::yml_address_block"
+msgid "Block"
+msgstr "Корпус"
+
+msgctxt "Languages::yml_address_floor"
+msgid "Floor"
+msgstr "Этаж"
+
+msgctxt "Languages::yml_address_entrance"
+msgid "Entrance"
+msgstr "Подъезд"
+
+msgctxt "Languages::yml_address_entryphone"
+msgid "Entryphone"
+msgstr "Домофон"
+
+msgctxt "Languages::yml_address_apartment"
+msgid "Apartment"
+msgstr "Квартира"
+
+msgctxt "Languages::yml_address_recipient"
+msgid "Recipient"
+msgstr "Получатель"
+
+msgctxt "Languages::yml_address_phone"
+msgid "Phone"
+msgstr "Телефон"
+
+msgctxt "Languages::yml_substatus_reservation_expired"
+msgid "Reservation expired"
+msgstr "Покупатель не завершил оформление зарезервированного заказа вовремя"
+
+msgctxt "Languages::yml_substatus_user_not_paid"
+msgid "User not paid"
+msgstr "Покупатель не оплатил заказ"
+
+msgctxt "Languages::yml_substatus_user_unreachable"
+msgid "User unreachable"
+msgstr "Не удалось связаться с покупателем"
+
+msgctxt "Languages::yml_substatus_user_changed_mind"
+msgid "User changed mind"
+msgstr "Покупатель отменил заказ по собственным причинам"
+
+msgctxt "Languages::yml_substatus_user_refused_delivery"
+msgid "User refused delivery"
+msgstr "Покупателя не устраивают условия доставки"
+
+msgctxt "Languages::yml_substatus_user_refused_product"
+msgid "User refused product"
+msgstr "Покупателю не подошел товар"
+
+msgctxt "Languages::yml_substatus_shop_failed"
+msgid "Shop failed"
+msgstr "Магазин не может выполнить заказ"
+
+msgctxt "Languages::yml_substatus_user_refused_quality"
+msgid "User refused quality"
+msgstr "Покупателя не устраивает качество товара"
+
+msgctxt "Languages::yml_substatus_replacing_order"
+msgid "Replacing order"
+msgstr "Покупатель изменяет состав заказа"
+
+msgctxt "Languages::yml_substatus_processing_expired"
+msgid "Processing expired"
+msgstr "Магазин не обработал заказ вовремя"
+
+msgctxt "Languages::yml_status_delivered"
+msgid "Delivered"
+msgstr "Вручен покупателю"
+
+msgctxt "Languages::yml_status_pickup"
+msgid "Pickup"
+msgstr "В пункте самовывоза"
+
+msgctxt "SettingsSections::yandex_market::price_list"
+msgid "Price list"
+msgstr "Прайс-лист"
+
+msgctxt "SettingsOptions::yandex_market::information"
+msgid "Information"
+msgstr "Информация"
+
+msgctxt "SettingsOptions::yandex_market::clear_url"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::yandex_market::general"
+msgid "General settings"
+msgstr "Общие настройки"
+
+msgctxt "SettingsOptions::yandex_market::export_type"
+msgid "Product offer description type"
+msgstr "Тип описания товарного предложения"
+
+msgctxt "SettingsTooltips::yandex_market::export_type"
+msgid "More information about export types you can find on the Yandex.Market website <a href=\"http://help.yandex.ru/partnermarket/offers.xml\">Examples and descriprions of elements</a>"
+msgstr "Больше информации о типах экспорта вы найдете на сайте Яндекс.Маркета: <a href=\"http://help.yandex.ru/partnermarket/offers.xml\">Примеры и описания элементов</a>"
+
+msgctxt "SettingsVariants::yandex_market::export_type::simple"
+msgid "Simplified"
+msgstr "Упрощенное"
+
+msgctxt "SettingsVariants::yandex_market::export_type::vendor_model"
+msgid "vendor.model"
+msgstr "Произвольный товар"
+
+msgctxt "SettingsOptions::yandex_market::shop_name"
+msgid "Store name"
+msgstr "Название магазина"
+
+msgctxt "SettingsOptions::yandex_market::export_stock"
+msgid "Export in-stock products only"
+msgstr "Экспортировать только товары, которые есть в наличии"
+
+msgctxt "SettingsTooltips::yandex_market::export_stock"
+msgid "Products with the quantity equal to 0 or less will be excluded from export."
+msgstr "Из экспорта будут исключены товары с количеством равным или меньшим 0."
+
+msgctxt "SettingsOptions::yandex_market::export_null_price"
+msgid "Export products with null price"
+msgstr "Экспортировать товары с 0 ценой"
+
+msgctxt "SettingsTooltips::yandex_market::export_null_price"
+msgid "Products with the price equal to 0 will be exported."
+msgstr "В экспорт будут включены товары с 0 ценой."
+
+msgctxt "SettingsOptions::yandex_market::export_vendor_code"
+msgid "Export vendor code"
+msgstr "Экспортировать код производителя"
+
+msgctxt "SettingsOptions::yandex_market::disable_cat_d"
+msgid "Exclude disabled categories"
+msgstr "Исключить неактивные категории"
+
+msgctxt "SettingsTooltips::yandex_market::disable_cat_d"
+msgid "Products from active and hidden categories only will be exported."
+msgstr "Будут экспортированы товары только из активных и скрытых категорий."
+
+msgctxt "SettingsOptions::yandex_market::feature_for_brand"
+msgid "Feature names for using in the \"brand\" field"
+msgstr "Характеристики для использования в поле «Brand»"
+
+msgctxt "SettingsTooltips::yandex_market::feature_for_brand"
+msgid "Used for the \"vendor.model\" format type. Choose the name of the feature which value will be used for the \"brand\" field. Only features of the \"Brand/Manufacturer\"type can be used."
+msgstr "Используется для типа описания товарных предложений «Произвольный товар». Используйте только характеристики типа «Бренд/Производитель»."
+
+msgctxt "SettingsOptions::yandex_market::feature_for_vendor_code"
+msgid "Vendor code feature"
+msgstr "Характеристика кода производителя"
+
+msgctxt "SettingsTooltips::yandex_market::feature_for_vendor_code"
+msgid "It is used for the \"vendorCode\" parameter. Select the name of the feature which value will be used for the \"vendorCode\" field."
+msgstr "Характеристика для заполнения поля vendorCode."
+
+msgctxt "SettingsOptions::yandex_market::type_prefix"
+msgid "Use in the \"typePrefix\" field"
+msgstr "Использовать поле «typePrefix»"
+
+msgctxt "SettingsTooltips::yandex_market::type_prefix"
+msgid "Used for the \"vendor.model\" format type. Product name is formed by the formula: \"typePrefix\" + \"brand\" + \"model\". If the value of the \"typePrefix\" field is not set for a product, the category name will be used."
+msgstr "Используется для типа описания товарных предложений «Произвольный товар». Название товара формируется по формуле: typePrefix + brand + model. Если у товара не задано значение поля «typePrefix», будет использовано название категории."
+
+msgctxt "SettingsOptions::yandex_market::market_category"
+msgid "Use the \"market_category\" field."
+msgstr "Использовать поле «market_category»."
+
+msgctxt "SettingsTooltips::yandex_market::market_category"
+msgid "For a product offer, it is recommended to specify the category/section in which it should be placed on Yandex.Market. In this element, it is allowed to specify names of categories only from <a href=\"http://cards2.yandex.net/hlp-get/6213/xls/category_tree-.xls\"> the product categories tree of Yandex.Market</a>.<br/>The <market_category> element is not required"
+msgstr "Рекомендуется указывать категорию/секцию, в которой товарное предложение должно отображаться в Яндекс.Маркете. Здесь можно использовать только названия категорий из <a href=\"http://help.yandex.ru/partnermarket/docs/market_categories.xls\">дерева категорий Яндекс.Маркет</a>. Элемент <market_category> необязателен."
+
+msgctxt "SettingsOptions::yandex_market::market_category_object"
+msgid "Use the value for the \"market_category\" field from"
+msgstr "Использовать значение поля «market_category» из"
+
+msgctxt "SettingsTooltips::yandex_market::market_category_object"
+msgid "At product export, the \"market_category\" setting of each product individually or of the whole category will be used."
+msgstr "При экспорте товара будет использоваться значение поля «market_category» индивидуально каждого товара или всей категории."
+
+msgctxt "SettingsVariants::yandex_market::market_category_object::product"
+msgid "product"
+msgstr "товара"
+
+msgctxt "SettingsVariants::yandex_market::market_category_object::category"
+msgid "category"
+msgstr "категории"
+
+msgctxt "SettingsOptions::yandex_market::local_delivery_cost"
+msgid "Use local delivery cost field"
+msgstr "Использовать поле доставки в домашнем регионе"
+
+msgctxt "SettingsTooltips::yandex_market::local_delivery_cost"
+msgid "Used for show value local delivery cost."
+msgstr "Используется для отображения поля доставки в домашнем регионе."
+
+msgctxt "SettingsOptions::yandex_market::global_local_delivery_cost"
+msgid "Price global local delivery cost"
+msgstr "Стоимость доставки в домашнем регионе"
+
+msgctxt "SettingsTooltips::yandex_market::global_local_delivery_cost"
+msgid "Default shipping cost for the products with unspecified shipping cost"
+msgstr "Единая стоимость доставки на все товары, для которых не указана собственная стоимость доставки"
+
+msgctxt "SettingsOptions::yandex_market::export_encoding"
+msgid "Encoding of the exported file"
+msgstr "Кодировка экспортируемого файла"
+
+msgctxt "SettingsVariants::yandex_market::export_encoding::utf-8"
+msgid "utf8"
+msgstr "UTF-8"
+
+msgctxt "SettingsVariants::yandex_market::export_encoding::windows-1251"
+msgid "windows-1251"
+msgstr "Windows-1251"
+
+msgctxt "SettingsOptions::yandex_market::images"
+msgid "Images"
+msgstr "Изображения"
+
+msgctxt "SettingsOptions::yandex_market::image_type"
+msgid "Image type"
+msgstr "Тип изображения"
+
+msgctxt "SettingsVariants::yandex_market::image_type::thumbnail"
+msgid "Thumbnail"
+msgstr "Иконка"
+
+msgctxt "SettingsVariants::yandex_market::image_type::detailed"
+msgid "Detailed"
+msgstr "Детальное изображение"
+
+msgctxt "SettingsOptions::yandex_market::thumbnail_width"
+msgid "Thumbnail width"
+msgstr "Ширина иконки"
+
+msgctxt "SettingsOptions::yandex_market::thumbnail_height"
+msgid "Thumbnail height"
+msgstr "Высота иконки"
+
+msgctxt "SettingsSections::yandex_market::purchase"
+msgid "Purchase"
+msgstr "Покупка на Маркете"
+
+msgctxt "SettingsOptions::yandex_market::purchase_information"
+msgid "Information"
+msgstr "Информация"
+
+msgctxt "SettingsOptions::yandex_market::purchase_info"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::yandex_market::purchase_api_access_to_store"
+msgid "API access for requests from Yandex to Store"
+msgstr "API-доступ для запросов Яндекса к магазину"
+
+msgctxt "SettingsOptions::yandex_market::auth_token"
+msgid "Auth token"
+msgstr "Авторизационный токен"
+
+msgctxt "SettingsOptions::yandex_market::purchase_api_access_to_yandex"
+msgid "API access for requests from Store to Yandex"
+msgstr "API-доступ для запросов магазина к Яндексу"
+
+msgctxt "SettingsOptions::yandex_market::ym_api_url"
+msgid "Yandex Market Partner API URL"
+msgstr "URL партнерского API Яндекс.Маркета"
+
+msgctxt "SettingsTooltips::yandex_market::ym_api_url"
+msgid "Leave unchanged"
+msgstr "Оставьте без изменений"
+
+msgctxt "SettingsOptions::yandex_market::campaign_id"
+msgid "Campaign ID"
+msgstr "Номер кампании"
+
+msgctxt "SettingsOptions::yandex_market::user_login"
+msgid "User Login"
+msgstr "Логин пользователя"
+
+msgctxt "SettingsOptions::yandex_market::ym_application_id"
+msgid "Application ID"
+msgstr "ID приложения"
+
+msgctxt "SettingsOptions::yandex_market::ym_application_password"
+msgid "Application password"
+msgstr "Пароль приложения"
+
+msgctxt "SettingsOptions::yandex_market::ym_auth_token"
+msgid "Auth token"
+msgstr "Авторизационный токен"
+
+msgctxt "SettingsOptions::yandex_market::ym_oauth_info"
+msgid ""
+msgstr ""
+""
+
+msgctxt "SettingsOptions::yandex_market::purchase_payments_header"
+msgid "Payments"
+msgstr "Способы оплаты"
+
+msgctxt "SettingsOptions::yandex_market::purchase_prepayments"
+msgid "Prepayment"
+msgstr "Предоплата"
+
+msgctxt "SettingsVariants::yandex_market::purchase_prepayments::yandex"
+msgid "Payment when placing (Russia only)"
+msgstr "Оплата при оформлении (только для России)"
+
+msgctxt "SettingsVariants::yandex_market::purchase_prepayments::shop_prepaid"
+msgid "Directly to store (Ukraine only)"
+msgstr "Напрямую магазину (только для Украины)"
+
+msgctxt "SettingsOptions::yandex_market::purchase_postpayments"
+msgid "Postpay"
+msgstr "Постоплата"
+
+msgctxt "SettingsVariants::yandex_market::purchase_postpayments::cash_on_delivery"
+msgid "Cash on delivery order"
+msgstr "Наличный расчет при получении заказа"
+
+msgctxt "SettingsVariants::yandex_market::purchase_postpayments::card_on_delivery"
+msgid "Credit card on delivery order"
+msgstr "Оплата банковской картой при получении заказа"
+
+msgctxt "SettingsOptions::yandex_market::purchase_order_statuses"
+msgid "Order statuses"
+msgstr "Cтатусы заказов"
+
+msgctxt "SettingsOptions::yandex_market::order_status_unpaid"
+msgid "Order has not been paid yet"
+msgstr "Заказ оформлен, но еще не оплачен (если выбрана оплата при оформлении)"
+
+msgctxt "SettingsOptions::yandex_market::order_status_processing"
+msgid "Processing"
+msgstr "Заказ можно выполнять"
+
+msgctxt "SettingsOptions::yandex_market::order_status_canceled"
+msgid "Order canceled"
+msgstr "Заказ отменен"
+
+msgctxt "SettingsOptions::yandex_market::order_status_delivery"
+msgid "The order is ready to be transferred to a pickup point"
+msgstr "Заказ готов к передаче в службу доставки"
+
+msgctxt "SettingsOptions::yandex_market::order_status_pickup"
+msgid "The order has been delivered to a pickup point"
+msgstr "Заказ доставлен в пункт самовывоза"
+
+msgctxt "SettingsOptions::yandex_market::order_status_delivered"
+msgid "The order has been delivered"
+msgstr "Заказ вручен покупателю"
+
+msgctxt "SettingsOptions::yandex_market::includes_required_fields"
+msgid "Check if mandatory fields are filled"
+msgstr "Проверять, заполнены ли обязательные поля"
+
+msgctxt "SettingsTooltips::yandex_market::includes_required_fields"
+msgid "Enables checking if Yandex.Market mandatory fields are filled."
+msgstr "Включает проверку заполнения обязательных полей Яндекс.Маркета на странице товара."
+
+msgctxt "Languages::yml_manufacturer_warranty"
+msgid "YM Manufacturer warranty"
+msgstr "Гарантия производителя"
+
+msgctxt "Languages::tt_addons_yandex_market_hooks_products_detailed_content_post_yml_manufacturer_warranty"
+msgid "The format of the \"manufacturer warranty\" parameter must comply with ISO 8601, for example, P1Y2M10DT2H30M. Explanation — 1 year, 2 months, 10 days, 2 hours and 30 minutes."
+msgstr "Формат поля \"manufacturer warranty\" должен соответствовать ISO 8601, например, P1Y2M10DT2H30M - 1 год, 2 месяца, 10 дней, 2 часа и 30 минут."
+
+msgctxt "Languages::yml_seller_warranty"
+msgid "YM Seller warranty"
+msgstr "Гарантия продавца"
+
+msgctxt "Languages::tt_addons_yandex_market_hooks_products_detailed_content_post_yml_seller_warranty"
+msgid "The format of the \"seller warranty\" parameter must comply with ISO 8601, for example, P1Y2M10DT2H30M. Explanation — 1 year, 2 months, 10 days, 2 hours and 30 minutes."
+msgstr "Формат поля \"seller warranty\" должен соответствовать ISO 8601, например, P1Y2M10DT2H30M - 1 год, 2 месяца, 10 дней, 2 часа и 30 минут."
+
+msgctxt "SettingsOptions::yandex_market::enable_authorization"
+msgid "Enable authorization"
+msgstr "Включить авторизацию"
+
+msgctxt "SettingsTooltips::yandex_market::turn_on_authorization"
+msgid "Enable authentication for the formation of the price list."
+msgstr "Включает авторизацию для формирования прайс-листа."
+

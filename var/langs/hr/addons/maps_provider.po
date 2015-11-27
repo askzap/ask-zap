@@ -1,0 +1,41 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Croatian\n"
+"Language: hr_HR\n"
+
+msgctxt "Addons::name::maps_provider"
+msgid "Maps provider"
+msgstr "Maps provider"
+
+msgctxt "Addons::description::maps_provider"
+msgid "Provides polymorphic API for mapping"
+msgstr "Provides polymorphic API for mapping"
+
+msgctxt "SettingsSections::maps_provider::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::maps_provider::provider"
+msgid "Map provider"
+msgstr "Map provider"
+
+msgctxt "SettingsOptions::maps_provider::map_provider"
+msgid "Map"
+msgstr "Map"
+
+msgctxt "SettingsVariants::maps_provider::map_provider::yandex"
+msgid "Yandex"
+msgstr "Yandex"
+
+msgctxt "SettingsOptions::maps_provider::settings"
+msgid "Settings"
+msgstr "Settings"
+
+msgctxt "SettingsOptions::maps_provider::map_provider_settings"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::maps_provider_api_key"
+msgid "API key"
+msgstr "API key"

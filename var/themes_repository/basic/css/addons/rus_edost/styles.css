@@ -1,0 +1,24 @@
+
+.checkout-select-office {
+	padding-left: 30px;
+}
+
+.one-office {
+	padding: 10px 0 15px 0;
+}
+
+.one-office__radio {
+	float: left;
+}
+
+.one-office__label{
+	margin: -20px 0 0 30px;
+}
+
+.one-office__name {
+	font-weight: bold;
+}
+
+.one-office__description p{
+	color: lighten(@font, 25%);
+}

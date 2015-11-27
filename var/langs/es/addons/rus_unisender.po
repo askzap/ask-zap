@@ -1,0 +1,197 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+
+msgctxt "Addons::name::rus_unisender"
+msgid "Russian localization — Unisender"
+msgstr "Russian localization — Unisender"
+
+msgctxt "Addons::description::rus_unisender"
+msgid "Email and SMS"
+msgstr "Email and SMS"
+
+msgctxt "Languages::addons.rus_unisender.unisender_menu_description"
+msgid "Settings profile fields"
+msgstr "Settings profile fields"
+
+msgctxt "Languages::addons.rus_unisender.unisender"
+msgid "Unisender"
+msgstr "Unisender"
+
+msgctxt "Languages::addons.rus_unisender.field_unisender"
+msgid "Field Unisender"
+msgstr "Field Unisender"
+
+msgctxt "Languages::addons.rus_unisender.users_not_added_key"
+msgid "Invalid API Key in \"Unisender\" add-on options."
+msgstr "Invalid API Key in \"Unisender\" add-on options."
+
+msgctxt "Languages::addons.rus_unisender.users_not_added_list"
+msgid "Not selected list name in \"Unisender\" add-on options."
+msgstr "Not selected list name in \"Unisender\" add-on options."
+
+msgctxt "Languages::addons.rus_unisender.add_selected_to_unisender"
+msgid "Add to Unisender selected users"
+msgstr "Add to Unisender selected users"
+
+msgctxt "Languages::addons.rus_unisender.add_message_to_unisender"
+msgid "Send a SMS message selected by the user"
+msgstr "Send a SMS message selected by the user"
+
+msgctxt "Languages::addons.rus_unisender.sms_message"
+msgid "SMS message"
+msgstr "SMS message"
+
+msgctxt "Languages::addons.rus_unisender.notify_unisender_users"
+msgid "Send an SMS to the buyer"
+msgstr "Send an SMS to the buyer"
+
+msgctxt "Languages::addons.rus_unisender.users_added"
+msgid "Selected users were added to Unisender."
+msgstr "Selected users were added to Unisender."
+
+msgctxt "Languages::addons.rus_unisender.enter_api_key"
+msgid "Enter and save the API key first"
+msgstr "Enter and save the API key first"
+
+msgctxt "Languages::addons.rus_unisender.invalid_api_key"
+msgid "Invalid API Key."
+msgstr "Invalid API Key."
+
+msgctxt "Languages::addons.rus_unisender.no_response"
+msgid "No response from server."
+msgstr "No response from server."
+
+msgctxt "Languages::addons.rus_unisender.mailing_lists"
+msgid "Mailing lists"
+msgstr "Mailing lists"
+
+msgctxt "Languages::addons.rus_unisender.text_unisender_signup_for_subscriptions"
+msgid "Sign up for our newsletters!"
+msgstr "Sign up for our newsletters!"
+
+msgctxt "Languages::addons.rus_unisender.map_fields"
+msgid "Fields mapping"
+msgstr "Fields mapping"
+
+msgctxt "Languages::addons.rus_unisender.field_name"
+msgid "Field name"
+msgstr "Field name"
+
+msgctxt "Languages::addons.rus_unisender.error_ZS140227_02"
+msgid "Unisender: Fill in the Sender's name field in the add-on settings"
+msgstr "Unisender: Fill in the Sender's name field in the add-on settings"
+
+msgctxt "Languages::addons.rus_unisender.error_AK100311_03"
+msgid "Unisender: Sender's name should contain up to 11 Latin letters or digits"
+msgstr "Unisender: Sender's name should contain up to 11 Latin letters or digits"
+
+msgctxt "SettingsSections::rus_unisender::main"
+msgid "Settings"
+msgstr "Settings"
+
+msgctxt "SettingsOptions::rus_unisender::api_key"
+msgid "API key"
+msgstr "API key"
+
+msgctxt "SettingsOptions::rus_unisender::list_name"
+msgid "List name"
+msgstr "List name"
+
+msgctxt "SettingsOptions::rus_unisender::unisender_show_at_checkout"
+msgid "Show at checkout"
+msgstr "Show at checkout"
+
+msgctxt "SettingsTooltips::rus_unisender::unisender_show_at_checkout"
+msgid "Shows the mailing (list name) selected from the list at checkout and allows to subscribe to this mailing"
+msgstr "Shows the mailing (list name) selected from the list at checkout and allows to subscribe to this mailing"
+
+msgctxt "SettingsOptions::rus_unisender::unisender_show_on_registration"
+msgid "Show on registration"
+msgstr "Show on registration"
+
+msgctxt "SettingsTooltips::rus_unisender::unisender_show_on_registration"
+msgid "Shows the mailing (list name) selected from the list at checkout and allows to subscribe to this mailing"
+msgstr "Shows the mailing (list name) selected from the list at checkout and allows to subscribe to this mailing"
+
+msgctxt "SettingsSections::rus_unisender::sms"
+msgid "SMS"
+msgstr "SMS"
+
+msgctxt "SettingsOptions::rus_unisender::user_settings"
+msgid "Settings"
+msgstr "Settings"
+
+msgctxt "SettingsOptions::rus_unisender::send_sms_user"
+msgid "Notify the customer about the order status"
+msgstr "Notify the customer about the order status"
+
+msgctxt "SettingsOptions::rus_unisender::sender"
+msgid "Sender's name"
+msgstr "Sender's name"
+
+msgctxt "SettingsTooltips::rus_unisender::sender"
+msgid "Maximum name length is 11 characters"
+msgstr "Maximum name length is 11 characters"
+
+msgctxt "SettingsOptions::rus_unisender::send_sms_user_text"
+msgid "SMS body"
+msgstr "SMS body"
+
+msgctxt "SettingsTooltips::rus_unisender::send_sms_user_text"
+msgid "User's message body: №[order_id] - order ID, [status] - order status"
+msgstr "User's message body: №[order_id] - order ID, [status] - order status"
+
+msgctxt "SettingsOptions::rus_unisender::admin_settings"
+msgid "Settings admin"
+msgstr "Settings admin"
+
+msgctxt "SettingsOptions::rus_unisender::send_sms_admin"
+msgid "Notify the administrator about a new order"
+msgstr "Notify the administrator about a new order"
+
+msgctxt "SettingsOptions::rus_unisender::admin_sender"
+msgid "Sender's name"
+msgstr "Sender's name"
+
+msgctxt "SettingsTooltips::rus_unisender::admin_sender"
+msgid "Maximum name length is 11 characters"
+msgstr "Maximum name length is 11 characters"
+
+msgctxt "SettingsOptions::rus_unisender::admin_phone"
+msgid "Administrator's phone number"
+msgstr "Administrator's phone number"
+
+msgctxt "SettingsTooltips::rus_unisender::admin_phone"
+msgid "Administrator's phone number in international format (\"+\" can be omitted): +70000000000. Several numbers can be specified, divided by a comma."
+msgstr "Administrator's phone number in international format (\"+\" can be omitted): +70000000000. Several numbers can be specified, divided by a comma."
+
+msgctxt "SettingsOptions::rus_unisender::send_sms_admin_text"
+msgid "SMS body"
+msgstr "SMS body"
+
+msgctxt "SettingsTooltips::rus_unisender::send_sms_admin_text"
+msgid "Administrator's message body: [storefront] – store name, №[order_id] – order ID"
+msgstr "Administrator's message body: [storefront] – store name, №[order_id] – order ID"
+
+msgctxt "SettingsOptions::rus_unisender::order"
+msgid "Order"
+msgstr "Order"
+
+msgctxt "SettingsOptions::rus_unisender::order_status_sms"
+msgid "When these order statuses are changed, the user will be notified"
+msgstr "When these order statuses are changed, the user will be notified"
+
+msgctxt "Languages::privileges.manage_unisender"
+msgid "Manage unisender"
+msgstr "Manage unisender"
+
+msgctxt "Languages::privileges.send_sms_unisender"
+msgid "Allow sending SMS (Unisender)"
+msgstr "Allow sending SMS (Unisender)"
+
+msgctxt "Languages::privileges.view_unisender"
+msgid "View unisender"
+msgstr "View unisender"

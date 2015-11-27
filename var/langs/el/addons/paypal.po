@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /addons/paypal.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-06-19 01:04-0400\n"
+
+msgctxt "Addons::name::paypal"
+msgid "PayPal payments"
+msgstr "Πληρωμές με PayPal"
+
+msgctxt "Addons::description::paypal"
+msgid "Lets you accept payments via PayPal Express Checkout, PayPal Pro, PayPal Standard, PayPal Advanced, and PayPal Payflow Pro."
+msgstr "Σας επιτρέπει να δέχεστε πληρωμές μέσω PayPal Express Checkout, PayPal Pro, Standard PayPal, PayPal Advanced, και PayPal Payflow Pro."
+
+msgctxt "SettingsOptions::paypal::override_customer_info"
+msgid "Override customer info"
+msgstr "Παράκαμψη πληροφοριών πελάτη"
+
+msgctxt "SettingsOptions::paypal::test_mode"
+msgid "Test mode"
+msgstr "Δοκιμαστική Λειτουργία"
+
+msgctxt "SettingsSections::paypal::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "Languages::protection_eligibility"
+msgid "Protection eligibility"
+msgstr "Καταλληλότητα Προστασίας"
+
+msgctxt "SettingsOptions::paypal::paypal_ipn_settings"
+msgid "Instant payment notification settings"
+msgstr "Ρυθμίσεις Ειδοποίησης Άμεσης πληρωμής"
+
+msgctxt "SettingsOptions::paypal::paypal_status_map"
+msgid "PayPal order status conversion map"
+msgstr "Χάρτης μετατροπής Καταστασης Παραγγελίας του PayPal"
+
+msgctxt "SettingsOptions::paypal::paypal_logo_uploader"
+msgid "PayPal logo settings"
+msgstr "Ρυθμίσεις λογότυπου PayPal"
+
+msgctxt "Languages::text_paypal_surcharge"
+msgid "<b>Note:</b> According to the PayPal <a href='https://www.paypal.com/webapps/mpp/ua/useragreement-full#4' target='_blank'>policy</a> (4.6), surcharges are not supported."
+msgstr "<b>Σημείωση:</b> Σύμφωνα με την <a href='https://www.paypal.com/webapps/mpp/ua/useragreement-full#4' target='_blank'> πολιτική PayPal </a> (4.6), δεν υποστηρίζονται οι προσαυξήσεις."
+
+msgctxt "Languages::txn_id"
+msgid "Transaction ID"
+msgstr "ID Συναλλαγής"
+
+msgctxt "Languages::paypal_logo"
+msgid "PayPal logo"
+msgstr "Λογότυπο PayPal"
+
+msgctxt "Languages::ttc_paypal_logo"
+msgid "Use a valid graphics format, such as .gif, .jpg, or .png. Limit the image to 190 pixels wide by 60 pixels high. PayPal crops images that are larger. PayPal places your logo image at the top of the cart review area."
+msgstr "Χρησιμοποιήστε μια έγκυρη  μορφή γραφικών, όπως .gif, .jpg ή .png. Περιορίστε την εικόνα σε 190 pixels πλάτος και 60 pixels ύψος. Το PayPal περικόπτει εικόνες που είναι μεγαλύτερες. Το PayPal τοποθετεί το λογότυπό σας στην κορυφή της περιοχής περίληψης του καλαθιού."
+
+msgctxt "Languages::ipn_errors"
+msgid "IPN errors"
+msgstr "IPN σφάλματα"
+
+msgctxt "Languages::pp_product_count_is_incorrect"
+msgid "Number of paid items is different than the number of items in the order"
+msgstr "Ο Αριθμός των ειδών για πληρωμή είναι διαφορετικός από τον αριθμό των ειδών στην παραγγελία"
+
+msgctxt "Languages::pp_currency_is_incorrect"
+msgid "Currency used for the payment is different than the order currency."
+msgstr "Το Νόμισμα που χρησιμοποιήθηκε για την πληρωμή είναι διαφορετικό από το νόμισμα της παραγγελίας."
+
+msgctxt "Languages::pp_total_is_incorrect"
+msgid "Payment total is different than the order total."
+msgstr "Το Τελικό ποσό είναι διαφορετικό από ό, τι το σύνολο της παραγγελίας."
+
+msgctxt "Languages::pp_mode"
+msgid "Paypal mode"
+msgstr "Λειτουργία PayPal"
+

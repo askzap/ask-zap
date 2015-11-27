@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>rus_edost</id>
+	<version>4.2.2</version>
+    <default_language>en</default_language>
+    <update_server>https://updates.cs-cart.ru/api/update_addons</update_server>
+
+	<priority>4600</priority>
+    <status>active</status>
+
+
+    <compatibility>
+        <core_version>
+            <min>4.2.1</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+    </compatibility>
+
+	<functions>
+        <item for="install">fn_rus_edost_install</item>
+        <item for="uninstall">fn_rus_edost_uninstall</item>
+    </functions>
+</addon>

@@ -1,0 +1,45 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+
+msgctxt "Addons::name::yandex_search"
+msgid "Yandex.search"
+msgstr "Yandex.search"
+
+msgctxt "Addons::description::yandex_search"
+msgid "Allows you to use Yandex.search as a search engine"
+msgstr "Allows you to use Yandex.search as a search engine"
+
+msgctxt "Languages::yandex_search"
+msgid "Yandex search"
+msgstr "Yandex search"
+
+msgctxt "Languages::block_yandex_search"
+msgid "Yandex search"
+msgstr "Yandex search"
+
+msgctxt "Languages::block_yandex_search_description"
+msgid "Yandex search form code block"
+msgstr "Yandex search form code block"
+
+msgctxt "SettingsSections::yandex_search::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::yandex_search::search_form_code"
+msgid "Search form code"
+msgstr "Search form code"
+
+msgctxt "SettingsTooltips::yandex_search::search_form_code"
+msgid "You can set up Yandex.Search and get the code <a href=\"http://site.yandex.ru/\">here</a><br />Important! If you want the search results to display on you site, you need to specify the following url in the \'Show results on my page\' field: %YOUR_STORE_FRONT_URL%/?dispatch=yandex_search.search , Where %YOUR_STORE_FRONT_URL% is the url address of your storefront"
+msgstr "You can set up Yandex.Search and get the code <a href=\"http://site.yandex.ru/\">here</a><br />Important! If you want the search results to display on you site, you need to specify the following url in the \'Show results on my page\' field: %YOUR_STORE_FRONT_URL%/?dispatch=yandex_search.search , Where %YOUR_STORE_FRONT_URL% is the url address of your storefront"
+
+msgctxt "SettingsOptions::yandex_search::search_results_code"
+msgid "Search results code"
+msgstr "Search results code"
+
+msgctxt "SettingsTooltips::yandex_search::search_results_code"
+msgid "This field is mandatory if you want the search results to display on your site. The code can be found <a href=\"http://site.yandex.ru/\">here</a>"
+msgstr "This field is mandatory if you want the search results to display on your site. The code can be found <a href=\"http://site.yandex.ru/\">here</a>"

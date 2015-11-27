@@ -1,0 +1,394 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /editions/mve.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-06-30 08:04-0400\n"
+
+msgctxt "Languages::add_companies"
+msgid "Add vendors"
+msgstr "Thêm nhà cung cấp"
+
+msgctxt "Languages::add_companies_and_close"
+msgid "Add vendors and close"
+msgstr "Thêm nhà cung cấp và đóng"
+
+msgctxt "Languages::add_vendor"
+msgid "Add vendor"
+msgstr "Thêm nhà cung cấp"
+
+msgctxt "Languages::add_vendor_administrator"
+msgid "Add vendor's administrator"
+msgstr "Thêm quản trị viên của nhà cung cấp"
+
+msgctxt "Languages::vendor_administrator"
+msgid "Vendor's administrator"
+msgstr "Quản trị viên của nhà cung cấp"
+
+msgctxt "Languages::vendor_administrators"
+msgid "Vendor's administrators"
+msgstr "Quản trị viên của nhà cung cấp"
+
+msgctxt "Languages::vendor_administrators_menu_description"
+msgid "List of vendor's administrators, registered users with a vendor account."
+msgstr "Danh sách các quản trị viên của nhà cung cấp, người dùng đăng ký với một tài khoản nhà cung cấp."
+
+msgctxt "Languages::vendor_candidate_notification"
+msgid "Hello,<br/><br/>You have a new vendor candidate in your store. This vendor account is pending until you approve it. Follow <a>this URL to view the account details</a>."
+msgstr "Xin chào, <br/> <br/> Bạn có một ứng viên nhà cung cấp mới trong cửa hàng của bạn. Tài khoản nhà cung cấp này đang treo cho đến khi bạn chấp nhận nó. Làm theo <a>URL này để xem thông tin chi tiết tài khoản</a>."
+
+msgctxt "Languages::demo_panel.go_vendor_panel"
+msgid "Go to Vendor panel"
+msgstr "Đi đến bảng điều khiển nhà cung cấp"
+
+msgctxt "Languages::vendor_account_balance_menu_description"
+msgid "Income and expenditure statistics (total, per vendor, per period)."
+msgstr "Thống kê thu nhập và chi tiêu (Tổng, trên mỗi nhà cung cấp, trên mỗi giai đoạn)."
+
+msgctxt "Languages::merge_vendor"
+msgid "Merge vendor"
+msgstr "Hợp nhất nhà cung cấp"
+
+msgctxt "Languages::select_new_owner_company"
+msgid "Select a new owner of this company's profile data:"
+msgstr "Chọn một chủ sở hữu mới của hồ sơ dữ liệu công ty này:"
+
+msgctxt "Languages::warning_merging_companies"
+msgid "Merging two company accounts will remove [company_name] from the database, and all the profile data (products, orders, shipping methods, users, promotions, etc.) will be transferred to this company's account"
+msgstr "Kết hợp hai công ty tài khoản sẽ loại bỏ [company_name] từ cơ sở dữ liệu, và tất cả các dữ liệu hồ sơ (sản phẩm, đơn đặt hàng, phương thức vận chuyển, người dùng, chương trình khuyến mại, vv) sẽ được chuyển vào tài khoản của công ty này"
+
+msgctxt "Languages::all_vendors"
+msgid "All vendors"
+msgstr "Tất cả các nhà cung cấp"
+
+msgctxt "Languages::apply_for_vendor_account"
+msgid "Apply for a vendor account"
+msgstr "Áp dụng cho một tài khoản nhà cung cấp"
+
+msgctxt "Languages::available_for_vendor"
+msgid "Available for vendor"
+msgstr "Sẵn sàng cho nhà cung cấp"
+
+msgctxt "Languages::balance_carried_forward"
+msgid "Balance carried forward"
+msgstr "Cân đối tiền trước đó"
+
+msgctxt "Languages::block_vendors"
+msgid "Vendors"
+msgstr "Nhà cung cấp"
+
+msgctxt "Languages::charge_to_vendor_account"
+msgid "Charge to vendor account"
+msgstr "Tính phí vào tài khoản nhà cung cấp"
+
+msgctxt "Languages::companies"
+msgid "Vendors"
+msgstr "Nhà cung cấp"
+
+msgctxt "Languages::create_administrator_account"
+msgid "Create administrator account"
+msgstr "Tạo tài khoản quản trị viên"
+
+msgctxt "Languages::displayed_vendors"
+msgid "Displayed vendors"
+msgstr "Hiển thị các nhà cung cấp"
+
+msgctxt "Languages::editing_vendor"
+msgid "Editing vendor"
+msgstr "Chỉnh sửa nhà cung cấp"
+
+msgctxt "Languages::error_admin_not_created_email_already_used"
+msgid "Administrator account was not created. The email address belongs to another user. You can add the administrator for this vendor manually."
+msgstr "Tài khoản quản trị viên chưa được tạo. Địa chỉ email thuộc người dùng khác. Bạn có thể thêm quản trị viên nhà cung cấp này theo cách thủ công."
+
+msgctxt "Languages::error_admin_not_created_name_already_used"
+msgid "Administrator account was not created. The user name belongs to another user. You should change the administrator account's name."
+msgstr "Tài khoản quản trị viên chưa được tạo. Tên đăng nhập thuộc về người dùng khác. Bạn nên thay đổi tên tài khoản người quản trị."
+
+msgctxt "Languages::error_vendor_exists"
+msgid "The vendor with e-mail you have chosen already exists, please try another."
+msgstr "Các nhà cung cấp với email bạn chọn đã tồn tại, hãy thử email khác."
+
+msgctxt "Languages::expenditure"
+msgid "Expenditure"
+msgstr "Chi tiêu"
+
+msgctxt "Languages::income"
+msgid "Income"
+msgstr "Thu nhập"
+
+msgctxt "Languages::manage_vendors"
+msgid "Manage vendors"
+msgstr "Quản lý nhà cung cấp"
+
+msgctxt "Languages::new_administrator_account_created"
+msgid "New administrator account has been successfully created."
+msgstr "Tài khoản quản trị viên mới đã được tạo thành công."
+
+msgctxt "Languages::new_vendor"
+msgid "New vendor"
+msgstr "Nhà cung cấp mới"
+
+msgctxt "Languages::notify_vendor"
+msgid "Notify vendor"
+msgstr "Thông báo cho nhà cung cấp"
+
+msgctxt "Languages::notify_vendors_by_email"
+msgid "Notify vendors by e-mail"
+msgstr "Thông báo cho nhà cung cấp qua email"
+
+msgctxt "Languages::privileges.manage_payouts"
+msgid "Manage payouts"
+msgstr "Quản lý thanh toán"
+
+msgctxt "Languages::privileges.manage_vendors"
+msgid "Manage vendors"
+msgstr "Quản lý nhà cung cấp"
+
+msgctxt "Languages::privileges.view_payouts"
+msgid "View payouts"
+msgstr "Xem thanh toán"
+
+msgctxt "Languages::privileges.view_vendors"
+msgid "View vendors"
+msgstr "Xem nhà cung cấp"
+
+msgctxt "Languages::privilege_sections.vendors"
+msgid "Vendors"
+msgstr "Nhà cung cấp"
+
+msgctxt "Languages::sales_period"
+msgid "Sales period"
+msgstr "Thời gian bán hàng"
+
+msgctxt "Languages::sales_period_total"
+msgid "Sales period total"
+msgstr "Tổng thời gian bán hàng"
+
+msgctxt "Languages::search_by_vendor"
+msgid "Search by vendor"
+msgstr "Tìm kiếm theo nhà cung cấp"
+
+msgctxt "Languages::sort_by_company_asc"
+msgid "Sort by alphabetical: A to Z"
+msgstr "Sắp xếp theo thứ tự chữ cái: A đến Z"
+
+msgctxt "Languages::sort_by_company_desc"
+msgid "Sort by alphabetical: Z to A"
+msgstr "Sắp xếp theo thứ tự chữ cái: Z đến A"
+
+msgctxt "Languages::text_company_status_active_to_pending"
+msgid "Your profile has been changed and once the changes are approved, the information about your company will appear in the storefront."
+msgstr "Hồ sơ của bạn đã được thay đổi và khi những thay đổi được phê duyệt, thông tin về công ty của bạn sẽ xuất hiện trong cửa hàng."
+
+msgctxt "Languages::text_company_status_new_to_active"
+msgid "Your request for vendor [company] was approved."
+msgstr "Yêu cầu nhà cung cấp [company] của bạn đã được phê duyệt."
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_created"
+msgid "New administrator was created. You can access to the administrator area: [link] by using the following credentials:<br />Login: [login]<br />Password: [password]"
+msgstr "Quản trị viên mới được tạo. Bạn có thể truy cập vào khu vực quản trị: [link] bằng cách sử dụng các thông tin sau: <br / > Đăng nhập: [login] <br / > Mật khẩu: [password]"
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_updated"
+msgid "Type of your account [login] changed to administrator. You may login into the administrator area: [link]"
+msgstr "Loại tài khoản [login] của bạn đã thay đổi thành quản trị viên. Bạn có thể đăng nhập vào khu vực quản trị viên: [link]"
+
+msgctxt "Languages::text_company_status_new_to_active_subj"
+msgid "Your request for vendor was approved."
+msgstr "Yêu cầu nhà cung cấp của bạn đã được phê duyệt."
+
+msgctxt "Languages::text_company_status_new_to_disable"
+msgid "Your request for vendor [company] was rejected."
+msgstr "Yêu cầu nhà cung cấp [company] của bạn đã bị từ chối."
+
+msgctxt "Languages::text_company_status_new_to_disable_subj"
+msgid "Your request for vendor was rejected."
+msgstr "Yêu cầu nhà cung cấp của bạn đã bị từ chối."
+
+msgctxt "Languages::text_company_status_new_to_pending"
+msgid "Congratulations, your application for getting a vendor account has been approved. Once we review you accont information, we will publish it on our website."
+msgstr "Xin chúc mừng, ứng dụng của bạn nhận được một tài khoản người bán hàng đã được chấp thuận. Sau khi chúng tôi xem xét thông tin tài khoản của bạn, chúng tôi sẽ xuất bản nó trên trang web của chúng tôi."
+
+msgctxt "Languages::text_company_status_pending_subj"
+msgid "Your company is waiting for approval."
+msgstr "Công ty của bạn đang chờ phê duyệt."
+
+msgctxt "Languages::text_company_status_pending_to_active"
+msgid "Your profile changes for vendor [company] were approved."
+msgstr "Thay đổi hồ sơ của bạn cho nhà cung cấp [company] được phê chuẩn."
+
+msgctxt "Languages::text_error_adding_request"
+msgid "Error while adding the request."
+msgstr "Lỗi trong khi thêm yêu cầu."
+
+msgctxt "Languages::text_new_payment_was_created"
+msgid "New payment was created"
+msgstr "Thanh toán mới được tạo"
+
+msgctxt "Languages::text_not_approved_vendors"
+msgid "You have vendors that require your approval. Please <a href=\"[link]\">follow this link</a> to review these vendors."
+msgstr "Bạn có nhà cung cấp yêu cầu phê duyệt. Xin vui lòng <a href=\"[link]\"> thực hiện theo liên kết này</a> để xem xét các nhà cung cấp."
+
+msgctxt "Languages::text_store_mode_trial"
+msgid "Full access to all features during the 30-day trial period, starting from the time of activation.<br /><br />After the 30-day trial period is over, this mode will become unavailable.<br /><br />"
+msgstr "Đầy đủ quyền truy cập vào tất cả tính năng trong thời gian dùng thử 30 ngày, bắt đầu từ thời điểm kích hoạt. < br / > < br / > sau thời gian dùng thử 30 ngày, chế độ này sẽ không sẵn nữa. < br / > < br / >"
+
+msgctxt "Languages::text_successful_request"
+msgid "Your request was successfully added. You will receive the email with the answer later."
+msgstr "Yêu cầu của bạn đã thêm thành công. Bạn sẽ nhận được email với câu trả lời sớm nhất có thể."
+
+msgctxt "Languages::total_amount_due"
+msgid "Total amount due"
+msgstr "Tất cả số tiền phải trả"
+
+msgctxt "Languages::total_period_payout"
+msgid "Total sales period payout"
+msgstr "Tất cả thời gian thanh toán bán hàng"
+
+msgctxt "Languages::total_unpaid_balance"
+msgid "Total unpaid balance"
+msgstr "Tổng số dư chưa thanh toán"
+
+msgctxt "Languages::tt_views_payments_update_taxes"
+msgid "If payment surcharge is taken from vendors, taxes are not calculated"
+msgstr "Nếu thanh toán phụ phí được lấy từ nhà cung cấp, thuế không được tính"
+
+msgctxt "Languages::unable_delete_vendor_orders_exists"
+msgid "Unable to delete this vendor account because there are orders containing the products of this vendor in the store database. To delete the account, please delete all such orders first."
+msgstr "Không thể xóa bỏ tài khoản nhà cung cấp này bởi vì có các đơn đặt hàng có chứa các sản phẩm của nhà cung cấp này trong cơ sở dữ liệu. Để xoá tài khoản, hãy xóa tất cả các đơn đặt hàng trước."
+
+msgctxt "Languages::vendor"
+msgid "Vendor"
+msgstr "Nhà cung cấp"
+
+msgctxt "Languages::vendors"
+msgid "Vendors"
+msgstr "Nhà cung cấp"
+
+msgctxt "Languages::vendors_menu_description"
+msgid "Sorted list of vendor accounts registered in the store."
+msgstr "Danh sách sắp xếp các nhà cung cấp đã đăng ký tài khoản tại cửa hàng."
+
+msgctxt "Languages::vendor_account_balance"
+msgid "Account balance"
+msgstr "Số dư tài khoản"
+
+msgctxt "Languages::vendor_approval_pending"
+msgid "New vendor account application"
+msgstr "Ứng dụng tài khoản nhà cung cấp mới"
+
+msgctxt "Languages::vendor_commission"
+msgid "Vendor commission"
+msgstr "Hoa hồng nhà cung cấp"
+
+msgctxt "Languages::vendor_id"
+msgid "Vendor ID"
+msgstr "ID Nhà cung cấp"
+
+msgctxt "Languages::vendor_name"
+msgid "Vendor name"
+msgstr "Tên nhà cung cấp"
+
+msgctxt "Languages::vendor_pages"
+msgid "Vendor pages"
+msgstr "Trang nhà cung cấp"
+
+msgctxt "Languages::vendor_panel"
+msgid "Vendor panel"
+msgstr "Bảng điều khiển nhà cung cấp"
+
+msgctxt "Languages::view_vendor_orders"
+msgid "View vendor orders"
+msgstr "Xem đơn hàng nhà cung cấp"
+
+msgctxt "Languages::view_vendor_products"
+msgid "View vendor products"
+msgstr "Xem sản phẩm nhà cung cấp"
+
+msgctxt "Languages::view_vendor_users"
+msgid "View vendor users"
+msgstr "Xem tài khoản người dùng của nhà cung cấp"
+
+msgctxt "Languages::you_can_edit_account_details"
+msgid "You can edit the account details now."
+msgstr "Bạn có thể chỉnh sửa các chi tiết tài khoản bây giờ."
+
+msgctxt "SettingsSections::Vendors"
+msgid "Vendors"
+msgstr "Nhà cung cấp"
+
+msgctxt "SettingsOptions::vendors_per_page"
+msgid "Vendors per page"
+msgstr "Nhà cung cấp trên trang"
+
+msgctxt "SettingsOptions::apply_for_vendor"
+msgid "Allow users to apply for vendor account"
+msgstr "Cho phép áp dụng tài khoản người dùng cho tài khoản nhà cung cấp"
+
+msgctxt "SettingsOptions::create_vendor_administrator_account"
+msgid "Automatically create the administrator account for the new approved vendor. (If the \"Allow users to apply for vendor account\" setting is enabled)"
+msgstr "Tự động tạo tài khoản quản trị cho các nhà cung cấp được chấp thuận mới. (Nếu \"cho phép người dùng áp dụng cho tài khoản nhà cung cấp\" cài đặt cần được kích hoạt)"
+
+msgctxt "SettingsOptions::include_shipping"
+msgid "Include shipping cost in vendors commission"
+msgstr "Bao gồm phí vận chuyển trong hoa hồng nhà cung cấp"
+
+msgctxt "SettingsOptions::include_payment_surcharge"
+msgid "Take payment surcharge from vendors"
+msgstr "Hãy thanh toán phụ phí từ nhà cung cấp"
+
+msgctxt "SettingsOptions::commissions_header"
+msgid "Commissions"
+msgstr "Hoa hồng"
+
+msgctxt "SettingsOptions::display_vendor"
+msgid "Display product vendor"
+msgstr "Hiển thị sản phẩm của nhà cung cấp"
+
+msgctxt "SettingsTooltips::include_payment_surcharge"
+msgid "If enabled a customers will not be able see payment surcharge and it will not be applied to order total"
+msgstr "Nếu kích hoạt một khách hàng không thể xem thanh toán phụ phí và nó sẽ không được áp dụng cho tất cả các đơn đặt hàng"
+
+msgctxt "Languages::use_for_apply_for_vendor_account"
+msgid "Apply for a vendor account form"
+msgstr "Áp dụng cho một hình thức tài khoản nhà cung cấp"
+
+msgctxt "Languages::block_vendor_categories"
+msgid "Vendor categories"
+msgstr "Danh mục nhà cung cấp"
+
+msgctxt "Languages::block_vendor_categories_description"
+msgid "Product categories available to a particular vendor"
+msgstr "Nhóm sản phẩm có sẵn cho một nhà cung cấp cụ thể"
+
+msgctxt "Languages::block_vendor_information"
+msgid "Vendor information"
+msgstr "Thông tin nhà cung cấp"
+
+msgctxt "Languages::block_vendor_logo"
+msgid "Vendor logo"
+msgstr "Logo nhà cung cấp"
+
+msgctxt "Languages::block_vendor_search"
+msgid "Search by vendor products"
+msgstr "Tìm kiếm theo nhà cung cấp sản phẩm"
+
+msgctxt "Languages::vendor_filters"
+msgid "Vendor Product filters"
+msgstr "Bộ lọc theo nhà cung cấp"
+
+msgctxt "Languages::vendor_products"
+msgid "Vendor products"
+msgstr "Sản phẩm của nhà cung cấp"
+
+msgctxt "Languages::block_vendor_filters"
+msgid "Vendor filters"
+msgstr "Bộ lọc nhà cung cấp"
+

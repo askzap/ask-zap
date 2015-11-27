@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/rus_cities.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-02 10:07-0400\n"
+
+msgctxt "Addons::name::rus_cities"
+msgid "Russian localization — Cities"
+msgstr "Города"
+
+msgctxt "Addons::description::rus_cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "Возможность автоматического заполнения поля город при оформлении заказа."
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "Для создания нового города необходимо выбрать страну и регион, нажать кнопку \"Поиск\", создать город с помощью кнопки \"+\". Если у страны нет регионов, необходимо их создать."
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "Добавить новый город"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "Новый город"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "Выберите город"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "Нет созданных областей"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "Не выбрана область"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "другой город"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "Создать новый регион"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "View cities"
+msgstr "Просмотр справочника городов"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Manage cities"
+msgstr "Редактирование справочника городов"
+

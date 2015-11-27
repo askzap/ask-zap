@@ -1,0 +1,150 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/rus_multiship.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-02 10:07-0400\n"
+
+msgctxt "Addons::name::rus_multiship"
+msgid "Russian localization — Multiship"
+msgstr "Multiship"
+
+msgctxt "Languages::multiship"
+msgid "Multiship"
+msgstr "Multiship"
+
+msgctxt "Languages::shippings.multiship"
+msgid "Multiship"
+msgstr "Multiship"
+
+msgctxt "Languages::multiship_service_delivery"
+msgid "Delivery service"
+msgstr "Служба доставки"
+
+msgctxt "Languages::multiship_pickup"
+msgid "Pickup"
+msgstr "Пункт самовывоза"
+
+msgctxt "Languages::multiship_service_delivery_todoor"
+msgid "Delivery service to door"
+msgstr "Служба доставки до двери"
+
+msgctxt "Languages::ship_multiship_length"
+msgid "Length package"
+msgstr "Длина упаковки"
+
+msgctxt "Languages::ship_multiship_width"
+msgid "Width package"
+msgstr "Ширина упаковки"
+
+msgctxt "Languages::ship_multiship_height"
+msgid "Height package"
+msgstr "Высота упаковки"
+
+msgctxt "Languages::multiship_pay_accepted"
+msgid "Available"
+msgstr "Принимается"
+
+msgctxt "Languages::multiship_cash"
+msgid "cash"
+msgstr "наличные"
+
+msgctxt "Languages::multiship_credit_card"
+msgid "credit card"
+msgstr "банковские карты"
+
+msgctxt "Languages::multiship_todoor"
+msgid "To door"
+msgstr "До двери"
+
+msgctxt "Languages::multiship_pickuppoint"
+msgid "Pickup point"
+msgstr "Пункт самовывоза"
+
+msgctxt "Languages::multiship_days"
+msgid "days"
+msgstr "дн."
+
+msgctxt "Languages::multiship_deliver_orient_day"
+msgid "deliver orient day"
+msgstr "ориентировочная дата доставки"
+
+msgctxt "Languages::multiship_instruction"
+msgid "Instruction"
+msgstr "Описание"
+
+msgctxt "Languages::multiship_weekend"
+msgid "Weekend"
+msgstr "Выходной"
+
+msgctxt "Languages::multiship_all_day"
+msgid "Day and night"
+msgstr "Круглосуточно"
+
+msgctxt "Languages::multiship_every_day"
+msgid "Daily"
+msgstr "Ежедневно"
+
+msgctxt "Languages::multiship_metro"
+msgid "Metro"
+msgstr "Рядом с метро"
+
+msgctxt "Languages::weekday_abr_7"
+msgid "Sun"
+msgstr "Вс"
+
+msgctxt "Languages::rus_multiship.confirm"
+msgid "Confirm"
+msgstr "Подтвердить отправку"
+
+msgctxt "Languages::carrier_multiship"
+msgid "Multiship"
+msgstr "Multiship"
+
+msgctxt "Languages::multiship_delivery_time"
+msgid "Delivery time"
+msgstr "Время доставки"
+
+msgctxt "Languages::multiship_work_time"
+msgid "Work time"
+msgstr "Время работы"
+
+msgctxt "SettingsSections::rus_multiship::general"
+msgid "Settings"
+msgstr "Настройки"
+
+msgctxt "SettingsOptions::rus_multiship::client_id"
+msgid "Multiship ID"
+msgstr "Multiship ID"
+
+msgctxt "SettingsOptions::rus_multiship::sid"
+msgid "SID of the cart widget"
+msgstr "SID корзинного виджета"
+
+msgctxt "SettingsOptions::rus_multiship::widget_key"
+msgid "Cart widget key"
+msgstr "Ключ корзинного виджета"
+
+msgctxt "SettingsOptions::rus_multiship::key_search_delivery_list"
+msgid "API key of searchDeliveryList"
+msgstr "API ключ searchDeliveryList"
+
+msgctxt "SettingsOptions::rus_multiship::key_create_order"
+msgid "API key of createOrder"
+msgstr "API ключ createOrder"
+
+msgctxt "SettingsOptions::rus_multiship::key_get_sender_order_status"
+msgid "API key of getSenderOrderStatus"
+msgstr "API ключ getSenderOrderStatus"
+
+msgctxt "SettingsOptions::rus_multiship::write_logs"
+msgid "Write log requests"
+msgstr "Записывать логи запросов"
+

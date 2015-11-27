@@ -1,0 +1,394 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /editions/mve.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-04-29 07:00-0400\n"
+
+msgctxt "Languages::add_companies"
+msgid "Add vendors"
+msgstr "Προσθήκη πωλητών"
+
+msgctxt "Languages::add_companies_and_close"
+msgid "Add vendors and close"
+msgstr "Προσθήκη προμηθευτών και κλείσιμο"
+
+msgctxt "Languages::add_vendor"
+msgid "Add vendor"
+msgstr "Προσθήκη καταστήματος"
+
+msgctxt "Languages::add_vendor_administrator"
+msgid "Add vendor's administrator"
+msgstr "Προσθηκη Διαχειριστη Πωλητη"
+
+msgctxt "Languages::vendor_administrator"
+msgid "Vendor's administrator"
+msgstr "Διαχειριστης Πωλητη"
+
+msgctxt "Languages::vendor_administrators"
+msgid "Vendor's administrators"
+msgstr "Διαχειριστης Πωλητη"
+
+msgctxt "Languages::vendor_administrators_menu_description"
+msgid "List of vendor's administrators, registered users with a vendor account."
+msgstr "Λίστα των διαχειριστών πωλητών, συνδεδεμένων χρηστων με ένα λογαριασμό πωλητή"
+
+msgctxt "Languages::vendor_candidate_notification"
+msgid "Hello,<br/><br/>You have a new vendor candidate in your store. This vendor account is pending until you approve it. Follow <a>this URL to view the account details</a>."
+msgstr "Γεια σας, <br/> <br/> έχετε ένα νέο υποψήφιο πωλητή στο κατάστημά σας. Ο λογαριασμός του πωλητή είναι σε εκκρεμότητα μέχρι να τον εγκρίνετε. Ακολουθήστε αυτήν τη <a>διεύθυνση URL για να δείτε τα στοιχεία του λογαριασμού</a>."
+
+msgctxt "Languages::demo_panel.go_vendor_panel"
+msgid "Go to Vendor panel"
+msgstr "Πηγαίνε στον πίνακα πωλητή"
+
+msgctxt "Languages::vendor_account_balance_menu_description"
+msgid "Income and expenditure statistics (total, per vendor, per period)."
+msgstr "Στατιστικές εσόδων και εξόδων (συνολικά, ανά πωλητή, ανά περίοδο)."
+
+msgctxt "Languages::merge_vendor"
+msgid "Merge vendor"
+msgstr "Συγχώνευση πωλητή"
+
+msgctxt "Languages::select_new_owner_company"
+msgid "Select a new owner of this company's profile data:"
+msgstr "Επιλέξτε ένα νέο ιδιοκτήτη σ αυτο το προφιλ στοιχειων εταιρείας :"
+
+msgctxt "Languages::warning_merging_companies"
+msgid "Merging two company accounts will remove [company_name] from the database, and all the profile data (products, orders, shipping methods, users, promotions, etc.) will be transferred to this company's account"
+msgstr "Η συγχώνευση δύο εταιρικων λογαριασμών θα αφαιρέσει το [company_name] από τη βάση δεδομένων, και όλα τα δεδομένα του προφίλ (προϊόντα, παραγγελίες, τροποι αποστολής, χρήστες, προσφορές, κλπ.) θα μεταφερθούν στο λογαριασμό αυτή της εταιρείας"
+
+msgctxt "Languages::all_vendors"
+msgid "All vendors"
+msgstr "Όλων των πωλητών"
+
+msgctxt "Languages::apply_for_vendor_account"
+msgid "Apply for a vendor account"
+msgstr "Υποβολή αίτησης για λογαριασμό πωλητή"
+
+msgctxt "Languages::available_for_vendor"
+msgid "Available for vendor"
+msgstr "Διαθέσιμο για το κατάστημα"
+
+msgctxt "Languages::balance_carried_forward"
+msgid "Balance carried forward"
+msgstr "Μεταφερθέν υπόλοιπο"
+
+msgctxt "Languages::block_vendors"
+msgid "Vendors"
+msgstr "Πωλητές"
+
+msgctxt "Languages::charge_to_vendor_account"
+msgid "Charge to vendor account"
+msgstr "Χρέωση στο λογαριασμό του πωλητή"
+
+msgctxt "Languages::companies"
+msgid "Vendors"
+msgstr "Πωλητές"
+
+msgctxt "Languages::create_administrator_account"
+msgid "Create administrator account"
+msgstr "Δημιουργία λογαριασμού διαχειριστή"
+
+msgctxt "Languages::displayed_vendors"
+msgid "Displayed vendors"
+msgstr "καταστήματα που εμφανίζονται"
+
+msgctxt "Languages::editing_vendor"
+msgid "Editing vendor"
+msgstr "Επεξεργασία Καταστήματος"
+
+msgctxt "Languages::error_admin_not_created_email_already_used"
+msgid "Administrator account was not created. The email address belongs to another user. You can add the administrator for this vendor manually."
+msgstr "Administrator account was not created. The email address belongs to another user. You can add the administrator for this company manually."
+
+msgctxt "Languages::error_admin_not_created_name_already_used"
+msgid "Administrator account was not created. The user name belongs to another user. You should change the administrator account's name."
+msgstr "Δεν δημιουργήθηκε ο λογαριασμός διαχειριστή. Το όνομα χρήστη ανήκει σε έναν άλλο χρήστη. Θα πρέπει να αλλάξετε το όνομα του λογαριασμού διαχειριστή."
+
+msgctxt "Languages::error_vendor_exists"
+msgid "The vendor with e-mail you have chosen already exists, please try another."
+msgstr "The company with e-mail you have chosen already exists, please try another."
+
+msgctxt "Languages::expenditure"
+msgid "Expenditure"
+msgstr "Δαπάνες"
+
+msgctxt "Languages::income"
+msgid "Income"
+msgstr "Εισοδημα"
+
+msgctxt "Languages::manage_vendors"
+msgid "Manage vendors"
+msgstr "Διαχείριση πωλητών"
+
+msgctxt "Languages::new_administrator_account_created"
+msgid "New administrator account has been successfully created."
+msgstr "Ο νέος  λογαριασμός διαχειριστή έχει δημιουργηθεί με επιτυχία."
+
+msgctxt "Languages::new_vendor"
+msgid "New vendor"
+msgstr "Νέο Καταστημα"
+
+msgctxt "Languages::notify_vendor"
+msgid "Notify vendor"
+msgstr "Ειδοποίηση πωλητή"
+
+msgctxt "Languages::notify_vendors_by_email"
+msgid "Notify vendors by e-mail"
+msgstr "Ειδοποιηση πωλητών με email"
+
+msgctxt "Languages::privileges.manage_payouts"
+msgid "Manage payouts"
+msgstr "Διαχειριση πληρωμών"
+
+msgctxt "Languages::privileges.manage_vendors"
+msgid "Manage vendors"
+msgstr "Διαχείριση πωλητών"
+
+msgctxt "Languages::privileges.view_payouts"
+msgid "View payouts"
+msgstr "Προβολή πληρωμών"
+
+msgctxt "Languages::privileges.view_vendors"
+msgid "View vendors"
+msgstr "Προβολή πωλητών"
+
+msgctxt "Languages::privilege_sections.vendors"
+msgid "Vendors"
+msgstr "Πωλητής"
+
+msgctxt "Languages::sales_period"
+msgid "Sales period"
+msgstr "Περίοδος Πωλήσεων"
+
+msgctxt "Languages::sales_period_total"
+msgid "Sales period total"
+msgstr "Οι Συνολικές πωλήσεις  περιόδου"
+
+msgctxt "Languages::search_by_vendor"
+msgid "Search by vendor"
+msgstr "Search by store"
+
+msgctxt "Languages::sort_by_company_asc"
+msgid "Sort by alphabetical: A to Z"
+msgstr "Ταξινόμηση αλφαβητικά: Α έως το Ω"
+
+msgctxt "Languages::sort_by_company_desc"
+msgid "Sort by alphabetical: Z to A"
+msgstr "Ταξινόμηση αλφαβητικά: Α έως το Ω"
+
+msgctxt "Languages::text_company_status_active_to_pending"
+msgid "Your profile has been changed and once the changes are approved, the information about your company will appear in the storefront."
+msgstr "Το προφίλ σας έχει αλλάξει, και μόλις εγκριθούν οι αλλαγές, οι πληροφορίες για την εταιρεία σας θα εμφανιστεί στη βιτρίνα."
+
+msgctxt "Languages::text_company_status_new_to_active"
+msgid "Your request for vendor [company] was approved."
+msgstr "Το αίτημά σας  για πωλητή [company] εγκρίθηκε"
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_created"
+msgid "New administrator was created. You can access to the administrator area: [link] by using the following credentials:<br />Login: [login]<br />Password: [password]"
+msgstr "Δημιουργήθηκε νέος διαχειριστής. Μπορείτε να έχετε πρόσβαση στην περιοχή διαχειρισης: [link] χρησιμοποιώντας τα ακόλουθα στοιχεία: <br /> Σύνδεση: [login] <br /> Κωδικός πρόσβασης: [password]"
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_updated"
+msgid "Type of your account [login] changed to administrator. You may login into the administrator area: [link]"
+msgstr "Ο τύπος του λογαριασμου σας  [login] άλλαξε σε διαχειριστή. Μπορείτε να συνδεθείτε στην περιοχή διαχειρισης: [link]"
+
+msgctxt "Languages::text_company_status_new_to_active_subj"
+msgid "Your request for vendor was approved."
+msgstr "Εγκρίθηκε το αίτημά σας για πωλητή"
+
+msgctxt "Languages::text_company_status_new_to_disable"
+msgid "Your request for vendor [company] was rejected."
+msgstr "Απορρίφθηκε το αίτημά σας για πωλητης της  [company]"
+
+msgctxt "Languages::text_company_status_new_to_disable_subj"
+msgid "Your request for vendor was rejected."
+msgstr "Απορρίφθηκε το αίτημά σας για πωλητής"
+
+msgctxt "Languages::text_company_status_new_to_pending"
+msgid "Congratulations, your application for getting a vendor account has been approved. Once we review you accont information, we will publish it on our website."
+msgstr "Συγχαρητήρια, η αίτησή σας για ένα λογαριασμό πωλητή έχει εγκριθεί. Μολις εξετάσουμε τις πληροφορίες του λογαριασμολυ σας, θα τον εκδώσουμε στην ιστοσελίδα μας."
+
+msgctxt "Languages::text_company_status_pending_subj"
+msgid "Your company is waiting for approval."
+msgstr "Εταιρεία σας είναι σε αναμονή για έγκριση."
+
+msgctxt "Languages::text_company_status_pending_to_active"
+msgid "Your profile changes for vendor [company] were approved."
+msgstr "Εγκρίθηκαν οι αλλαγές σας στο προφίλ πωλητη της [company]."
+
+msgctxt "Languages::text_error_adding_request"
+msgid "Error while adding the request."
+msgstr "Παρουσιάστηκε σφάλμα κατά την προσθήκη της αίτησης."
+
+msgctxt "Languages::text_new_payment_was_created"
+msgid "New payment was created"
+msgstr "Δημιουργήθηκε νέα πληρωμή"
+
+msgctxt "Languages::text_not_approved_vendors"
+msgid "You have vendors that require your approval. Please <a href=\"[link]\">follow this link</a> to review these vendors."
+msgstr "Έχετε πωλητές που απαιτούν την έγκρισή σας. Παρακαλώ <a href=\"[link]\"> ακολουθήστε αυτό το σύνδεσμο</a> για να αναθεωρήσετε αυτούς τους πωλητές"
+
+msgctxt "Languages::text_store_mode_trial"
+msgid "Full access to all features during the 30-day trial period, starting from the time of activation.<br /><br />After the 30-day trial period is over, this mode will become unavailable.<br /><br />"
+msgstr "Full access to all features during the 30-day trial period, starting from the time of activation.<br /><br />After the 30-day trial period is over, this mode will become unavailable, and the Free mode will be activated automatically.<br /><br />"
+
+msgctxt "Languages::text_successful_request"
+msgid "Your request was successfully added. You will receive the email with the answer later."
+msgstr "Το αίτημα σας προστέθηκε με επιτυχία. Θα λάβετε το email με την απάντηση αργότερα."
+
+msgctxt "Languages::total_amount_due"
+msgid "Total amount due"
+msgstr "Συνολικό οφειλόμενο ποσό"
+
+msgctxt "Languages::total_period_payout"
+msgid "Total sales period payout"
+msgstr "Πληρωμή Συνολικων Πωλησεων περιοδου"
+
+msgctxt "Languages::total_unpaid_balance"
+msgid "Total unpaid balance"
+msgstr "Σύνολο ανεξόφλητου υπολοιπου"
+
+msgctxt "Languages::tt_views_payments_update_taxes"
+msgid "If payment surcharge is taken from vendors, taxes are not calculated"
+msgstr "Αν η επιβαρυνση του τροπου πληρωμής έχει υπολογιστει από πωλητές, τότε δεν υπολογίζονται οι φόροι"
+
+msgctxt "Languages::unable_delete_vendor_orders_exists"
+msgid "Unable to delete this vendor account because there are orders containing the products of this vendor in the store database. To delete the account, please delete all such orders first."
+msgstr "Unable to delete this store because there are orders containing the products of this company in the store database. To delete the account, please delete all such orders first."
+
+msgctxt "Languages::vendor"
+msgid "Vendor"
+msgstr "Πωλητής"
+
+msgctxt "Languages::vendors"
+msgid "Vendors"
+msgstr "Καταστήματα"
+
+msgctxt "Languages::vendors_menu_description"
+msgid "Sorted list of vendor accounts registered in the store."
+msgstr "Ταξινόμηση λίστας των λογαριασμών προμηθευτών που έχουν εγγραφεί στο κατάστημα."
+
+msgctxt "Languages::vendor_account_balance"
+msgid "Account balance"
+msgstr "Υπόλοιπο Λογαριασμού"
+
+msgctxt "Languages::vendor_approval_pending"
+msgid "New vendor account application"
+msgstr "Νέα αίτηση για λογαριασμό πωλητή"
+
+msgctxt "Languages::vendor_commission"
+msgid "Vendor commission"
+msgstr "Προμήθεια πωλητή"
+
+msgctxt "Languages::vendor_id"
+msgid "Vendor ID"
+msgstr "Ταυτότητα πωλητή"
+
+msgctxt "Languages::vendor_name"
+msgid "Vendor name"
+msgstr "Όνομα πωλητή"
+
+msgctxt "Languages::vendor_pages"
+msgid "Vendor pages"
+msgstr "Σελίδες Καταστήματος"
+
+msgctxt "Languages::vendor_panel"
+msgid "Vendor panel"
+msgstr "Πίνακας πωλητων"
+
+msgctxt "Languages::view_vendor_orders"
+msgid "View vendor orders"
+msgstr "Προβολή Παραγγελιών Καταστήματος"
+
+msgctxt "Languages::view_vendor_products"
+msgid "View vendor products"
+msgstr "Προβολή Προϊόντων Καταστήματος"
+
+msgctxt "Languages::view_vendor_users"
+msgid "View vendor users"
+msgstr "Προβολή Χρηστών Καταστήματος"
+
+msgctxt "Languages::you_can_edit_account_details"
+msgid "You can edit the account details now."
+msgstr "Τώρα, μπορείτε να επεξεργαστείτε τα στοιχεία του λογαριασμού."
+
+msgctxt "SettingsSections::Vendors"
+msgid "Vendors"
+msgstr "Πωλητές"
+
+msgctxt "SettingsOptions::vendors_per_page"
+msgid "Vendors per page"
+msgstr "Πωλητές ανά σελίδα"
+
+msgctxt "SettingsOptions::apply_for_vendor"
+msgid "Allow users to apply for vendor account"
+msgstr "Επιτρέψτε στους χρήστες να υποβάλουν αίτηση για λογαριασμό πωλητή"
+
+msgctxt "SettingsOptions::create_vendor_administrator_account"
+msgid "Automatically create the administrator account for the new approved vendor. (If the \"Allow users to apply for vendor account\" setting is enabled)"
+msgstr "Αυτοματη δημιουργία του λογαριασμου διαχειριστή για τον νέο εγκεκριμένο πωλητή. (Εφοσον η ρυθμιση \"επιτρέπεται στους χρήστες να υποβάλουν αίτηση για λογαριασμό πωλητή\"  είναι ενεργοποιημένη)"
+
+msgctxt "SettingsOptions::include_shipping"
+msgid "Include shipping cost in vendors commission"
+msgstr "Συμπεριέλαβε το κόστος αποστολής στην προμηθεια του πωλητη"
+
+msgctxt "SettingsOptions::include_payment_surcharge"
+msgid "Take payment surcharge from vendors"
+msgstr "Να ληφθει η επιβάρυσνη τροπου πληρωμής από πωλητες"
+
+msgctxt "SettingsOptions::commissions_header"
+msgid "Commissions"
+msgstr "Προμήθειες"
+
+msgctxt "SettingsOptions::display_vendor"
+msgid "Display product vendor"
+msgstr "Προβολή Πωλητή Προϊόντος"
+
+msgctxt "SettingsTooltips::include_payment_surcharge"
+msgid "If enabled a customers will not be able see payment surcharge and it will not be applied to order total"
+msgstr "Εάν ενεργοποιηθεί οι πελάτες δεν θα μπορουν να δουν τις επιβαρυνσεις των τροπων πληρωμης και αυτες δε θα εφαρμοστούν στο συνολο της παραγγελίας"
+
+msgctxt "Languages::use_for_apply_for_vendor_account"
+msgid "Apply for a vendor account form"
+msgstr "Φόρμα Υποβολής αίτησης για λογαριασμο πωλητή"
+
+msgctxt "Languages::block_vendor_categories"
+msgid "Vendor categories"
+msgstr "Κατηγορίες πωλητή"
+
+msgctxt "Languages::block_vendor_categories_description"
+msgid "Product categories available to a particular vendor"
+msgstr "Κατηγορίες προϊόντων που είναι διαθέσιμες σε έναν συγκεκριμένο πωλητη"
+
+msgctxt "Languages::block_vendor_information"
+msgid "Vendor information"
+msgstr "Πληροφορίες πωλητή"
+
+msgctxt "Languages::block_vendor_logo"
+msgid "Vendor logo"
+msgstr "Λογότυπο πωλητή"
+
+msgctxt "Languages::block_vendor_search"
+msgid "Search by vendor products"
+msgstr "Αναζήτηση με προϊόντα του πωλητή"
+
+msgctxt "Languages::vendor_filters"
+msgid "Vendor Product filters"
+msgstr "Φίλτρα Προϊοντων Πωλητή"
+
+msgctxt "Languages::vendor_products"
+msgid "Vendor products"
+msgstr "Προϊόντα Πωλητή"
+
+msgctxt "Languages::block_vendor_filters"
+msgid "Vendor filters"
+msgstr "Φίλτρα πωλητή"
+

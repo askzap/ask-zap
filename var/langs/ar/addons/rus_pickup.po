@@ -1,0 +1,81 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+
+msgctxt "Addons::name::rus_pickup"
+msgid "Russian localization — Pickup"
+msgstr "Russian localization — Pickup"
+
+msgctxt "Addons::description::rus_pickup"
+msgid "The \"Store pickup\" shipping method allows the customer to choose the store to pick up from."
+msgstr "The \"Store pickup\" shipping method allows the customer to choose the store to pick up from."
+
+msgctxt "Languages::rus_pickup.text_pickup_instruction"
+msgid "The \"Customer pick-up\" shipping method offers a customer to choose a store to pick up a product from. The stores can be created in the \"Store location\" add-on<br /><b>Store creation:</b> <a href=\"[store_locator]\">Store location</a>"
+msgstr "The \"Customer pick-up\" shipping method offers a customer to choose a store to pick up a product from. The stores can be created in the \"Store location\" add-on<br /><b>Store creation:</b> <a href=\"[store_locator]\">Store location</a>"
+
+msgctxt "Languages::rus_pickup.select_stores"
+msgid "Select stores"
+msgstr "Select stores"
+
+msgctxt "Languages::rus_pickup.pick_up_points"
+msgid "Pick-up points"
+msgstr "Pick-up points"
+
+msgctxt "Languages::rus_pickup.stores_position"
+msgid "The \"Position\" field in the store settings"
+msgstr "The \"Position\" field in the store settings"
+
+msgctxt "Languages::rus_pickup.shipping_position"
+msgid "Order selected in the shipping method settings"
+msgstr "Order selected in the shipping method settings"
+
+msgctxt "Languages::rus_pickup.selected_fields"
+msgid "Selected stores"
+msgstr "Selected stores"
+
+msgctxt "Languages::rus_pickup.available_fields"
+msgid "Available stores"
+msgstr "Available stores"
+
+msgctxt "Languages::rus_pickup.display_ml"
+msgid "Map and list"
+msgstr "Map and list"
+
+msgctxt "Languages::rus_pickup.display_l"
+msgid "List"
+msgstr "List"
+
+msgctxt "Languages::rus_pickup.display_m"
+msgid "Map"
+msgstr "Map"
+
+msgctxt "Languages::rus_pickup.display"
+msgid "Locations list view on the checkout page"
+msgstr "Locations list view on the checkout page"
+
+msgctxt "Languages::rus_pickup.pickup"
+msgid "Pickup"
+msgstr "Pickup"
+
+msgctxt "Languages::rus_pickup.pickup_avail"
+msgid "Available for pick-up"
+msgstr "Available for pick-up"
+
+msgctxt "Languages::rus_pickup.work_time"
+msgid "Working hours"
+msgstr "Working hours"
+
+msgctxt "Languages::carrier_pickup"
+msgid "Pickup"
+msgstr "Pickup"
+
+msgctxt "Languages::destination_nothing_found"
+msgid "No suitable destination has been found"
+msgstr "No suitable destination has been found"
+
+msgctxt "Languages::stores_nothing_found"
+msgid "No stores have been found"
+msgstr "No stores have been found"

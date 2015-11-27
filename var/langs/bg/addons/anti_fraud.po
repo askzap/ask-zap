@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Bulgarian\n"
+"Language: bg_BG\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: bg\n"
+"X-Crowdin-File: /addons/anti_fraud.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-06-29 06:03-0400\n"
+
+msgctxt "Addons::name::anti_fraud"
+msgid "Anti fraud"
+msgstr "Анти измама"
+
+msgctxt "Addons::description::anti_fraud"
+msgid "Adds configurable security order verification using the Maxmind service to prevent fraud"
+msgstr "Добавя, конфигурируема проверка на сигурността на поръчките с помощта на Maxmind услугата за предотвратяване на измами"
+
+msgctxt "Languages::af_big_order_total"
+msgid "Order total exceeds the allowed maximum"
+msgstr "Поръчката надхвърля позволения максимум"
+
+msgctxt "Languages::af_country_doesnt_match"
+msgid "The country does not match the IP address"
+msgstr "Страната не съответства на IP адреса"
+
+msgctxt "Languages::af_has_failed_orders"
+msgid "Customer has FAILED orders"
+msgstr "Клиентът има НЕУСПЕШНИ поръчки"
+
+msgctxt "Languages::af_has_successfull_orders"
+msgid "Customer has SUCCESSFUL orders"
+msgstr "Клиентът има УСПЕШНИ поръчки"
+
+msgctxt "Languages::af_high_risk_country"
+msgid "High risk country"
+msgstr "Страни с висок риск"
+
+msgctxt "Languages::af_high_risk_factor"
+msgid "Risk factor exceeds the defined value"
+msgstr "Рисковият фактор превишава определената стойност"
+
+msgctxt "Languages::af_ip_not_found"
+msgid "Failed to identify customer's IP address"
+msgstr "Неуспешно идентифициране на IP адреса на клиента"
+
+msgctxt "Languages::af_long_distance"
+msgid "Customer is outside the safe distance"
+msgstr "Клиентът е извън сигурна зона"
+
+msgctxt "Languages::af_low_risk_factor"
+msgid "Risk factor is admissible"
+msgstr "Рисковият фактор е допустим"
+
+msgctxt "Languages::antifraud_failed_order"
+msgid "Your order was placed in the store. It is undergoing an additional check now. We will contact you as soon as the administrator finishes it"
+msgstr "Вашата поръчка е поставена в магазина. Това е процес на допълнителна проверка. Ние ще се свържем с Вас веднага след като бъде завършва от администратора"
+
+msgctxt "Languages::risk_factor"
+msgid "Risk factor"
+msgstr "Рисков фактор"
+
+msgctxt "Languages::not_available"
+msgid "n/a"
+msgstr "n/a"
+
+msgctxt "Languages::decision"
+msgid "Decision"
+msgstr "решение"
+
+msgctxt "Languages::anti_fraud_order_not_approved"
+msgid "Order has not been approved because risk factor exceeds Maximum risk factor"
+msgstr "Поръчката не е одобрена поради висок рисков фактор"
+
+msgctxt "Languages::anti_fraud_order_approved"
+msgid "Order has been approved"
+msgstr "Поръчката е одобрена"
+
+msgctxt "Languages::fraud_risk"
+msgid "Fraud risk"
+msgstr "Опасност от измама"
+
+msgctxt "Languages::fraud_checking"
+msgid "Fraud checking"
+msgstr "Проверка за измама"
+
+msgctxt "SettingsSections::anti_fraud::general"
+msgid "General"
+msgstr "Общи"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_key"
+msgid "Maxmind license key"
+msgstr "MaxMind лицензен ключ"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_safe_distance"
+msgid "Safe distance (km)"
+msgstr "Безопасно разстояние (км)"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_max_order_total"
+msgid "Max order total"
+msgstr "Максимална поръчка общо"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_risk_factor"
+msgid "Maximum risk factor (1..100)"
+msgstr "Максималният рисков фактор (1..100)"
+
+msgctxt "SettingsOptions::anti_fraud::antifraud_order_status"
+msgid "Order status"
+msgstr "Статус на поръчка"
+

@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/google_export.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-06-30 08:04-0400\n"
+
+msgctxt "Addons::name::google_export"
+msgid "Google export"
+msgstr "Google export"
+
+msgctxt "Addons::description::google_export"
+msgid "Expands the Data Feeds add-on to work with Google Base and creates an example of such data feed"
+msgstr "Mở rộng add-on Data Feeds để làm việc với Google Base và tạo ra một mẫu của các nguồn cấp dữ liệu"
+
+msgctxt "Languages::google_export_general_info"
+msgid "<p>Note: toggle this setting if you need multi-language Google categories installed. Supports French, German, Italian, Spanish, and British English. Pay attention that this operation can take a significant amount of time.</p>"
+msgstr "<p>Lưu ý: chuyển đổi thiết lập này nếu bạn cần danh mục Google đa ngôn ngữ đã cài đặt. Hỗ trợ tiếng Pháp, tiếng Đức, tiếng Ý, tiếng Tây Ban Nha, và tiếng Anh. Chú ý rằng thao tác này có thể mất một khoảng thời gian đáng kể.</p>"
+
+msgctxt "Languages::google_export_start_import"
+msgid "Start importing"
+msgstr "Bắt đầu nhập dữ liệu"
+
+msgctxt "SettingsSections::google_export::general"
+msgid "General"
+msgstr "Tổng quát"
+
+msgctxt "SettingsOptions::google_export::general_info"
+msgid "General info"
+msgstr "Thông tin chung"
+
+msgctxt "SettingsOptions::google_export::additional_langs"
+msgid "Install additional languages for Google categories"
+msgstr "Cài đặt ngôn ngữ bổ sung cho danh mục Google"
+

@@ -1,0 +1,21 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+
+msgctxt "Addons::name::rus_sberbank"
+msgid "Russian localization — Sberbank"
+msgstr "Russian localization — Sberbank"
+
+msgctxt "Languages::addons.rus_sberbank.login"
+msgid "Login API"
+msgstr "Login API"
+
+msgctxt "Languages::addons.rus_sberbank.password"
+msgid "Password"
+msgstr "Password"
+
+msgctxt "Languages::addons.rus_sberbank.logging"
+msgid "Write log"
+msgstr "Write log"

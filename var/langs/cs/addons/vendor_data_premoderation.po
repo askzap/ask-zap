@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /addons/vendor_data_premoderation.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-03 03:03-0400\n"
+
+msgctxt "Addons::name::vendor_data_premoderation"
+msgid "Vendor data premoderation"
+msgstr "Vstupní kontrola dat dodavatelů"
+
+msgctxt "Addons::description::vendor_data_premoderation"
+msgid "Lets you pre-moderate vendors activity"
+msgstr "Umožňuje předem kontrolovat dodavatelskou činnost"
+
+msgctxt "Languages::product_approval_menu_description"
+msgid "Manage individual products or group of products supplied by the store vendors."
+msgstr "Spravujte jednotlivé produkty nebo skupiny produktů, které jsou dodávány dodavateli obchodu."
+
+msgctxt "Languages::vendor_data_premoderation"
+msgid "Vendor data premoderation"
+msgstr "Vstupní kontrola dat dodavatelů"
+
+msgctxt "Languages::product_approval"
+msgid "Product approval"
+msgstr "Schvalování produktů"
+
+msgctxt "Languages::notify_vendor_by_email"
+msgid "Notify vendor by e-mail"
+msgstr "Upozornit dodavatele e-mailem"
+
+msgctxt "Languages::product_approval_status_approved"
+msgid "Your product [product] has been approved by the store administration and added to the product catalog. Now shoppers can order this product in the store."
+msgstr "Váš produkt [product] byl schválen administrací obchodu a zařazen do katalogu. Zákazníci si nyní mohou tento produkt objednat v obchodě."
+
+msgctxt "Languages::product_approval_status_disapproved"
+msgid "Your product [product] has been disapproved by the store administration"
+msgstr "Váš produkt [product] byl administrací obchodu zamítnut"
+
+msgctxt "Languages::products_approval_status_approved"
+msgid "Thank you for submitting new products. The following products have been approved by the store administration and added to the product catalog"
+msgstr "Děkujeme vám za předložení nových produktů. Následující produkty byly schváleny administrací obchodu a přidány do katalogu produktů"
+
+msgctxt "Languages::text_shoppers_can_order_products"
+msgid "Now shoppers can order these products in the store."
+msgstr "Zákazníci si nyní mohou tyto produkty objednat v obchodě."
+
+msgctxt "Languages::products_approval_status_disapproved"
+msgid "Thank you for submitting new products. The following products have been disapproved by the store administration"
+msgstr "Děkujeme vám za předložení nových produktů. Následující produkty byly administrací obchodu zamítnuty"
+
+msgctxt "Languages::approve_selected"
+msgid "Approve selected"
+msgstr "Schválit vybrané"
+
+msgctxt "Languages::disapprove_selected"
+msgid "Disapprove selected"
+msgstr "Neschválit vybrané"
+
+msgctxt "Languages::pre_moderation"
+msgid "Products require prior approval"
+msgstr "Produkty vyžadují schválení"
+
+msgctxt "Languages::pre_moderation_edit"
+msgid "Approve product info updates"
+msgstr "Schválit změny v informacích o produktu"
+
+msgctxt "Languages::pre_moderation_edit_vendors"
+msgid "Approve vendor profile updates"
+msgstr "Schválit změny v profilu dodavatele"
+
+msgctxt "Languages::text_not_approved_products"
+msgid "You have products that require your approval. Please <a href=\"[link]\">follow this link</a> to review these products."
+msgstr "Některé produkty vyžadují schválení. Klikněte, prosím, na <a href=\"[link]\">tento link</a> a zkontrolujte je."
+
+msgctxt "Languages::products_approval_status_changed"
+msgid "Your product(s) have been [status]"
+msgstr "Váš produkt/produkty byly [status]"
+
+msgctxt "Languages::approval"
+msgid "Approval"
+msgstr "Schválení"
+
+msgctxt "Languages::text_vendor_profile_changes_notice"
+msgid "Are you sure that you want to update the profile? Information about your company will not be available in the customer area until the administrator approves it."
+msgstr "Jste si jisti že chcete provést změny ve svém profilu? Informace o vaší společnosti nebudou pro zákazníky dostupné, dokud jejich administrátor neschválí."
+
+msgctxt "Languages::privileges.manage_product_premoderation"
+msgid "Approve vendor products"
+msgstr "Schválit produkty dodavatele"
+
+msgctxt "SettingsSections::vendor_data_premoderation::general"
+msgid "General"
+msgstr "Obecné"
+
+msgctxt "SettingsOptions::vendor_data_premoderation::products_prior_approval"
+msgid "Approval is required for newly created products"
+msgstr "Schválení je vyžadováno pro nově vytvořené produkty"
+
+msgctxt "SettingsOptions::vendor_data_premoderation::products_updates_approval"
+msgid "Approve product info updates"
+msgstr "Schválit změny v informacích o produktu"
+
+msgctxt "SettingsOptions::vendor_data_premoderation::vendor_profile_updates_approval"
+msgid "Approve vendor profile updates"
+msgstr "Schválit změny v profilu dodavatele"
+
+msgctxt "SettingsTooltips::vendor_data_premoderation::products_prior_approval"
+msgid "\"None\" - this option is disabled for all vendors; \"Custom\" - the option is enabled on a vendor details page (the Add-ons tab); \"All vendors\" - the option is enabled for all vendors."
+msgstr "\"Žádné\" - tato možnost je pro všechny dodavatele vypnuta; \"Vlastní\" - možnost je povolena na stránce s detaily dodavatele (záložka Doplňky); \"Všichni dodavatelé\" - možnost je povolena pro všechny dodavatele."
+
+msgctxt "SettingsTooltips::vendor_data_premoderation::products_updates_approval"
+msgid "\"None\" - this option is disabled for all vendors; \"Custom\" - the option is enabled on a vendor details page (the Add-ons tab); \"All vendors\" - the option is enabled for all vendors."
+msgstr "\"Žádné\" - tato možnost je pro všechny dodavatele vypnuta; \"Vlastní\" - možnost je povolena na stránce s detaily dodavatele (záložka Doplňky); \"Všichni dodavatelé\" - možnost je povolena pro všechny dodavatele."
+
+msgctxt "SettingsTooltips::vendor_data_premoderation::vendor_profile_updates_approval"
+msgid "\"None\" - this option is disabled for all vendors; \"Custom\" - the option is enabled on a vendor details page (the Add-ons tab); \"All vendors\" - the option is enabled for all vendors."
+msgstr "\"Žádné\" - tato možnost je pro všechny dodavatele vypnuta; \"Vlastní\" - možnost je povolena na stránce s detaily dodavatele (záložka Doplňky); \"Všichni dodavatelé\" - možnost je povolena pro všechny dodavatele."
+
+msgctxt "SettingsVariants::vendor_data_premoderation::vendor_profile_updates_approval::none"
+msgid "None"
+msgstr "Žádné"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::vendor_profile_updates_approval::custom"
+msgid "Custom"
+msgstr "Vlastní"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::vendor_profile_updates_approval::all"
+msgid "All vendors"
+msgstr "Všichni dodavatelé"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_prior_approval::none"
+msgid "None"
+msgstr "Žádné"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_prior_approval::custom"
+msgid "Custom"
+msgstr "Vlastní"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_prior_approval::all"
+msgid "All vendors"
+msgstr "Všichni dodavatelé"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_updates_approval::none"
+msgid "None"
+msgstr "Žádné"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_updates_approval::custom"
+msgid "Custom"
+msgstr "Vlastní"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_updates_approval::all"
+msgid "All vendors"
+msgstr "Všichni dodavatelé"
+

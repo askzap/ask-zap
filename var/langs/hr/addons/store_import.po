@@ -1,0 +1,442 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Croatian\n"
+"Language: hr_HR\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: hr\n"
+"X-Crowdin-File: /addons/store_import.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-05-28 09:05-0400\n"
+
+msgctxt "Addons::name::store_import"
+msgid "Store Import"
+msgstr "Trgovina uvoz"
+
+msgctxt "Addons::description::store_import"
+msgid "Lets you import data from any existing version of CS-Cart from 2.2.4 (except for Community edition) into the current version."
+msgstr "Omogućuje uvoz podataka iz bilo koje postojeće verzija CS-Cart od 2.2.4 (osim izdanja Zajednice) u trenutnu verziju."
+
+msgctxt "Languages::store_import.full_path_installation_directory"
+msgid "Full path to the store installation directory"
+msgstr "Kompletna putanja do instalacijskog direktorija trgovine"
+
+msgctxt "Languages::store_import.start_new_store_import"
+msgid "Start new store import"
+msgstr "Započnite uvoz nove trgovine"
+
+msgctxt "Languages::store_import.first_step"
+msgid "Select store"
+msgstr "Odaberite trgovinu"
+
+msgctxt "Languages::store_import.second_step"
+msgid "Validate and import"
+msgstr "Provjeri valjanost i uvoz"
+
+msgctxt "Languages::store_import.cannot_connect_to_database_server"
+msgid "Cannot connect to the database server"
+msgstr "Ne mogu se spojiti na poslužitelj baze podataka"
+
+msgctxt "Languages::store_import.check_company_count_failed"
+msgid "Cannot start actualizing data due to Storefront/Vendor changes"
+msgstr "Ne mogu pokrenuti aktualiziranje podataka zbog storefront promjene / prodavatelja"
+
+msgctxt "Languages::store_import.completed"
+msgid "<p>The store import is complete!</p>"
+msgstr "<p>Uvoz trgovine je završena! </p>"
+
+msgctxt "Languages::store_import.completed_text_ult"
+msgid "<p>In order to go live, you should perform the following steps:</p><ul><li>Overwrite your existing store folder with the new one.</li><li>Set the correct values for the following variables: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><li>Set the correct Storefront URL in the Administration->Stores section.</li></ul><p>To start another store import, click <b>Start new store import.</b></p>"
+msgstr "<p> Da bi ste mogli pokrenuti uživo, morate obaviti sljedeće korake: </p><ul><li> zamijeniti postojeću mapu trgovine s novom.</ li><li> Podesiti ispravne vrijednosti za sljedeće. varijable:.. http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index. </ li><li> Postaviti ispravan URL izloga u Administration-> odjeljak Trgovine </ li></ul> <p> Za pokretanje drugog uvoza u trgovinu, kliknite <b> Započni novi uvoz u trgovinu. </b> </p>"
+
+msgctxt "Languages::store_import.completed_text_mve"
+msgid "<p>In order to go live, you should perform the following steps:</p><ul><li>Overwrite your existing store folder with the new one.</li><li>Set the correct values for the following variables: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><p>To start another store import, click <b>Start new store import.</b></p>"
+msgstr "<p> Da bi ste mogli pokrenuti uživo, morate obaviti sljedeće korake: </p><ul><li> zamijeniti postojeću mapu trgovine s novom.</ li><li> Podesiti ispravne vrijednosti za sljedeće. varijable:.. http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index. </ li><p> Za pokretanje drugog uvoza u trgovinu, kliknite <b> Započni novi uvoz u trgovinu. </b> </p>"
+
+msgctxt "Languages::store_import.actualize_data_text"
+msgid "<p>Last data import was made on <b>[date]</b> from <b>CS-Cart [version] [edition].</b></p><p>To actualize the data since the last import, click <b>Actualize data</b> (Only design and settings <span>will be kept</span>.) This process can be done repeatedly. When actualizing is over you will see this page again.</p><p>Whenever you're ready to go live or start the Store import again, click <b>Complete Store import</b></p>"
+msgstr "<p> Posljednji uvoz podataka je napravljen na <b> [date] </b>od<b>CS-Cart [version] [edition]. </b></p><p> Kako bi aktualizirati podatke od zadnjeg uvoza, kliknite <b> Aktualiziranje podataka </b> (Samo dizajn i postavke <span> ćete biti sačuvane</span>.) Ovaj proces možete ponoviti više puta. Kada se aktualiziranje završi vidjet ćete ovu stranicu ponovo. </p><p> Kad god ste spremni ići uživo ili ponovno pokrenuti uvoz u trgovinu, kliknite <b> Izvrši uvoz u Trgovinu </b></p>"
+
+msgctxt "Languages::store_import.actualize_data"
+msgid "Actualize data"
+msgstr "Aktualizirati podatke"
+
+msgctxt "Languages::store_import.import_from"
+msgid "Import from"
+msgstr "Uvoz iz"
+
+msgctxt "Languages::store_import.complete_store_import"
+msgid "Complete Store import"
+msgstr "Završi uvoz u trgovinu"
+
+msgctxt "Languages::store_import.import_data"
+msgid "Import data"
+msgstr "Uvoz podataka"
+
+msgctxt "Languages::store_import.complete_configuration"
+msgid "Proceed to actualizing data"
+msgstr "Nastavite do aktualiziranja podataka"
+
+msgctxt "Languages::store_import.admin_url"
+msgid "Admin panel URL"
+msgstr "Admin panel URL"
+
+msgctxt "Languages::store_import.companies_count"
+msgid "Number of storefronts"
+msgstr "Broj izloga"
+
+msgctxt "Languages::store_import.store_import"
+msgid "Store import"
+msgstr "Trgovina uvoz"
+
+msgctxt "Languages::store_import.local_store"
+msgid "Store path"
+msgstr "Putanja trgovine"
+
+msgctxt "Languages::store_import.select_store"
+msgid "Validate"
+msgstr "Potvrditi"
+
+msgctxt "Languages::store_import.local_store_tooltip"
+msgid "Enter the full path to the installation root directory of the store you want to import data from. For example '/var/www/examplestore' on UNIX-based systems or 'C:\\examplestore' on Windows"
+msgstr "Unesite punu putanju do root direktorija instalacije trgovine u koju želite uvesti podatke iz. Na primjer  '/var/www/examplestore' on UNIX-based systems or 'C:\\examplestore' on Windows"
+
+msgctxt "Languages::store_import.configure_store"
+msgid "Configure your store"
+msgstr "Konfigurirajte svoj dućan"
+
+msgctxt "Languages::store_import.finish_store"
+msgid "Finish store import"
+msgstr "Završi uvoz trgovina"
+
+msgctxt "Languages::store_import.storefront_url"
+msgid "Storefront URL"
+msgstr "URL Izloga"
+
+msgctxt "Languages::store_import.secure_storefront_url"
+msgid "Secure storefront URL"
+msgstr "Siguran URL izloga"
+
+msgctxt "Languages::store_import.db_host"
+msgid "Database host"
+msgstr "Hosta baze podataka"
+
+msgctxt "Languages::store_import.db_name"
+msgid "Database name"
+msgstr "Naziv baze podataka"
+
+msgctxt "Languages::store_import.db_user"
+msgid "Database user"
+msgstr "Korisnik baze podataka"
+
+msgctxt "Languages::store_import.table_prefix"
+msgid "Table prefix"
+msgstr "Prefiks tablice"
+
+msgctxt "Languages::store_import.fill_form"
+msgid "<p>Check the data below before proceeding to the data import.</p><p><b>Warning!</b> The data import during this step <b>will overwrite everything (including your existing settings, products, design and layouts, etc.)</b><br />Also, all logs and statistics will be removed.</p><p><b>Pay attention</b> that the <b>Affiliate, Statistics, Recurring billing, Product configurator and Gift registry</b> add-ons are no longer supported, so, none of the related data will be imported from your old store to the new installation.</p>"
+msgstr "<p>Provjerite podatke u nastavku prije nego što nastavite s uvozom podataka. </p><p><b>Upozorenje! </b>uvoz podataka u ovoj fazi <b> će prebrisati sve (uključujući Vaše postojeće postavke, proizvoda, dizajna i izgleda, itd.) </b><br/> Također, svi zapisnici i statistike će biti uklonjeni. </p><p><b> Obratite pozornost </b>da<b>affiliate, statistika, ponavljajuće naplate, konfigurator proizvoda i registar darova</b> add-ons više nisu podržani, tako, niti jedan od povezanih podataka neće biti uvezen iz starog dućana u novu instalaciju. </p>"
+
+msgctxt "Languages::store_import.second_step_22x_notice"
+msgid "<p>Note that your original core settings and design will not be transferred, except for add-ons' settings and all custom blocks under \"Products\" location on the Layouts page with <i>Content: Products</i> and <i>Filling: Manually</i>. During the next step you will be able to locate them on the \"Products\" location under the main content block.</p>"
+msgstr "<p> Napominjemo da temeljne postavke i dizajna se neće prenijeti, osim postavke za dodatke i svih prilagođenih blokova pod \"Proizvodi\" lokacija na stranici izgleda s <i> Sadržaj: Proizvodi </i>i<i > Popunjavanje: Ručno </i>. U sljedećem koraku ćete biti u mogućnosti da ih pronađite na položaju \"Proizvodi\" ispod bloka glavnog sadržaja.</p>"
+
+msgctxt "Languages::store_import.second_step_30x_notice"
+msgid "<p></p>"
+msgstr "<p></p>"
+
+msgctxt "Languages::store_import.text_from"
+msgid "[product_name] [product_version] [product_edition]"
+msgstr "[product_name] [product_version] [product_edition]"
+
+msgctxt "Languages::store_import.from"
+msgid "From:"
+msgstr "Od:"
+
+msgctxt "Languages::store_import.text_to"
+msgid "To: [product_edition] [product_version]"
+msgstr "Na: [product_edition] [product_version]"
+
+msgctxt "Languages::store_import.edition_mapping_failed"
+msgid "Import from this edition is not supported"
+msgstr "Uvoz iz ove verzije nije podržan"
+
+msgctxt "Languages::store_import.configuration_test_failed"
+msgid "Configuration test failed"
+msgstr "Test konfiguracije nije uspjeo"
+
+msgctxt "Languages::store_import.wrong_table_prefix"
+msgid "Store tables with the specified prefix are missing in the specified database."
+msgstr "Tablice trgovine s navedenim prefiksom nedostaju u navedenoj bazi podataka."
+
+msgctxt "Languages::store_import.path_does_not_exist"
+msgid "The specified directory does not exist. Please check if the path you entered is correct."
+msgstr "Navedeni direktorij ne postoji. Molimo provjerite je li ispravan put koji ste unijeli."
+
+msgctxt "Languages::store_import.this_is_not_cart_path"
+msgid "The specified directory is not a valid store installation root folder."
+msgstr "Navedeni direktorij nije ispravan root instalacijski direktorij trgovine."
+
+msgctxt "Languages::store_import.text_configuration"
+msgid "<p><h4>The data from the old store was successfully imported.</h4><br/>You are now free to leave the Store import tool and customize the settings and design of your store. First of all, do the following:</p>"
+msgstr "<p><h4>Podaci iz stare trgovine su uspješno uvezeni. </h4><br/> Sada ste slobodni napustiti alat za uvoz u trgovinu i prilagoditi postavke i dizajn svoje trgovine. Prije svega, učinite sljedeće: </p>"
+
+msgctxt "Languages::store_import.text_configuration2"
+msgid "<p>When you are ready customizing, you will be able to actualize the data by going to the Store import tool again and proceeding directly to the next step. Unlike the initial store import, data actualization will keep all your settings, layouts, and design.</p><p><strong>Attention!</strong> Data actualization will be impossible if you modify, remove, or add new [storefronts_vendors]. In this case, you will have to re-start the store import from the first step.</p>"
+msgstr "<p>Kad ste završili prilagođavanje, biti ćete u mogućnosti aktualizirati podatke pomoću alat za uvoz u trgovinu i tako da opet nastavite izravno na sljedeći korak. Za razliku od incijalnog uvoza u trgovinu, aktualizacija podataka će zadržati sve Vaše postavke, izgleda i dizajna. </p><p><strong>Upozorenje!</strong>Aktualizacija podataka neće biti moguća ako ste mijenjati, uklanjati ili dodali novi [storefronts_vendors]. U tom slučaju, morat ćete ponovno pokrenuti uvoz u trgovinu iz prvog koraka.</p>"
+
+msgctxt "Languages::store_import.424_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.423_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.422_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.421_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.415_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.414_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.413_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.412_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.411_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.401_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.402_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.403_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.306_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li> Idite na odjeljak <a href=\"[stores_section_link]\"> Trgovine </a> i postavite ispravnu <b> storefront URL </ b> za svaku tvrtku. </li><li> Idi na <a href=\"[manage_languages_link]\"> jezici </a> jezici i postavite ispravnu <b> Zemlja </b> vrijednost za svaki jezik. </li> </ ul><p> Molimo Vas da obratite pažnju na sljedeće :. </p><ul> <li> Ovaj<b> Brzi izbornik </ b> je postavljen na zadanu vrijednost</li></ul>"
+
+msgctxt "Languages::store_import.305_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li> Idite na odjeljak <a href=\"[stores_section_link]\"> Trgovine </a> i postavite ispravnu <b> storefront URL </ b> za svaku tvrtku. </li><li> Idi na <a href=\"[manage_languages_link]\"> jezici </a> jezici i postavite ispravnu <b> Zemlja </b> vrijednost za svaki jezik. </li> </ ul><p> Molimo Vas da obratite pažnju na sljedeće :. </p><ul> <li> Ovaj<b> Brzi izbornik </ b> je postavljen na zadanu vrijednost</li></ul>"
+
+msgctxt "Languages::store_import.304_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li> Idite na odjeljak <a href=\"[stores_section_link]\"> Trgovine </a> i postavite ispravnu <b> storefront URL </ b> za svaku tvrtku. </li><li> Idi na <a href=\"[manage_languages_link]\"> jezici </a> jezici i postavite ispravnu <b> Zemlja </b> vrijednost za svaki jezik. </li> </ ul><p> Molimo Vas da obratite pažnju na sljedeće :. </p><ul> <li> Ovaj<b> Brzi izbornik </ b> je postavljen na zadanu vrijednost</li></ul>"
+
+msgctxt "Languages::store_import.303_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li> Idite na odjeljak <a href=\"[stores_section_link]\"> Trgovine </a> i postavite ispravnu <b> storefront URL </ b> za svaku tvrtku. </li><li> Idi na <a href=\"[manage_languages_link]\"> jezici </a> jezici i postavite ispravnu <b> Zemlja </b> vrijednost za svaki jezik. </li> </ ul><p> Molimo Vas da obratite pažnju na sljedeće :. </p><ul> <li> Ovaj<b> Brzi izbornik </ b> je postavljen na zadanu vrijednost</li></ul>"
+
+msgctxt "Languages::store_import.302_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li> Idite na odjeljak <a href=\"[stores_section_link]\"> Trgovine </a> i postavite ispravnu <b> storefront URL </ b> za svaku tvrtku. </li><li> Idi na <a href=\"[manage_languages_link]\"> jezici </a> jezici i postavite ispravnu <b> Zemlja </b> vrijednost za svaki jezik. </li> </ ul><p> Molimo Vas da obratite pažnju na sljedeće :. </p><ul> <li> Ovaj<b> Brzi izbornik </ b> je postavljen na zadanu vrijednost</li></ul>"
+
+msgctxt "Languages::store_import.301_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li> Idite na odjeljak <a href=\"[stores_section_link]\"> Trgovine </a> i postavite ispravnu <b> storefront URL </ b> za svaku tvrtku. </li><li> Idi na <a href=\"[manage_languages_link]\"> jezici </a> jezici i postavite ispravnu <b> Zemlja </b> vrijednost za svaki jezik. </li> </ ul><p> Molimo Vas da obratite pažnju na sljedeće :. </p><ul> <li> Ovaj<b> Brzi izbornik </ b> je postavljen na zadanu vrijednost</li></ul>"
+
+msgctxt "Languages::store_import.224_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for a Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Idi u<a href=\"[stores_section_link]\"> trgovina</a> odjeljak i postavi ispravan <b>Storefront URL</b> za tvrtku.</li><li>Idi na <a href=\"[manage_languages_link]\"> odjeljak jezika</a> i postavi ispravnu vrijednost <b>zemlje</b> za svaki jezik.</li></ul><p>Molimo vas da obratite pozornost na sljedeće:</p><ul><li>Postavke su podešene na osnovno.</li><li>Tvrtka postavke su podešene na osnovno.</li><li>Dizajn (tema, stilova i izgleda) je podešeno na osovno.</li><li>Svi prilagođeni blokovi pod \"Proizvodi\" mjesto voditelj blok s <i>sadržaj: proizvoda</i> i <i>punjenje: ručno</i> postavljeni su na lokaciji \"Proizvodi\" ispod glavnog sadržaja bloka.</li><li>Sve kartica prilagođenih proizvoda (osim kartice artikala dodaci) su prebačeni.</li><li>Dodane kartice \"Opis\", \"Mogućnosti\" i \"Datoteke\" sekcija \"Kartice artikala\".</li><li><b>Brzi izbornik</b> je podešene na osnovno.</li></ul>"
+
+msgctxt "Languages::store_import.225_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for a Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Idi u<a href=\"[stores_section_link]\"> trgovina</a> odjeljak i postavi ispravan <b>Storefront URL</b> za tvrtku.</li><li>Idi na <a href=\"[manage_languages_link]\"> odjeljak jezika</a> i postavi ispravnu vrijednost <b>zemlje</b> za svaki jezik.</li></ul><p>Molimo vas da obratite pozornost na sljedeće:</p><ul><li>Postavke su podešene na osnovno.</li><li>Tvrtka postavke su podešene na osnovno.</li><li>Dizajn (tema, stilova i izgleda) je podešeno na osovno.</li><li>Svi prilagođeni blokovi pod \"Proizvodi\" mjesto voditelj blok s <i>sadržaj: proizvoda</i> i <i>punjenje: ručno</i> postavljeni su na lokaciji \"Proizvodi\" ispod glavnog sadržaja bloka.</li><li>Sve kartica prilagođenih proizvoda (osim kartice artikala dodaci) su prebačeni.</li><li>Dodane kartice \"Opis\", \"Mogućnosti\" i \"Datoteke\" sekcija \"Kartice artikala\".</li><li><b>Brzi izbornik</b> je podešene na osnovno.</li></ul>"
+
+msgctxt "Languages::store_import.301_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li> Idite na odjeljak <a href=\"[stores_section_link]\"> Trgovine </a> i postavite ispravnu <b> storefront URL </b> za svaku tvrtku. </li><li> Idi na <a href=\"[manage_languages_link]\"> jezici </a> jezici i postavite ispravnu <b> Zemlja </b> vrijednost za svaki jezik. </li> </ul><p> Molimo Vas da obratite pažnju na sljedeće :. </p><ul> <li> Ovaj<b> Brzi izbornik </b> je postavljen na zadanu vrijednost</li></ul>"
+
+msgctxt "Languages::store_import.302_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li> Idite na odjeljak <a href=\"[stores_section_link]\"> Trgovine </a> i postavite ispravnu <b> storefront URL </b> za svaku tvrtku. </li><li> Idi na <a href=\"[manage_languages_link]\"> jezici </a> jezici i postavite ispravnu <b> Zemlja </b> vrijednost za svaki jezik. </li> </ul><p> Molimo Vas da obratite pažnju na sljedeće :. </p><ul> <li> Ovaj<b> Brzi izbornik </b> je postavljen na zadanu vrijednost</li></ul>"
+
+msgctxt "Languages::store_import.303_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li> Idite na odjeljak <a href=\"[stores_section_link]\"> Trgovine </a> i postavite ispravnu <b> storefront URL </b> za svaku tvrtku. </li><li> Idi na <a href=\"[manage_languages_link]\"> jezici </a> jezici i postavite ispravnu <b> Zemlja </b> vrijednost za svaki jezik. </li> </ul><p> Molimo Vas da obratite pažnju na sljedeće :. </p><ul> <li> Ovaj<b> Brzi izbornik </b> je postavljen na zadanu vrijednost</li></ul>"
+
+msgctxt "Languages::store_import.304_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li> Idite na odjeljak <a href=\"[stores_section_link]\"> Trgovine </a> i postavite ispravnu <b> storefront URL </b> za svaku tvrtku. </li><li> Idi na <a href=\"[manage_languages_link]\"> jezici </a> jezici i postavite ispravnu <b> Zemlja </b> vrijednost za svaki jezik. </li> </ul><p> Molimo Vas da obratite pažnju na sljedeće :. </p><ul> <li> Ovaj<b> Brzi izbornik </b> je postavljen na zadanu vrijednost</li></ul>"
+
+msgctxt "Languages::store_import.305_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li> Idite na odjeljak <a href=\"[stores_section_link]\"> Trgovine </a> i postavite ispravnu <b> storefront URL </b> za svaku tvrtku. </li><li> Idi na <a href=\"[manage_languages_link]\"> jezici </a> jezici i postavite ispravnu <b> Zemlja </b> vrijednost za svaki jezik. </li> </ul><p> Molimo Vas da obratite pažnju na sljedeće :. </p><ul> <li> Ovaj<b> Brzi izbornik </b> je postavljen na zadanu vrijednost</li></ul>"
+
+msgctxt "Languages::store_import.306_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li> Idite na odjeljak <a href=\"[stores_section_link]\"> Trgovine </a> i postavite ispravnu <b> storefront URL </b> za svaku tvrtku. </li><li> Idi na <a href=\"[manage_languages_link]\"> jezici </a> jezici i postavite ispravnu <b> Zemlja </b> vrijednost za svaki jezik. </li> </ul><p> Molimo Vas da obratite pažnju na sljedeće :. </p><ul> <li> Ovaj<b> Brzi izbornik </b> je postavljen na zadanu vrijednost</li></ul>"
+
+msgctxt "Languages::store_import.401_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.402_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.403_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.411_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.412_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.413_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.414_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.415_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.421_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.422_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.423_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.424_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+
+msgctxt "Languages::store_import.306_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Idi na <a href=\"[manage_languages_link]\">Jezika</a> jezika i postavite ispravanu vrijednost<b>Zemlje</b>za svaki jezik. </li></ul><p> Molimo obratite pozornost na sljedeće:</p> <ul><li><b> Brzi izbornik</b> je postavljen na zadano </li></ul>"
+
+msgctxt "Languages::store_import.305_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Idi na <a href=\"[manage_languages_link]\">Jezika</a> jezika i postavite ispravanu vrijednost<b>Zemlje</b>za svaki jezik. </li></ul><p> Molimo obratite pozornost na sljedeće:</p> <ul><li><b> Brzi izbornik</b> je postavljen na zadano </li></ul>"
+
+msgctxt "Languages::store_import.304_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Idi na <a href=\"[manage_languages_link]\">Jezika</a> jezika i postavite ispravanu vrijednost<b>Zemlje</b>za svaki jezik. </li></ul><p> Molimo obratite pozornost na sljedeće:</p> <ul><li><b> Brzi izbornik</b> je postavljen na zadano </li></ul>"
+
+msgctxt "Languages::store_import.303_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Idi na <a href=\"[manage_languages_link]\">Jezika</a> jezika i postavite ispravanu vrijednost<b>Zemlje</b>za svaki jezik. </li></ul><p> Molimo obratite pozornost na sljedeće:</p> <ul><li><b> Brzi izbornik</b> je postavljen na zadano </li></ul>"
+
+msgctxt "Languages::store_import.302_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Idi na <a href=\"[manage_languages_link]\">Jezika</a> jezika i postavite ispravanu vrijednost<b>Zemlje</b>za svaki jezik. </li></ul><p> Molimo obratite pozornost na sljedeće:</p> <ul><li><b> Brzi izbornik</b> je postavljen na zadano </li></ul>"
+
+msgctxt "Languages::store_import.301_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Idi na <a href=\"[manage_languages_link]\">Jezika</a> jezika i postavite ispravanu vrijednost<b>Zemlje</b>za svaki jezik. </li></ul><p> Molimo obratite pozornost na sljedeće:</p> <ul><li><b> Brzi izbornik</b> je postavljen na zadano </li></ul>"
+
+msgctxt "Languages::store_import.225_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Idi na <a href=\"[manage_languages_link]\"> Jezici</a> i postavite ispravnu vrijednost <b>zemlje</b> za svaki jezik.</li></ul><p>Molimo vas da obratite pozornost na sljedeće:</p><ul><li>Postavke su podešene na osnovno.</li><li>Postavke tvrtke su podešene na osnovno.</li><li>Dizajna (tema, stilova i izgleda) je podešen na osnovno.</li><li>Svi prilagođeni blokovi pod \"Proizvodi\" mjesto voditelj blok s <i>sadržaj: proizvoda</i> i <i>punjenje: ručno</i> postavljeni su na lokaciji \"Proizvodi\" ispod glavnog sadržaja bloka.</li><li>Svee kartice prilagođenih proizvoda (osim karticama artikala dodano dodaci) nisu prebačeni.</li><li>Dodani kartica \"Opis\", \"Mogućnosti\" i \"Datoteke\" sekcija \"Kartice artikala\".</li><li><b>Brzi izbornik</b> je podešen na osnovno.</li></ul>"
+
+msgctxt "Languages::store_import.224_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Idi na <a href=\"[manage_languages_link]\"> Jezici</a> i postavite ispravnu vrijednost <b>zemlje</b> za svaki jezik.</li></ul><p>Molimo vas da obratite pozornost na sljedeće:</p><ul><li>Postavke su podešene na osnovno.</li><li>Postavke tvrtke su podešene na osnovno.</li><li>Dizajna (tema, stilova i izgleda) je podešen na osnovno.</li><li>Svi prilagođeni blokovi pod \"Proizvodi\" mjesto voditelj blok s <i>sadržaj: proizvoda</i> i <i>punjenje: ručno</i> postavljeni su na lokaciji \"Proizvodi\" ispod glavnog sadržaja bloka.</li><li>Svee kartice prilagođenih proizvoda (osim karticama artikala dodano dodaci) nisu prebačeni.</li><li>Dodani kartica \"Opis\", \"Mogućnosti\" i \"Datoteke\" sekcija \"Kartice artikala\".</li><li><b>Brzi izbornik</b> je podešen na osnovno.</li></ul>"
+
+msgctxt "Languages::store_import.progress_title"
+msgid "Upgrading to [to]"
+msgstr "Nadogradnja na [to]"
+
+msgctxt "Languages::store_import.updating_data"
+msgid "Updating data"
+msgstr "Ažuriranje podataka"
+
+msgctxt "Languages::store_import.converting_orders"
+msgid "Converting orders"
+msgstr "Pretvaranje narudžbi"
+
+msgctxt "Languages::store_import.import_failed"
+msgid "Store import failed"
+msgstr "Uvoz u trgovinu nije uspio"
+
+msgctxt "Languages::store_import.cloning_database"
+msgid "Cloning database"
+msgstr "Kloniranje baze podataka"
+
+msgctxt "Languages::store_import.updating_languages"
+msgid "Updating languages"
+msgstr "Ažuriranje jezika"
+
+msgctxt "Languages::store_import.done"
+msgid "Done"
+msgstr "Završeno"
+
+msgctxt "Languages::store_import.class_not_found"
+msgid "Import from this version is not supported"
+msgstr "Uvoz iz ove verzije nije podržan"
+
+msgctxt "Languages::store_import.processing_addons"
+msgid "Updating add-ons"
+msgstr "Updating add-ons"
+
+msgctxt "Languages::store_import.actualization_completed"
+msgid "Actualization completed"
+msgstr "Aktualizacija dovršena"
+
+msgctxt "Languages::store_import.actualization_failed"
+msgid "Actualization failed"
+msgstr "Aktualizacija nije uspjela"
+
+msgctxt "Languages::store_import.invalid_license"
+msgid "Sorry, the data import is impossible: no valid upgrade subscription found (read more about the <a title=\"Store Import: License Requirements\" target=\"_blank\" href=\"http://kb.cs-cart.com/store-import#license-requirements\">license requirements</a> for a store import).<br /><br />Contact us at <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a> if you have any questions."
+msgstr "Žao nam je, uvoz podataka nije moguće: nije pronađena važeća pretplata za nadogradnju (Pročitajte više<a title=\"Store Import: License Requirements\" target=\"_blank\" href=\"http://kb.cs-cart.com/store-import#license-requirements\"> zahtjevi licencu </a> dućan uvoza). <br/><br/>Kontaktirajte nas na <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a> Ako imate bilo kakvih pitanja."
+
+msgctxt "Languages::store_import.cant_connect_to_imported"
+msgid "Store import has been canceled to prevent the loss of data. Could not connect to the imported database. Please contact tech support."
+msgstr "Uvoz u trgovinu je otkazan kako bi se spriječilo gubitak podataka. Nije moguće spojiti se na uvezenu bazu podataka. Molimo kontaktirajte tehničku podršku."
+
+msgctxt "Languages::store_import.cant_connect_to_original"
+msgid "Store import has been canceled to prevent the loss of data. Could not connect to the original database. Please contact tech support."
+msgstr "Uvoz u trgovinu je otkazan kako bi se spriječilo gubitak podataka. Nije moguće spojiti se na uvezenu bazu podataka. Molimo kontaktirajte tehničku podršku."
+
+msgctxt "SettingsSections::store_import::general"
+msgid "General"
+msgstr "Općenito"
+
+msgctxt "SettingsOptions::store_import::si_data"
+msgid "Store import data"
+msgstr "Trgovina uvoz podataka"
+
+msgctxt "Languages::store_import.design_changes_not_allowed"
+msgid "Store import is impossible after LESS-to-CSS conversion in the Visual Editor. Please enable LESS in the editor to proceed."
+msgstr "Store import is impossible after LESS-to-CSS conversion in the Visual Editor. Please enable LESS in the editor to proceed."
+

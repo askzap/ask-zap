@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_russianpost</id>
+    <version>4.2.2</version>
+    <update_server>https://updates.cs-cart.ru/api/update_addons</update_server>
+    <priority>4500</priority>
+
+    <position>0</position>
+    <auto_install>ULTIMATE,MULTIVENDOR</auto_install>
+    <status>active</status>
+
+    <compatibility>
+        <core_version>
+            <min>4.2.1</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+    </compatibility>
+
+    <default_language>en</default_language>
+
+    <functions>
+        <item for="install">fn_rus_russianpost_install</item>
+        <item for="uninstall">fn_rus_russianpost_uninstall</item>
+    </functions>
+
+    <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="header">
+                        <type>header</type>
+                    </item>
+                    <item id="company">
+                        <type>input</type>
+                    </item>
+                    <item id="company2">
+                        <type>input</type>
+                    </item>
+                    <item id="addres">
+                        <type>input</type>
+                    </item>
+                    <item id="addres2">
+                        <type>input</type>
+                    </item>
+                    <item id="company_phone">
+                        <type>input</type>
+                    </item>
+                    <item id="inn">
+                        <type>input</type>
+                    </item>
+                    <item id="bank">
+                        <type>input</type>
+                    </item>
+                    <item id="ras">
+                        <type>input</type>
+                    </item>
+                    <item id="kor">
+                        <type>input</type>
+                    </item>
+                    <item id="bik">
+                        <type>input</type>
+                    </item>
+                    <item id="index">
+                        <type>input</type>
+                    </item>
+                    <item id="header_fiz">
+                        <type>header</type>
+                    </item>
+                    <item id="fio">
+                        <type>input</type>
+                    </item>
+                    <item id="fiz_addres">
+                        <type>input</type>
+                    </item>
+                    <item id="fiz_addres2">
+                        <type>input</type>
+                    </item>
+                    <item id="fiz_index">
+                        <type>input</type>
+                    </item>
+                    <item id="fiz_doc">
+                        <type>input</type>
+                        <default_value>&#x43F;&#x430;&#x441;&#x43F;&#x43E;&#x440;&#x442;</default_value>
+                    </item>
+                    <item id="fiz_doc_serial">
+                        <type>input</type>
+                    </item>
+                    <item id="fiz_doc_number">
+                        <type>input</type>
+                    </item>
+                    <item id="fiz_doc_date">
+                        <type>input</type>
+                    </item>
+                    <item id="fiz_doc_date2">
+                        <type>input</type>
+                    </item>
+                    <item id="fiz_doc_creator">
+                        <type>input</type>
+                    </item>
+                </items>
+            </section>
+            <section id="size">
+
+                <items>
+                    <item id="header_103">
+                        <type>header</type>
+                    </item>
+                    <item id="113_list_width">
+                        <type>input</type>
+                        <default_value>195</default_value>
+                    </item>
+                    <item id="113_list_height">
+                        <type>input</type>
+                        <default_value>185</default_value>
+                    </item>
+                    <item id="113_top">
+                        <type>input</type>
+                        <default_value>0</default_value>
+                    </item>
+                    <item id="113_left">
+                        <type>input</type>
+                        <default_value>0</default_value>
+                    </item>
+                    <item id="header_116">
+                        <type>header</type>
+                    </item>
+                    <item id="116_list_width">
+                        <type>input</type>
+                        <default_value>148</default_value>
+                    </item>
+                    <item id="116_list_height">
+                        <type>input</type>
+                        <default_value>210</default_value>
+                    </item>
+                    <item id="116_top">
+                        <type>input</type>
+                        <default_value>0</default_value>
+                    </item>
+                    <item id="116_left">
+                        <type>input</type>
+                        <default_value>0</default_value>
+                    </item>
+                    <item id="header_7p">
+                        <type>header</type>
+                    </item>
+                    <item id="7p_top">
+                        <type>input</type>
+                        <default_value>5</default_value>
+                    </item>
+                    <item id="7p_left">
+                        <type>input</type>
+                        <default_value>5</default_value>
+                    </item>
+                    <item id="header_7b">
+                        <type>header</type>
+                    </item>
+                    <item id="7b_top">
+                        <type>input</type>
+                        <default_value>5</default_value>
+                    </item>
+                    <item id="7b_left">
+                        <type>input</type>
+                        <default_value>5</default_value>
+                    </item>
+                    <item id="header_112">
+                        <type>header</type>
+                    </item>
+                    <item id="112_list_width">
+                        <type>input</type>
+                        <default_value>200</default_value>
+                    </item>
+                    <item id="112_list_height">
+                        <type>input</type>
+                        <default_value>283</default_value>
+                    </item>
+                    <item id="112_top">
+                        <type>input</type>
+                        <default_value>0</default_value>
+                    </item>
+                    <item id="112_left">
+                        <type>input</type>
+                        <default_value>0</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>address_on_map</id>
+
+    <version>1.0</version>
+    <priority>2400</priority>
+    <position>130</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+
+    <compatibility>
+        <dependencies>maps_provider</dependencies>
+    </compatibility>
+
+    <settings>
+    </settings>
+
+    <queries>
+    </queries>
+
+</addon>

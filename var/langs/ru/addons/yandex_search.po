@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/yandex_search.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-02 10:07-0400\n"
+
+msgctxt "Addons::name::yandex_search"
+msgid "Yandex.search"
+msgstr "Яндекс.Поиск"
+
+msgctxt "Addons::description::yandex_search"
+msgid "Allows you to use Yandex.search as a search engine"
+msgstr "Поиск по магазину от Яндекса"
+
+msgctxt "Languages::yandex_search"
+msgid "Yandex search"
+msgstr "Яндекс поиск"
+
+msgctxt "Languages::block_yandex_search"
+msgid "Yandex search"
+msgstr "Яндекс поиск"
+
+msgctxt "Languages::block_yandex_search_description"
+msgid "Yandex search form code block"
+msgstr "Блок с кодом формы Яндекс поиска"
+
+msgctxt "SettingsSections::yandex_search::general"
+msgid "General"
+msgstr "Общие настройки"
+
+msgctxt "SettingsOptions::yandex_search::search_form_code"
+msgid "Search form code"
+msgstr "Код формы поиска"
+
+msgctxt "SettingsTooltips::yandex_search::search_form_code"
+msgid "You can set up Yandex.Search and get the code <a href=\"http://site.yandex.ru/\">here</a><br />Important! If you want the search results to display on you site, you need to specify the following url in the \\'Show results on my page\\' field: %YOUR_STORE_FRONT_URL%/?dispatch=yandex_search.search , Where %YOUR_STORE_FRONT_URL% is the url address of your storefront"
+msgstr "Вы можете настроить Яндекс.Поиск и получить код <a href=\"http://site.yandex.ru/\">здесь</a><br /> Внимание! Если Вы хотите чтобы результаты поиска отображались на Вашем сайте, необходимо в поле \"Показывать результаты на моей странице\" указать следующий адрес: %YOUR_STORE_FRONT_URL%/?dispatch=yandex_search.search , где %YOUR_STORE_FRONT_URL% - url адрес витрины вашего магазина"
+
+msgctxt "SettingsOptions::yandex_search::search_results_code"
+msgid "Search results code"
+msgstr "Код результатов поиска"
+
+msgctxt "SettingsTooltips::yandex_search::search_results_code"
+msgid "This field is mandatory if you want the search results to display on your site. The code can be found <a href=\"http://site.yandex.ru/\">here</a>"
+msgstr "Это поле обязательно для заполнения если Вы хотите чтобы результаты поиска отображались на Вашем сайте. Код можно найти <a href=\"http://site.yandex.ru/\">здесь</a>"
+

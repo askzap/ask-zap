@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-02 10:05-0400\n"
+
+msgctxt "Addons::name::ak_partkom"
+msgid "AK: part-kom.ru"
+msgstr "AK: Part-kom.ru"
+
+msgctxt "Addons::description::ak_partkom"
+msgid "The total add-on for Web services management vendors(Part-kom)"
+msgstr "Модуль для работы с веб-сервисами Парт-ком.ру"
+
+msgctxt "Languages::add_banner"
+msgid "Add banner"
+msgstr "Добавить баннер"
+
+

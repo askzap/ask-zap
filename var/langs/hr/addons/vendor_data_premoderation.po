@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Croatian\n"
+"Language: hr_HR\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: hr\n"
+"X-Crowdin-File: /addons/vendor_data_premoderation.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-06-19 01:06-0400\n"
+
+msgctxt "Addons::name::vendor_data_premoderation"
+msgid "Vendor data premoderation"
+msgstr "Premoderation podataka dobavljača"
+
+msgctxt "Addons::description::vendor_data_premoderation"
+msgid "Lets you pre-moderate vendors activity"
+msgstr "Omogućuje vam unaprijed ograničiti aktivnosti dobavljača"
+
+msgctxt "Languages::product_approval_menu_description"
+msgid "Manage individual products or group of products supplied by the store vendors."
+msgstr "Upravljanje pojedinih proizvoda ili skupine proizvoda dobivenih od trgovina dobavljača."
+
+msgctxt "Languages::vendor_data_premoderation"
+msgid "Vendor data premoderation"
+msgstr "Premoderation podataka dobavljača"
+
+msgctxt "Languages::product_approval"
+msgid "Product approval"
+msgstr "Odobrenja proizvoda"
+
+msgctxt "Languages::notify_vendor_by_email"
+msgid "Notify vendor by e-mail"
+msgstr "Obavijestiti dobavljača putem e-maila"
+
+msgctxt "Languages::product_approval_status_approved"
+msgid "Your product [product] has been approved by the store administration and added to the product catalog. Now shoppers can order this product in the store."
+msgstr "Vaš proizvod [product]  je odobren od strane administratora trgovine i dodan u katalog proizvoda. Sada kupci mogu naručiti ovaj proizvod u trgovini."
+
+msgctxt "Languages::product_approval_status_disapproved"
+msgid "Your product [product] has been disapproved by the store administration"
+msgstr "Vaš proizvod [product] nije odobren od strane administratora trgovine"
+
+msgctxt "Languages::products_approval_status_approved"
+msgid "Thank you for submitting new products. The following products have been approved by the store administration and added to the product catalog"
+msgstr "Hvala što ste poslali nove proizvode. Sljedeći proizvodi su odobreni od strane administratora trgovine i dodani u katalog proizvoda"
+
+msgctxt "Languages::text_shoppers_can_order_products"
+msgid "Now shoppers can order these products in the store."
+msgstr "Sada kupci mogu naručiti te proizvode u trgovini."
+
+msgctxt "Languages::products_approval_status_disapproved"
+msgid "Thank you for submitting new products. The following products have been disapproved by the store administration"
+msgstr "Hvala što ste poslali nove proizvode. Sljedeći proizvodi su neodobreni od strane administratora trgovine"
+
+msgctxt "Languages::approve_selected"
+msgid "Approve selected"
+msgstr "Odobriti odabrane"
+
+msgctxt "Languages::disapprove_selected"
+msgid "Disapprove selected"
+msgstr "Ne odobravam odabrane"
+
+msgctxt "Languages::pre_moderation"
+msgid "Products require prior approval"
+msgstr "Proizvodi zahtijevaju prethodno odobrenje"
+
+msgctxt "Languages::pre_moderation_edit"
+msgid "Approve product info updates"
+msgstr "Odobri dopunu informacija proizvoda"
+
+msgctxt "Languages::pre_moderation_edit_vendors"
+msgid "Approve vendor profile updates"
+msgstr "Odobri ažuriranje profila dobavljača"
+
+msgctxt "Languages::text_not_approved_products"
+msgid "You have products that require your approval. Please <a href=\"[link]\">follow this link</a> to review these products."
+msgstr "Imate proizvode koji zahtijevaju vaše odobrenje. Molimo <a href=\"[link]\"> slijedite ovu vezu </a> za pregled tih proizvoda."
+
+msgctxt "Languages::products_approval_status_changed"
+msgid "Your product(s) have been [status]"
+msgstr "Vaš proizvod (e) biti [status]"
+
+msgctxt "Languages::approval"
+msgid "Approval"
+msgstr "Odobrenje"
+
+msgctxt "Languages::text_vendor_profile_changes_notice"
+msgid "Are you sure that you want to update the profile? Information about your company will not be available in the customer area until the administrator approves it."
+msgstr "Jeste li sigurni da želite ažurirati profil? Informacije o Vašoj tvrtki neće biti dostupni u području kupca dok administrator to ne odobri."
+
+msgctxt "Languages::privileges.manage_product_premoderation"
+msgid "Approve vendor products"
+msgstr "Odobri proizvode dobavljača"
+
+msgctxt "SettingsSections::vendor_data_premoderation::general"
+msgid "General"
+msgstr "Općenito"
+
+msgctxt "SettingsOptions::vendor_data_premoderation::products_prior_approval"
+msgid "Approval is required for newly created products"
+msgstr "Approval is required for newly created products"
+
+msgctxt "SettingsOptions::vendor_data_premoderation::products_updates_approval"
+msgid "Approve product info updates"
+msgstr "Odobri dopunu informacija proizvoda"
+
+msgctxt "SettingsOptions::vendor_data_premoderation::vendor_profile_updates_approval"
+msgid "Approve vendor profile updates"
+msgstr "Odobri ažuriranje profila dobavljača"
+
+msgctxt "SettingsTooltips::vendor_data_premoderation::products_prior_approval"
+msgid "\"None\" - this option is disabled for all vendors; \"Custom\" - the option is enabled on a vendor details page (the Add-ons tab); \"All vendors\" - the option is enabled for all vendors."
+msgstr "\"Ništa\" - ova opcija je onemogućena po svim dobavljačima; \"Custom\" - opcija je omogućena na stranici detalja prodavatelja (kartica Add-ons); \"Svi dobavljači\" - opcija je omogućena za sve dobavljače."
+
+msgctxt "SettingsTooltips::vendor_data_premoderation::products_updates_approval"
+msgid "\"None\" - this option is disabled for all vendors; \"Custom\" - the option is enabled on a vendor details page (the Add-ons tab); \"All vendors\" - the option is enabled for all vendors."
+msgstr "\"Ništa\" - ova opcija je onemogućena po svim dobavljačima; \"Custom\" - opcija je omogućena na stranici detalja prodavatelja (kartica Add-ons); \"Svi dobavljači\" - opcija je omogućena za sve dobavljače."
+
+msgctxt "SettingsTooltips::vendor_data_premoderation::vendor_profile_updates_approval"
+msgid "\"None\" - this option is disabled for all vendors; \"Custom\" - the option is enabled on a vendor details page (the Add-ons tab); \"All vendors\" - the option is enabled for all vendors."
+msgstr "\"Ništa\" - ova opcija je onemogućena po svim dobavljačima; \"Custom\" - opcija je omogućena na stranici detalja prodavatelja (kartica Add-ons); \"Svi dobavljači\" - opcija je omogućena za sve dobavljače."
+
+msgctxt "SettingsVariants::vendor_data_premoderation::vendor_profile_updates_approval::none"
+msgid "None"
+msgstr "Niti jedan"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::vendor_profile_updates_approval::custom"
+msgid "Custom"
+msgstr "Prilagođeno"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::vendor_profile_updates_approval::all"
+msgid "All vendors"
+msgstr "Svi dobavljači"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_prior_approval::none"
+msgid "None"
+msgstr "Niti jedan"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_prior_approval::custom"
+msgid "Custom"
+msgstr "Prilagođeno"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_prior_approval::all"
+msgid "All vendors"
+msgstr "Svi dobavljači"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_updates_approval::none"
+msgid "None"
+msgstr "Niti jedan"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_updates_approval::custom"
+msgid "Custom"
+msgstr "Prilagođeno"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_updates_approval::all"
+msgid "All vendors"
+msgstr "Svi dobavljači"
+

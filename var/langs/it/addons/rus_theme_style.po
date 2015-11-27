@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+
+msgctxt "Addons::name::rus_theme_style"
+msgid "Russian localization — Theme style"
+msgstr "Russian localization — Theme style"
+
+msgctxt "Addons::description::rus_theme_style"
+msgid "Files for Russian demo"
+msgstr "Files for Russian demo"
+
+msgctxt "Languages::my_cart"
+msgid "My cart"
+msgstr "My cart"
+
+msgctxt "Languages::exclusive_promotions"
+msgid "Exclusive discounts"
+msgstr "Exclusive discounts"
+
+msgctxt "Languages::exclusive_promotions_content"
+msgid "Subscribe to our news and get a 10% discount coupon!"
+msgstr "Subscribe to our news and get a 10% discount coupon!"
+
+msgctxt "Languages::tmpl_scroller_advanced"
+msgid "Scroller (advanced)"
+msgstr "Scroller (advanced)"

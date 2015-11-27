@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/rus_kupivkredit.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-07-02 10:07-0400\n"
+
+msgctxt "Addons::name::rus_kupivkredit"
+msgid "Russian localization — Kupi V Kredit"
+msgstr "Купи В Кредит"
+
+msgctxt "Addons::description::rus_kupivkredit"
+msgid "Allows purchases on credit via the Kupi V Kredit service"
+msgstr "Модуль позволяющий покупать продукты в кредит через систему Купи В Кредит"
+
+msgctxt "Languages::kvk_order_id"
+msgid "Kupi v kredit order id"
+msgstr "Номер заказа в системе Купи в кредит"
+
+msgctxt "Languages::kupivkredit_shop_id"
+msgid "Store ID"
+msgstr "Идентификатор магазина"
+
+msgctxt "Languages::kupivkredit_api_key"
+msgid "API Key"
+msgstr "API ключ"
+
+msgctxt "Languages::kupivkredit_secret"
+msgid "Secret word"
+msgstr "Секретная строка"
+
+msgctxt "Languages::kupivkredit_button"
+msgid "Kupi v kredit"
+msgstr "Купи в кредит"
+
+msgctxt "Languages::kupivkredit"
+msgid "Kupi V Kredit"
+msgstr "Купи в кредит"
+
+msgctxt "Languages::kupivkredit_widget_closed"
+msgid "The widget has been closed by the customer"
+msgstr "Виджет был закрыт покупателем"
+
+msgctxt "Languages::kupivkredit_cancel_order"
+msgid "Cancel order"
+msgstr "Купи в кредит - Отменить заказ"
+
+msgctxt "Languages::kupivkredit_complete_order"
+msgid "Sign order"
+msgstr "Купи в кредит - Подписать заказ"
+
+msgctxt "Languages::kupivkredit_confirm_order"
+msgid "Confirn order"
+msgstr "Купи в кредит - Подтвердить заказ"
+
+msgctxt "Languages::kupivkredit_cancel_order_status"
+msgid "Declined by the store"
+msgstr "Отказ магазина"
+
+msgctxt "Languages::kupivkredit_widget_incomplete"
+msgid "The request is incomplete"
+msgstr "Заявка не заполнена до конца"
+
+msgctxt "Languages::kupivkredit_widget_bank_reject"
+msgid "Request declined by bank"
+msgstr "Заявка отклонена банком"
+
+msgctxt "Languages::kupivkredit_widget_open"
+msgid "Your request is pre-approved"
+msgstr "Ваша заявка предварительно одобрена"
+
+msgctxt "Languages::kupivkredit_widget_processed"
+msgid "Congratulations! Your request is approved."
+msgstr "Ваша заявка одобрена! Поздравляем!"
+
+msgctxt "Languages::kupivkredit_order_confirmed"
+msgid "Order confirmation sent to bank"
+msgstr "В банк отправлено подтверждение заказа"
+
+msgctxt "Languages::kvk_registration_instructions"
+msgid "You can find detailed information about registration in KupiVkredit system on the <a href=\"https://www.kupivkredit.ru/main/internet_shops\">https://www.kupivkredit.ru/main/internet_shops</a>"
+msgstr "Подробную информацию о регистрации интернет-магазина в системе онлайн кредитования \"Купи в Кредит\" вы можете найти на веб-сайте <a href=\"https://www.kupivkredit.ru/main/internet_shops\">https://www.kupivkredit.ru/main/internet_shops</a>"
+
+msgctxt "Languages::kvk_payment_disabled"
+msgid "Some payments use the Kupi V Kredit processor. They have been disabled and cannot be activated unless the Kupi V Kredit processor is active."
+msgstr "Методы оплаты, использующие модуль Купи в кредит, были отключены. Для того чтобы их включить, необходимо, чтобы модуль Купи в кредит был активен."
+
+msgctxt "Languages::kvk_has_disabled_payments"
+msgid "Some payments use Kupi V Kredit processor. You can now activate them on the <a href=\"[url]\">Payment methods</a> page."
+msgstr "Некоторые методы оплаты использут модуль Купи в кредит. Вы можете активировать их на странице <a href=\"[url]\">Методы оплаты</a>."
+

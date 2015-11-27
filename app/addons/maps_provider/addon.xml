@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>maps_provider</id>
+
+    <version>1.0</version>
+    <priority>2400</priority>
+    <position>130</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="provider">
+                        <type>header</type>
+                    </item>
+                    <item id="map_provider">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="yandex">
+                            </item>
+                        </variants>
+                        <default_value>yandex</default_value>
+                    </item>
+                    <item id="settings">
+                        <type>header</type>
+                    </item>
+                    <item id="map_provider_settings">
+                        <type>template</type>
+                        <default_value>map_provider_settings.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <queries>
+    </queries>
+</addon>

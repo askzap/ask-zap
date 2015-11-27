@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_order_logs</id>
+    <version>4.2.2</version>
+    <update_server>https://updates.cs-cart.ru/api/update_addons</update_server>
+    <priority>7100</priority>
+    <status>active</status>
+    <default_language>en</default_language>
+    
+    <compatibility>
+        <core_version>
+            <min>4.1.1</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+    </compatibility>
+
+    <queries>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:order_logs` (
+                `log_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+                `order_id` int(11) NOT NULL,
+                `user_id` int(11) NOT NULL DEFAULT 0,
+                `timestamp` int(11) unsigned NOT NULL DEFAULT 0,
+                `action` text DEFAULT '',
+                `description` text(100) DEFAULT '',
+                `label` char(1) DEFAULT '',
+                PRIMARY KEY (`log_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <!-- <item for="uninstall">DROP TABLE IF EXISTS `?:order_logs`;</item> -->
+    </queries>
+</addon>

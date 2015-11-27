@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/vendor_data_premoderation.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-06-30 08:04-0400\n"
+
+msgctxt "Addons::name::vendor_data_premoderation"
+msgid "Vendor data premoderation"
+msgstr "Vendor data premoderation"
+
+msgctxt "Addons::description::vendor_data_premoderation"
+msgid "Lets you pre-moderate vendors activity"
+msgstr "Lets you pre-moderate vendors activity"
+
+msgctxt "Languages::product_approval_menu_description"
+msgid "Manage individual products or group of products supplied by the store vendors."
+msgstr "Quản lý sản phẩm cá nhân hoặc nhóm các sản phẩm được cung cấp bởi các nhà cung cấp."
+
+msgctxt "Languages::vendor_data_premoderation"
+msgid "Vendor data premoderation"
+msgstr "Vendor data premoderation"
+
+msgctxt "Languages::product_approval"
+msgid "Product approval"
+msgstr "Phê duyệt sản phẩm"
+
+msgctxt "Languages::notify_vendor_by_email"
+msgid "Notify vendor by e-mail"
+msgstr "Thông báo cho nhà cung cấp qua email"
+
+msgctxt "Languages::product_approval_status_approved"
+msgid "Your product [product] has been approved by the store administration and added to the product catalog. Now shoppers can order this product in the store."
+msgstr "Sản phẩm [product] của bạn đã được chấp thuận của quản trị viên cửa hàng và thêm vào danh mục sản phẩm. Bây giờ người mua có thể đặt hàng sản phẩm này tại cửa hàng."
+
+msgctxt "Languages::product_approval_status_disapproved"
+msgid "Your product [product] has been disapproved by the store administration"
+msgstr "Sản phẩm [product] của bạn đã bị từ chối bởi quản trị viên cửa hàng"
+
+msgctxt "Languages::products_approval_status_approved"
+msgid "Thank you for submitting new products. The following products have been approved by the store administration and added to the product catalog"
+msgstr "Cảm ơn bạn đã gửi sản phẩm mới. Các sản phẩm sau đây đã được chấp thuận của quản trin viên cửa hàng và thêm vào danh mục sản phẩm"
+
+msgctxt "Languages::text_shoppers_can_order_products"
+msgid "Now shoppers can order these products in the store."
+msgstr "Bây giờ người mua có thể đặt hàng các sản phẩm trong cửa hàng."
+
+msgctxt "Languages::products_approval_status_disapproved"
+msgid "Thank you for submitting new products. The following products have been disapproved by the store administration"
+msgstr "Cảm ơn bạn đã gửi sản phẩm mới. Các sản phẩm sau đã bị từ chối bởi quản trị viên cửa hàng"
+
+msgctxt "Languages::approve_selected"
+msgid "Approve selected"
+msgstr "Chấp nhận mục được chọn"
+
+msgctxt "Languages::disapprove_selected"
+msgid "Disapprove selected"
+msgstr "Không chấp nhận mục được chọn"
+
+msgctxt "Languages::pre_moderation"
+msgid "Products require prior approval"
+msgstr "Sản phẩm yêu cầu phê duyệt trước"
+
+msgctxt "Languages::pre_moderation_edit"
+msgid "Approve product info updates"
+msgstr "Chấp nhận cập nhật thông tin sản phẩm"
+
+msgctxt "Languages::pre_moderation_edit_vendors"
+msgid "Approve vendor profile updates"
+msgstr "Chấp nhận bản cập nhật hồ sơ của nhà cung cấp"
+
+msgctxt "Languages::text_not_approved_products"
+msgid "You have products that require your approval. Please <a href=\"[link]\">follow this link</a> to review these products."
+msgstr "Bạn có sản phẩm yêu cầu cần phê duyệt. Xin vui lòng <a href=\"[link]\"> thực hiện theo liên kết này</a> để xem xét các sản phẩm."
+
+msgctxt "Languages::products_approval_status_changed"
+msgid "Your product(s) have been [status]"
+msgstr "Sản phẩm của bạn đã [status]"
+
+msgctxt "Languages::approval"
+msgid "Approval"
+msgstr "Chấp nhận"
+
+msgctxt "Languages::text_vendor_profile_changes_notice"
+msgid "Are you sure that you want to update the profile? Information about your company will not be available in the customer area until the administrator approves it."
+msgstr "Bạn có chắc rằng bạn muốn cập nhật hồ sơ? Thông tin về công ty của bạn sẽ không có sẵn trong khu vực khách hàng cho đến khi các quản trị viên phê duyệt nó."
+
+msgctxt "Languages::privileges.manage_product_premoderation"
+msgid "Approve vendor products"
+msgstr "Phê duyệt nhà cung cấp sản phẩm"
+
+msgctxt "SettingsSections::vendor_data_premoderation::general"
+msgid "General"
+msgstr "Tổng quát"
+
+msgctxt "SettingsOptions::vendor_data_premoderation::products_prior_approval"
+msgid "Approval is required for newly created products"
+msgstr "Phê duyệt là bắt buộc cho sản phẩm mới được tạo ra"
+
+msgctxt "SettingsOptions::vendor_data_premoderation::products_updates_approval"
+msgid "Approve product info updates"
+msgstr "Chấp nhận cập nhật thông tin sản phẩm"
+
+msgctxt "SettingsOptions::vendor_data_premoderation::vendor_profile_updates_approval"
+msgid "Approve vendor profile updates"
+msgstr "Chấp nhận bản cập nhật hồ sơ của nhà cung cấp"
+
+msgctxt "SettingsTooltips::vendor_data_premoderation::products_prior_approval"
+msgid "\"None\" - this option is disabled for all vendors; \"Custom\" - the option is enabled on a vendor details page (the Add-ons tab); \"All vendors\" - the option is enabled for all vendors."
+msgstr "\"Không có\" - tùy chọn này bị vô hiệu hoá tất cả nhà cung cấp nhất; \"Tùy chỉnh\" - tùy chọn được kích hoạt trên một trang nhà cung cấp thông tin chi tiết (tab add-ons); \"Tất cả nhà cung cấp\" - tùy chọn được kích hoạt cho tất cả các nhà cung cấp."
+
+msgctxt "SettingsTooltips::vendor_data_premoderation::products_updates_approval"
+msgid "\"None\" - this option is disabled for all vendors; \"Custom\" - the option is enabled on a vendor details page (the Add-ons tab); \"All vendors\" - the option is enabled for all vendors."
+msgstr "\"Không có\" - tùy chọn này bị vô hiệu hoá tất cả nhà cung cấp nhất; \"Tùy chỉnh\" - tùy chọn được kích hoạt trên một trang nhà cung cấp thông tin chi tiết (tab add-ons); \"Tất cả nhà cung cấp\" - tùy chọn được kích hoạt cho tất cả các nhà cung cấp."
+
+msgctxt "SettingsTooltips::vendor_data_premoderation::vendor_profile_updates_approval"
+msgid "\"None\" - this option is disabled for all vendors; \"Custom\" - the option is enabled on a vendor details page (the Add-ons tab); \"All vendors\" - the option is enabled for all vendors."
+msgstr "\"Không có\" - tùy chọn này bị vô hiệu hoá tất cả nhà cung cấp nhất; \"Tùy chỉnh\" - tùy chọn được kích hoạt trên một trang nhà cung cấp thông tin chi tiết (tab add-ons); \"Tất cả nhà cung cấp\" - tùy chọn được kích hoạt cho tất cả các nhà cung cấp."
+
+msgctxt "SettingsVariants::vendor_data_premoderation::vendor_profile_updates_approval::none"
+msgid "None"
+msgstr "Không có"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::vendor_profile_updates_approval::custom"
+msgid "Custom"
+msgstr "Tuỳ chỉnh"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::vendor_profile_updates_approval::all"
+msgid "All vendors"
+msgstr "Tất cả các nhà cung cấp"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_prior_approval::none"
+msgid "None"
+msgstr "Không có"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_prior_approval::custom"
+msgid "Custom"
+msgstr "Tuỳ chỉnh"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_prior_approval::all"
+msgid "All vendors"
+msgstr "Tất cả các nhà cung cấp"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_updates_approval::none"
+msgid "None"
+msgstr "Không có"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_updates_approval::custom"
+msgid "Custom"
+msgstr "Tuỳ chỉnh"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_updates_approval::all"
+msgid "All vendors"
+msgstr "Tất cả các nhà cung cấp"
+

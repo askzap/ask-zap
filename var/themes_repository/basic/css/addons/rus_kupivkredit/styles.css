@@ -1,0 +1,68 @@
+/* rus_build_kupivkredit dbazhenov */
+
+.kupivkredit-div, .kupivkredit-div-mini {
+    display: inline-block;
+    margin-left: 15px;
+}
+.kupivkredit-div .button-submit-big.button-wrap-left, 
+.kupivkredit-div .button-submit-big.button-wrap-left:hover,
+.kupivkredit-div .button-submit-big.button-wrap-left:hover:active,
+.kupivkredit-div .button-submit-big.button-wrap-right,
+.kupivkredit-div .button-submit-big.button-wrap-right:hover,
+.kupivkredit-div-mini .button-submit-action.button-wrap-left,
+.kupivkredit-div-mini .button-submit-action.button-wrap-left:hover,
+.kupivkredit-div-mini .button-submit-action.button-wrap-left:hover:active {
+    background: none;
+    border: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.kupivkredit-div .button-submit-action.button-wrap-left,
+.kupivkredit-div .button-submit-action.button-wrap-right,
+.kupivkredit-div .button-submit-big.button-wrap-left .button-wrap-right {
+    background: url('images/addons/rus_kupivkredit/images/kupivkredit.png') no-repeat;
+    margin-left: 0;
+    width: 159px;
+    height: 34px;
+}
+.kupivkredit-div-mini .button-submit-action.button-wrap-left .button-wrap-right {
+    background: url('images/addons/rus_kupivkredit/images/kupivkredit_mini.png') no-repeat;
+    margin-left: 0;
+    width: 131px;
+}
+.kupivkredit-div input,
+.kupivkredit-div-mini input {
+    width: 159px;
+    text-indent: -9999px;
+    margin-left: 0;
+    cursor: pointer;
+}
+.kupivkredit-div-mini input {
+    width: 131px;
+}
+.quick-view-wrap .add-buttons-wrap {
+    display: inline-block;
+}
+.quick-view-wrap .kupivkredit-div {
+    margin-bottom: 15px;
+}
+.quick-view-wrap .add-buttons-wrap .add-to-compare, .quick-view-wrap .add-buttons-wrap .add-to-wish {
+    margin-left: 0;
+}
+
+.template-grid-list2 .kupivkredit-div-mini,
+.jscroll-item .kupivkredit-div-mini {
+    margin: 10px 0 0 0;
+}
+
+.multicolumns-list .kupivkredit-div-mini {
+    display: block;
+    margin: 10px 0 0;
+}
+
+.pagination-container .list .buttons-container .kupivkredit-div-mini {
+    display: block;
+    margin-top: 10px;
+}

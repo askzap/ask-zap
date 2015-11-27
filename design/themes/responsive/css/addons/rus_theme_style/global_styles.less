@@ -1,0 +1,321 @@
+/* ==========================================================================
+Global
+========================================================================== */
+
+.ty-discussion-post__content .ty-discussion-post {
+  margin: 16px 0 30px 0;
+}
+
+
+/* ==========================================================================
+Banners
+========================================================================== */
+
+.ty-banners-free-ship {
+  
+  margin-top: 25px;
+
+  .ty-banner__image-wrapper {
+    margin: 0;
+  }
+
+}
+
+.ty-banners-pickup {
+  margin-top: 5.5%;
+  margin-bottom: 23px;
+
+  .ty-banner__image-wrapper {
+    margin: 0;
+  } 
+}
+
+  @media (min-width: 481px) and (max-width: 767px) {
+      .ty-banners-free-ship,
+      .ty-banners-pickup {
+        width: 48.5%;
+        margin-top: 0px;
+        float: left;
+      }
+
+      .ty-banners-pickup {
+
+      }
+
+      .ty-banners-free-ship {
+        margin-right: 3%;
+
+      }
+  }
+
+
+/* Footer contacts
+   ========================================================================== */
+
+.footer-contacts p,
+.footer-contacts li {
+    color: darken(@footer_text, 40%);
+}
+
+.footer-contacts .greeny {
+    color: @links;
+}
+
+
+/* Content pages: Contacts
+   ========================================================================== */
+
+.ty-pages-contacts__contact-block {
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.ty-pages-contacts__contact-header {
+    font-size: 12px;
+}
+
+.ty-pages-contacts__contact-address,
+.ty-pages-contacts__contact-email
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.ty-pages-contacts__contact-phone,
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.ty-pages-contacts__contact-email a {
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.ty-pages-contacts__contact-footer {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.ty-pages-contacts__time-block {
+    background-color: #00bbff;
+    padding: 20px;
+}
+
+.ty-pages-contacts__time-block div{
+    color: #fff;
+}
+
+.ty-pages-contacts__time-block-header {
+    font-size: 22px;
+}
+
+.ty-pages-contacts__time-block-time {
+    font-size: 32px;
+    margin-top: 36px;
+}
+               
+.ty-pages-contacts__time-block-zone {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.ty-pages-contacts__time-block-days {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.ty-pages-contacts__map {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0 40px 0;
+}
+
+.ty-pages-contacts__image img {
+    padding: 5px;
+    border: solid 2px #e5e5e5;
+}
+
+.ty-pages-contacts__image {
+    padding-right: 40px;
+}
+
+
+.ty-pages-contacts__office{
+
+    @media (min-width: 980px) {
+     padding-left: 20px;
+    }
+}
+
+.ty-pages-contacts__office-title {
+    font-size: 24px;
+    margin: 10px 0 20px 0;
+}
+
+.ty-pages-contacts__office-instruction {
+    font-size: 16px;
+    line-height: 180%;
+}
+
+/* Content pages: Reward Points
+   ========================================================================== */
+
+.ty-content-reward-points__general
+{
+
+    margin-top: 20px;
+
+    p {
+      color: #fff;
+      font-size: 15px;
+      line-height: 200%;
+    }
+
+    h3 {
+      font-weight: normal;
+    }
+}
+
+.ty-content-reward-points__product-img {
+  border: solid 10px #00afff;
+  max-width: 600px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.ty-content-reward-points__product-text {
+  background-color: #00afff;
+  padding: 10px 20px 20px 20px;
+
+  @media (min-width: 980px) {
+    margin-left: 25px;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    margin-left: 25px;
+  }  
+}
+
+.ty-content-reward-points__my-points {
+  margin-bottom: 20px;
+
+  h3 {
+    margin-top: 40px;
+  }
+
+  @media (min-width: 980px) {
+    margin-left: 25px;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    margin-left: 25px;
+  }  
+}
+
+.ty-content-reward-points__my-points-img {
+  img {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+}
+
+.ty-content-reward-points__checkout-img {
+  border: solid 10px #00afff;
+}
+
+.ty-content-reward-points__checkout-text {
+  background-color: #00afff;
+
+  p {
+    padding: 10px 30px 30px 10px;
+  }
+}
+
+
+/* Content pages: About company
+   ========================================================================== */
+
+
+.ty-list-container {
+  @media (max-width: 980px) {
+    .ty-page-company__info-block {
+      padding-top: 30px;
+    }
+  }
+}
+
+
+/* Content pages: Menu items
+   ========================================================================== */
+
+.ty-menu-item__sale .ty-menu__item-link {
+  color: #FE7400 !important;
+  font-weight: bold;
+}
+
+.ty-menu-item__products {
+    @media (min-width: 1151px) {
+        display: none !important;
+    }
+}
+
+
+/* .ty-menu-item__electronics, */
+.ty-menu-item__sport,
+.ty-menu-item__office,
+{
+    @media (min-width: 768px) and (max-width: 1150px) {
+        display: none !important;
+    }
+}
+
+.ty-menu-item__media,
+{
+    @media (max-width: 930px) {
+        display: none !important;
+    }
+}
+
+.ty-menu-item__apparel,
+{
+    @media (max-width: 795px) {
+        display: none !important;
+    }
+}
+
+
+// ======================================================= Quick menu items
+
+.ty-quick-menu-item__bonuses {
+  @media (min-width: 900px) {
+    display: none !important;
+  }
+}
+
+.ty-quick-menu-item__points,
+.ty-quick-menu-item__gift {
+  @media (max-width: 900px) {
+    display: none !important;
+  }
+}
+
+
+.ty-quick-menu-item__place-order {
+  @media (min-width: 1166px) {
+    display: none !important;
+  }
+}
+
+.ty-quick-menu__return,
+.ty-quick-menu__contacts,
+.ty-quick-menu__delivery,
+.ty-quick-menu__pickup {
+  @media (max-width: 1167px) {
+    display: none !important;
+  }
+}
+
+.ty-text-links_show_inline .ty-level-0:hover .ty-text-links {
+  min-width: 170px;
+}

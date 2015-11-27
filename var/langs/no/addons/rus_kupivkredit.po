@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+
+msgctxt "Addons::name::rus_kupivkredit"
+msgid "Russian localization — Kupi V Kredit"
+msgstr "Russian localization — Kupi V Kredit"
+
+msgctxt "Addons::description::rus_kupivkredit"
+msgid "Allows purchases on credit via the Kupi V Kredit service"
+msgstr "Allows purchases on credit via the Kupi V Kredit service"
+
+msgctxt "Languages::kvk_order_id"
+msgid "Kupi v kredit order id"
+msgstr "Kupi v kredit order id"
+
+msgctxt "Languages::kupivkredit_shop_id"
+msgid "Store ID"
+msgstr "Store ID"
+
+msgctxt "Languages::kupivkredit_api_key"
+msgid "API Key"
+msgstr "API Key"
+
+msgctxt "Languages::kupivkredit_secret"
+msgid "Secret word"
+msgstr "Secret word"
+
+msgctxt "Languages::kupivkredit_button"
+msgid "Kupi v kredit"
+msgstr "Kupi v kredit"
+
+msgctxt "Languages::kupivkredit"
+msgid "Kupi V Kredit"
+msgstr "Kupi V Kredit"
+
+msgctxt "Languages::kupivkredit_widget_closed"
+msgid "The widget has been closed by the customer"
+msgstr "The widget has been closed by the customer"
+
+msgctxt "Languages::kupivkredit_cancel_order"
+msgid "Cancel order"
+msgstr "Cancel order"
+
+msgctxt "Languages::kupivkredit_complete_order"
+msgid "Sign order"
+msgstr "Sign order"
+
+msgctxt "Languages::kupivkredit_confirm_order"
+msgid "Confirn order"
+msgstr "Confirn order"
+
+msgctxt "Languages::kupivkredit_cancel_order_status"
+msgid "Declined by the store"
+msgstr "Declined by the store"
+
+msgctxt "Languages::kupivkredit_widget_incomplete"
+msgid "The request is incomplete"
+msgstr "The request is incomplete"
+
+msgctxt "Languages::kupivkredit_widget_bank_reject"
+msgid "Request declined by bank"
+msgstr "Request declined by bank"
+
+msgctxt "Languages::kupivkredit_widget_open"
+msgid "Your request is pre-approved"
+msgstr "Your request is pre-approved"
+
+msgctxt "Languages::kupivkredit_widget_processed"
+msgid "Congratulations! Your request is approved."
+msgstr "Congratulations! Your request is approved."
+
+msgctxt "Languages::kupivkredit_order_confirmed"
+msgid "Order confirmation sent to bank"
+msgstr "Order confirmation sent to bank"
+
+msgctxt "Languages::kvk_registration_instructions"
+msgid "You can find detailed information about registration in KupiVkredit system on the <a href=\"https://www.kupivkredit.ru/main/internet_shops\">https://www.kupivkredit.ru/main/internet_shops</a>"
+msgstr "You can find detailed information about registration in KupiVkredit system on the <a href=\"https://www.kupivkredit.ru/main/internet_shops\">https://www.kupivkredit.ru/main/internet_shops</a>"
+
+msgctxt "Languages::kvk_payment_disabled"
+msgid "Some payments use the Kupi V Kredit processor. They have been disabled and cannot be activated unless the Kupi V Kredit processor is active."
+msgstr "Some payments use the Kupi V Kredit processor. They have been disabled and cannot be activated unless the Kupi V Kredit processor is active."
+
+msgctxt "Languages::kvk_has_disabled_payments"
+msgid "Some payments use Kupi V Kredit processor. You can now activate them on the <a href=\"[url]\">Payment methods</a> page."
+msgstr "Some payments use Kupi V Kredit processor. You can now activate them on the <a href=\"[url]\">Payment methods</a> page."

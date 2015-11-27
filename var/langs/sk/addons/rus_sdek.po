@@ -1,0 +1,154 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Slovak\n"
+"Language: sk_SK\n"
+
+msgctxt "Addons::name::rus_sdek"
+msgid "Russian localization — shipping service SDEK ( cdek.ru )"
+msgstr "Russian localization — shipping service SDEK ( cdek.ru )"
+
+msgctxt "Addons::description::rus_sdek"
+msgid "Shipping service SDEK"
+msgstr "Shipping service SDEK"
+
+msgctxt "Languages::shippings_sdek.header_shipping_office"
+msgid "Shipping service office:"
+msgstr "Shipping service office:"
+
+msgctxt "Languages::shippings_sdek.header_shipping_office_map"
+msgid "Shipping service office on map:"
+msgstr "Shipping service office on map:"
+
+msgctxt "Languages::shippings.sdek.city_error"
+msgid "Invalid city entered"
+msgstr "Invalid city entered"
+
+msgctxt "Languages::shipping.sdek.get_city_data"
+msgid "Get city ID"
+msgstr "Get city ID"
+
+msgctxt "Languages::shipping.sdek.get_city_data.tooltip"
+msgid "A request to get the city ID will be sent to SDEK"
+msgstr "A request to get the city ID will be sent to SDEK"
+
+msgctxt "Languages::shipping.sdek.city_id.tooltip"
+msgid "Technical info necessary for the shipping cost calculator. To get the ID, enter the city name in the City from field and click the Get city ID link. Save the received settings."
+msgstr "Technical info necessary for the shipping cost calculator. To get the ID, enter the city name in the City from field and click the Get city ID link. Save the received settings."
+
+msgctxt "Languages::sdek_tariff_sklad"
+msgid "Stock-Stock"
+msgstr "Stock-Stock"
+
+msgctxt "Languages::sdek_tariff_dver"
+msgid "Stock-Door"
+msgstr "Stock-Door"
+
+msgctxt "Languages::shippings.sdek.lang_error"
+msgid "Switch language to Russian"
+msgstr "Switch language to Russian"
+
+msgctxt "Languages::shippings_sdek.authlogin"
+msgid "Access login to calculations server"
+msgstr "Access login to calculations server"
+
+msgctxt "Languages::shippings_sdek.authpassword"
+msgid "Password login to calculations server"
+msgstr "Password login to calculations server"
+
+msgctxt "Languages::shippings.sdek.dateexecute"
+msgid "The number of days in which the order is planned to be shipped"
+msgstr "The number of days in which the order is planned to be shipped"
+
+msgctxt "Languages::shippings.sdek.sendercityid"
+msgid "Sender city name. Start entering the city name, then select the needed one from the options suggested"
+msgstr "Sender city name. Start entering the city name, then select the needed one from the options suggested"
+
+msgctxt "Languages::shippings.sdek.sendercitypostcode"
+msgid "Zip code of the sender city. (Not required if the sender city is selected)"
+msgstr "Zip code of the sender city. (Not required if the sender city is selected)"
+
+msgctxt "Languages::shippings.sdek.tariffid"
+msgid "Selecting available plans. The higher a plan is in the list, the higher its priority is"
+msgstr "Selecting available plans. The higher a plan is in the list, the higher its priority is"
+
+msgctxt "Languages::shipping.sdek.city_id"
+msgid "City ID"
+msgstr "City ID"
+
+msgctxt "Languages::shippings.sdek.activation_error"
+msgid "To activate the SDEK shipping processor, the Russian rouble currency (RUB) must be active and defined as base."
+msgstr "To activate the SDEK shipping processor, the Russian rouble currency (RUB) must be active and defined as base."
+
+msgctxt "Languages::shippings.sdek.country_error"
+msgid "The SDEK shipping method is available for the Russian Federation only. You can change settings of countries (Settings -> Company)."
+msgstr "The SDEK shipping method is available for the Russian Federation only. You can change settings of countries (Settings -> Company)."
+
+msgctxt "Languages::shippings.sdek.code_error"
+msgid "There is a mistake in the city zip code. Please check the correctness of the data entered"
+msgstr "There is a mistake in the city zip code. Please check the correctness of the data entered"
+
+msgctxt "Languages::shippings.sdek.sender_code_error"
+msgid "There is a mistake in the sender city. Please check the correctness of the data entered"
+msgstr "There is a mistake in the sender city. Please check the correctness of the data entered"
+
+msgctxt "Languages::shippings.sdek.account_password_error"
+msgid "Add name account and password in addon SDEK"
+msgstr "Add name account and password in addon SDEK"
+
+msgctxt "Languages::shippings.sdek.sdek_orders"
+msgid "Orders for delivery SDEK"
+msgstr "Orders for delivery SDEK"
+
+msgctxt "Languages::sdek.sdek_address_shipping"
+msgid "Address shipping"
+msgstr "Address shipping"
+
+msgctxt "Languages::sdek.sdek_tariff"
+msgid "Tariff SDEK"
+msgstr "Tariff SDEK"
+
+msgctxt "Languages::sdek.sdek_comment"
+msgid "Comment SDEK"
+msgstr "Comment SDEK"
+
+msgctxt "Languages::sdek.update_status"
+msgid "Update status"
+msgstr "Update status"
+
+msgctxt "Languages::shippings.sdek.status_title"
+msgid "Order status SDEK"
+msgstr "Order status SDEK"
+
+msgctxt "Languages::sdek.lang_status_code"
+msgid "Code status"
+msgstr "Code status"
+
+msgctxt "Languages::sdek.date"
+msgid "Date order"
+msgstr "Date order"
+
+msgctxt "Languages::sdek.lang_status_order"
+msgid "Status order"
+msgstr "Status order"
+
+msgctxt "Languages::sdek.lang_city"
+msgid "City spent parcels"
+msgstr "City spent parcels"
+
+msgctxt "Languages::sdek.receipt_order"
+msgid "Print ticket"
+msgstr "Print ticket"
+
+msgctxt "Languages::shippings.sdek.sdek_menu"
+msgid "SDEK"
+msgstr "SDEK"
+
+msgctxt "Languages::sdek.parameter"
+msgid "Parameter"
+msgstr "Parameter"
+
+msgctxt "Languages::carrier_sdek"
+msgid "SDEK"
+msgstr "SDEK"
+

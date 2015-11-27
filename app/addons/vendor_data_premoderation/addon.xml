@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>vendor_data_premoderation</id>
+    <version>1.0</version>
+    <priority>1000</priority>
+    <position>45</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR</auto_install>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="products_prior_approval">
+                        <type>selectbox</type>
+                        <default_value>none</default_value>
+                        <variants>
+                            <item id="none">
+                            </item>
+                            <item id="custom">
+                            </item>
+                            <item id="all">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="products_updates_approval">
+                        <type>selectbox</type>
+                        <default_value>none</default_value>
+                        <variants>
+                            <item id="none">
+                            </item>
+                            <item id="custom">
+                            </item>
+                            <item id="all">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="vendor_profile_updates_approval">
+                        <type>selectbox</type>
+                        <default_value>none</default_value>
+                        <variants>
+                            <item id="none">
+                            </item>
+                            <item id="custom">
+                            </item>
+                            <item id="all">
+                            </item>
+                        </variants>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>ALTER TABLE ?:products ADD `approved` char(1) NOT NULL DEFAULT 'Y' AFTER `company_id`</item>
+        <item for="uninstall">ALTER TABLE ?:products DROP `approved`</item>
+        <item>ALTER TABLE ?:companies ADD `pre_moderation` char(1) NOT NULL DEFAULT 'N'</item>
+        <item for="uninstall">ALTER TABLE ?:companies DROP `pre_moderation`</item>
+        <item>ALTER TABLE ?:companies ADD `pre_moderation_edit` char(1) NOT NULL DEFAULT 'N'</item>
+        <item for="uninstall">ALTER TABLE ?:companies DROP `pre_moderation_edit`</item>
+        <item>ALTER TABLE ?:companies ADD `pre_moderation_edit_vendors` char(1) NOT NULL DEFAULT 'N'</item>
+        <item for="uninstall">ALTER TABLE ?:companies DROP `pre_moderation_edit_vendors`</item>
+        <item editions="PROFESSIONAL,MULTIVENDOR,ULTIMATE">REPLACE INTO  ?:privileges (privilege, is_default, section_id) VALUES ('manage_product_premoderation', 'Y', 'vendors');</item>
+        <item for="uninstall" editions="PROFESSIONAL,MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'manage_product_premoderation'</item>
+    </queries>
+</addon>

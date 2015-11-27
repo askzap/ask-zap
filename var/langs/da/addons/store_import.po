@@ -1,0 +1,442 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: da\n"
+"X-Crowdin-File: /addons/store_import.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-05-17 18:03-0400\n"
+
+msgctxt "Addons::name::store_import"
+msgid "Store Import"
+msgstr "Butiksimport"
+
+msgctxt "Addons::description::store_import"
+msgid "Lets you import data from any existing version of CS-Cart from 2.2.4 (except for Community edition) into the current version."
+msgstr "Lader dig importere data fra en eksisterende version af CS-Cart fra 2.2.4 (undtagen Community edition) til den aktuelle version."
+
+msgctxt "Languages::store_import.full_path_installation_directory"
+msgid "Full path to the store installation directory"
+msgstr "Hele stien til butiksinstallationsmappen"
+
+msgctxt "Languages::store_import.start_new_store_import"
+msgid "Start new store import"
+msgstr "Start ny butikimport"
+
+msgctxt "Languages::store_import.first_step"
+msgid "Select store"
+msgstr "Vælg butik"
+
+msgctxt "Languages::store_import.second_step"
+msgid "Validate and import"
+msgstr "Validere og importere"
+
+msgctxt "Languages::store_import.cannot_connect_to_database_server"
+msgid "Cannot connect to the database server"
+msgstr "Kan ikke oprette forbindelse til databaseserveren"
+
+msgctxt "Languages::store_import.check_company_count_failed"
+msgid "Cannot start actualizing data due to Storefront/Vendor changes"
+msgstr "Kan ikke starte aktualiserende data på grund af butikken/leverandør ændringer"
+
+msgctxt "Languages::store_import.completed"
+msgid "<p>The store import is complete!</p>"
+msgstr "<p>Butikimporten er fuldført!</p>"
+
+msgctxt "Languages::store_import.completed_text_ult"
+msgid "<p>In order to go live, you should perform the following steps:</p><ul><li>Overwrite your existing store folder with the new one.</li><li>Set the correct values for the following variables: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><li>Set the correct Storefront URL in the Administration->Stores section.</li></ul><p>To start another store import, click <b>Start new store import.</b></p>"
+msgstr "<p>For at gå live, skal du udføre følgende trin:</p><ul><li>Overskriv din eksisterende butiksmappe med den nye.</li><li>Angiv de korrekte værdier for følgende variabler: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><li>Opret den korrekte butikswebadresse i Administration-> Stores afsnit.</li></ul><p>For at starte en anden butiksimport, skal du klikke på <b>Start ny butiksimport.</b></p>"
+
+msgctxt "Languages::store_import.completed_text_mve"
+msgid "<p>In order to go live, you should perform the following steps:</p><ul><li>Overwrite your existing store folder with the new one.</li><li>Set the correct values for the following variables: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><p>To start another store import, click <b>Start new store import.</b></p>"
+msgstr "<p>For at gå live, skal du udføre følgende trin:</p><ul><li>Overskrive din eksisterende butiksmappe med den nye.</li><li>Angiv de korrekte værdier for følgende variabler: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><p>For at starte en anden butiksimport, skal du klikke på <b>Start ny butiksimport.</b></p>"
+
+msgctxt "Languages::store_import.actualize_data_text"
+msgid "<p>Last data import was made on <b>[date]</b> from <b>CS-Cart [version] [edition].</b></p><p>To actualize the data since the last import, click <b>Actualize data</b> (Only design and settings <span>will be kept</span>.) This process can be done repeatedly. When actualizing is over you will see this page again.</p><p>Whenever you're ready to go live or start the Store import again, click <b>Complete Store import</b></p>"
+msgstr "<p>Sidste dataimport var foretaget på <b>[date]</b> fra <b>CS-Cart [version] [edition].</b></p><p>For at aktualisere data siden sidste import, skal du klikke på <b>Actualize data</b> (kun design og indstillinger <span>bevares</span>.) Denne proces kan gøres gentagne gange. Når aktualiseringen er slut, vil du vil se denne side igen.</p><p>Når du er klar til at gå live eller starte butikimportere igen, klik på <b>Complete butik import</b></p>"
+
+msgctxt "Languages::store_import.actualize_data"
+msgid "Actualize data"
+msgstr "Aktualisere data"
+
+msgctxt "Languages::store_import.import_from"
+msgid "Import from"
+msgstr "Importere fra"
+
+msgctxt "Languages::store_import.complete_store_import"
+msgid "Complete Store import"
+msgstr "Komplet butikimport"
+
+msgctxt "Languages::store_import.import_data"
+msgid "Import data"
+msgstr "Importer data"
+
+msgctxt "Languages::store_import.complete_configuration"
+msgid "Proceed to actualizing data"
+msgstr "Fortsæt til aktualiserende data"
+
+msgctxt "Languages::store_import.admin_url"
+msgid "Admin panel URL"
+msgstr "Admin panel URL"
+
+msgctxt "Languages::store_import.companies_count"
+msgid "Number of storefronts"
+msgstr "Antallet af butikker"
+
+msgctxt "Languages::store_import.store_import"
+msgid "Store import"
+msgstr "Butiksimport"
+
+msgctxt "Languages::store_import.local_store"
+msgid "Store path"
+msgstr "Butikssti"
+
+msgctxt "Languages::store_import.select_store"
+msgid "Validate"
+msgstr "Validere"
+
+msgctxt "Languages::store_import.local_store_tooltip"
+msgid "Enter the full path to the installation root directory of the store you want to import data from. For example '/var/www/examplestore' on UNIX-based systems or 'C:\\examplestore' on Windows"
+msgstr "Angiv den fulde sti til installations rod bibliotek i den butik, du vil importere data fra. For eksempel '/ var/www/examplestore' på UNIX-baserede systemer eller 'C:\\examplestore' på Windows"
+
+msgctxt "Languages::store_import.configure_store"
+msgid "Configure your store"
+msgstr "Konfigurer din butik"
+
+msgctxt "Languages::store_import.finish_store"
+msgid "Finish store import"
+msgstr "Udfør butiksimport"
+
+msgctxt "Languages::store_import.storefront_url"
+msgid "Storefront URL"
+msgstr "Butiks URL"
+
+msgctxt "Languages::store_import.secure_storefront_url"
+msgid "Secure storefront URL"
+msgstr "Sikker butiks URL"
+
+msgctxt "Languages::store_import.db_host"
+msgid "Database host"
+msgstr "Database vært"
+
+msgctxt "Languages::store_import.db_name"
+msgid "Database name"
+msgstr "Databasenavn"
+
+msgctxt "Languages::store_import.db_user"
+msgid "Database user"
+msgstr "Databasebruger"
+
+msgctxt "Languages::store_import.table_prefix"
+msgid "Table prefix"
+msgstr "Tabel præfiks"
+
+msgctxt "Languages::store_import.fill_form"
+msgid "<p>Check the data below before proceeding to the data import.</p><p><b>Warning!</b> The data import during this step <b>will overwrite everything (including your existing settings, products, design and layouts, etc.)</b><br />Also, all logs and statistics will be removed.</p><p><b>Pay attention</b> that the <b>Affiliate, Statistics, Recurring billing, Product configurator and Gift registry</b> add-ons are no longer supported, so, none of the related data will be imported from your old store to the new installation.</p>"
+msgstr "<p>Kontrollere oplysninger nedenfor, før du fortsætter til dataimporten.</p><p><b>Advarsel!</b> Dataimport under dette trin <b>vil overskrive alt (herunder dine eksisterende indstillinger, produkter, design og layout, osv.)</b>< br / > også, alle logfiler og statistik vil blive fjernet.</p><p><b>Er opmærksomme</b>, <b>Affiliate, statistik, tilbagevendende fakturering, produktkonfiguration og gaveliste</b> tilføjelser er ikke længere understøttet, så ingen af de tilhørende data importeres fra din gamle butik til den nye installation.</p>"
+
+msgctxt "Languages::store_import.second_step_22x_notice"
+msgid "<p>Note that your original core settings and design will not be transferred, except for add-ons' settings and all custom blocks under \"Products\" location on the Layouts page with <i>Content: Products</i> and <i>Filling: Manually</i>. During the next step you will be able to locate them on the \"Products\" location under the main content block.</p>"
+msgstr "<p>Bemærk at din oprindelige kerneindstillinger og design ikke vil blive overført, undtagen de tilføjelsersindstillinger og alle brugerdefinerede blokke under \"Produkter\" placering på siden layout med <i>indhold: produkterne</i> og <i>fylder: manuelt</i>. I løbet af det næste skridt vil du kunne finde dem på \"Produkter\" placering under de vigtigste indholdsblok.</p>"
+
+msgctxt "Languages::store_import.second_step_30x_notice"
+msgid "<p></p>"
+msgstr "<p></p>"
+
+msgctxt "Languages::store_import.text_from"
+msgid "[product_name] [product_version] [product_edition]"
+msgstr "[product_name] [product_version] [product_edition]"
+
+msgctxt "Languages::store_import.from"
+msgid "From:"
+msgstr "Fra:"
+
+msgctxt "Languages::store_import.text_to"
+msgid "To: [product_edition] [product_version]"
+msgstr "Til: [product_edition] [product_version]"
+
+msgctxt "Languages::store_import.edition_mapping_failed"
+msgid "Import from this edition is not supported"
+msgstr "Import fra denne version understøttes ikke"
+
+msgctxt "Languages::store_import.configuration_test_failed"
+msgid "Configuration test failed"
+msgstr "Konfigurationstest mislykkedes"
+
+msgctxt "Languages::store_import.wrong_table_prefix"
+msgid "Store tables with the specified prefix are missing in the specified database."
+msgstr "Butikstabeller med det angivne præfix mangler i den angivne database."
+
+msgctxt "Languages::store_import.path_does_not_exist"
+msgid "The specified directory does not exist. Please check if the path you entered is correct."
+msgstr "Den angivne mappe findes ikke. Kontroller, om den angivne sti er korrekt."
+
+msgctxt "Languages::store_import.this_is_not_cart_path"
+msgid "The specified directory is not a valid store installation root folder."
+msgstr "Den angivne mappe er ikke en gyldig butiksinstallationsrodmappe."
+
+msgctxt "Languages::store_import.text_configuration"
+msgid "<p><h4>The data from the old store was successfully imported.</h4><br/>You are now free to leave the Store import tool and customize the settings and design of your store. First of all, do the following:</p>"
+msgstr "<p><h4>Data fra den gamle butik blev importeret.</h4><br/>Du er nu fri til at forlade butikkens importværktøj og tilpasse indstillinger og design af din butik. Først og fremmest, skal du gøre følgende:</p>"
+
+msgctxt "Languages::store_import.text_configuration2"
+msgid "<p>When you are ready customizing, you will be able to actualize the data by going to the Store import tool again and proceeding directly to the next step. Unlike the initial store import, data actualization will keep all your settings, layouts, and design.</p><p><strong>Attention!</strong> Data actualization will be impossible if you modify, remove, or add new [storefronts_vendors]. In this case, you will have to re-start the store import from the first step.</p>"
+msgstr "<p>Når du er klar til tilpasning, vil du kunne aktualisere data ved at gå til butikken importværktøj igen og går direkte til det næste trin. I modsætning til den første butik import, data aktualisering vil holde alle dine indstillinger, layout og design,.</p><p><strong>Vær opmærksom på!</strong> Data aktualisering bliver umuligt, hvis du ændrer, fjerner eller tilføjer nye [storefronts_vendors]. I dette tilfælde, bliver du nødt til at re-starte butik import fra det første trin.</p>"
+
+msgctxt "Languages::store_import.424_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for hver virksomhed.</li> <li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.423_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for hver virksomhed.</li> <li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.422_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for hver virksomhed.</li> <li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.421_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for hver virksomhed.</li> <li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.415_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for hver virksomhed.</li> <li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.414_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for hver virksomhed.</li> <li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.413_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for hver virksomhed.</li> <li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.412_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for hver virksomhed.</li> <li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.411_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for hver virksomhed.</li> <li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.401_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for hver virksomhed.</li> <li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.402_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for hver virksomhed.</li> <li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.403_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for hver virksomhed.</li> <li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.306_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiks URL</b> for hver virksomhed.</li><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.305_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiks URL</b> for hver virksomhed.</li><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.304_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiks URL</b> for hver virksomhed.</li><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.303_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiks URL</b> for hver virksomhed.</li><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.302_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiks URL</b> for hver virksomhed.</li><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.301_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiks URL</b> for hver virksomhed.</li><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.224_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for a Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for et selskab.</li><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog afsnit og angive de korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li>Indstillingerne blev sat til standard.</li><li>The Company indstillinger blev sat til standard.</li><li>Dit design (tema, typografier og layout) blev sat til standard.</li><li>Alle tilpassede blokke under \"Produkter\" placering af blok Manager med <i>indhold: produkter</i> og <i>fylder: manuelt</i> var placeret på \"Produkter\" placering under de vigtigste indholdsblok.</li><li>Alle brugerdefinerede produkt faner (undtagen produkt fanerne tilføjet af tilføjelser) blev ikke overført.</li><li>\"Beskrivelse\", \"Funktioner\" og \"Filer\" faner blev føjet til afsnittet \"produkt tabsâ€.</li><li><b>Quick menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.225_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for a Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for et selskab.</li><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog afsnit og angive de korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li>Indstillingerne blev sat til standard.</li><li>The Company indstillinger blev sat til standard.</li><li>Dit design (tema, typografier og layout) blev sat til standard.</li><li>Alle tilpassede blokke under \"Produkter\" placering af blok Manager med <i>indhold: produkter</i> og <i>fylder: manuelt</i> var placeret på \"Produkter\" placering under de vigtigste indholdsblok.</li><li>Alle brugerdefinerede produkt faner (undtagen produkt fanerne tilføjet af tilføjelser) blev ikke overført.</li><li>\"Beskrivelse\", \"Funktioner\" og \"Filer\" faner blev føjet til afsnittet \"produkt tabsâ€.</li><li><b>Quick menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.301_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for hver virksomhed.</li><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.302_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for hver virksomhed.</li><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.303_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for hver virksomhed.</li><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.304_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for hver virksomhed.</li><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.305_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for hver virksomhed.</li><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.306_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til afsnit for <a href=\"[stores_section_link]\"> butikker</a> og indstille den korrekte <b>Butiksfacade URL</b> for hver virksomhed.</li><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.401_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.402_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.403_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.411_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.412_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.413_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.414_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.415_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.421_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.422_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.423_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.424_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul> <p>Vær opmærksom på følgende:</p> <ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.306_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.305_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.304_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.303_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.302_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.301_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog og indstille den korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li><b>Hurtig menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.225_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog afsnit og angive de korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li>Indstillingerne blev sat til standard.</li><li>The Company indstillinger blev sat til standard.</li><li>Dit design (tema, typografier og layout) blev sat til standard.</li><li>Alle tilpassede blokke under \"Produkter\" placering af blok Manager med <i>indhold: produkter</i> og <i>fylder: manuelt</i> var placeret på \"Produkter\" placering under de vigtigste indholdsblok.</li><li>Alle brugerdefinerede produkt faner (undtagen produkt fanerne tilføjet af tilføjelser) blev ikke overført.</li><li>\"Beskrivelse\", \"Funktioner\" og \"Filer\" faner blev føjet til afsnittet \"produkt tabsâ€.</li><li><b>Quick menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.224_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li>Gå til <a href=\"[manage_languages_link]\"> sprog</a> sprog afsnit og angive de korrekte <b>land</b> værdi for hvert sprog.</li></ul><p>Vær opmærksom på følgende:</p><ul><li>Indstillingerne blev sat til standard.</li><li>The Company indstillinger blev sat til standard.</li><li>Dit design (tema, typografier og layout) blev sat til standard.</li><li>Alle tilpassede blokke under \"Produkter\" placering af blok Manager med <i>indhold: produkter</i> og <i>fylder: manuelt</i> var placeret på \"Produkter\" placering under de vigtigste indholdsblok.</li><li>Alle brugerdefinerede produkt faner (undtagen produkt fanerne tilføjet af tilføjelser) blev ikke overført.</li><li>\"Beskrivelse\", \"Funktioner\" og \"Filer\" faner blev føjet til afsnittet \"produkt tabsâ€.</li><li><b>Quick menu</b> var indstillet til standard.</li></ul>"
+
+msgctxt "Languages::store_import.progress_title"
+msgid "Upgrading to [to]"
+msgstr "Opgradering til [to]"
+
+msgctxt "Languages::store_import.updating_data"
+msgid "Updating data"
+msgstr "Opdatering af data"
+
+msgctxt "Languages::store_import.converting_orders"
+msgid "Converting orders"
+msgstr "Konvertering af ordrer"
+
+msgctxt "Languages::store_import.import_failed"
+msgid "Store import failed"
+msgstr "Butiksimport mislykkedes"
+
+msgctxt "Languages::store_import.cloning_database"
+msgid "Cloning database"
+msgstr "Kloning database"
+
+msgctxt "Languages::store_import.updating_languages"
+msgid "Updating languages"
+msgstr "Opdatering af sprog"
+
+msgctxt "Languages::store_import.done"
+msgid "Done"
+msgstr "Færdig"
+
+msgctxt "Languages::store_import.class_not_found"
+msgid "Import from this version is not supported"
+msgstr "Import fra denne version understøttes ikke"
+
+msgctxt "Languages::store_import.processing_addons"
+msgid "Updating add-ons"
+msgstr "Opdatering af tilføjelser"
+
+msgctxt "Languages::store_import.actualization_completed"
+msgid "Actualization completed"
+msgstr "Aktualisering afsluttet"
+
+msgctxt "Languages::store_import.actualization_failed"
+msgid "Actualization failed"
+msgstr "Aktualisering mislykkedes"
+
+msgctxt "Languages::store_import.invalid_license"
+msgid "Sorry, the data import is impossible: no valid upgrade subscription found (read more about the <a title=\"Store Import: License Requirements\" target=\"_blank\" href=\"http://kb.cs-cart.com/store-import#license-requirements\">license requirements</a> for a store import).<br /><br />Contact us at <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a> if you have any questions."
+msgstr "Desværre, dataimporten er umuligt: ingen gyldig opgradering abonnement fundet (Læs mere om <a title=\"Store Import: License Requirements\" target=\"_blank\" href=\"http://kb.cs-cart.com/store-import#license-requirements\"> licens krav</a> for en butik import). < br / > < br / > Kontakt os på <a href=\"mailto:sales@cs-cart.com\"> sales@cs-cart.com</a> hvis du har spørgsmål."
+
+msgctxt "Languages::store_import.cant_connect_to_imported"
+msgid "Store import has been canceled to prevent the loss of data. Could not connect to the imported database. Please contact tech support."
+msgstr "Butiksimport er blevet annulleret for at forhindre tab af data. Kunne ikke forbinde til den importerede database. Kontakt teknisk support."
+
+msgctxt "Languages::store_import.cant_connect_to_original"
+msgid "Store import has been canceled to prevent the loss of data. Could not connect to the original database. Please contact tech support."
+msgstr "Butik import er blevet annulleret for at forhindre tab af data. Kunne ikke oprette forbindelse til den oprindelige database. Kontakt teknisk support."
+
+msgctxt "SettingsSections::store_import::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsOptions::store_import::si_data"
+msgid "Store import data"
+msgstr "Butiksimportdata"
+
+msgctxt "Languages::store_import.design_changes_not_allowed"
+msgid "Store import is impossible after LESS-to-CSS conversion in the Visual Editor. Please enable LESS in the editor to proceed."
+msgstr "Butiksimport er umuligt efter LESS-to-CSS konvertering i Visual Editor. Venligst aktiver LESS i editor for at fortsætte."
+

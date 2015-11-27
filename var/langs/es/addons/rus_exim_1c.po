@@ -1,0 +1,510 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+
+msgctxt "Addons::name::rus_exim_1c"
+msgid "Russian localization — Export, import in 1C"
+msgstr "Russian localization — Export, import in 1C"
+
+msgctxt "Addons::description::rus_exim_1c"
+msgid "Export, import in 1C"
+msgstr "Export, import in 1C"
+
+msgctxt "Languages::exim_1C"
+msgid "1C"
+msgstr "1C"
+
+msgctxt "Languages::privileges.exim_1c"
+msgid "Export, import in 1C"
+msgstr "Export, import in 1C"
+
+msgctxt "Languages::1c"
+msgid "1C"
+msgstr "1C"
+
+msgctxt "Languages::products_to_1c"
+msgid "Products to 1C"
+msgstr "Products to 1C"
+
+msgctxt "Languages::1c_orders_from"
+msgid "Orders from 1C"
+msgstr "Orders from 1C"
+
+msgctxt "Languages::1c_products_filename"
+msgid "1c_products"
+msgstr "1c_products"
+
+msgctxt "Languages::1c_orders_filename"
+msgid "1c_orders"
+msgstr "1c_orders"
+
+msgctxt "Languages::1c_classifier"
+msgid "Classifier (Product catalog)"
+msgstr "Classifier (Product catalog)"
+
+msgctxt "Languages::1c_catalog"
+msgid "Product catalog"
+msgstr "Product catalog"
+
+msgctxt "Languages::1c_export_selected"
+msgid "Export to 1C"
+msgstr "Export to 1C"
+
+msgctxt "Languages::1c_additional_options"
+msgid "Additional options"
+msgstr "Additional options"
+
+msgctxt "Languages::1c_export_currency"
+msgid "RUB"
+msgstr "RUB"
+
+msgctxt "Languages::error_exim_1c_incorrect_file"
+msgid "No order data in the uploaded file"
+msgstr "No order data in the uploaded file"
+
+msgctxt "Languages::1c_select_files"
+msgid "Please select or upload import file(s). The file(s) should contain order data from 1C in the CommerceML format"
+msgstr "Please select or upload import file(s). The file(s) should contain order data from 1C in the CommerceML format"
+
+msgctxt "Languages::cant_create_file"
+msgid "File could not be created"
+msgstr "File could not be created"
+
+msgctxt "Languages::base_price"
+msgid "Base price"
+msgstr "Base price"
+
+msgctxt "Languages::1c_prices"
+msgid "1C prices"
+msgstr "1C prices"
+
+msgctxt "Languages::base_price_empty"
+msgid "Please enter base price from 1C"
+msgstr "Please enter base price from 1C"
+
+msgctxt "Languages::correct_1c_price"
+msgid "Price is accepted"
+msgstr "Price is accepted"
+
+msgctxt "Languages::incorrect_1c_price"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "Languages::offers_not_found"
+msgid "offers.xml not found"
+msgstr "offers.xml not found"
+
+msgctxt "Languages::prices"
+msgid "Prices"
+msgstr "Prices"
+
+msgctxt "Languages::tax_1c"
+msgid "The tax in 1C"
+msgstr "The tax in 1C"
+
+msgctxt "Languages::tax_cscart"
+msgid "The tax in CS-Cart"
+msgstr "The tax in CS-Cart"
+
+msgctxt "Languages::usergroup_in_cscart"
+msgid "Usergroup in CS-Cart"
+msgstr "Usergroup in CS-Cart"
+
+msgctxt "Languages::price_in_1c"
+msgid "The price in CS-Cart"
+msgstr "The price in CS-Cart"
+
+msgctxt "Languages::exim_1c_information"
+msgid "To connect to the store, use this URL <a href=\"[http_location]\">[http_location]</a>"
+msgstr "To connect to the store, use this URL <a href=\"[http_location]\">[http_location]</a>"
+
+msgctxt "SettingsSections::rus_exim_1c::general"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_info"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_schema_version"
+msgid "Select schema version"
+msgstr "Select schema version"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_schema_version::2.05"
+msgid "2.05"
+msgstr "2.05"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_schema_version::2.07"
+msgid "2.07"
+msgstr "2.07"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_schema_version"
+msgid "If the version of the 1С: UT configuration is below 11.1.9, use version 2.05 of the scheme."
+msgstr "If the version of the 1С: UT configuration is below 11.1.9, use version 2.05 of the scheme."
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_allow_import_categories"
+msgid "Allow import categories from 1C"
+msgstr "Allow import categories from 1C"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_allow_import_categories"
+msgid "If setting \"Allow import categories from 1C\" turn on, then in store added categories corresponding group from 1C"
+msgstr "If setting \"Allow import categories from 1C\" turn on, then in store added categories corresponding group from 1C"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_default_category"
+msgid "General category for products from 1C"
+msgstr "General category for products from 1C"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_default_category"
+msgid "If setting \"Allow import categories from 1C\" turn on and for groups 1C does not find corresponding categories in store, then products added in select category. For corresponding products changed require category in store"
+msgstr "If setting \"Allow import categories from 1C\" turn on and for groups 1C does not find corresponding categories in store, then products added in select category. For corresponding products changed require category in store"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_lang"
+msgid "Select default language"
+msgstr "Select default language"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_category_link_type"
+msgid "Select categories link type"
+msgstr "Select categories link type"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_category_link_type::main"
+msgid "Main"
+msgstr "Main"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_category_link_type::additional"
+msgid "Additional"
+msgstr "Additional"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_add_out_of_stock"
+msgid "To hide products if they are out of stock"
+msgstr "To hide products if they are out of stock"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_add_tax"
+msgid "Add tax to products"
+msgstr "Add tax to products"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_add_tax"
+msgid "Setting is use with the version schema 2.05. When the crows, in the \"Prices and taxes of 1C\" (menu \"Addons\" - \"1C\" - \"Prices and taxes of 1C\") is required specify compliance tax store with tax 1C"
+msgstr "Setting is use with the version schema 2.05. When the crows, in the \"Prices and taxes of 1C\" (menu \"Addons\" - \"1C\" - \"Prices and taxes of 1C\") is required specify compliance tax store with tax 1C"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_all_images_is_additional"
+msgid "All images are imported as additional ones"
+msgstr "All images are imported as additional ones"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_all_images_is_additional"
+msgid "All images product from 1C are add as additional"
+msgstr "All images product from 1C are add as additional"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_import_product_name"
+msgid "Use in the product name"
+msgstr "Use in the product name"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_product_name::name"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_product_name::full_name"
+msgid "Full name"
+msgstr "Full name"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_import_product_code"
+msgid "Use in the product article"
+msgstr "Use in the product article"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_product_code::art"
+msgid "Article"
+msgstr "Article"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_product_code::code"
+msgid "Code product"
+msgstr "Code product"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_product_code::bar"
+msgid "Bar code"
+msgstr "Bar code"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_import_full_description"
+msgid "Full description source"
+msgstr "Full description source"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_full_description::not_import"
+msgid "Do not import"
+msgstr "Do not import"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_full_description::description"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_full_description::html_description"
+msgid "File description"
+msgstr "File description"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_full_description::full_name"
+msgid "Full name"
+msgstr "Full name"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_import_short_description"
+msgid "Short description source"
+msgstr "Short description source"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_short_description::not_import"
+msgid "Do not import"
+msgstr "Do not import"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_short_description::description"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_short_description::html_description"
+msgid "File description"
+msgstr "File description"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_short_description::full_name"
+msgid "Full name"
+msgstr "Full name"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_page_title"
+msgid "Use in the page name (SEO)"
+msgstr "Use in the page name (SEO)"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_page_title::not_import"
+msgid "Do not import"
+msgstr "Do not import"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_page_title::name"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_page_title::full_name"
+msgid "Full name"
+msgstr "Наименование для печати"
+
+msgctxt "SettingsSections::rus_exim_1c::import_restraction_features"
+msgid "Settings property"
+msgstr "Settings property"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_allow_import_features"
+msgid "Allow import features"
+msgstr "Allow import features"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_property_product"
+msgid "Property name for promo"
+msgstr "Property name for promo"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_property_product"
+msgid "Property from 1C is value be used for promotional source text.The maximum quantity of signs is 255."
+msgstr "Property from 1C is value be used for promotional source text.The maximum quantity of signs is 255."
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_property_for_manufacturer"
+msgid "Property name for brand"
+msgstr "Property name for brand"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_property_for_manufacturer"
+msgid "Property Value nomenclature used for brend field source text. This property used in the selection in the Brand field source values Property product"
+msgstr "Property Value nomenclature used for brend field source text. This property used in the selection in the Brand field source values Property product"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_import_features"
+msgid "Settings for import features"
+msgstr "Settings for import features"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_deny_or_allow"
+msgid "Setting is deny or allow property"
+msgstr "Setting is deny or allow property"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_deny_or_allow::not_used"
+msgid "Not used function deny or allow property"
+msgstr "Not used function deny or allow property"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_deny_or_allow::import_only"
+msgid "Import only"
+msgstr "Import only"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_deny_or_allow::do_not_import"
+msgid "Do not upload"
+msgstr "Do not upload"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_features_list"
+msgid "Features list deny or allow property"
+msgstr "Features list deny or allow property"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_features_list"
+msgid "Each property is necessary input at new line"
+msgstr "Each property is necessary input at new line"
+
+msgctxt "SettingsSections::rus_exim_1c::features_options"
+msgid "Setting options"
+msgstr "Setting options"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_type_option"
+msgid "Option type"
+msgstr "Option type"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_type_option::S"
+msgid "Selectbox"
+msgstr "Selectbox"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_type_option::R"
+msgid "Radiogroup"
+msgstr "Radiogroup"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_import_mode_offers"
+msgid "Ways to display properties from 1C"
+msgstr "Ways to display properties from 1C"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_import_mode_offers"
+msgid "Method selecting display import the options products. In the first for product added option with name introduced in field \"Option name\", variant will consist of combinations of characteristics from 1C. In the second (2.05) embodiment, a combination of characteristics will be divided to general the characteristics. In the third (2.05) embodiment, a combination of characteristics will be divided to individual the characteristics."
+msgstr "Method selecting display import the options products. In the first for product added option with name introduced in field \"Option name\", variant will consist of combinations of characteristics from 1C. In the second (2.05) embodiment, a combination of characteristics will be divided to general the characteristics. In the third (2.05) embodiment, a combination of characteristics will be divided to individual the characteristics."
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_mode_offers::standart"
+msgid "Standard way"
+msgstr "Standard way"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_mode_offers::global_option"
+msgid "By object properties"
+msgstr "By object properties"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_mode_offers::individual_option"
+msgid "By individual values"
+msgstr "By individual values"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_import_option_name"
+msgid "Option name"
+msgstr "Option name"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_import_option_name"
+msgid "Name is use as the name option product when in field \"Ways to display properties from 1C\" select value \"Standard way\"."
+msgstr "Name is use as the name option product when in field \"Ways to display properties from 1C\" select value \"Standard way\"."
+
+msgctxt "SettingsSections::rus_exim_1c::prices"
+msgid "Settings price"
+msgstr "Settings price"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_only_import_offers"
+msgid "Only import price and quantity (file offers)"
+msgstr "Only import price and quantity (file offers)"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_only_import_offers"
+msgid "Sets import data only from the file offers (price and quantity)"
+msgstr "Sets import data only from the file offers (price and quantity)"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_create_prices"
+msgid "Use function price"
+msgstr "Use function price"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_create_prices"
+msgid "When check included in \"Prices and tax from 1C\" (menu \"Addons\" - \"1C\" - \"Price and tax from 1C\") must enter the name prices from 1C relevant the price store"
+msgstr "When check included in \"Prices and tax from 1C\" (menu \"Addons\" - \"1C\" - \"Price and tax from 1C\") must enter the name prices from 1C relevant the price store"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_check_prices"
+msgid "Run add-on in price debug mode"
+msgstr "Run add-on in price debug mode"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_check_prices"
+msgid "When check included and data import, on page \"Prices and tax from 1C\" (menu \"Addons\" - \"1C\" - \"Price and tax from 1C\") displayed result check relevant the price store with prices 1C file offers"
+msgstr "When check included and data import, on page \"Prices and tax from 1C\" (menu \"Addons\" - \"1C\" - \"Price and tax from 1C\") displayed result check relevant the price store with prices 1C file offers"
+
+msgctxt "SettingsSections::rus_exim_1c::shipping_features"
+msgid "Shipping features"
+msgstr "Shipping features"
+
+msgctxt "Languages::exim_1c_information_shipping_features"
+msgid "Settings import property from 1C in parameters shipping product (inset product \"Shipping features\"). <br /> Property insert with new line. When more properties is added value last find property. <br /> Property used in parameter product do not import in store as characteristic, if do not turn on settings \"Display as a feature\". </br> Value of the specified property should match the type of the parameter."
+msgstr "Settings import property from 1C in parameters shipping product (inset product \"Shipping features\"). <br /> Property insert with new line. When more properties is added value last find property. <br /> Property used in parameter product do not import in store as characteristic, if do not turn on settings \"Display as a feature\". </br> Value of the specified property should match the type of the parameter."
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_info_features"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_weight_property"
+msgid "Weight property in 1C"
+msgstr "Weight property in 1C"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_display_weight"
+msgid "Display weight as a feature"
+msgstr "Display weight as a feature"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_free_shipping"
+msgid "Property used for free shipping"
+msgstr "Property used for free shipping"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_free_shipping"
+msgid "Property used for free shipping is should have value true and false"
+msgstr "Property used for free shipping is should have value true and false"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_display_free_shipping"
+msgid "Display free shipping as a feature"
+msgstr "Display free shipping as a feature"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_shipping_cost"
+msgid "Shipping cost"
+msgstr "Shipping cost"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_number_of_items"
+msgid "Number of items in box"
+msgstr "Number of items in box"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_box_length"
+msgid "Box length"
+msgstr "Box length"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_box_width"
+msgid "Box width"
+msgstr "Box width"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_box_height"
+msgid "Box height"
+msgstr "Box height"
+
+msgctxt "SettingsSections::rus_exim_1c::true_orders"
+msgid "Settings of orders"
+msgstr "Settings of orders"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_order_shipping"
+msgid "Consider shipping cost a separate product in 1C"
+msgstr "Consider shipping cost a separate product in 1C"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_order_shipping"
+msgid "Shipping cost the store will be added in 1C as separate line"
+msgstr "Shipping cost the store will be added in 1C as separate line"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_from_order_id"
+msgid "Export starting from ID"
+msgstr "Export starting from ID"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_from_order_id"
+msgid "If value setting \"Export starting from ID\" not specified, then will be import all orders, without accounting numbers"
+msgstr "If value setting \"Export starting from ID\" not specified, then will be import all orders, without accounting numbers"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_order_statuses"
+msgid "Order statuses"
+msgstr "Order statuses"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_order_statuses"
+msgid "Sets the uploading orders with select status. If none of status not selected, orders will be discharged without status"
+msgstr "Sets the uploading orders with select status. If none of status not selected, orders will be discharged without status"
+
+msgctxt "Languages::1c.external_id"
+msgid "External id 1C"
+msgstr "External id 1C"
+
+msgctxt "Languages::1c.data_1c"
+msgid "Data 1C"
+msgstr "Data 1C"
+
+msgctxt "SettingsOptions::rus_exim_1c::information"
+msgid "Information"
+msgstr "Information"
+
+msgctxt "SettingsOptions::rus_exim_1c::general"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "SettingsOptions::rus_exim_1c::information_shipping"
+msgid "Information"
+msgstr "Information"
+
+msgctxt "SettingsOptions::rus_exim_1c::settings_shipping"
+msgid "Settings shipping features"
+msgstr "Settings shipping features"
+

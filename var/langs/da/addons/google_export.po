@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: da\n"
+"X-Crowdin-File: /addons/google_export.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-05-17 18:03-0400\n"
+
+msgctxt "Addons::name::google_export"
+msgid "Google export"
+msgstr "Google eksport"
+
+msgctxt "Addons::description::google_export"
+msgid "Expands the Data Feeds add-on to work with Google Base and creates an example of such data feed"
+msgstr "Udvider Data Feeds tilføjelse til at arbejde med Google Base og skaber et eksempel på sådanne data feed"
+
+msgctxt "Languages::google_export_general_info"
+msgid "<p>Note: toggle this setting if you need multi-language Google categories installed. Supports French, German, Italian, Spanish, and British English. Pay attention that this operation can take a significant amount of time.</p>"
+msgstr "<p>Bemærk: skift denne indstilling, hvis du har brug for fleresprogede Google kategorier installeret. Understøtter fransk, tysk, italiensk, spansk og engelsk. Være opmærksom på at denne handling kan tage en betydelig mængde tid.</p>"
+
+msgctxt "Languages::google_export_start_import"
+msgid "Start importing"
+msgstr "Begynde at importere"
+
+msgctxt "SettingsSections::google_export::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsOptions::google_export::general_info"
+msgid "General info"
+msgstr "Generel info"
+
+msgctxt "SettingsOptions::google_export::additional_langs"
+msgid "Install additional languages for Google categories"
+msgstr "Installere flere sprog for Google kategorier"
+
