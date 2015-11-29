@@ -6,4 +6,9 @@
     <position>0</position>
     <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
     <default_language>ru</default_language>
+
+    <language_variables>
+        <item id="age_gate.birthdate_page.button_text" lang="ru">send</item>
+        <item id="age_gate.birthdate_page.button_text" lang="ru">Intră</item>
+    </language_variables>
 </addon>
